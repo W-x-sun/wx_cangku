@@ -1,0 +1,26 @@
+<map id="glm::length2" name="glm::length2">
+<area shape="rect" id="node2" href="$group__gtx__quaternion.html#gad8c24ad4e57f555ebb2c00a1fb11230b" title="glm::shortMix" alt="" coords="147,307,248,333"/>
+<area shape="rect" id="node3" href="$group__core__func__geometric.html#ga7dada304da2ba7dd3376ab4f178c3f6b" title="glm::dot" alt="" coords="601,205,670,232"/>
+<area shape="rect" id="node6" href="$group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="599,307,672,333"/>
+<area shape="rect" id="node7" href="$group__core__func__trigonometric.html#gabf80ac0817d1db032dd6a0969aa2b84a" title="glm::atan" alt="" coords="1447,419,1523,445"/>
+<area shape="rect" id="node9" href="$group__core__func__trigonometric.html#gafbab21016b7f3bc21afb09a7e42e2df1" title="glm::sin" alt="" coords="1101,256,1169,283"/>
+<area shape="rect" id="node10" href="$group__gtx__quaternion.html#ga7c7a6ebde274fa1de72cb65cb8f2bed2" title="glm::fastMix" alt="" coords="296,180,391,207"/>
+<area shape="rect" id="node4" href="$group__core__func__geometric.html#ga89b91c2a256cfb62ecbc589d1ee36d3c" title="glm::cross" alt="" coords="748,80,831,107"/>
+<area shape="rect" id="node5" href="$group__core__func__geometric.html#ga15aa87101457e41663b08a8dcc3357f8" title="glm::normalize" alt="" coords="905,29,1011,56"/>
+<area shape="rect" id="node8" href="$group__gtx__compatibility.html#gac63011205bf6d0be82589dc56dd26708" title="Arc tangent. Returns an angle whose tangent is y/x. The signs of x and y are used to determine what q..." alt="" coords="1585,419,1667,445"/>
+<area shape="rect" id="node11" href="$group__gtx__quaternion.html#gaac3f65ac2ca7ac7b22bf18d9f6fd4e6e" title="glm::rotation" alt="" coords="439,180,533,207"/>
+<area shape="rect" id="node12" href="$group__gtx__norm.html#ga1d8568485d8bbe6593dbbc2221659dfe" title="glm::length2" alt="" coords="589,155,682,181"/>
+<area shape="rect" id="node13" href="$group__gtc__quaternion.html#ga771b3e16cca8324e7111b923476be666" title="glm::angleAxis" alt="" coords="581,256,689,283"/>
+<area shape="rect" id="node14" href="$group__core__func__trigonometric.html#ga431d31cdb060059bc5b0696e212f1453" title="glm::radians" alt="" coords="743,256,836,283"/>
+<area shape="rect" id="node16" href="$group__core__func__trigonometric.html#gac6708d4f0895dc79b65f50db00840167" title="glm::cos" alt="" coords="753,331,825,357"/>
+<area shape="rect" id="node20" href="$namespaceglm.html#a9ea052832f152d1233c6fa27df62f2fc" title="glm::lessThan" alt="" coords="737,131,841,157"/>
+<area shape="rect" id="node15" href="$group__core__func__trigonometric.html#gaf4e5661bd1c993f6090d49e988a4c78a" title="glm::degrees" alt="" coords="909,256,1007,283"/>
+<area shape="rect" id="node17" href="$group__core__func__trigonometric.html#ga328aeb0de4f312dc3d200cb929715d44" title="glm::tan" alt="" coords="923,331,993,357"/>
+<area shape="rect" id="node18" href="$group__core__func__trigonometric.html#gafca5e8c71ea06be0840227b4aafc5680" title="glm::asin" alt="" coords="1097,356,1172,383"/>
+<area shape="rect" id="node19" href="$group__core__func__trigonometric.html#gac85497ed2e39d4cac4ac32bed4dfc506" title="glm::acos" alt="" coords="1280,368,1359,395"/>
+<area shape="rect" id="node21" href="$group__core__func__vector__relational.html#ga2167b22ac086c5791a4740932b62b685" title="glm::lessThanEqual" alt="" coords="889,131,1027,157"/>
+<area shape="rect" id="node22" href="$group__core__func__vector__relational.html#gac9163d451231eb3eaae2c6b3da5add6a" title="glm::greaterThan" alt="" coords="1075,131,1195,157"/>
+<area shape="rect" id="node23" href="$group__core__func__vector__relational.html#gad1385064aa2fc7aaae37aa95daea9c31" title="glm::greaterThanEqual" alt="" coords="1243,131,1396,157"/>
+<area shape="rect" id="node24" href="$namespaceglm.html#a4a4eb228ace536873b64b9690d14e971" title="glm::equal" alt="" coords="1444,131,1527,157"/>
+<area shape="rect" id="node25" href="$group__core__func__vector__relational.html#ga85d7bc5613c4dcc2d5873ec9d6ed4c19" title="glm::notEqual" alt="" coords="1575,131,1677,157"/>
+</map>

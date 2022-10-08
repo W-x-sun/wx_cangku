@@ -1,0 +1,10 @@
+<map id="glm::orientate2" name="glm::orientate2">
+<area shape="rect" id="node2" href="$group__core__func__trigonometric.html#gac6708d4f0895dc79b65f50db00840167" title="glm::cos" alt="" coords="317,29,389,56"/>
+<area shape="rect" id="node8" href="$group__core__func__trigonometric.html#gafbab21016b7f3bc21afb09a7e42e2df1" title="glm::sin" alt="" coords="319,116,387,143"/>
+<area shape="rect" id="node9" href="$group__gtx__euler__angles.html#gae0986bf2d3703d69d5319e97e71fc6a8" title="glm::orientate3" alt="" coords="161,91,269,117"/>
+<area shape="rect" id="node3" href="$group__core__func__trigonometric.html#ga328aeb0de4f312dc3d200cb929715d44" title="glm::tan" alt="" coords="437,29,507,56"/>
+<area shape="rect" id="node4" href="$group__core__func__trigonometric.html#gafca5e8c71ea06be0840227b4aafc5680" title="glm::asin" alt="" coords="555,29,629,56"/>
+<area shape="rect" id="node5" href="$group__core__func__trigonometric.html#gac85497ed2e39d4cac4ac32bed4dfc506" title="glm::acos" alt="" coords="677,29,756,56"/>
+<area shape="rect" id="node6" href="$group__core__func__trigonometric.html#gabf80ac0817d1db032dd6a0969aa2b84a" title="glm::atan" alt="" coords="804,29,880,56"/>
+<area shape="rect" id="node7" href="$group__gtx__compatibility.html#gac63011205bf6d0be82589dc56dd26708" title="Arc tangent. Returns an angle whose tangent is y/x. The signs of x and y are used to determine what q..." alt="" coords="928,29,1011,56"/>
+</map>

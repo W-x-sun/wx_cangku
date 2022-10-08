@@ -1,0 +1,10 @@
+<map id="glTexParameteri" name="glTexParameteri">
+<area shape="rect" id="node2" href="$class_texture.html#a16c36570597509263c1d91c95d82fdc0" title="Texture::createDepthTexture" alt="" coords="171,30,360,57"/>
+<area shape="rect" id="node4" href="$class_texture.html#a546026478dc776c896bf75dc8f283c49" title="Texture::updateImage" alt="" coords="191,97,340,123"/>
+<area shape="rect" id="node3" href="$class_framebuffer.html#ac556c583ba199c561f34639312b0827a" title="Framebuffer::generateDepth\lTexture" alt="" coords="423,5,608,47"/>
+<area shape="rect" id="node5" href="$class_scene_widget.html#a7fff6e37fb5730fddb891d91404a7c18" title="SceneWidget::mousePressEvent" alt="" coords="408,71,623,98"/>
+<area shape="rect" id="node6" href="$class_scene_widget.html#a7be7a477c8ca34df706e1216e4c75333" title="SceneWidget::mouseMoveEvent" alt="" coords="409,122,622,149"/>
+<area shape="rect" id="node7" href="$class_scene_widget.html#aefb34a5425fd68af165e2ad85a7728b0" title="SceneWidget::clearTexture" alt="" coords="425,173,605,199"/>
+<area shape="rect" id="node8" href="$class_scene_editor.html#aaebc4d539b6aec87b5d5bcf953903599" title="SceneEditor::clearTexture" alt="" coords="671,173,844,199"/>
+<area shape="rect" id="node9" href="$class_scene_editor.html#ade23b3ca548a91f519fa6bde4d6fef57" title="SceneEditor::SceneEditor" alt="" coords="892,173,1064,199"/>
+</map>

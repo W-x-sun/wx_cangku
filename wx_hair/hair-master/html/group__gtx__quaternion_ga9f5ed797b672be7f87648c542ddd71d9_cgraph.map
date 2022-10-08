@@ -1,0 +1,6 @@
+<map id="glm::toMat4" name="glm::toMat4">
+<area shape="rect" id="node2" href="$group__gtc__quaternion.html#gafc4e34c836f7ccb5f3bb2a0373c831e0" title="glm::mat4_cast" alt="" coords="144,5,256,32"/>
+<area shape="rect" id="node3" href="$group__gtc__quaternion.html#ga65257c3494022ad80a50ce11da95049d" title="glm::mat3_cast" alt="" coords="304,5,416,32"/>
+<area shape="rect" id="node4" href="$group__gtc__quaternion.html#gafb826745dedb1760100bbd25d0f63fde" title="glm::quat_cast" alt="" coords="306,80,414,107"/>
+<area shape="rect" id="node5" href="$group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="464,80,537,107"/>
+</map>

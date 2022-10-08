@@ -1,0 +1,16 @@
+<map id="HairInterface::updateStatsLabel" name="HairInterface::updateStatsLabel">
+<area shape="rect" id="node2" href="$class_hair_interface.html#af066a610bccc2f8ac0f0a174d5288c33" title="HairInterface::setHairObject" alt="" coords="228,524,413,550"/>
+<area shape="rect" id="node5" href="$class_hair_interface.html#a1c006364222407ede34ac1bf1eb365d0" title="HairInterface::resetSimulation" alt="" coords="927,422,1121,449"/>
+<area shape="rect" id="node7" href="$class_hair_interface2.html#a89efc5e94cf7fd7b596666694bd5264d" title="HairInterface2::HairInterface2" alt="" coords="1173,473,1368,500"/>
+<area shape="rect" id="node8" href="$class_hair_interface2.html#add046e9f119302cf5aa20e01f7d84db5" title="HairInterface2::~HairInterface2" alt="" coords="1169,317,1372,344"/>
+<area shape="rect" id="node9" href="$class_hair_interface.html#aa36ae95cff9ff9776b72b323e29ceed0" title="HairInterface::resetAllValues" alt="" coords="929,473,1119,500"/>
+<area shape="rect" id="node12" href="$class_hair_interface.html#a5028b63dac1af7b8350a678a610cb572" title="HairInterface::setHairsPer\lPatch" alt="" coords="702,138,877,179"/>
+<area shape="rect" id="node14" href="$class_hair_interface.html#a763d14cb34263cd181ebc4f2229cbd83" title="HairInterface::setSpline\lVertices" alt="" coords="710,306,869,347"/>
+<area shape="rect" id="node3" href="$class_g_l_widget.html#a3f5832365f31dc2a4586a94cfc4b0fdd" title="GLWidget::initSimulation" alt="" coords="473,473,640,500"/>
+<area shape="rect" id="node10" href="$class_g_l_widget.html#a6771fb2064fce88f0803becd02dc8ae0" title="GLWidget::applySceneEditor" alt="" coords="461,574,652,601"/>
+<area shape="rect" id="node4" href="$class_g_l_widget.html#ab4523bb8914f0f32617cbf15eab16439" title="GLWidget::resetSimulation" alt="" coords="700,473,879,500"/>
+<area shape="rect" id="node6" href="$class_hair_interface.html#a0c017a229941ad28fda6faf241b7346f" title="HairInterface::HairInterface" alt="" coords="1181,178,1361,205"/>
+<area shape="rect" id="node11" href="$class_g_l_widget.html#a843150d06edc5e2e50d98e395c2b8759" title="GLWidget::paintGL" alt="" coords="723,574,856,601"/>
+<area shape="rect" id="node13" href="$class_hair_interface.html#a74a487b5fed2e4dd6922f8e8d1f545b2" title="HairInterface::inputHairs\lPerPatchText" alt="" coords="942,87,1106,128"/>
+<area shape="rect" id="node15" href="$class_hair_interface.html#a221d61c9deafb6349a5b75ff1c0b3c9e" title="HairInterface::inputSpline\lVerticesText" alt="" coords="939,255,1109,296"/>
+</map>

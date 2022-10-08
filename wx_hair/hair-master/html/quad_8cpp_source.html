@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: src/quad.cpp 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">quad.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="quad_8cpp.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="quad_8h.html">quad.h</a>&quot;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="class_quad.html#a5db77c0481b30c0b7c1014cc535284ad">    3</a></span>&#160;<a class="code" href="class_quad.html#a5db77c0481b30c0b7c1014cc535284ad">Quad::~Quad</a>()</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    m_shape.<a class="code" href="class_open_g_l_shape.html#ae8231986684399ce8e013ba4ff120bcd">destroy</a>();</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="class_quad.html#ab6f9562308559b344d2e0d1e1cf3a0cf">    8</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_quad.html#ab6f9562308559b344d2e0d1e1cf3a0cf">Quad::init</a>()</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="glew__head_8h.html#a31aeedaeef29442c9c015ab355c8f5ab">GLfloat</a> data[] = {-1, 1, 0, <span class="comment">// position 1</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                       0, 1,    <span class="comment">// UV 1</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                      -1,-1, 0,</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                       0, 0,</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                       1, 1, 0,</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                       1, 1,</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                       1,-1, 0,</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                       1, 0};</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    m_shape.<a class="code" href="class_open_g_l_shape.html#aeaa0ccb6c1e356b107c9762ceec2cdbe">create</a>();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    m_shape.<a class="code" href="class_open_g_l_shape.html#adf550764500e6d1f45555069d69c3acb">setVertexData</a>(data, <span class="keyword">sizeof</span>(data), 4);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    m_shape.<a class="code" href="class_open_g_l_shape.html#afa958d6fb2c23069a000b0e8325b462b">setAttribute</a>(0, 3, <a class="code" href="glew__head_8h.html#a6d19915d4237cb559505bd3e5dcfcf3c">GL_FLOAT</a>, <a class="code" href="glew__head_8h.html#abca6d43f43fae31f49dcb883b2f301f6">GL_FALSE</a>, 5 * <span class="keyword">sizeof</span>(<a class="code" href="glew__head_8h.html#a31aeedaeef29442c9c015ab355c8f5ab">GLfloat</a>), 0);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    m_shape.<a class="code" href="class_open_g_l_shape.html#afa958d6fb2c23069a000b0e8325b462b">setAttribute</a>(1, 2, <a class="code" href="glew__head_8h.html#a6d19915d4237cb559505bd3e5dcfcf3c">GL_FLOAT</a>, <a class="code" href="glew__head_8h.html#abca6d43f43fae31f49dcb883b2f301f6">GL_FALSE</a>, 5 * <span class="keyword">sizeof</span>(<a class="code" href="glew__head_8h.html#a31aeedaeef29442c9c015ab355c8f5ab">GLfloat</a>), 3 * <span class="keyword">sizeof</span>(<a class="code" href="glew__head_8h.html#a31aeedaeef29442c9c015ab355c8f5ab">GLfloat</a>));</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_quad.html#a0ba65074dea345f2c13bcaa708bd4e98">   25</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_quad.html#a0ba65074dea345f2c13bcaa708bd4e98">Quad::draw</a>()</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    m_shape.<a class="code" href="class_open_g_l_shape.html#aee8a25223673b5dd950db53f24dccbbf">draw</a>(<a class="code" href="glew__head_8h.html#ad38e94a1120d6688fce6fc805a5b998d">GL_TRIANGLE_STRIP</a>);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div><div class="ttc" id="class_quad_html_ab6f9562308559b344d2e0d1e1cf3a0cf"><div class="ttname"><a href="class_quad.html#ab6f9562308559b344d2e0d1e1cf3a0cf">Quad::init</a></div><div class="ttdeci">void init()</div><div class="ttdef"><b>Definition:</b> <a href="quad_8cpp_source.html#l00008">quad.cpp:8</a></div></div>
+<div class="ttc" id="glew__head_8h_html_abca6d43f43fae31f49dcb883b2f301f6"><div class="ttname"><a href="glew__head_8h.html#abca6d43f43fae31f49dcb883b2f301f6">GL_FALSE</a></div><div class="ttdeci">#define GL_FALSE</div><div class="ttdef"><b>Definition:</b> <a href="glew__head_8h_source.html#l00228">glew_head.h:228</a></div></div>
+<div class="ttc" id="glew__head_8h_html_a31aeedaeef29442c9c015ab355c8f5ab"><div class="ttname"><a href="glew__head_8h.html#a31aeedaeef29442c9c015ab355c8f5ab">GLfloat</a></div><div class="ttdeci">float GLfloat</div><div class="ttdef"><b>Definition:</b> <a href="glew__head_8h_source.html#l00203">glew_head.h:203</a></div></div>
+<div class="ttc" id="glew__head_8h_html_ad38e94a1120d6688fce6fc805a5b998d"><div class="ttname"><a href="glew__head_8h.html#ad38e94a1120d6688fce6fc805a5b998d">GL_TRIANGLE_STRIP</a></div><div class="ttdeci">#define GL_TRIANGLE_STRIP</div><div class="ttdef"><b>Definition:</b> <a href="glew__head_8h_source.html#l00245">glew_head.h:245</a></div></div>
+<div class="ttc" id="class_open_g_l_shape_html_aeaa0ccb6c1e356b107c9762ceec2cdbe"><div class="ttname"><a href="class_open_g_l_shape.html#aeaa0ccb6c1e356b107c9762ceec2cdbe">OpenGLShape::create</a></div><div class="ttdeci">void create()</div><div class="ttdef"><b>Definition:</b> <a href="openglshape_8cpp_source.html#l00005">openglshape.cpp:5</a></div></div>
+<div class="ttc" id="glew__head_8h_html_a6d19915d4237cb559505bd3e5dcfcf3c"><div class="ttname"><a href="glew__head_8h.html#a6d19915d4237cb559505bd3e5dcfcf3c">GL_FLOAT</a></div><div class="ttdeci">#define GL_FLOAT</div><div class="ttdef"><b>Definition:</b> <a href="glew__head_8h_source.html#l00556">glew_head.h:556</a></div></div>
+<div class="ttc" id="class_open_g_l_shape_html_afa958d6fb2c23069a000b0e8325b462b"><div class="ttname"><a href="class_open_g_l_shape.html#afa958d6fb2c23069a000b0e8325b462b">OpenGLShape::setAttribute</a></div><div class="ttdeci">void setAttribute(GLuint index, GLint size, GLenum type, GLboolean normalized, GLsizei stride, size_t offset)</div><div class="ttdef"><b>Definition:</b> <a href="openglshape_8cpp_source.html#l00041">openglshape.cpp:41</a></div></div>
+<div class="ttc" id="class_quad_html_a5db77c0481b30c0b7c1014cc535284ad"><div class="ttname"><a href="class_quad.html#a5db77c0481b30c0b7c1014cc535284ad">Quad::~Quad</a></div><div class="ttdeci">virtual ~Quad()</div><div class="ttdef"><b>Definition:</b> <a href="quad_8cpp_source.html#l00003">quad.cpp:3</a></div></div>
+<div class="ttc" id="class_quad_html_a0ba65074dea345f2c13bcaa708bd4e98"><div class="ttname"><a href="class_quad.html#a0ba65074dea345f2c13bcaa708bd4e98">Quad::draw</a></div><div class="ttdeci">void draw()</div><div class="ttdef"><b>Definition:</b> <a href="quad_8cpp_source.html#l00025">quad.cpp:25</a></div></div>
+<div class="ttc" id="quad_8h_html"><div class="ttname"><a href="quad_8h.html">quad.h</a></div></div>
+<div class="ttc" id="class_open_g_l_shape_html_aee8a25223673b5dd950db53f24dccbbf"><div class="ttname"><a href="class_open_g_l_shape.html#aee8a25223673b5dd950db53f24dccbbf">OpenGLShape::draw</a></div><div class="ttdeci">void draw(GLenum drawMode)</div><div class="ttdef"><b>Definition:</b> <a href="openglshape_8cpp_source.html#l00059">openglshape.cpp:59</a></div></div>
+<div class="ttc" id="class_open_g_l_shape_html_ae8231986684399ce8e013ba4ff120bcd"><div class="ttname"><a href="class_open_g_l_shape.html#ae8231986684399ce8e013ba4ff120bcd">OpenGLShape::destroy</a></div><div class="ttdeci">void destroy()</div><div class="ttdef"><b>Definition:</b> <a href="openglshape_8cpp_source.html#l00014">openglshape.cpp:14</a></div></div>
+<div class="ttc" id="class_open_g_l_shape_html_adf550764500e6d1f45555069d69c3acb"><div class="ttname"><a href="class_open_g_l_shape.html#adf550764500e6d1f45555069d69c3acb">OpenGLShape::setVertexData</a></div><div class="ttdeci">void setVertexData(float *data, int size, int numVertices)</div><div class="ttdef"><b>Definition:</b> <a href="openglshape_8cpp_source.html#l00028">openglshape.cpp:28</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

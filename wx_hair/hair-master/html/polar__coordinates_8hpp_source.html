@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: glm/gtx/polar_coordinates.hpp 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_a18149d1b32e3efeacb0e34a962af4d3.html">glm</a></li><li class="navelem"><a class="el" href="dir_e20a439b6cdbf5d4e02750a868806e68.html">gtx</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">polar_coordinates.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="polar__coordinates_8hpp.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#ifndef GLM_GTX_polar_coordinates</span></div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#define GLM_GTX_polar_coordinates</span></div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">// Dependency:</span></div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#include &quot;../glm.hpp&quot;</span></div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#if(defined(GLM_MESSAGES) &amp;&amp; !defined(GLM_EXT_INCLUDED))</span></div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#   pragma message(&quot;GLM: GLM_GTX_polar_coordinates extension included&quot;)</span></div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceglm.html">glm</a></div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;{</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, precision P&gt;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    detail::tvec3&lt;T, P&gt; <a class="code" href="group__gtx__polar__coordinates.html#ga0311556f0327054d86a17dc113fb9eee">polar</a>(</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        detail::tvec3&lt;T, P&gt; <span class="keyword">const</span> &amp; <a class="code" href="group__gtx__polar__coordinates.html#gaa48b38a48ac3aa2087894386fa2d9971">euclidean</a>);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, precision P&gt;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    detail::tvec3&lt;T, P&gt; <a class="code" href="group__gtx__polar__coordinates.html#gaa48b38a48ac3aa2087894386fa2d9971">euclidean</a>(</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        detail::tvec2&lt;T, P&gt; <span class="keyword">const</span> &amp; <a class="code" href="group__gtx__polar__coordinates.html#ga0311556f0327054d86a17dc113fb9eee">polar</a>);</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}<span class="comment">//namespace glm</span></div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="polar__coordinates_8inl.html">polar_coordinates.inl</a>&quot;</span></div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#endif//GLM_GTX_polar_coordinates</span></div><div class="ttc" id="namespaceglm_html"><div class="ttname"><a href="namespaceglm.html">glm</a></div><div class="ttdef"><b>Definition:</b> <a href="__literals_8hpp_source.html#l00032">_literals.hpp:32</a></div></div>
+<div class="ttc" id="group__gtx__polar__coordinates_html_ga0311556f0327054d86a17dc113fb9eee"><div class="ttname"><a href="group__gtx__polar__coordinates.html#ga0311556f0327054d86a17dc113fb9eee">glm::polar</a></div><div class="ttdeci">detail::tvec3&lt; T, P &gt; polar(detail::tvec3&lt; T, P &gt; const &amp;euclidean)</div><div class="ttdef"><b>Definition:</b> <a href="polar__coordinates_8inl_source.html#l00014">polar_coordinates.inl:14</a></div></div>
+<div class="ttc" id="polar__coordinates_8inl_html"><div class="ttname"><a href="polar__coordinates_8inl.html">polar_coordinates.inl</a></div></div>
+<div class="ttc" id="group__gtx__polar__coordinates_html_gaa48b38a48ac3aa2087894386fa2d9971"><div class="ttname"><a href="group__gtx__polar__coordinates.html#gaa48b38a48ac3aa2087894386fa2d9971">glm::euclidean</a></div><div class="ttdeci">detail::tvec3&lt; T, P &gt; euclidean(detail::tvec2&lt; T, P &gt; const &amp;polar)</div><div class="ttdef"><b>Definition:</b> <a href="polar__coordinates_8inl_source.html#l00038">polar_coordinates.inl:38</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

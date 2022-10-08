@@ -1,0 +1,5 @@
+<map id="glEnable" name="glEnable">
+<area shape="rect" id="node2" href="$class_g_l_widget.html#a2349a3ff7c9cc814de1b4a93a0b28acd" title="GLWidget::initializeGL" alt="" coords="147,5,299,32"/>
+<area shape="rect" id="node3" href="$class_tessellator.html#a4d9fa9b979134b1aed49fbb4f6acf725" title="Tessellator::beginTessellation" alt="" coords="125,56,320,83"/>
+<area shape="rect" id="node4" href="$class_scene_widget.html#a924c62a57dfb6408888af25a6a8dadf6" title="SceneWidget::paintGL" alt="" coords="146,107,299,133"/>
+</map>

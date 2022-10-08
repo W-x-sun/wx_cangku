@@ -1,0 +1,5 @@
+<map id="SceneWidget::apply" name="SceneWidget::apply">
+<area shape="rect" id="node2" href="$class_scene_editor.html#a0fa1876504716a279352e8d97aafed1f" title="SceneEditor::applyEditor" alt="" coords="203,5,370,32"/>
+<area shape="rect" id="node4" href="$class_scene_editor.html#ada15885ccb283beab10997a193a5d481" title="SceneEditor::applyAndClose\lEditor" alt="" coords="192,57,381,98"/>
+<area shape="rect" id="node3" href="$class_scene_editor.html#ade23b3ca548a91f519fa6bde4d6fef57" title="SceneEditor::SceneEditor" alt="" coords="429,35,601,61"/>
+</map>

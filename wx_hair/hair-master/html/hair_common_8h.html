@@ -1,0 +1,825 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: src/hairCommon.h 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#define-members">宏定义</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">hairCommon.h 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;GL/glew.h&quot;</code><br />
+<code>#include &lt;math.h&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;assert.h&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &quot;<a class="el" href="glm_8hpp_source.html">glm/glm.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="string__cast_8hpp_source.html">glm/gtx/string_cast.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="transform_8hpp_source.html">glm/gtx/transform.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="type__ptr_8hpp_source.html">glm/gtc/type_ptr.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="gtc_2constants_8hpp_source.html">glm/gtc/constants.hpp</a>&quot;</code><br />
+<code>#include &lt;GL/glu.h&gt;</code><br />
+<code>#include &lt;QMessageBox&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+hairCommon.h 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="hair_common_8h__incl.png" border="0" usemap="#src_2hair_common_8h" alt=""/></div>
+<map name="src_2hair_common_8h" id="src_2hair_common_8h">
+<area shape="rect" id="node9" href="glm_8hpp.html" title="glm/glm.hpp" alt="" coords="1457,229,1550,256"/>
+<area shape="rect" id="node37" href="string__cast_8hpp.html" title="glm/gtx/string_cast.hpp" alt="" coords="1528,80,1687,107"/>
+<area shape="rect" id="node40" href="gtc_2constants_8hpp.html" title="../gtc/constants.hpp" alt="" coords="2231,304,2370,331"/>
+<area shape="rect" id="node44" href="transform_8hpp.html" title="glm/gtx/transform.hpp" alt="" coords="1857,155,2006,181"/>
+<area shape="rect" id="node47" href="type__ptr_8hpp.html" title="glm/gtc/type_ptr.hpp" alt="" coords="2341,155,2482,181"/>
+<area shape="rect" id="node10" href="__fixes_8hpp.html" title="detail/_fixes.hpp" alt="" coords="757,304,874,331"/>
+<area shape="rect" id="node16" href="fwd_8hpp.html" title="fwd.hpp" alt="" coords="1280,304,1348,331"/>
+<area shape="rect" id="node17" href="vec2_8hpp.html" title="vec2.hpp" alt="" coords="3050,304,3125,331"/>
+<area shape="rect" id="node18" href="vec3_8hpp.html" title="vec3.hpp" alt="" coords="2394,304,2469,331"/>
+<area shape="rect" id="node19" href="vec4_8hpp.html" title="vec4.hpp" alt="" coords="2951,304,3026,331"/>
+<area shape="rect" id="node20" href="mat2x2_8hpp.html" title="mat2x2.hpp" alt="" coords="1658,304,1749,331"/>
+<area shape="rect" id="node21" href="mat2x3_8hpp.html" title="mat2x3.hpp" alt="" coords="1773,304,1863,331"/>
+<area shape="rect" id="node22" href="mat2x4_8hpp.html" title="mat2x4.hpp" alt="" coords="1887,304,1978,331"/>
+<area shape="rect" id="node23" href="mat3x2_8hpp.html" title="mat3x2.hpp" alt="" coords="2002,304,2093,331"/>
+<area shape="rect" id="node24" href="mat3x3_8hpp.html" title="mat3x3.hpp" alt="" coords="2117,304,2207,331"/>
+<area shape="rect" id="node25" href="mat3x4_8hpp.html" title="mat3x4.hpp" alt="" coords="2607,304,2698,331"/>
+<area shape="rect" id="node26" href="mat4x2_8hpp.html" title="mat4x2.hpp" alt="" coords="2722,304,2813,331"/>
+<area shape="rect" id="node27" href="mat4x3_8hpp.html" title="mat4x3.hpp" alt="" coords="2837,304,2927,331"/>
+<area shape="rect" id="node28" href="mat4x4_8hpp.html" title="mat4x4.hpp" alt="" coords="2493,304,2583,331"/>
+<area shape="rect" id="node29" href="trigonometric_8hpp.html" title="trigonometric.hpp" alt="" coords="1373,304,1495,331"/>
+<area shape="rect" id="node30" href="exponential_8hpp.html" title="exponential.hpp" alt="" coords="1520,304,1633,331"/>
+<area shape="rect" id="node31" href="common_8hpp.html" title="common.hpp" alt="" coords="5,304,103,331"/>
+<area shape="rect" id="node32" href="packing_8hpp.html" title="packing.hpp" alt="" coords="127,304,219,331"/>
+<area shape="rect" id="node33" href="geometric_8hpp.html" title="geometric.hpp" alt="" coords="243,304,347,331"/>
+<area shape="rect" id="node34" href="matrix_8hpp.html" title="matrix.hpp" alt="" coords="371,304,454,331"/>
+<area shape="rect" id="node35" href="vector__relational_8hpp.html" title="vector_relational.hpp" alt="" coords="479,304,621,331"/>
+<area shape="rect" id="node36" href="integer_8hpp.html" title="integer.hpp" alt="" coords="645,304,732,331"/>
+<area shape="rect" id="node38" href="gtx_2integer_8hpp.html" title="../gtx/integer.hpp" alt="" coords="1289,155,1409,181"/>
+<area shape="rect" id="node39" href="gtx_2quaternion_8hpp.html" title="../gtx/quaternion.hpp" alt="" coords="1691,155,1833,181"/>
+<area shape="rect" id="node43" href="string__cast_8inl.html" title="string_cast.inl" alt="" coords="1433,155,1536,181"/>
+<area shape="rect" id="node41" href="gtc_2quaternion_8hpp.html" title="../gtc/quaternion.hpp" alt="" coords="2233,229,2374,256"/>
+<area shape="rect" id="node45" href="matrix__transform_8hpp.html" title="../gtc/matrix_transform.hpp" alt="" coords="2449,229,2627,256"/>
+<area shape="rect" id="node46" href="transform_8inl.html" title="transform.inl" alt="" coords="1809,229,1904,256"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+此图展示该文件直接或间接的被哪些文件引用了:</div>
+<div class="dyncontent">
+<div class="center"><img src="hair_common_8h__dep__incl.png" border="0" usemap="#src_2hair_common_8hdep" alt=""/></div>
+<map name="src_2hair_common_8hdep" id="src_2hair_common_8hdep">
+<area shape="rect" id="node2" href="glwidget_8h.html" title="src/glwidget.h" alt="" coords="781,177,883,203"/>
+<area shape="rect" id="node5" href="glwidget_8cpp.html" title="src/glwidget.cpp" alt="" coords="3448,437,3565,464"/>
+<area shape="rect" id="node12" href="scenewidget_8h.html" title="src/ui/scenewidget.h" alt="" coords="969,177,1111,203"/>
+<area shape="rect" id="node14" href="framebuffer_8h.html" title="src/framebuffer.h" alt="" coords="1262,177,1383,203"/>
+<area shape="rect" id="node16" href="texture_8h.html" title="src/texture.h" alt="" coords="1441,177,1535,203"/>
+<area shape="rect" id="node19" href="hairobject_8h.html" title="src/hairobject.h" alt="" coords="2039,177,2150,203"/>
+<area shape="rect" id="node24" href="objmesh_8h.html" title="src/objmesh.h" alt="" coords="2184,87,2288,114"/>
+<area shape="rect" id="node26" href="simulation_8h.html" title="src/mike/simulation.h" alt="" coords="2175,177,2321,203"/>
+<area shape="rect" id="node28" href="meshocttree_8h.html" title="src/meshocttree.h" alt="" coords="2363,87,2490,114"/>
+<area shape="rect" id="node29" href="tessellator_8h.html" title="src/tessellator.h" alt="" coords="3351,177,3465,203"/>
+<area shape="rect" id="node31" href="objloader_8hpp.html" title="src/lib/objloader.hpp" alt="" coords="2515,87,2653,114"/>
+<area shape="rect" id="node33" href="resourceloader_8h.html" title="src/lib/resourceloader.h" alt="" coords="4400,177,4557,203"/>
+<area shape="rect" id="node36" href="hairrendershaderprogram_8h.html" title="src/shaderPrograms\l/hairrendershaderprogram.h" alt="" coords="4875,348,5055,389"/>
+<area shape="rect" id="node46" href="hair_8h.html" title="src/mike/hair.h" alt="" coords="2818,177,2926,203"/>
+<area shape="rect" id="node48" href="shaderprogram_8h.html" title="src/shaderPrograms\l/shaderprogram.h" alt="" coords="4316,80,4455,121"/>
+<area shape="rect" id="node50" href="hairopacityshaderprogram_8h.html" title="src/shaderPrograms\l/hairopacityshaderprogram.h" alt="" coords="5407,169,5593,211"/>
+<area shape="rect" id="node3" href="moc__glwidget_8cpp.html" title="debug/moc_glwidget.cpp" alt="" coords="43,266,210,293"/>
+<area shape="rect" id="node4" href="mainwindow_8h.html" title="src/ui/mainwindow.h" alt="" coords="235,266,376,293"/>
+<area shape="rect" id="node6" href="mainwindow__new_8h.html" title="src/mainwindow_new.h" alt="" coords="451,266,610,293"/>
+<area shape="rect" id="node7" href="simulation_8cpp.html" title="src/mike/simulation.cpp" alt="" coords="2015,266,2175,293"/>
+<area shape="rect" id="node8" href="hairinterface_8cpp.html" title="src/ui/hairinterface.cpp" alt="" coords="1649,266,1804,293"/>
+<area shape="rect" id="node9" href="hairinterface2_8cpp.html" title="src/ui/hairinterface2.cpp" alt="" coords="1829,266,1990,293"/>
+<area shape="rect" id="node10" href="sceneeditor_8cpp.html" title="src/ui/sceneeditor.cpp" alt="" coords="634,266,785,293"/>
+<area shape="rect" id="node11" href="scenewidget_8cpp.html" title="src/ui/scenewidget.cpp" alt="" coords="1023,266,1179,293"/>
+<area shape="rect" id="node13" href="moc__scenewidget_8cpp.html" title="debug/moc_scenewidget.cpp" alt="" coords="809,266,999,293"/>
+<area shape="rect" id="node15" href="framebuffer_8cpp.html" title="src/framebuffer.cpp" alt="" coords="1255,266,1390,293"/>
+<area shape="rect" id="node17" href="hairobject_8cpp.html" title="src/hairobject.cpp" alt="" coords="2199,266,2324,293"/>
+<area shape="rect" id="node18" href="texture_8cpp.html" title="src/texture.cpp" alt="" coords="1465,266,1575,293"/>
+<area shape="rect" id="node20" href="simulation_8cpp_8_b_a_c_k_u_p_826364_8cpp.html" title="src/mike/simulation.cpp.\lBACKUP.26364.cpp" alt="" coords="2349,259,2513,300"/>
+<area shape="rect" id="node21" href="simulation_8cpp_8_b_a_s_e_826364_8cpp.html" title="src/mike/simulation.cpp.\lBASE.26364.cpp" alt="" coords="2537,259,2701,300"/>
+<area shape="rect" id="node22" href="simulation_8cpp_8_l_o_c_a_l_826364_8cpp.html" title="src/mike/simulation.cpp.\lLOCAL.26364.cpp" alt="" coords="2725,259,2889,300"/>
+<area shape="rect" id="node23" href="simulation_8cpp_8_r_e_m_o_t_e_826364_8cpp.html" title="src/mike/simulation.cpp.\lREMOTE.26364.cpp" alt="" coords="2965,259,3129,300"/>
+<area shape="rect" id="node25" href="meshocttree_8cpp.html" title="src/meshocttree.cpp" alt="" coords="2345,177,2487,203"/>
+<area shape="rect" id="node27" href="objmesh_8cpp.html" title="src/objmesh.cpp" alt="" coords="2511,177,2630,203"/>
+<area shape="rect" id="node30" href="tessellator_8cpp.html" title="src/tessellator.cpp" alt="" coords="3402,266,3531,293"/>
+<area shape="rect" id="node32" href="objloader_8cpp.html" title="src/lib/objloader.cpp" alt="" coords="2655,177,2793,203"/>
+<area shape="rect" id="node34" href="resourceloader_8cpp.html" title="src/lib/resourceloader.cpp" alt="" coords="3841,266,4012,293"/>
+<area shape="rect" id="node35" href="hairdepthpeelprogram_8h.html" title="src/shaderPrograms\l/hairdepthpeelprogram.h" alt="" coords="4567,259,4729,300"/>
+<area shape="rect" id="node37" href="hairfeedbackshaderprogram_8cpp.html" title="src/shaderPrograms\l/hairfeedbackshaderprogram.cpp" alt="" coords="3556,259,3767,300"/>
+<area shape="rect" id="node38" href="hairopacityshaderprogram_8cpp.html" title="src/shaderPrograms\l/hairopacityshaderprogram.cpp" alt="" coords="5400,259,5600,300"/>
+<area shape="rect" id="node39" href="whitehairshaderprogram_8h.html" title="src/shaderPrograms\l/whitehairshaderprogram.h" alt="" coords="4753,259,4927,300"/>
+<area shape="rect" id="node40" href="hairshaderprogram_8cpp.html" title="src/shaderPrograms\l/hairshaderprogram.cpp" alt="" coords="5003,259,5162,300"/>
+<area shape="rect" id="node41" href="meshdepthpeelprogram_8h.html" title="src/shaderPrograms\l/meshdepthpeelprogram.h" alt="" coords="4443,348,4615,389"/>
+<area shape="rect" id="node42" href="meshshaderprogram_8cpp.html" title="src/shaderPrograms\l/meshshaderprogram.cpp" alt="" coords="4037,259,4206,300"/>
+<area shape="rect" id="node43" href="shaderprogram_8cpp.html" title="src/shaderPrograms\l/shaderprogram.cpp" alt="" coords="5187,259,5325,300"/>
+<area shape="rect" id="node44" href="texturedquadshaderprogram_8cpp.html" title="src/shaderPrograms\l/texturedquadshaderprogram.cpp" alt="" coords="4230,259,4442,300"/>
+<area shape="rect" id="node45" href="whitemeshshaderprogram_8h.html" title="src/shaderPrograms\l/whitemeshshaderprogram.h" alt="" coords="3556,348,3743,389"/>
+<area shape="rect" id="node47" href="hair_8cpp.html" title="src/mike/hair.cpp" alt="" coords="3153,266,3276,293"/>
+<area shape="rect" id="node49" href="hairshaderprogram_8h.html" title="src/shaderPrograms\l/hairshaderprogram.h" alt="" coords="4889,169,5033,211"/>
+</map>
+</div>
+</div>
+<p><a href="hair_common_8h_source.html">浏览源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_b_g_r_a.html">BGRA</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_triangle.html">Triangle</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_hair_vertex.html">HairVertex</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_joint.html">Joint</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:aa6fc2ee8ab578f6933b9497f66561a82"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#aa6fc2ee8ab578f6933b9497f66561a82">__HAIRCOMMON_H__</a></td></tr>
+<tr class="separator:aa6fc2ee8ab578f6933b9497f66561a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a816ab7d5c2ce1f0a01216042837beb93"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#a816ab7d5c2ce1f0a01216042837beb93">GLM_FORCE_RADIANS</a></td></tr>
+<tr class="separator:a816ab7d5c2ce1f0a01216042837beb93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad56c1315ffd1db459d69bbff620323c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#ad56c1315ffd1db459d69bbff620323c1">COMPILE_TIME_ASSERT</a>(pred)&#160;&#160;&#160;switch(0){case 0:case pred:;}</td></tr>
+<tr class="separator:ad56c1315ffd1db459d69bbff620323c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9338253f740e317b0f699f8fb081eaa5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#a9338253f740e317b0f699f8fb081eaa5">safeFree</a>(p)</td></tr>
+<tr class="separator:a9338253f740e317b0f699f8fb081eaa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24fc96efcf8a98a1567627367ab72ae8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#a24fc96efcf8a98a1567627367ab72ae8">safeDelete</a>(p)</td></tr>
+<tr class="separator:a24fc96efcf8a98a1567627367ab72ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4dc4260396178c0ab6d8168ebd960f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#ae4dc4260396178c0ab6d8168ebd960f4">safeDeleteArray</a>(p)</td></tr>
+<tr class="separator:ae4dc4260396178c0ab6d8168ebd960f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74e75242132eaabbc1c512488a135926"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#a74e75242132eaabbc1c512488a135926">MIN</a>(x,  y)</td></tr>
+<tr class="separator:a74e75242132eaabbc1c512488a135926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacc3ee1a7f283f8ef65cea31f4436a95"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#aacc3ee1a7f283f8ef65cea31f4436a95">MAX</a>(x,  y)</td></tr>
+<tr class="separator:aacc3ee1a7f283f8ef65cea31f4436a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3da33d7f6d37d12b507020daa54e774"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#ac3da33d7f6d37d12b507020daa54e774">MIN3</a>(x,  y,  z)</td></tr>
+<tr class="separator:ac3da33d7f6d37d12b507020daa54e774"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7751a16322c502dc5d35d620b69277af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#a7751a16322c502dc5d35d620b69277af">MAX3</a>(x,  y,  z)</td></tr>
+<tr class="separator:a7751a16322c502dc5d35d620b69277af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a996f7be338ccb40d1a2a5abc1ad61759"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#a996f7be338ccb40d1a2a5abc1ad61759">ABS</a>(x)</td></tr>
+<tr class="separator:a996f7be338ccb40d1a2a5abc1ad61759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d82ffe4989b63f6edc6e6349838ae3c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#a3d82ffe4989b63f6edc6e6349838ae3c">CLAMP</a>(x,  y,  z)</td></tr>
+<tr class="separator:a3d82ffe4989b63f6edc6e6349838ae3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae71449b1cc6e6250b91f539153a7a0d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#ae71449b1cc6e6250b91f539153a7a0d3">M_PI</a>&#160;&#160;&#160;3.14159265f</td></tr>
+<tr class="separator:ae71449b1cc6e6250b91f539153a7a0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfa15aa3830d8fbf8f39c8f77aef8389"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#acfa15aa3830d8fbf8f39c8f77aef8389">_EPSILON_</a>&#160;&#160;&#160;1e-6</td></tr>
+<tr class="separator:acfa15aa3830d8fbf8f39c8f77aef8389"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a002b2f4894492820fe708b1b7e7c5e70"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#a002b2f4894492820fe708b1b7e7c5e70">EPSILON</a>&#160;&#160;&#160;<a class="el" href="hair_common_8h.html#acfa15aa3830d8fbf8f39c8f77aef8389">_EPSILON_</a></td></tr>
+<tr class="separator:a002b2f4894492820fe708b1b7e7c5e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac07acfbb082b04f5bea72998c8976b3c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#ac07acfbb082b04f5bea72998c8976b3c">EQ</a>(a,  b)&#160;&#160;&#160;(fabs((a) - (b)) &lt; <a class="el" href="hair_common_8h.html#acfa15aa3830d8fbf8f39c8f77aef8389">_EPSILON_</a>)</td></tr>
+<tr class="separator:ac07acfbb082b04f5bea72998c8976b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50f32989cb94e1e7a132b095b8265e0b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#a50f32989cb94e1e7a132b095b8265e0b">NEQ</a>(a,  b)&#160;&#160;&#160;(fabs((a) - (b)) &gt; <a class="el" href="hair_common_8h.html#acfa15aa3830d8fbf8f39c8f77aef8389">_EPSILON_</a>)</td></tr>
+<tr class="separator:a50f32989cb94e1e7a132b095b8265e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d8f0097656f1d6a5186453488069068"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#a8d8f0097656f1d6a5186453488069068">NYI</a>(f)</td></tr>
+<tr class="separator:a8d8f0097656f1d6a5186453488069068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd7c0f73c6acd7ca6ceede0af6e0682a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#abd7c0f73c6acd7ca6ceede0af6e0682a">PRINT_VEC</a>(__name,  __vec)&#160;&#160;&#160;cout &lt;&lt; __name &lt;&lt; <a class="el" href="group__gtx__string__cast.html#ga59aec03d202609b88e7763c97f184446">glm::to_string</a>(__vec) &lt;&lt; endl;</td></tr>
+<tr class="separator:abd7c0f73c6acd7ca6ceede0af6e0682a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ae2fcf4fb990cdb352a3805eadc6a763a"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#ae2fcf4fb990cdb352a3805eadc6a763a">qHash</a> (std::tuple&lt; double, double, double &gt; key)</td></tr>
+<tr class="separator:ae2fcf4fb990cdb352a3805eadc6a763a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad9d327328f05797de55fa0f480d407c"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#aad9d327328f05797de55fa0f480d407c">htoi</a> (const char s[])</td></tr>
+<tr class="separator:aad9d327328f05797de55fa0f480d407c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebf48e2caddaeaea872f11ae81054f58"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#aebf48e2caddaeaea872f11ae81054f58">operator==</a> (const <a class="el" href="struct_triangle.html">Triangle</a> &amp;lhs, const <a class="el" href="struct_triangle.html">Triangle</a> &amp;rhs)</td></tr>
+<tr class="separator:aebf48e2caddaeaea872f11ae81054f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ab31b90bc584c635ec159468ceed9b2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a1ab31b90bc584c635ec159468ceed9b2"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="hair_common_8h.html#a1ab31b90bc584c635ec159468ceed9b2">sgn</a> (T val)</td></tr>
+<tr class="separator:a1ab31b90bc584c635ec159468ceed9b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>包含头发中常用的数据结构和宏. </p>
+
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 中定义.</p>
+</div><h2 class="groupheader">宏定义说明</h2>
+<a id="aa6fc2ee8ab578f6933b9497f66561a82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6fc2ee8ab578f6933b9497f66561a82">&#9670;&nbsp;</a></span>__HAIRCOMMON_H__</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __HAIRCOMMON_H__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00008">8</a> 行定义.</p>
+
+</div>
+</div>
+<a id="acfa15aa3830d8fbf8f39c8f77aef8389"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfa15aa3830d8fbf8f39c8f77aef8389">&#9670;&nbsp;</a></span>_EPSILON_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _EPSILON_&#160;&#160;&#160;1e-6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00326">326</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a996f7be338ccb40d1a2a5abc1ad61759"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a996f7be338ccb40d1a2a5abc1ad61759">&#9670;&nbsp;</a></span>ABS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ABS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line">({                   \</div><div class="line">   register typeof(x) ___tx = (x);  \</div><div class="line">   (___tx &gt;= 0 ? ___tx : -___tx);   \</div><div class="line">})</div></div><!-- fragment -->
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00304">304</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a3d82ffe4989b63f6edc6e6349838ae3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d82ffe4989b63f6edc6e6349838ae3c">&#9670;&nbsp;</a></span>CLAMP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CLAMP</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">y, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">z&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line">({           \</div><div class="line">    double _x_ = (x);    \</div><div class="line">    double _y_ = (y);    \</div><div class="line">    double _z_ = (z);    \</div><div class="line">    (<a class="code" href="group__core__func__common.html#gaa228561a9da55898f8f72ad2403fafac">std::max</a>(_y_, <a class="code" href="group__core__func__common.html#ga3dc90dbd66c9ca1dd5625c93d9c50f02">std::min</a>(_x_, _z_))); \</div><div class="line">})</div><div class="ttc" id="group__core__func__common_html_ga3dc90dbd66c9ca1dd5625c93d9c50f02"><div class="ttname"><a href="group__core__func__common.html#ga3dc90dbd66c9ca1dd5625c93d9c50f02">glm::min</a></div><div class="ttdeci">GLM_FUNC_DECL genType min(genType const &amp;x, genType const &amp;y)</div><div class="ttdef"><b>Definition:</b> <a href="func__common_8inl_source.html#l00368">func_common.inl:368</a></div></div>
+<div class="ttc" id="group__core__func__common_html_gaa228561a9da55898f8f72ad2403fafac"><div class="ttname"><a href="group__core__func__common.html#gaa228561a9da55898f8f72ad2403fafac">glm::max</a></div><div class="ttdeci">GLM_FUNC_DECL genType max(genType const &amp;x, genType const &amp;y)</div><div class="ttdef"><b>Definition:</b> <a href="func__common_8inl_source.html#l00386">func_common.inl:386</a></div></div>
+</div><!-- fragment -->
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00309">309</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ad56c1315ffd1db459d69bbff620323c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad56c1315ffd1db459d69bbff620323c1">&#9670;&nbsp;</a></span>COMPILE_TIME_ASSERT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define COMPILE_TIME_ASSERT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pred</td><td>)</td>
+          <td>&#160;&#160;&#160;switch(0){case 0:case pred:;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00037">37</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a002b2f4894492820fe708b1b7e7c5e70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a002b2f4894492820fe708b1b7e7c5e70">&#9670;&nbsp;</a></span>EPSILON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EPSILON&#160;&#160;&#160;<a class="el" href="hair_common_8h.html#acfa15aa3830d8fbf8f39c8f77aef8389">_EPSILON_</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00327">327</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ac07acfbb082b04f5bea72998c8976b3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac07acfbb082b04f5bea72998c8976b3c">&#9670;&nbsp;</a></span>EQ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EQ</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;(fabs((a) - (b)) &lt; <a class="el" href="hair_common_8h.html#acfa15aa3830d8fbf8f39c8f77aef8389">_EPSILON_</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00329">329</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a816ab7d5c2ce1f0a01216042837beb93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a816ab7d5c2ce1f0a01216042837beb93">&#9670;&nbsp;</a></span>GLM_FORCE_RADIANS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GLM_FORCE_RADIANS</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00018">18</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ae71449b1cc6e6250b91f539153a7a0d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae71449b1cc6e6250b91f539153a7a0d3">&#9670;&nbsp;</a></span>M_PI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define M_PI&#160;&#160;&#160;3.14159265f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00323">323</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aacc3ee1a7f283f8ef65cea31f4436a95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacc3ee1a7f283f8ef65cea31f4436a95">&#9670;&nbsp;</a></span>MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">y&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line">({          \</div><div class="line">   float _x_ = (x);      \</div><div class="line">   float _y_ = (y);      \</div><div class="line">   ((_x_ &gt; _y_) ? _x_ : _y_); \</div><div class="line">})</div></div><!-- fragment -->
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00284">284</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a7751a16322c502dc5d35d620b69277af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7751a16322c502dc5d35d620b69277af">&#9670;&nbsp;</a></span>MAX3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX3</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">y, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">z&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line">({      \</div><div class="line">   float __x = (x);      \</div><div class="line">   float __y = (y);      \</div><div class="line">   float __z = (z);      \</div><div class="line">   ((__x &gt; __y) ? (__x &gt; __z ? __x: __z) : (__y &gt; __z ? __y : __z)); \</div><div class="line">})</div></div><!-- fragment -->
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00297">297</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a74e75242132eaabbc1c512488a135926"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74e75242132eaabbc1c512488a135926">&#9670;&nbsp;</a></span>MIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">y&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line">({          \</div><div class="line">   float x_ = (x);       \</div><div class="line">   float y_ = (y);       \</div><div class="line">   ((x_ &lt; y_) ? x_ : y_);     \</div><div class="line">})</div></div><!-- fragment -->
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00278">278</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ac3da33d7f6d37d12b507020daa54e774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3da33d7f6d37d12b507020daa54e774">&#9670;&nbsp;</a></span>MIN3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIN3</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">y, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">z&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line">({      \</div><div class="line">   float x__ = (x);      \</div><div class="line">   float y__ = (y);      \</div><div class="line">   float z__ = (z);      \</div><div class="line">   ((x__ &lt; y__) ? (x__ &lt; z__ ? x__ : z__) : (y__ &lt; z__ ? y__ : z__)); \</div><div class="line">})</div></div><!-- fragment -->
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00290">290</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a50f32989cb94e1e7a132b095b8265e0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50f32989cb94e1e7a132b095b8265e0b">&#9670;&nbsp;</a></span>NEQ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NEQ</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;(fabs((a) - (b)) &gt; <a class="el" href="hair_common_8h.html#acfa15aa3830d8fbf8f39c8f77aef8389">_EPSILON_</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00330">330</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a8d8f0097656f1d6a5186453488069068"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d8f0097656f1d6a5186453488069068">&#9670;&nbsp;</a></span>NYI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NYI</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">f</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line">{ \</div><div class="line">       char ss[999]; \</div><div class="line">       (sprintf(ss, <span class="stringliteral">&quot;Not yet implemented: %s, file %s, line %d\n&quot;</span>, \</div><div class="line">                              f, __FILE__, __LINE__)); \</div><div class="line">       QMessageBox mb; \</div><div class="line">       mb.setText(QString(ss)); \</div><div class="line">       mb.setIcon(QMessageBox::Critical); \</div><div class="line">       mb.exec(); \</div><div class="line">       exit(0xf); \</div><div class="line">   }</div></div><!-- fragment -->
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00333">333</a> 行定义.</p>
+
+</div>
+</div>
+<a id="abd7c0f73c6acd7ca6ceede0af6e0682a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd7c0f73c6acd7ca6ceede0af6e0682a">&#9670;&nbsp;</a></span>PRINT_VEC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PRINT_VEC</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">__name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">__vec&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;cout &lt;&lt; __name &lt;&lt; <a class="el" href="group__gtx__string__cast.html#ga59aec03d202609b88e7763c97f184446">glm::to_string</a>(__vec) &lt;&lt; endl;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00344">344</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a24fc96efcf8a98a1567627367ab72ae8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24fc96efcf8a98a1567627367ab72ae8">&#9670;&nbsp;</a></span>safeDelete</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define safeDelete</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">p</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                 \</div><div class="line">      if ((p)) {        \</div><div class="line">         delete ((p));  \</div><div class="line">         (p) = NULL;    \</div><div class="line">      }                 \</div><div class="line">   } <span class="keywordflow">while</span>(0)</div></div><!-- fragment -->
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00237">237</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ae4dc4260396178c0ab6d8168ebd960f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4dc4260396178c0ab6d8168ebd960f4">&#9670;&nbsp;</a></span>safeDeleteArray</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define safeDeleteArray</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">p</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                    \</div><div class="line">      if ((p)) {           \</div><div class="line">         delete[] ((p));   \</div><div class="line">         (p) = NULL;       \</div><div class="line">      }                    \</div><div class="line">   } <span class="keywordflow">while</span>(0)</div></div><!-- fragment -->
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00245">245</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a9338253f740e317b0f699f8fb081eaa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9338253f740e317b0f699f8fb081eaa5">&#9670;&nbsp;</a></span>safeFree</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define safeFree</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">p</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {              \</div><div class="line">      if ((p)) {     \</div><div class="line">         free((p));  \</div><div class="line">         (p) = NULL; \</div><div class="line">      }              \</div><div class="line">   } <span class="keywordflow">while</span>(0)</div></div><!-- fragment -->
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00229">229</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">函数说明</h2>
+<a id="aad9d327328f05797de55fa0f480d407c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad9d327328f05797de55fa0f480d407c">&#9670;&nbsp;</a></span>htoi()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int htoi </td>
+          <td>(</td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>s</em>[]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00112">112</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="hair_common_8h_aad9d327328f05797de55fa0f480d407c_icgraph.png" border="0" usemap="#hair_common_8h_aad9d327328f05797de55fa0f480d407c_icgraph" alt=""/></div>
+<map name="hair_common_8h_aad9d327328f05797de55fa0f480d407c_icgraph" id="hair_common_8h_aad9d327328f05797de55fa0f480d407c_icgraph">
+<area shape="rect" id="node2" href="structgrid__loc__hash.html#a3da35d59a4af3dec97b336a0adbbc1d3" title="grid_loc_hash::operator()" alt="" coords="96,5,261,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aebf48e2caddaeaea872f11ae81054f58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebf48e2caddaeaea872f11ae81054f58">&#9670;&nbsp;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_triangle.html">Triangle</a> &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_triangle.html">Triangle</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00142">142</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ae2fcf4fb990cdb352a3805eadc6a763a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2fcf4fb990cdb352a3805eadc6a763a">&#9670;&nbsp;</a></span>qHash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint qHash </td>
+          <td>(</td>
+          <td class="paramtype">std::tuple&lt; double, double, double &gt;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ab31b90bc584c635ec159468ceed9b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ab31b90bc584c635ec159468ceed9b2">&#9670;&nbsp;</a></span>sgn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int sgn </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hair_common_8h_source.html">hairCommon.h</a> 第 <a class="el" href="hair_common_8h_source.html#l00316">316</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="hair_common_8h_a1ab31b90bc584c635ec159468ceed9b2_icgraph.png" border="0" usemap="#hair_common_8h_a1ab31b90bc584c635ec159468ceed9b2_icgraph" alt=""/></div>
+<map name="hair_common_8h_a1ab31b90bc584c635ec159468ceed9b2_icgraph" id="hair_common_8h_a1ab31b90bc584c635ec159468ceed9b2_icgraph">
+<area shape="rect" id="node2" href="group__gtx__fast__trigonometry.html#gaa788571fc615b131e96c66df01b10e36" title="glm::fastAtan" alt="" coords="96,29,196,56"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

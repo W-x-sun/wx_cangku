@@ -1,0 +1,789 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: HairObject类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="class_hair_object-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">HairObject类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="hairobject_8h_source.html">hairobject.h</a>&gt;</code></p>
+<div class="dynheader">
+HairObject 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_hair_object__coll__graph.png" border="0" usemap="#_hair_object_coll__map" alt="Collaboration graph"/></div>
+<map name="_hair_object_coll__map" id="_hair_object_coll__map">
+<area shape="rect" id="node2" href="class_simulation.html" title="Simulation" alt="" coords="5,5,88,32"/>
+<area shape="rect" id="node3" href="class_texture.html" title="Texture" alt="" coords="125,5,192,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:aa4d64f7f04c40df12513188e9df57291"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#aa4d64f7f04c40df12513188e9df57291">~HairObject</a> ()</td></tr>
+<tr class="separator:aa4d64f7f04c40df12513188e9df57291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a402d2ebcaec8b9a5580a452e8a9feb8a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a402d2ebcaec8b9a5580a452e8a9feb8a">HairObject</a> (<a class="el" href="class_obj_mesh.html">ObjMesh</a> *mesh, float hairsPerUnitArea, float maxHairLength, QImage &amp;hairGrowthMap, QImage &amp;hairGroomingMap, <a class="el" href="class_simulation.html">Simulation</a> *simulation, <a class="el" href="class_hair_object.html">HairObject</a> *oldObject=NULL)</td></tr>
+<tr class="separator:a402d2ebcaec8b9a5580a452e8a9feb8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc634e9ace88becde40ef1e89d631b44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#abc634e9ace88becde40ef1e89d631b44">update</a> (float _time)</td></tr>
+<tr class="separator:abc634e9ace88becde40ef1e89d631b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0bd3404f4acc1dff5acf780dc84bbaf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#ad0bd3404f4acc1dff5acf780dc84bbaf">paint</a> (<a class="el" href="class_shader_program.html">ShaderProgram</a> *program)</td></tr>
+<tr class="separator:ad0bd3404f4acc1dff5acf780dc84bbaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c27591584a964139a679eef02feafe8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a1c27591584a964139a679eef02feafe8">setAttributes</a> (<a class="el" href="class_hair_object.html">HairObject</a> *_oldObject)</td></tr>
+<tr class="separator:a1c27591584a964139a679eef02feafe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a263fd0a71f27a486881f4dd5f3c4e428"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a263fd0a71f27a486881f4dd5f3c4e428">setAttributes</a> (<a class="el" href="group__core__types.html#ga1c47e8b3386109bc992b6c48e91b0be7">glm::vec3</a> _color=<a class="el" href="group__core__types.html#ga1c47e8b3386109bc992b6c48e91b0be7">glm::vec3</a>(15./255,.286f,.202f), int _numGroupHairs=64, float _hairGroupSpread=0.08, float _hairRadius=0.001f, float _noiseAmplitude=0.15f, float _noiseFrequency=0.2f, int _numSplineVertices=20, float _shadowIntensity=20, float _diffuseIntensity=1, float _specularIntensity=.5, float _transparency=.25, float _useHairColorVariation=true, float _hairColorVariation=1.5f)</td></tr>
+<tr class="separator:a263fd0a71f27a486881f4dd5f3c4e428"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a8bd6732e3c9a9f75c6cf202e991fc27d"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_hair.html">Hair</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a8bd6732e3c9a9f75c6cf202e991fc27d">m_guideHairs</a></td></tr>
+<tr class="separator:a8bd6732e3c9a9f75c6cf202e991fc27d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e464073f88b900c1e95f7ba71289c12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_simulation.html">Simulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a3e464073f88b900c1e95f7ba71289c12">m_simulation</a></td></tr>
+<tr class="separator:a3e464073f88b900c1e95f7ba71289c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae54fdee7844a5f8c573de5ab5505e4f0"><td class="memItemLeft" align="right" valign="top">QImage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#ae54fdee7844a5f8c573de5ab5505e4f0">m_hairGrowthMap</a></td></tr>
+<tr class="separator:ae54fdee7844a5f8c573de5ab5505e4f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dd52a1f473118376e5a161b1ac65670"><td class="memItemLeft" align="right" valign="top">QImage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a2dd52a1f473118376e5a161b1ac65670">m_hairGroomingMap</a></td></tr>
+<tr class="separator:a2dd52a1f473118376e5a161b1ac65670"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17f56f8dc50ea050641a18a5cac34f69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_texture.html">Texture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a17f56f8dc50ea050641a18a5cac34f69">m_blurredHairGrowthMapTexture</a></td></tr>
+<tr class="separator:a17f56f8dc50ea050641a18a5cac34f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8863c7e9075caf5afa66fa4e7d70bc2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#aa8863c7e9075caf5afa66fa4e7d70bc2">m_numGuideHairs</a></td></tr>
+<tr class="separator:aa8863c7e9075caf5afa66fa4e7d70bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fe00729935bb5982b369bc3f5688dc8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a3fe00729935bb5982b369bc3f5688dc8">m_numHairVertices</a></td></tr>
+<tr class="separator:a3fe00729935bb5982b369bc3f5688dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d8da849d93ae8e4ec1810a2b8021edc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a8d8da849d93ae8e4ec1810a2b8021edc">m_numHairsPerPatch</a></td></tr>
+<tr class="separator:a8d8da849d93ae8e4ec1810a2b8021edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14699072899f0472e5f4745dbed1fe9f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a14699072899f0472e5f4745dbed1fe9f">m_numGroupHairs</a></td></tr>
+<tr class="separator:a14699072899f0472e5f4745dbed1fe9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a720ffd9dabeb06c14c4ca4a97979dcdc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a720ffd9dabeb06c14c4ca4a97979dcdc">m_hairGroupSpread</a></td></tr>
+<tr class="separator:a720ffd9dabeb06c14c4ca4a97979dcdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d1355836ba2317d33fda5f18662f6ac"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a3d1355836ba2317d33fda5f18662f6ac">m_hairRadius</a></td></tr>
+<tr class="separator:a3d1355836ba2317d33fda5f18662f6ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d34c8fabed196392315978dd1dee336"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a2d34c8fabed196392315978dd1dee336">m_noiseAmplitude</a></td></tr>
+<tr class="separator:a2d34c8fabed196392315978dd1dee336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a933f5f270fe1e201226fce30cc2586"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a2a933f5f270fe1e201226fce30cc2586">m_noiseFrequency</a></td></tr>
+<tr class="separator:a2a933f5f270fe1e201226fce30cc2586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77dec5a63b22c5f78fd06ff401febd15"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a77dec5a63b22c5f78fd06ff401febd15">m_numSplineVertices</a></td></tr>
+<tr class="separator:a77dec5a63b22c5f78fd06ff401febd15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a145811afb2e42fd02d4e9e97e87ad8a7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a145811afb2e42fd02d4e9e97e87ad8a7">m_useHairColorVariation</a></td></tr>
+<tr class="separator:a145811afb2e42fd02d4e9e97e87ad8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac03fba728abaa5ee2d0a2a30ceaa6648"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__core__types.html#ga1c47e8b3386109bc992b6c48e91b0be7">glm::vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#ac03fba728abaa5ee2d0a2a30ceaa6648">m_color</a></td></tr>
+<tr class="separator:ac03fba728abaa5ee2d0a2a30ceaa6648"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac82886dbd7e5264225ebcb5f99757872"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#ac82886dbd7e5264225ebcb5f99757872">m_shadowIntensity</a></td></tr>
+<tr class="separator:ac82886dbd7e5264225ebcb5f99757872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84daa10af9e8d0198cf596dd1e2045da"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a84daa10af9e8d0198cf596dd1e2045da">m_diffuseIntensity</a></td></tr>
+<tr class="separator:a84daa10af9e8d0198cf596dd1e2045da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a879778e62f22fcc9c20f5c2895eef99e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a879778e62f22fcc9c20f5c2895eef99e">m_specularIntensity</a></td></tr>
+<tr class="separator:a879778e62f22fcc9c20f5c2895eef99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19f61ba75419da160fcbaff53506bc52"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a19f61ba75419da160fcbaff53506bc52">m_transparency</a></td></tr>
+<tr class="separator:a19f61ba75419da160fcbaff53506bc52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a299b426cc5d80947c19e9c47d8ffb481"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hair_object.html#a299b426cc5d80947c19e9c47d8ffb481">m_hairColorVariation</a></td></tr>
+<tr class="separator:a299b426cc5d80947c19e9c47d8ffb481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock">
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00013">13</a> 行定义.</p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="aa4d64f7f04c40df12513188e9df57291"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4d64f7f04c40df12513188e9df57291">&#9670;&nbsp;</a></span>~HairObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HairObject::~HairObject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8cpp_source.html">hairobject.cpp</a> 第 <a class="el" href="hairobject_8cpp_source.html#l00011">11</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a402d2ebcaec8b9a5580a452e8a9feb8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a402d2ebcaec8b9a5580a452e8a9feb8a">&#9670;&nbsp;</a></span>HairObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HairObject::HairObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_obj_mesh.html">ObjMesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>hairsPerUnitArea</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxHairLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QImage &amp;&#160;</td>
+          <td class="paramname"><em>hairGrowthMap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QImage &amp;&#160;</td>
+          <td class="paramname"><em>hairGroomingMap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_simulation.html">Simulation</a> *&#160;</td>
+          <td class="paramname"><em>simulation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_hair_object.html">HairObject</a> *&#160;</td>
+          <td class="paramname"><em>oldObject</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8cpp_source.html">hairobject.cpp</a> 第 <a class="el" href="hairobject_8cpp_source.html#l00018">18</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_hair_object_a402d2ebcaec8b9a5580a452e8a9feb8a_cgraph.png" border="0" usemap="#class_hair_object_a402d2ebcaec8b9a5580a452e8a9feb8a_cgraph" alt=""/></div>
+<map name="class_hair_object_a402d2ebcaec8b9a5580a452e8a9feb8a_cgraph" id="class_hair_object_a402d2ebcaec8b9a5580a452e8a9feb8a_cgraph">
+<area shape="rect" id="node2" href="class_blurrer.html#a3de73f69058705a71fe1170931098147" title="Blurrer::blur" alt="" coords="256,5,345,32"/>
+<area shape="rect" id="node3" href="class_texture.html#a2656b269ed91912ef63f37648b41741c" title="Texture::createColorTexture" alt="" coords="208,56,393,83"/>
+<area shape="rect" id="node4" href="struct_triangle.html#afdbdbe110d7f2f25ab98b4fc39a5fd64" title="Triangle::area" alt="" coords="250,157,351,184"/>
+<area shape="rect" id="node7" href="group__core__func__geometric.html#ga89b91c2a256cfb62ecbc589d1ee36d3c" title="glm::cross" alt="" coords="465,208,548,235"/>
+<area shape="rect" id="node8" href="group__core__func__geometric.html#ga15aa87101457e41663b08a8dcc3357f8" title="glm::normalize" alt="" coords="620,227,727,253"/>
+<area shape="rect" id="node9" href="struct_triangle.html#a2b7a753dfd3ca808cbe4e45d7226946c" title="Triangle::randPoint" alt="" coords="441,107,572,133"/>
+<area shape="rect" id="node10" href="class_hair_object.html#a1c27591584a964139a679eef02feafe8" title="HairObject::setAttributes" alt="" coords="217,309,384,336"/>
+<area shape="rect" id="node5" href="group__core__func__geometric.html#ga03b2831439defb8922832b540b91b8a7" title="glm::length" alt="" coords="463,157,550,184"/>
+<area shape="rect" id="node6" href="group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="637,139,710,165"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="ad0bd3404f4acc1dff5acf780dc84bbaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0bd3404f4acc1dff5acf780dc84bbaf">&#9670;&nbsp;</a></span>paint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HairObject::paint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_shader_program.html">ShaderProgram</a> *&#160;</td>
+          <td class="paramname"><em>program</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8cpp_source.html">hairobject.cpp</a> 第 <a class="el" href="hairobject_8cpp_source.html#l00142">142</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_hair_object_ad0bd3404f4acc1dff5acf780dc84bbaf_cgraph.png" border="0" usemap="#class_hair_object_ad0bd3404f4acc1dff5acf780dc84bbaf_cgraph" alt=""/></div>
+<map name="class_hair_object_ad0bd3404f4acc1dff5acf780dc84bbaf_cgraph" id="class_hair_object_ad0bd3404f4acc1dff5acf780dc84bbaf_cgraph">
+<area shape="rect" id="node2" href="group__gtx__color__space.html#ga8c25ad5eee2386d7f5180ccaa0523246" title="glm::rgbColor" alt="" coords="221,29,321,56"/>
+<area shape="rect" id="node8" href="class_shader_program.html#aa5feab6ba2fffcee8d8b1a82bdbf723a" title="ShaderProgram::setPerObject\lUniforms" alt="" coords="173,81,369,122"/>
+<area shape="rect" id="node3" href="group__gtx__color__space.html#gaef4a1b7ed5bec43e245cd152951ec28a" title="glm::hsvColor" alt="" coords="417,29,520,56"/>
+<area shape="rect" id="node7" href="group__core__func__common.html#ga86350252cc9bf86421317460bbd1f21c" title="glm::floor" alt="" coords="431,104,507,131"/>
+<area shape="rect" id="node4" href="group__core__func__common.html#ga3dc90dbd66c9ca1dd5625c93d9c50f02" title="glm::min" alt="" coords="827,31,899,57"/>
+<area shape="rect" id="node5" href="group__core__func__common.html#gaa228561a9da55898f8f72ad2403fafac" title="glm::max" alt="" coords="568,80,644,107"/>
+<area shape="rect" id="node6" href="group__core__func__common.html#ga72e9e213c84f06a329a2a838b51200f4" title="glm::clamp" alt="" coords="692,105,779,132"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1c27591584a964139a679eef02feafe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c27591584a964139a679eef02feafe8">&#9670;&nbsp;</a></span>setAttributes() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HairObject::setAttributes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_hair_object.html">HairObject</a> *&#160;</td>
+          <td class="paramname"><em>_oldObject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8cpp_source.html">hairobject.cpp</a> 第 <a class="el" href="hairobject_8cpp_source.html#l00090">90</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_hair_object_a1c27591584a964139a679eef02feafe8_icgraph.png" border="0" usemap="#class_hair_object_a1c27591584a964139a679eef02feafe8_icgraph" alt=""/></div>
+<map name="class_hair_object_a1c27591584a964139a679eef02feafe8_icgraph" id="class_hair_object_a1c27591584a964139a679eef02feafe8_icgraph">
+<area shape="rect" id="node2" href="class_hair_object.html#a402d2ebcaec8b9a5580a452e8a9feb8a" title="HairObject::HairObject" alt="" coords="220,5,375,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a263fd0a71f27a486881f4dd5f3c4e428"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a263fd0a71f27a486881f4dd5f3c4e428">&#9670;&nbsp;</a></span>setAttributes() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HairObject::setAttributes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__core__types.html#ga1c47e8b3386109bc992b6c48e91b0be7">glm::vec3</a>&#160;</td>
+          <td class="paramname"><em>_color</em> = <code><a class="el" href="group__core__types.html#ga1c47e8b3386109bc992b6c48e91b0be7">glm::vec3</a>(15./255,&#160;.286f,&#160;.202f)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>_numGroupHairs</em> = <code>64</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>_hairGroupSpread</em> = <code>0.08</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>_hairRadius</em> = <code>0.001f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>_noiseAmplitude</em> = <code>0.15f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>_noiseFrequency</em> = <code>0.2f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>_numSplineVertices</em> = <code>20</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>_shadowIntensity</em> = <code>20</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>_diffuseIntensity</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>_specularIntensity</em> = <code>.5</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>_transparency</em> = <code>.25</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>_useHairColorVariation</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>_hairColorVariation</em> = <code>1.5f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8cpp_source.html">hairobject.cpp</a> 第 <a class="el" href="hairobject_8cpp_source.html#l00112">112</a> 行定义.</p>
+
+</div>
+</div>
+<a id="abc634e9ace88becde40ef1e89d631b44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc634e9ace88becde40ef1e89d631b44">&#9670;&nbsp;</a></span>update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HairObject::update </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>_time</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8cpp_source.html">hairobject.cpp</a> 第 <a class="el" href="hairobject_8cpp_source.html#l00128">128</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_hair_object_abc634e9ace88becde40ef1e89d631b44_cgraph.png" border="0" usemap="#class_hair_object_abc634e9ace88becde40ef1e89d631b44_cgraph" alt=""/></div>
+<map name="class_hair_object_abc634e9ace88becde40ef1e89d631b44_cgraph" id="class_hair_object_abc634e9ace88becde40ef1e89d631b44_cgraph">
+<area shape="rect" id="node2" href="class_simulation.html#ae5bd3ee3c85b356871fc832d5bf3d3f1" title="Simulation::simulate" alt="" coords="184,447,324,473"/>
+<area shape="rect" id="node3" href="class_simulation.html#a19de87e81f0429c9a5936d4126440310" title="Simulation::updateHairPosition" alt="" coords="372,447,573,473"/>
+<area shape="rect" id="node4" href="group__gtc__matrix__transform.html#ga61e65a3bb227c267d1a15113d1056fb1" title="glm::rotate" alt="" coords="621,269,705,296"/>
+<area shape="rect" id="node10" href="group__core__func__trigonometric.html#gafbab21016b7f3bc21afb09a7e42e2df1" title="glm::sin" alt="" coords="1758,472,1826,499"/>
+<area shape="rect" id="node5" href="group__gtc__quaternion.html#ga23a3fc7ada5bbb665ff84c92c6e0542c" title="glm::angle" alt="" coords="932,269,1015,296"/>
+<area shape="rect" id="node11" href="group__gtc__quaternion.html#ga8eef9f8c3f2e4836dccf09df975b20fb" title="glm::axis" alt="" coords="1095,93,1170,120"/>
+<area shape="rect" id="node14" href="group__core__func__trigonometric.html#ga431d31cdb060059bc5b0696e212f1453" title="glm::radians" alt="" coords="1400,371,1493,397"/>
+<area shape="rect" id="node15" href="group__core__func__trigonometric.html#gac6708d4f0895dc79b65f50db00840167" title="glm::cos" alt="" coords="1411,68,1483,95"/>
+<area shape="rect" id="node24" href="group__core__func__geometric.html#ga15aa87101457e41663b08a8dcc3357f8" title="glm::normalize" alt="" coords="920,117,1027,144"/>
+<area shape="rect" id="node25" href="namespaceglm.html#a03bd2c89f62ae44ad3a5e5dc21effd06" title="glm::rotate_slow" alt="" coords="753,244,872,271"/>
+<area shape="rect" id="node6" href="group__core__func__trigonometric.html#gac85497ed2e39d4cac4ac32bed4dfc506" title="glm::acos" alt="" coords="1937,119,2016,145"/>
+<area shape="rect" id="node9" href="group__core__func__trigonometric.html#gaf4e5661bd1c993f6090d49e988a4c78a" title="glm::degrees" alt="" coords="1567,371,1664,397"/>
+<area shape="rect" id="node7" href="group__core__func__trigonometric.html#gabf80ac0817d1db032dd6a0969aa2b84a" title="glm::atan" alt="" coords="2105,119,2181,145"/>
+<area shape="rect" id="node8" href="group__gtx__compatibility.html#gac63011205bf6d0be82589dc56dd26708" title="Arc tangent. Returns an angle whose tangent is y/x. The signs of x and y are used to determine what q..." alt="" coords="2242,119,2325,145"/>
+<area shape="rect" id="node12" href="group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="1256,93,1329,120"/>
+<area shape="rect" id="node13" href="group__gtc__quaternion.html#ga771b3e16cca8324e7111b923476be666" title="glm::angleAxis" alt="" coords="1239,195,1347,221"/>
+<area shape="rect" id="node18" href="namespaceglm.html#a9ea052832f152d1233c6fa27df62f2fc" title="glm::lessThan" alt="" coords="1395,195,1499,221"/>
+<area shape="rect" id="node16" href="group__core__func__trigonometric.html#ga328aeb0de4f312dc3d200cb929715d44" title="glm::tan" alt="" coords="1581,93,1650,120"/>
+<area shape="rect" id="node17" href="group__core__func__trigonometric.html#gafca5e8c71ea06be0840227b4aafc5680" title="glm::asin" alt="" coords="1755,93,1829,120"/>
+<area shape="rect" id="node19" href="group__core__func__vector__relational.html#ga2167b22ac086c5791a4740932b62b685" title="glm::lessThanEqual" alt="" coords="1547,195,1684,221"/>
+<area shape="rect" id="node20" href="group__core__func__vector__relational.html#gac9163d451231eb3eaae2c6b3da5add6a" title="glm::greaterThan" alt="" coords="1732,195,1852,221"/>
+<area shape="rect" id="node21" href="group__core__func__vector__relational.html#gad1385064aa2fc7aaae37aa95daea9c31" title="glm::greaterThanEqual" alt="" coords="1900,195,2053,221"/>
+<area shape="rect" id="node22" href="namespaceglm.html#a4a4eb228ace536873b64b9690d14e971" title="glm::equal" alt="" coords="2101,195,2184,221"/>
+<area shape="rect" id="node23" href="group__core__func__vector__relational.html#ga85d7bc5613c4dcc2d5873ec9d6ed4c19" title="glm::notEqual" alt="" coords="2232,195,2335,221"/>
+<area shape="rect" id="node26" href="group__gtc__matrix__transform.html#gabd40959f269abd16c256a4f59ab03d62" title="glm::scale" alt="" coords="932,320,1015,347"/>
+<area shape="rect" id="node27" href="namespaceglm.html#aa836cb5d035a8b96e5e9b4bb5dce0ab2" title="glm::scale_slow" alt="" coords="1075,320,1191,347"/>
+<area shape="rect" id="node28" href="group__gtc__matrix__transform.html#gac393e9262776e4980731c386123e4377" title="glm::ortho" alt="" coords="1253,320,1333,347"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_hair_object_abc634e9ace88becde40ef1e89d631b44_icgraph.png" border="0" usemap="#class_hair_object_abc634e9ace88becde40ef1e89d631b44_icgraph" alt=""/></div>
+<map name="class_hair_object_abc634e9ace88becde40ef1e89d631b44_icgraph" id="class_hair_object_abc634e9ace88becde40ef1e89d631b44_icgraph">
+<area shape="rect" id="node2" href="class_g_l_widget.html#a843150d06edc5e2e50d98e395c2b8759" title="GLWidget::paintGL" alt="" coords="184,5,317,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a17f56f8dc50ea050641a18a5cac34f69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17f56f8dc50ea050641a18a5cac34f69">&#9670;&nbsp;</a></span>m_blurredHairGrowthMapTexture</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_texture.html">Texture</a>* HairObject::m_blurredHairGrowthMapTexture</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00054">54</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ac03fba728abaa5ee2d0a2a30ceaa6648"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac03fba728abaa5ee2d0a2a30ceaa6648">&#9670;&nbsp;</a></span>m_color</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__core__types.html#ga1c47e8b3386109bc992b6c48e91b0be7">glm::vec3</a> HairObject::m_color</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00071">71</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a84daa10af9e8d0198cf596dd1e2045da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84daa10af9e8d0198cf596dd1e2045da">&#9670;&nbsp;</a></span>m_diffuseIntensity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HairObject::m_diffuseIntensity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00074">74</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a8bd6732e3c9a9f75c6cf202e991fc27d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bd6732e3c9a9f75c6cf202e991fc27d">&#9670;&nbsp;</a></span>m_guideHairs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_hair.html">Hair</a>*&gt; HairObject::m_guideHairs</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00048">48</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a299b426cc5d80947c19e9c47d8ffb481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a299b426cc5d80947c19e9c47d8ffb481">&#9670;&nbsp;</a></span>m_hairColorVariation</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HairObject::m_hairColorVariation</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00077">77</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a2dd52a1f473118376e5a161b1ac65670"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dd52a1f473118376e5a161b1ac65670">&#9670;&nbsp;</a></span>m_hairGroomingMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QImage HairObject::m_hairGroomingMap</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00053">53</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a720ffd9dabeb06c14c4ca4a97979dcdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a720ffd9dabeb06c14c4ca4a97979dcdc">&#9670;&nbsp;</a></span>m_hairGroupSpread</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HairObject::m_hairGroupSpread</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00062">62</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ae54fdee7844a5f8c573de5ab5505e4f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae54fdee7844a5f8c573de5ab5505e4f0">&#9670;&nbsp;</a></span>m_hairGrowthMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QImage HairObject::m_hairGrowthMap</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00052">52</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a3d1355836ba2317d33fda5f18662f6ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d1355836ba2317d33fda5f18662f6ac">&#9670;&nbsp;</a></span>m_hairRadius</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HairObject::m_hairRadius</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00063">63</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a2d34c8fabed196392315978dd1dee336"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d34c8fabed196392315978dd1dee336">&#9670;&nbsp;</a></span>m_noiseAmplitude</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HairObject::m_noiseAmplitude</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00064">64</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a2a933f5f270fe1e201226fce30cc2586"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a933f5f270fe1e201226fce30cc2586">&#9670;&nbsp;</a></span>m_noiseFrequency</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HairObject::m_noiseFrequency</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00065">65</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a14699072899f0472e5f4745dbed1fe9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14699072899f0472e5f4745dbed1fe9f">&#9670;&nbsp;</a></span>m_numGroupHairs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int HairObject::m_numGroupHairs</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00061">61</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aa8863c7e9075caf5afa66fa4e7d70bc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8863c7e9075caf5afa66fa4e7d70bc2">&#9670;&nbsp;</a></span>m_numGuideHairs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int HairObject::m_numGuideHairs</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00056">56</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a8d8da849d93ae8e4ec1810a2b8021edc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d8da849d93ae8e4ec1810a2b8021edc">&#9670;&nbsp;</a></span>m_numHairsPerPatch</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int HairObject::m_numHairsPerPatch</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00060">60</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a3fe00729935bb5982b369bc3f5688dc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fe00729935bb5982b369bc3f5688dc8">&#9670;&nbsp;</a></span>m_numHairVertices</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int HairObject::m_numHairVertices</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00057">57</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a77dec5a63b22c5f78fd06ff401febd15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77dec5a63b22c5f78fd06ff401febd15">&#9670;&nbsp;</a></span>m_numSplineVertices</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int HairObject::m_numSplineVertices</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00066">66</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ac82886dbd7e5264225ebcb5f99757872"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac82886dbd7e5264225ebcb5f99757872">&#9670;&nbsp;</a></span>m_shadowIntensity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HairObject::m_shadowIntensity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00073">73</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a3e464073f88b900c1e95f7ba71289c12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e464073f88b900c1e95f7ba71289c12">&#9670;&nbsp;</a></span>m_simulation</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_simulation.html">Simulation</a>* HairObject::m_simulation</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00050">50</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a879778e62f22fcc9c20f5c2895eef99e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a879778e62f22fcc9c20f5c2895eef99e">&#9670;&nbsp;</a></span>m_specularIntensity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HairObject::m_specularIntensity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00075">75</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a19f61ba75419da160fcbaff53506bc52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19f61ba75419da160fcbaff53506bc52">&#9670;&nbsp;</a></span>m_transparency</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HairObject::m_transparency</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00076">76</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a145811afb2e42fd02d4e9e97e87ad8a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a145811afb2e42fd02d4e9e97e87ad8a7">&#9670;&nbsp;</a></span>m_useHairColorVariation</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HairObject::m_useHairColorVariation</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="hairobject_8h_source.html">hairobject.h</a> 第 <a class="el" href="hairobject_8h_source.html#l00068">68</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>src/<a class="el" href="hairobject_8h_source.html">hairobject.h</a></li>
+<li>src/<a class="el" href="hairobject_8cpp_source.html">hairobject.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

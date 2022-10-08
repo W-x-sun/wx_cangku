@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: glm/gtx/color_space.hpp 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_a18149d1b32e3efeacb0e34a962af4d3.html">glm</a></li><li class="navelem"><a class="el" href="dir_e20a439b6cdbf5d4e02750a868806e68.html">gtx</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">color_space.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="color__space_8hpp.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#ifndef GLM_GTX_color_space</span></div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#define GLM_GTX_color_space</span></div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">// Dependency:</span></div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#include &quot;../glm.hpp&quot;</span></div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#if(defined(GLM_MESSAGES) &amp;&amp; !defined(GLM_EXT_INCLUDED))</span></div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#   pragma message(&quot;GLM: GLM_GTX_color_space extension included&quot;)</span></div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceglm.html">glm</a></div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;{</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, precision P&gt;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    detail::tvec3&lt;T, P&gt; <a class="code" href="group__gtx__color__space.html#ga8c25ad5eee2386d7f5180ccaa0523246">rgbColor</a>(</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        detail::tvec3&lt;T, P&gt; <span class="keyword">const</span> &amp; hsvValue);</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, precision P&gt;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    detail::tvec3&lt;T, P&gt; <a class="code" href="group__gtx__color__space.html#gaef4a1b7ed5bec43e245cd152951ec28a">hsvColor</a>(</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        detail::tvec3&lt;T, P&gt; <span class="keyword">const</span> &amp; rgbValue);</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        </div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, precision P&gt;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    detail::tmat4x4&lt;T, P&gt; <a class="code" href="group__gtx__color__space.html#gad616175dd13cffd581c1bc30c8e3f904">saturation</a>(</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        T <span class="keyword">const</span> s);</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, precision P&gt;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    detail::tvec3&lt;T, P&gt; <a class="code" href="group__gtx__color__space.html#gad616175dd13cffd581c1bc30c8e3f904">saturation</a>(</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        T <span class="keyword">const</span> s,</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        detail::tvec3&lt;T, P&gt; <span class="keyword">const</span> &amp; color);</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        </div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, precision P&gt;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    detail::tvec4&lt;T, P&gt; <a class="code" href="group__gtx__color__space.html#gad616175dd13cffd581c1bc30c8e3f904">saturation</a>(</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        T <span class="keyword">const</span> s,</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        detail::tvec4&lt;T, P&gt; <span class="keyword">const</span> &amp; color);</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        </div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, precision P&gt;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    T <a class="code" href="group__gtx__color__space.html#gac62caac6baddd276a9569b3630fd47bf">luminosity</a>(</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        detail::tvec3&lt;T, P&gt; <span class="keyword">const</span> &amp; color);</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}<span class="comment">//namespace glm</span></div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="color__space_8inl.html">color_space.inl</a>&quot;</span></div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">#endif//GLM_GTX_color_space</span></div><div class="ttc" id="namespaceglm_html"><div class="ttname"><a href="namespaceglm.html">glm</a></div><div class="ttdef"><b>Definition:</b> <a href="__literals_8hpp_source.html#l00032">_literals.hpp:32</a></div></div>
+<div class="ttc" id="group__gtx__color__space_html_gad616175dd13cffd581c1bc30c8e3f904"><div class="ttname"><a href="group__gtx__color__space.html#gad616175dd13cffd581c1bc30c8e3f904">glm::saturation</a></div><div class="ttdeci">detail::tmat4x4&lt; T, P &gt; saturation(T const s)</div><div class="ttdef"><b>Definition:</b> <a href="color__space_8inl_source.html#l00110">color_space.inl:110</a></div></div>
+<div class="ttc" id="group__gtx__color__space_html_gaef4a1b7ed5bec43e245cd152951ec28a"><div class="ttname"><a href="group__gtx__color__space.html#gaef4a1b7ed5bec43e245cd152951ec28a">glm::hsvColor</a></div><div class="ttdeci">detail::tvec3&lt; T, P &gt; hsvColor(detail::tvec3&lt; T, P &gt; const &amp;rgbValue)</div><div class="ttdef"><b>Definition:</b> <a href="color__space_8inl_source.html#l00070">color_space.inl:70</a></div></div>
+<div class="ttc" id="group__gtx__color__space_html_gac62caac6baddd276a9569b3630fd47bf"><div class="ttname"><a href="group__gtx__color__space.html#gac62caac6baddd276a9569b3630fd47bf">glm::luminosity</a></div><div class="ttdeci">T luminosity(detail::tvec3&lt; T, P &gt; const &amp;color)</div><div class="ttdef"><b>Definition:</b> <a href="color__space_8inl_source.html#l00144">color_space.inl:144</a></div></div>
+<div class="ttc" id="group__gtx__color__space_html_ga8c25ad5eee2386d7f5180ccaa0523246"><div class="ttname"><a href="group__gtx__color__space.html#ga8c25ad5eee2386d7f5180ccaa0523246">glm::rgbColor</a></div><div class="ttdeci">detail::tvec3&lt; T, P &gt; rgbColor(detail::tvec3&lt; T, P &gt; const &amp;hsvValue)</div><div class="ttdef"><b>Definition:</b> <a href="color__space_8inl_source.html#l00013">color_space.inl:13</a></div></div>
+<div class="ttc" id="color__space_8inl_html"><div class="ttname"><a href="color__space_8inl.html">color_space.inl</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

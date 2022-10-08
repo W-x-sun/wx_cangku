@@ -1,0 +1,7 @@
+<map id="glm::clamp" name="glm::clamp">
+<area shape="rect" id="node2" href="$group__core__func__common.html#ga72e9e213c84f06a329a2a838b51200f4" title="glm::clamp" alt="" coords="140,92,227,119"/>
+<area shape="rect" id="node5" href="$group__core__func__common.html#gadccbaffe46f369cf1a96b2aef92cbfdd" title="glm::mix" alt="" coords="147,167,219,193"/>
+<area shape="rect" id="node3" href="$group__core__func__common.html#ga3dc90dbd66c9ca1dd5625c93d9c50f02" title="glm::min" alt="" coords="309,29,381,56"/>
+<area shape="rect" id="node4" href="$group__core__func__common.html#gaa228561a9da55898f8f72ad2403fafac" title="glm::max" alt="" coords="463,92,539,119"/>
+<area shape="rect" id="node6" href="$structglm_1_1detail_1_1compute__mix__vector.html#a68153ea8943ca1ffac025040a197c590" title="glm::detail::compute\l_mix_vector::call" alt="" coords="275,159,415,201"/>
+</map>

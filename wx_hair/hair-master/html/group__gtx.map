@@ -1,0 +1,52 @@
+<map id="GTX Extensions (Experimental)" name="GTX Extensions (Experimental)">
+<area shape="rect" id="node1" href="$group__gtx__matrix__interpolation.html" title="Allows to directly interpolate two exiciting matrices. " alt="" coords="260,5,464,32"/>
+<area shape="rect" id="node2" href="$group__gtx__matrix__major__storage.html" title="Build matrices with specific matrix order, row or column " alt="" coords="279,57,445,98"/>
+<area shape="rect" id="node3" href="$group__gtx__color__space.html" title="Related to RGB to HSV conversions and operations. " alt="" coords="281,123,443,149"/>
+<area shape="rect" id="node4" href="$group__gtx__polar__coordinates.html" title="Conversion from Euclidean space to polar space and revert. " alt="" coords="265,173,459,200"/>
+<area shape="rect" id="node6" href="$group__gtx__normal.html" title="Compute the normal of a triangle. " alt="" coords="297,224,427,251"/>
+<area shape="rect" id="node7" href="$group__gtx__vec1.html" title="Add vec1, ivec1, uvec1 and bvec1 types. &lt;glm/gtx/vec1.hpp&gt; need to be included to use these functiona..." alt="" coords="303,275,421,301"/>
+<area shape="rect" id="node8" href="$group__gtx__simd__mat4.html" title="SIMD implementation of mat4 type. " alt="" coords="285,325,439,352"/>
+<area shape="rect" id="node9" href="$group__gtx__intersect.html" title="Add intersection functions " alt="" coords="291,376,433,403"/>
+<area shape="rect" id="node10" href="$group__gtx__closest__point.html" title="Find the point on a straight line which is the closet of a point. " alt="" coords="278,427,446,453"/>
+<area shape="rect" id="node11" href="$group__gtx__io.html" title="std::[w]ostream support for glm types " alt="" coords="311,477,413,504"/>
+<area shape="rect" id="node12" href="$group__gtx__mixed__product.html" title="Mixed product of 3 vectors. " alt="" coords="271,528,453,555"/>
+<area shape="rect" id="node13" href="$group__gtx__gradient__paint.html" title="Functions that return the color of procedural gradient for specific coordinates. &lt;glm/gtx/gradient_pa..." alt="" coords="276,579,448,605"/>
+<area shape="rect" id="node14" href="$group__gtx__integer.html" title="Add support for integer for core functions " alt="" coords="297,629,427,656"/>
+<area shape="rect" id="node15" href="$group__gtx__bit.html" title="Allow to perform bit operations on integer values " alt="" coords="309,680,415,707"/>
+<area shape="rect" id="node16" href="$group__gtx__string__cast.html" title="Setup strings for GLM type values " alt="" coords="285,731,439,757"/>
+<area shape="rect" id="node17" href="$group__gtx__extented__min__max.html" title="GLM_GTX_extented_min_max" alt="" coords="261,781,463,808"/>
+<area shape="rect" id="node18" href="$group__gtx__norm.html" title="Various ways to compute vector norms. " alt="" coords="302,832,422,859"/>
+<area shape="rect" id="node19" href="$group__gtx__std__based__type.html" title="Adds vector types based on STL value types. &lt;glm/gtx/std_based_type.hpp&gt; need to be included to use t..." alt="" coords="271,883,453,909"/>
+<area shape="rect" id="node20" href="$group__gtx__number__precision.html" title="Defined size types. " alt="" coords="265,933,459,960"/>
+<area shape="rect" id="node21" href="$group__gtx__transform.html" title="Add transformation matrices " alt="" coords="289,984,435,1011"/>
+<area shape="rect" id="node22" href="$group__gtx__matrix__cross__product.html" title="Build cross product matrices " alt="" coords="279,1035,445,1077"/>
+<area shape="rect" id="node23" href="$group__gtx__wrap.html" title="Wrapping mode of texture coordinates. " alt="" coords="303,1101,421,1128"/>
+<area shape="rect" id="node24" href="$group__gtx__vector__query.html" title="Query informations of vector types " alt="" coords="279,1152,445,1179"/>
+<area shape="rect" id="node25" href="$group__gtx__matrix__operation.html" title="Build diagonal matrices from vectors. " alt="" coords="269,1203,455,1229"/>
+<area shape="rect" id="node26" href="$group__gtx__matrix__query.html" title="Query to evaluate matrix properties " alt="" coords="279,1253,445,1280"/>
+<area shape="rect" id="node27" href="$group__gtx__component__wise.html" title="Operations between components of a type " alt="" coords="267,1304,457,1331"/>
+<area shape="rect" id="node28" href="$group__gtx__inertia.html" title="Create inertia matrices " alt="" coords="299,1355,425,1381"/>
+<area shape="rect" id="node29" href="$group__gtx__fast__square__root.html" title="Fast but less accurate implementations of square root based functions. " alt="" coords="268,1405,456,1432"/>
+<area shape="rect" id="node30" href="$group__gtx__euler__angles.html" title="Build matrices from Euler angles. " alt="" coords="280,1456,444,1483"/>
+<area shape="rect" id="node31" href="$group__gtx__transform2.html" title="Add extra transformation matrices " alt="" coords="285,1507,439,1533"/>
+<area shape="rect" id="node32" href="$group__gtx__color__space___y_co_cg.html" title="RGB to YCoCg conversions and operations " alt="" coords="281,1558,443,1599"/>
+<area shape="rect" id="node33" href="$group__gtx__extend.html" title="Extend a position from a source to a position at a defined length. " alt="" coords="297,1624,427,1651"/>
+<area shape="rect" id="node34" href="$group__gtx__spline.html" title="Spline functions " alt="" coords="299,1675,425,1701"/>
+<area shape="rect" id="node35" href="$group__gtx__raw__data.html" title="Projection of a vector to other one " alt="" coords="290,1725,434,1752"/>
+<area shape="rect" id="node36" href="$group__gtx__fast__exponential.html" title="Fast but less accurate implementations of exponential based functions. " alt="" coords="269,1776,455,1803"/>
+<area shape="rect" id="node37" href="$group__gtx__log__base.html" title="Logarithm for any base. base can be a vector or a scalar. " alt="" coords="291,1827,433,1853"/>
+<area shape="rect" id="node38" href="$group__gtx__compatibility.html" title="Provide functions to increase the compatibility with Cg and HLSL languages " alt="" coords="280,1877,444,1904"/>
+<area shape="rect" id="node39" href="$group__gtx__associated__min__max.html" title="Min and max functions that return associated values not the compared onces. &lt;glm/gtx/associated_min_m..." alt="" coords="285,1929,439,1970"/>
+<area shape="rect" id="node40" href="$group__gtx__optimum__pow.html" title="Integer exponentiation of power functions. " alt="" coords="276,1995,448,2021"/>
+<area shape="rect" id="node41" href="$group__gtx__handed__coordinate__space.html" title="To know if a set of three basis vectors defines a right or left&#45;handed coordinate system..." alt="" coords="262,2046,462,2087"/>
+<area shape="rect" id="node42" href="$group__gtx__normalize__dot.html" title="Dot product of vectors that need to be normalize with a single square root. " alt="" coords="276,2112,448,2139"/>
+<area shape="rect" id="node43" href="$group__gtx__quaternion.html" title="Extented quaternion types and functions " alt="" coords="287,2163,437,2189"/>
+<area shape="rect" id="node44" href="$group__gtx__vector__angle.html" title="Compute angle between vectors " alt="" coords="279,2213,445,2240"/>
+<area shape="rect" id="node45" href="$group__gtx__perpendicular.html" title="Perpendicular of a vector from other one " alt="" coords="278,2264,446,2291"/>
+<area shape="rect" id="node46" href="$group__gtx__orthonormalize.html" title="Orthonormalize matrices. " alt="" coords="274,2315,450,2341"/>
+<area shape="rect" id="node47" href="$group__gtx__multiple.html" title="Find the closest number of a number multiple of other number. " alt="" coords="294,2365,430,2392"/>
+<area shape="rect" id="node48" href="$group__gtx__simd__vec4.html" title="SIMD implementation of quat type. " alt="" coords="287,2416,437,2443"/>
+<area shape="rect" id="node49" href="$group__gtx__projection.html" title="Projection of a vector to other one " alt="" coords="289,2467,435,2493"/>
+<area shape="rect" id="node50" href="$group__gtx__fast__trigonometry.html" title="Fast but less accurate implementations of trigonometric functions. " alt="" coords="266,2517,458,2544"/>
+<area shape="rect" id="node51" href="$group__gtx__rotate__vector.html" title="Function to directly rotate a vector " alt="" coords="279,2568,445,2595"/>
+</map>

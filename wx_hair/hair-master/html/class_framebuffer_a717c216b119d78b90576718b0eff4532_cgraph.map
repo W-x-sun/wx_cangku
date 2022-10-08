@@ -1,0 +1,7 @@
+<map id="Framebuffer::generateColorTexture" name="Framebuffer::generateColorTexture">
+<area shape="rect" id="node2" href="$class_texture.html#a2656b269ed91912ef63f37648b41741c" title="Texture::createColorTexture" alt="" coords="235,5,420,32"/>
+<area shape="rect" id="node3" href="$class_framebuffer.html#a25abcf91d0149dfc747fe2990aa4a7c6" title="Framebuffer::attachColor\lTexture" alt="" coords="244,57,411,98"/>
+<area shape="rect" id="node4" href="$class_framebuffer.html#ab7ef3365c9c024130e22fdff12130baa" title="Framebuffer::attachColor\lTextures" alt="" coords="468,57,635,98"/>
+<area shape="rect" id="node5" href="$class_framebuffer.html#a2856bbddc5aa43e5be2a6f21aa244752" title="Framebuffer::bind" alt="" coords="690,39,814,65"/>
+<area shape="rect" id="node6" href="$class_framebuffer.html#ae2b12e5892a0709ea3725729fff6c8b1" title="Framebuffer::unbind" alt="" coords="683,89,821,116"/>
+</map>

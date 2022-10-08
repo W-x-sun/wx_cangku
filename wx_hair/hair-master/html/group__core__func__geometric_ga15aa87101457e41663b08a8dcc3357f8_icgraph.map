@@ -1,0 +1,51 @@
+<map id="glm::normalize" name="glm::normalize">
+<area shape="rect" id="node2" href="$group__core__func__geometric.html#ga89b91c2a256cfb62ecbc589d1ee36d3c" title="glm::cross" alt="" coords="193,1347,276,1374"/>
+<area shape="rect" id="node6" href="$group__gtc__quaternion.html#ga3406ab83e2cafd4034f359957e942410" title="glm::length" alt="" coords="601,703,688,730"/>
+<area shape="rect" id="node10" href="$group__gtx__quaternion.html#gaac3f65ac2ca7ac7b22bf18d9f6fd4e6e" title="glm::rotation" alt="" coords="597,1132,692,1159"/>
+<area shape="rect" id="node11" href="$group__gtx__quaternion.html#ga7c7a6ebde274fa1de72cb65cb8f2bed2" title="glm::fastMix" alt="" coords="843,1234,937,1260"/>
+<area shape="rect" id="node16" href="$group__gtx__intersect.html#ga029b0fdc889428d905a6267aee1f0f25" title="glm::intersectLineSphere" alt="" coords="561,551,728,578"/>
+<area shape="rect" id="node19" href="$group__gtx__orthonormalize.html#ga7487cd958e5407899a85e67b6512fa4e" title="glm::orthonormalize" alt="" coords="577,778,713,804"/>
+<area shape="rect" id="node23" href="$class_obj_mesh.html#a5113fddaeaa8caec01f5e05bfe2bd5e0" title="ObjMesh::contains" alt="" coords="825,715,955,742"/>
+<area shape="rect" id="node24" href="$class_simulation.html#a5971c49d9efef258c5dfa2a90ce9c0ed" title="Simulation::updateRotation" alt="" coords="1039,323,1217,350"/>
+<area shape="rect" id="node25" href="$class_hair.html#a31c212644f257b4de49157f2f00df81e" title="Hair::Hair" alt="" coords="605,1828,684,1855"/>
+<area shape="rect" id="node26" href="$structglm_1_1detail_1_1tquat.html#a203189580d111eb8a73ed10a1d640464" title="glm::detail::tquat\l::tquat" alt="" coords="369,1880,488,1921"/>
+<area shape="rect" id="node30" href="$group__gtx__normal.html#ga3a2fd5f66c4829980981c408e0f050bc" title="glm::triangleNormal" alt="" coords="361,1946,496,1972"/>
+<area shape="rect" id="node36" href="$class_g_l_widget.html#a7cb45e554d24c2020512aa18949a6230" title="GLWidget::mouseMoveEvent" alt="" coords="548,399,741,426"/>
+<area shape="rect" id="node38" href="$class_hair_object.html#a402d2ebcaec8b9a5580a452e8a9feb8a" title="HairObject::HairObject" alt="" coords="567,1778,722,1804"/>
+<area shape="rect" id="node39" href="$group__gtc__matrix__transform.html#ga61e65a3bb227c267d1a15113d1056fb1" title="glm::rotate" alt="" coords="387,247,471,274"/>
+<area shape="rect" id="node46" href="$namespaceglm.html#a03bd2c89f62ae44ad3a5e5dc21effd06" title="glm::rotate_slow" alt="" coords="175,247,294,274"/>
+<area shape="rect" id="node47" href="$namespaceglm_1_1detail.html#a3a29e0a166da991141a043986318f44f" title="glm::detail::operator!=" alt="" coords="160,2148,309,2175"/>
+<area shape="rect" id="node48" href="$group__gtx__matrix__interpolation.html#gaffcc7a788548911bea4e8a7bec9aa69d" title="glm::axisAngleMatrix" alt="" coords="163,2199,307,2226"/>
+<area shape="rect" id="node3" href="$group__core__func__geometric.html#ga7dada304da2ba7dd3376ab4f178c3f6b" title="glm::dot" alt="" coords="394,828,463,855"/>
+<area shape="rect" id="node12" href="$group__gtx__handed__coordinate__space.html#gad06cdc63effdab6532f397b561f6de88" title="glm::rightHanded" alt="" coords="829,1183,951,1210"/>
+<area shape="rect" id="node13" href="$group__gtx__handed__coordinate__space.html#gabce2601c792d8961aa495803a640e035" title="glm::leftHanded" alt="" coords="587,1335,702,1362"/>
+<area shape="rect" id="node14" href="$group__gtx__intersect.html#gac8bcfc662702cc5ae4463a7f95c35ed4" title="glm::intersectRayTriangle" alt="" coords="559,1234,730,1260"/>
+<area shape="rect" id="node15" href="$group__gtx__intersect.html#ga54942f4d0fc37afdd866e79a4b8b997f" title="glm::intersectLineTriangle" alt="" coords="559,1284,730,1311"/>
+<area shape="rect" id="node18" href="$group__gtx__mixed__product.html#ga12b554c9cf38238e3596fc5c6faa50ab" title="Mixed product of 3 vectors (from GLM_GTX_mixed_product extension) " alt="" coords="579,1183,710,1210"/>
+<area shape="rect" id="node20" href="$group__gtx__rotate__vector.html#ga69a9261c66a81fd52afe8199b30be239" title="glm::orientation" alt="" coords="589,652,700,679"/>
+<area shape="rect" id="node22" href="$struct_triangle.html#a3d0375e33d4fe79c2985c1463a76c992" title="Triangle::intersect" alt="" coords="581,828,708,855"/>
+<area shape="rect" id="node27" href="$namespaceglm_1_1detail.html#a995456a52849964e6238540829448cfb" title="glm::detail::operator*" alt="" coords="357,1575,500,1602"/>
+<area shape="rect" id="node28" href="$group__gtc__quaternion.html#ga34ee289ca53a08207904e935104715d8" title="glm::normalize" alt="" coords="375,1626,482,1652"/>
+<area shape="rect" id="node29" href="$group__gtx__quaternion.html#gafe2f2777869a22125fdc96a46365f2c1" title="glm::cross" alt="" coords="387,1676,470,1703"/>
+<area shape="rect" id="node31" href="$namespaceglm.html#af55916a3764adaa7537f5e3e9ccacb81" title="glm::dot4" alt="" coords="391,1727,467,1754"/>
+<area shape="rect" id="node32" href="$group__gtx__vector__angle.html#ga787f9e46228f358d3e0cc307950ae64b" title="glm::orientedAngle" alt="" coords="363,930,494,956"/>
+<area shape="rect" id="node33" href="$structglm_1_1detail_1_1compute__are_collinear_3_01_t_00_01_p_00_01tvec2_01_4.html#aed2e388a1da96c712df4d2eb52fa2919" title="glm::detail::compute\l_areCollinear\&lt; T, P,\l tvec2 \&gt;::call" alt="" coords="359,980,499,1036"/>
+<area shape="rect" id="node34" href="$structglm_1_1detail_1_1compute__are_collinear_3_01_t_00_01_p_00_01tvec3_01_4.html#af244cc9d1255b1d05965e920653a2be0" title="glm::detail::compute\l_areCollinear\&lt; T, P,\l tvec3 \&gt;::call" alt="" coords="359,1060,499,1116"/>
+<area shape="rect" id="node35" href="$structglm_1_1detail_1_1compute__are_collinear_3_01_t_00_01_p_00_01tvec4_01_4.html#acbc6003e2f0f598c890cabdd6f1c2c89" title="glm::detail::compute\l_areCollinear\&lt; T, P,\l tvec4 \&gt;::call" alt="" coords="359,1140,499,1196"/>
+<area shape="rect" id="node37" href="$struct_triangle.html#afdbdbe110d7f2f25ab98b4fc39a5fd64" title="Triangle::area" alt="" coords="378,1524,479,1551"/>
+<area shape="rect" id="node4" href="$namespaceglm.html#aa4578d64c86a5af614f700eb8a68a732" title="glm::distance" alt="" coords="595,980,695,1007"/>
+<area shape="rect" id="node5" href="$namespaceglm.html#a1998fa8aa0ed2caf8cb050bf8ca594eb" title="glm::dot" alt="" coords="610,1031,679,1058"/>
+<area shape="rect" id="node7" href="$group__gtc__quaternion.html#ga7468a211a20ea56ea5cfb0625226868a" title="glm::slerp" alt="" coords="605,450,684,476"/>
+<area shape="rect" id="node8" href="$group__gtx__quaternion.html#gad8c24ad4e57f555ebb2c00a1fb11230b" title="glm::shortMix" alt="" coords="1077,1183,1179,1210"/>
+<area shape="rect" id="node21" href="$group__gtx__vector__angle.html#gad5793268991cf881b374af147003afc4" title="glm::orientedAngle" alt="" coords="579,500,710,527"/>
+<area shape="rect" id="node9" href="$group__gtx__quaternion.html#ga02d70b959b5ec6b4c318dce5f9f179f6" title="glm::toQuat" alt="" coords="1265,1183,1356,1210"/>
+<area shape="rect" id="node17" href="$group__gtx__intersect.html#ga5b3915fd8ab76d3e3d9a98869d9a3c44" title="glm::intersectRaySphere" alt="" coords="807,551,973,578"/>
+<area shape="rect" id="node40" href="$namespaceglm.html#a9bdd669ebcdacc8df79dcb33a0f27f37" title="glm::translate_slow" alt="" coords="577,247,712,274"/>
+<area shape="rect" id="node41" href="$group__gtx__quaternion.html#ga72607beec2c5c87915ac76234e6e1ef3" title="glm::pow" alt="" coords="607,44,682,71"/>
+<area shape="rect" id="node42" href="$group__gtx__quaternion.html#ga913d801901676be74696d84f212531ed" title="glm::rotate" alt="" coords="603,95,687,122"/>
+<area shape="rect" id="node43" href="$class_g_l_widget.html#ae2636d8acc8ac8cfdf44ad373631b800" title="GLWidget::initCamera" alt="" coords="569,146,720,172"/>
+<area shape="rect" id="node44" href="$class_g_l_widget.html#a30ba6d7dadccb0d20b6e669999fb69ed" title="GLWidget::wheelEvent" alt="" coords="567,196,723,223"/>
+<area shape="rect" id="node45" href="$class_simulation.html#a19de87e81f0429c9a5936d4126440310" title="Simulation::updateHairPosition" alt="" coords="789,120,991,147"/>
+<area shape="rect" id="node49" href="$group__gtx__matrix__interpolation.html#ga6b76b95383a720b763a0bf12b9691e3a" title="glm::axisAngle" alt="" coords="375,2199,483,2226"/>
+<area shape="rect" id="node50" href="$group__gtx__matrix__interpolation.html#ga26fcd9ab0660c54a19d5edec727d1dab" title="glm::interpolate" alt="" coords="589,2174,700,2200"/>
+</map>

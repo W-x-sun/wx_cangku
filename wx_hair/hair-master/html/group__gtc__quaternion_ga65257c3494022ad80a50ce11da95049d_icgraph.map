@@ -1,0 +1,11 @@
+<map id="glm::mat3_cast" name="glm::mat3_cast">
+<area shape="rect" id="node2" href="$group__gtx__quaternion.html#ga28c762d44cbd532b8fa256c12bbc80d2" title="glm::toMat3" alt="" coords="176,5,267,32"/>
+<area shape="rect" id="node3" href="$group__gtc__quaternion.html#ga1de7653ddf380ff06d2300eea831664c" title="glm::yaw" alt="" coords="184,56,259,83"/>
+<area shape="rect" id="node8" href="$group__gtc__quaternion.html#gafc4e34c836f7ccb5f3bb2a0373c831e0" title="glm::mat4_cast" alt="" coords="165,107,277,133"/>
+<area shape="rect" id="node4" href="$group__gtc__quaternion.html#gade4034f49ccadf63cb31a7fb5fa3c8aa" title="glm::eulerAngles" alt="" coords="601,56,720,83"/>
+<area shape="rect" id="node6" href="$group__gtc__quaternion.html#ga4d345dc369a54f53f5ebc375bac56d11" title="glm::pitch" alt="" coords="342,56,421,83"/>
+<area shape="rect" id="node5" href="$group__gtc__quaternion.html#gaa9a8891f03d8f5373525c4b3159c1c73" title="glm::rotate" alt="" coords="768,56,852,83"/>
+<area shape="rect" id="node7" href="$group__gtc__quaternion.html#ga6d883e423bc425f4334fcce202131f7e" title="glm::roll" alt="" coords="485,107,553,133"/>
+<area shape="rect" id="node9" href="$group__gtx__quaternion.html#ga9f5ed797b672be7f87648c542ddd71d9" title="glm::toMat4" alt="" coords="336,107,427,133"/>
+<area shape="rect" id="node10" href="$namespaceglm.html#a350adcfec63eb015dd2d9ee14a4e8cde" title="glm::mat4_cast" alt="" coords="325,157,437,184"/>
+</map>

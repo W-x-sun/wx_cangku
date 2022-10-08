@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: glm/detail/func_noise.inl 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_a18149d1b32e3efeacb0e34a962af4d3.html">glm</a></li><li class="navelem"><a class="el" href="dir_045eba597dfb2bce1237989babc24b5c.html">detail</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#namespaces">命名空间</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">func_noise.inl 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="__noise_8hpp_source.html">../detail/_noise.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="func__common_8hpp_source.html">./func_common.hpp</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+func_noise.inl 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="func__noise_8inl__incl.png" border="0" usemap="#glm_2detail_2func__noise_8inl" alt=""/></div>
+<map name="glm_2detail_2func__noise_8inl" id="glm_2detail_2func__noise_8inl">
+<area shape="rect" id="node2" href="__noise_8hpp.html" title="../detail/_noise.hpp" alt="" coords="443,80,575,107"/>
+<area shape="rect" id="node3" href="func__common_8hpp.html" title="./func_common.hpp" alt="" coords="599,80,737,107"/>
+<area shape="rect" id="node4" href="setup_8hpp.html" title="setup.hpp" alt="" coords="281,603,359,629"/>
+<area shape="rect" id="node6" href="precision_8hpp.html" title="precision.hpp" alt="" coords="688,528,787,555"/>
+<area shape="rect" id="node7" href="type__int_8hpp.html" title="type_int.hpp" alt="" coords="133,528,227,555"/>
+<area shape="rect" id="node8" href="__fixes_8hpp.html" title="_fixes.hpp" alt="" coords="440,155,523,181"/>
+<area shape="rect" id="node10" href="func__common_8inl.html" title="func_common.inl" alt="" coords="607,155,729,181"/>
+<area shape="rect" id="node11" href="func__vector__relational_8hpp.html" title="func_vector_relational.hpp" alt="" coords="863,229,1038,256"/>
+<area shape="rect" id="node14" href="type__vec2_8hpp.html" title="type_vec2.hpp" alt="" coords="635,304,741,331"/>
+<area shape="rect" id="node18" href="type__vec3_8hpp.html" title="type_vec3.hpp" alt="" coords="504,304,611,331"/>
+<area shape="rect" id="node20" href="type__vec4_8hpp.html" title="type_vec4.hpp" alt="" coords="232,304,339,331"/>
+<area shape="rect" id="node22" href="__vectorize_8hpp.html" title="_vectorize.hpp" alt="" coords="499,229,605,256"/>
+<area shape="rect" id="node12" href="func__vector__relational_8inl.html" title="func_vector_relational.inl" alt="" coords="817,304,983,331"/>
+<area shape="rect" id="node15" href="type__vec_8hpp.html" title="type_vec.hpp" alt="" coords="429,453,529,480"/>
+<area shape="rect" id="node17" href="type__vec2_8inl.html" title="type_vec2.inl" alt="" coords="808,379,907,405"/>
+<area shape="rect" id="node19" href="type__vec3_8inl.html" title="type_vec3.inl" alt="" coords="635,379,733,405"/>
+<area shape="rect" id="node21" href="type__vec4_8inl.html" title="type_vec4.inl" alt="" coords="43,379,141,405"/>
+<area shape="rect" id="node23" href="type__vec1_8hpp.html" title="type_vec1.hpp" alt="" coords="367,304,473,331"/>
+<area shape="rect" id="node24" href="fwd_8hpp.html" title="../fwd.hpp" alt="" coords="165,379,245,405"/>
+<area shape="rect" id="node27" href="type__vec1_8inl.html" title="type_vec1.inl" alt="" coords="371,379,469,405"/>
+<area shape="rect" id="node25" href="type__float_8hpp.html" title="detail/type_float.hpp" alt="" coords="251,528,389,555"/>
+<area shape="rect" id="node26" href="type__mat_8hpp.html" title="detail/type_mat.hpp" alt="" coords="268,453,404,480"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+此图展示该文件直接或间接的被哪些文件引用了:</div>
+<div class="dyncontent">
+<div class="center"><img src="func__noise_8inl__dep__incl.png" border="0" usemap="#glm_2detail_2func__noise_8inldep" alt=""/></div>
+<map name="glm_2detail_2func__noise_8inldep" id="glm_2detail_2func__noise_8inldep">
+<area shape="rect" id="node2" href="func__noise_8hpp.html" title="glm/detail/func_noise.hpp" alt="" coords="5,80,176,107"/>
+</map>
+</div>
+</div>
+<p><a href="func__noise_8inl_source.html">浏览源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+命名空间</h2></td></tr>
+<tr class="memitem:namespaceglm"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceglm.html">glm</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceglm_1_1detail"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceglm_1_1detail.html">glm::detail</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:a7ad8d424d952c308d27ac430df13a9bd"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:a7ad8d424d952c308d27ac430df13a9bd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec4&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm_1_1detail.html#a7ad8d424d952c308d27ac430df13a9bd">glm::detail::grad4</a> (T const &amp;j, detail::tvec4&lt; T, P &gt; const &amp;ip)</td></tr>
+<tr class="separator:a7ad8d424d952c308d27ac430df13a9bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46b13094895146ed855baa444f5b13a2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a46b13094895146ed855baa444f5b13a2"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a46b13094895146ed855baa444f5b13a2">glm::noise1</a> (T const &amp;x)</td></tr>
+<tr class="separator:a46b13094895146ed855baa444f5b13a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a934f962ac6c9780c1b9aa7f0b2c36cfc"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a934f962ac6c9780c1b9aa7f0b2c36cfc"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec2&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a934f962ac6c9780c1b9aa7f0b2c36cfc">glm::noise2</a> (T const &amp;x)</td></tr>
+<tr class="separator:a934f962ac6c9780c1b9aa7f0b2c36cfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a195da32ebfea1c706a6a7e5a08838575"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a195da32ebfea1c706a6a7e5a08838575"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec3&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a195da32ebfea1c706a6a7e5a08838575">glm::noise3</a> (T const &amp;x)</td></tr>
+<tr class="separator:a195da32ebfea1c706a6a7e5a08838575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a034c132519dcf2e11725910dbfd466ce"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a034c132519dcf2e11725910dbfd466ce"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec4&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a034c132519dcf2e11725910dbfd466ce">glm::noise4</a> (T const &amp;x)</td></tr>
+<tr class="separator:a034c132519dcf2e11725910dbfd466ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6efe792fcb5730d715e2876db85e1e54"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:a6efe792fcb5730d715e2876db85e1e54"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a6efe792fcb5730d715e2876db85e1e54">glm::noise1</a> (detail::tvec2&lt; T, P &gt; const &amp;v)</td></tr>
+<tr class="separator:a6efe792fcb5730d715e2876db85e1e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61a2448910dff94fb4b05826f8a49fbe"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:a61a2448910dff94fb4b05826f8a49fbe"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a61a2448910dff94fb4b05826f8a49fbe">glm::noise1</a> (detail::tvec3&lt; T, P &gt; const &amp;v)</td></tr>
+<tr class="separator:a61a2448910dff94fb4b05826f8a49fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cd64bc969898037123e36a45f56a330"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:a8cd64bc969898037123e36a45f56a330"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a8cd64bc969898037123e36a45f56a330">glm::noise1</a> (detail::tvec4&lt; T, P &gt; const &amp;v)</td></tr>
+<tr class="separator:a8cd64bc969898037123e36a45f56a330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3cab4c28d156aff0cc38c6870d0b8f8"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:aa3cab4c28d156aff0cc38c6870d0b8f8"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec2&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#aa3cab4c28d156aff0cc38c6870d0b8f8">glm::noise2</a> (detail::tvec2&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:aa3cab4c28d156aff0cc38c6870d0b8f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a745a9e2a6d7e0cd2c357b38a1677b273"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:a745a9e2a6d7e0cd2c357b38a1677b273"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec2&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a745a9e2a6d7e0cd2c357b38a1677b273">glm::noise2</a> (detail::tvec3&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:a745a9e2a6d7e0cd2c357b38a1677b273"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb040cdde4e6d6b1fe8715368689bb92"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:adb040cdde4e6d6b1fe8715368689bb92"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec2&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#adb040cdde4e6d6b1fe8715368689bb92">glm::noise2</a> (detail::tvec4&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:adb040cdde4e6d6b1fe8715368689bb92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac547b12bbecbb0750aaa57e1aadf5292"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:ac547b12bbecbb0750aaa57e1aadf5292"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec3&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#ac547b12bbecbb0750aaa57e1aadf5292">glm::noise3</a> (detail::tvec2&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:ac547b12bbecbb0750aaa57e1aadf5292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a786c7437a3a5ce6841dceb147b30af81"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:a786c7437a3a5ce6841dceb147b30af81"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec3&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a786c7437a3a5ce6841dceb147b30af81">glm::noise3</a> (detail::tvec3&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:a786c7437a3a5ce6841dceb147b30af81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefcd263a48e42f99258c9dc05c131fdb"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:aefcd263a48e42f99258c9dc05c131fdb"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec3&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#aefcd263a48e42f99258c9dc05c131fdb">glm::noise3</a> (detail::tvec4&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:aefcd263a48e42f99258c9dc05c131fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa64dcec1a8c06703a5c26218f1c83c63"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:aa64dcec1a8c06703a5c26218f1c83c63"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec4&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#aa64dcec1a8c06703a5c26218f1c83c63">glm::noise4</a> (detail::tvec2&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:aa64dcec1a8c06703a5c26218f1c83c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabc399aa2343a49622ac52a25cc5f961"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:aabc399aa2343a49622ac52a25cc5f961"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec4&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#aabc399aa2343a49622ac52a25cc5f961">glm::noise4</a> (detail::tvec3&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:aabc399aa2343a49622ac52a25cc5f961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae69869ab78e3158bcd45cc8105d49fd1"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:ae69869ab78e3158bcd45cc8105d49fd1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec4&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#ae69869ab78e3158bcd45cc8105d49fd1">glm::noise4</a> (detail::tvec4&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:ae69869ab78e3158bcd45cc8105d49fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

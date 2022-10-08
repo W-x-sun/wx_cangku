@@ -1,0 +1,6 @@
+<map id="OpenGLShape::destroy" name="OpenGLShape::destroy">
+<area shape="rect" id="node2" href="$class_open_g_l_shape.html#ab485ea03f72775cc0312a8fd72d7ed2c" title="OpenGLShape::~OpenGLShape" alt="" coords="212,5,420,32"/>
+<area shape="rect" id="node3" href="$class_hair.html#a1709a3ba429b729d04cdd3c69139ab6b" title="Hair::~Hair" alt="" coords="273,56,359,83"/>
+<area shape="rect" id="node4" href="$class_quad.html#a5db77c0481b30c0b7c1014cc535284ad" title="Quad::~Quad" alt="" coords="266,107,366,133"/>
+<area shape="rect" id="node5" href="$class_quad.html#ae446d188d645cc5c512336f25d1a697a" title="Quad::Quad" alt="" coords="468,107,560,133"/>
+</map>

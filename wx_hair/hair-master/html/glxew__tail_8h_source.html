@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: glew-1.10.0/auto/src/glxew_tail.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_1d053040951b96542e532f943dc90801.html">glew-1.10.0</a></li><li class="navelem"><a class="el" href="dir_98a606e313adaae9d6a84b0b1300e121.html">auto</a></li><li class="navelem"><a class="el" href="dir_1db8c30d3747337f48ee862550f79f3a.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">glxew_tail.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="glxew__tail_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/* ------------------------------------------------------------------------ */</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#ifdef GLEW_MX</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>GLXEWContextStruct GLXEWContext;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<a class="code" href="glew__head_8h.html#a9511a879ef26c5b9a6fc4f9605580e6f">GLEWAPI</a> <a class="code" href="glew__head_8h.html#a7efd7809e1632cdae75603fd1fee61c0">GLenum</a> <a class="code" href="glew__head_8h.html#a60cc5f81ba83274ab701b5890a227caa">GLEWAPIENTRY</a> <a class="code" href="glew__init__glx_8c.html#af0ae695820dd75293513b45862ce264b">glxewContextInit</a> (GLXEWContext *<a class="code" href="glewinfo__tail_8c.html#a8117cd28e414b9543443990d312580b8">ctx</a>);</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<a class="code" href="glew__head_8h.html#a9511a879ef26c5b9a6fc4f9605580e6f">GLEWAPI</a> <a class="code" href="glew__head_8h.html#aa010a67382116caf29c29318251ccb6c">GLboolean</a> <a class="code" href="glew__head_8h.html#a60cc5f81ba83274ab701b5890a227caa">GLEWAPIENTRY</a> glxewContextIsSupported (<span class="keyword">const</span> GLXEWContext *<a class="code" href="glewinfo__tail_8c.html#a8117cd28e414b9543443990d312580b8">ctx</a>, <span class="keyword">const</span> <span class="keywordtype">char</span> *name);</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#define glxewInit() glxewContextInit(glxewGetContext())</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#define glxewIsSupported(x) glxewContextIsSupported(glxewGetContext(), x)</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#define GLXEW_GET_VAR(x) (*(const GLboolean*)&amp;(glxewGetContext()-&gt;x))</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#define GLXEW_GET_FUN(x) x</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#else </span><span class="comment">/* GLEW_MX */</span><span class="preprocessor"></span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="glxew__tail_8h.html#af68d37942a265e60ea4220c7e5215314">   17</a></span>&#160;<span class="preprocessor">#define GLXEW_GET_VAR(x) (*(const GLboolean*)&amp;x)</span></div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="glxew__tail_8h.html#ad6c9eec1aebfe37a392caa91046f8e79">   18</a></span>&#160;<span class="preprocessor">#define GLXEW_GET_FUN(x) x</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<a class="code" href="glew__head_8h.html#a9511a879ef26c5b9a6fc4f9605580e6f">GLEWAPI</a> <a class="code" href="glew__head_8h.html#aa010a67382116caf29c29318251ccb6c">GLboolean</a> <a class="code" href="glew__head_8h.html#a60cc5f81ba83274ab701b5890a227caa">GLEWAPIENTRY</a> <a class="code" href="glxew__tail_8h.html#a45431fbafe8a505ed89e8d9e48d6cac3">glxewIsSupported</a> (<span class="keyword">const</span> <span class="keywordtype">char</span> *name);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* GLEW_MX */</span><span class="preprocessor"></span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<a class="code" href="glew__head_8h.html#a9511a879ef26c5b9a6fc4f9605580e6f">GLEWAPI</a> <a class="code" href="glew__head_8h.html#aa010a67382116caf29c29318251ccb6c">GLboolean</a> <a class="code" href="glew__head_8h.html#a60cc5f81ba83274ab701b5890a227caa">GLEWAPIENTRY</a> <a class="code" href="glxew__tail_8h.html#a57de4782ff2af15d3a03e6e27e0e92cb">glxewGetExtension</a> (<span class="keyword">const</span> <span class="keywordtype">char</span> *name);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __glxew_h__ */</span><span class="preprocessor"></span></div><div class="ttc" id="glxew__tail_8h_html_a57de4782ff2af15d3a03e6e27e0e92cb"><div class="ttname"><a href="glxew__tail_8h.html#a57de4782ff2af15d3a03e6e27e0e92cb">glxewGetExtension</a></div><div class="ttdeci">GLEWAPI GLboolean GLEWAPIENTRY glxewGetExtension(const char *name)</div><div class="ttdef"><b>Definition:</b> <a href="glew__init__glx_8c_source.html#l00003">glew_init_glx.c:3</a></div></div>
+<div class="ttc" id="glew__head_8h_html_aa010a67382116caf29c29318251ccb6c"><div class="ttname"><a href="glew__head_8h.html#aa010a67382116caf29c29318251ccb6c">GLboolean</a></div><div class="ttdeci">unsigned char GLboolean</div><div class="ttdef"><b>Definition:</b> <a href="glew__head_8h_source.html#l00197">glew_head.h:197</a></div></div>
+<div class="ttc" id="glew__init__glx_8c_html_af0ae695820dd75293513b45862ce264b"><div class="ttname"><a href="glew__init__glx_8c.html#af0ae695820dd75293513b45862ce264b">glxewContextInit</a></div><div class="ttdeci">GLenum glxewContextInit(GLXEW_CONTEXT_ARG_DEF_LIST)</div><div class="ttdef"><b>Definition:</b> <a href="glew__init__glx_8c_source.html#l00015">glew_init_glx.c:15</a></div></div>
+<div class="ttc" id="glewinfo__tail_8c_html_a8117cd28e414b9543443990d312580b8"><div class="ttname"><a href="glewinfo__tail_8c.html#a8117cd28e414b9543443990d312580b8">ctx</a></div><div class="ttdeci">GLXContext ctx</div><div class="ttdef"><b>Definition:</b> <a href="glewinfo__tail_8c_source.html#l00223">glewinfo_tail.c:223</a></div></div>
+<div class="ttc" id="glew__head_8h_html_a7efd7809e1632cdae75603fd1fee61c0"><div class="ttname"><a href="glew__head_8h.html#a7efd7809e1632cdae75603fd1fee61c0">GLenum</a></div><div class="ttdeci">unsigned int GLenum</div><div class="ttdef"><b>Definition:</b> <a href="glew__head_8h_source.html#l00192">glew_head.h:192</a></div></div>
+<div class="ttc" id="glew__head_8h_html_a60cc5f81ba83274ab701b5890a227caa"><div class="ttname"><a href="glew__head_8h.html#a60cc5f81ba83274ab701b5890a227caa">GLEWAPIENTRY</a></div><div class="ttdeci">#define GLEWAPIENTRY</div><div class="ttdef"><b>Definition:</b> <a href="glew__head_8h_source.html#l00178">glew_head.h:178</a></div></div>
+<div class="ttc" id="glxew__tail_8h_html_a45431fbafe8a505ed89e8d9e48d6cac3"><div class="ttname"><a href="glxew__tail_8h.html#a45431fbafe8a505ed89e8d9e48d6cac3">glxewIsSupported</a></div><div class="ttdeci">GLEWAPI GLboolean GLEWAPIENTRY glxewIsSupported(const char *name)</div><div class="ttdef"><b>Definition:</b> <a href="glew-1_810_80_2src_2glew_8c_source.html#l17624">glew.c:17624</a></div></div>
+<div class="ttc" id="glew__head_8h_html_a9511a879ef26c5b9a6fc4f9605580e6f"><div class="ttname"><a href="glew__head_8h.html#a9511a879ef26c5b9a6fc4f9605580e6f">GLEWAPI</a></div><div class="ttdeci">#define GLEWAPI</div><div class="ttdef"><b>Definition:</b> <a href="glew__head_8h_source.html#l00164">glew_head.h:164</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

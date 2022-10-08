@@ -1,0 +1,8 @@
+<map id="Simulation::updateHairPosition" name="Simulation::updateHairPosition">
+<area shape="rect" id="node2" href="$class_simulation.html#ae5bd3ee3c85b356871fc832d5bf3d3f1" title="Simulation::simulate" alt="" coords="274,5,414,32"/>
+<area shape="rect" id="node5" href="$class_simulation.html#ae7e6faa6907c16c743cc05611b64f519" title="Simulation::updatePosition" alt="" coords="255,56,433,83"/>
+<area shape="rect" id="node7" href="$class_simulation.html#a5971c49d9efef258c5dfa2a90ce9c0ed" title="Simulation::updateRotation" alt="" coords="255,107,433,133"/>
+<area shape="rect" id="node3" href="$class_hair_object.html#abc634e9ace88becde40ef1e89d631b44" title="HairObject::update" alt="" coords="513,5,643,32"/>
+<area shape="rect" id="node4" href="$class_g_l_widget.html#a843150d06edc5e2e50d98e395c2b8759" title="GLWidget::paintGL" alt="" coords="723,5,856,32"/>
+<area shape="rect" id="node6" href="$class_g_l_widget.html#a7cb45e554d24c2020512aa18949a6230" title="GLWidget::mouseMoveEvent" alt="" coords="481,56,675,83"/>
+</map>

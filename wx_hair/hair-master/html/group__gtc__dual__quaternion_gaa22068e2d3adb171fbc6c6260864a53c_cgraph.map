@@ -1,0 +1,5 @@
+<map id="glm::mat2x4_cast" name="glm::mat2x4_cast">
+<area shape="rect" id="node2" href="$group__gtc__dual__quaternion.html#ga9e5bb363690e8c1058f86b39596a7187" title="glm::mat3x4_cast" alt="" coords="180,67,307,93"/>
+<area shape="rect" id="node3" href="$group__gtx__norm.html#ga1d8568485d8bbe6593dbbc2221659dfe" title="glm::length2" alt="" coords="374,29,467,56"/>
+<area shape="rect" id="node4" href="$group__gtc__dual__quaternion.html#ga71e0ed6d5262bfd7f543cd2d29fe87a7" title="glm::dualquat_cast" alt="" coords="355,104,487,131"/>
+</map>

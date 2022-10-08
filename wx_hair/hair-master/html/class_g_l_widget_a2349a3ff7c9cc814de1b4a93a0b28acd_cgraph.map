@@ -1,0 +1,9 @@
+<map id="GLWidget::initializeGL" name="GLWidget::initializeGL">
+<area shape="rect" id="node2" href="$class_resource_loader.html#a0852835399ca4eba1388fff812c93ba7" title="ResourceLoader::initializeGlew" alt="" coords="205,81,408,108"/>
+<area shape="rect" id="node7" href="$glew__head_8h.html#a1beaf822e5a901dc3fe429b68efb77d4" title="glEnable" alt="" coords="271,132,343,159"/>
+<area shape="rect" id="node8" href="$glew__head_8h.html#af339551012daa99fef8c4d313e98b546" title="glClearColor" alt="" coords="259,183,354,209"/>
+<area shape="rect" id="node3" href="$glew__init__tail_8c.html#aa313d7a7f9f9974100fa6545f0c7356f" title="glewInit" alt="" coords="489,5,555,32"/>
+<area shape="rect" id="node4" href="$glew__init__tail_8c.html#a847e1fc6999e42fdb373673e28705749" title="glewGetErrorString" alt="" coords="456,56,588,83"/>
+<area shape="rect" id="node5" href="$glew__init__tail_8c.html#a588807d61c25691ce698da345c40b092" title="glewGetString" alt="" coords="470,107,574,133"/>
+<area shape="rect" id="node6" href="$glew__head_8h.html#a96d12fe2ba9949b71f7834676df8ee10" title="glGetError" alt="" coords="481,157,563,184"/>
+</map>

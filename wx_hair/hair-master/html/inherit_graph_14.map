@@ -1,0 +1,8 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" href="$structglm_1_1detail_1_1__swizzle__base0.html" title="glm::detail::_swizzle\l_base0\&lt; ValueType, N \&gt;" alt="" coords="5,130,173,171"/>
+<area shape="rect" id="node2" href="$structglm_1_1detail_1_1__swizzle__base1.html" title="glm::detail::_swizzle\l_base1\&lt; ValueType, P,\l VecType, E0, E1, E2,\l E3, N \&gt;" alt="" coords="221,115,380,186"/>
+<area shape="rect" id="node3" href="$structglm_1_1detail_1_1__swizzle__base2.html" title="glm::detail::_swizzle\l_base2\&lt; ValueType, P,\l VecType, N, E0, E1, E2,\l E3,(E0==E1\|\|E0==E2\|\|E0\l==E3\|\|E1==E2\|\|E1==E3\|\|E2==E3)\&gt;" alt="" coords="428,5,656,91"/>
+<area shape="rect" id="node5" href="$structglm_1_1detail_1_1__swizzle__base2.html" title="glm::detail::_swizzle\l_base2\&lt; ValueType, P,\l VecType, N, E0, E1, E2,\l E3, DUPLICATE_ELEMENTS \&gt;" alt="" coords="433,115,651,186"/>
+<area shape="rect" id="node6" href="$structglm_1_1detail_1_1__swizzle__base2_3_01_value_type_00_01_p_00_01_vec_type_00_01_n_00_01_e0_fc19218d69dc8988a4a57fbe7f79725c.html" title="glm::detail::_swizzle\l_base2\&lt; ValueType, P,\l VecType, N, E0, E1, E2,\l E3, 1 \&gt;" alt="" coords="456,210,628,281"/>
+<area shape="rect" id="node4" href="$structglm_1_1detail_1_1__swizzle.html" title="glm::detail::_swizzle\l\&lt; N, ValueType, P, VecType,\l E0, E1, E2, E3 \&gt;" alt="" coords="704,20,899,76"/>
+</map>

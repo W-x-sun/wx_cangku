@@ -1,0 +1,15 @@
+<map id="glm::fract" name="glm::fract">
+<area shape="rect" id="node2" href="$group__core__func__common.html#ga6535952553479a4bbca7f1f12a011b17" title="glm::roundEven" alt="" coords="135,29,249,56"/>
+<area shape="rect" id="node3" href="$group__core__func__common.html#gab81e02fff55c9391e28fa47e68c3c903" title="glm::ceil" alt="" coords="157,104,227,131"/>
+<area shape="rect" id="node6" href="$namespaceglm_1_1detail.html#a7ad8d424d952c308d27ac430df13a9bd" title="glm::detail::grad4" alt="" coords="131,155,253,181"/>
+<area shape="rect" id="node8" href="$namespaceglm.html#a6efe792fcb5730d715e2876db85e1e54" title="glm::noise1" alt="" coords="147,205,237,232"/>
+<area shape="rect" id="node9" href="$namespaceglm_1_1gtc.html#a60a628dac031a1bafeead87b20b1b641" title="glm::gtc::grad4" alt="" coords="137,256,247,283"/>
+<area shape="rect" id="node11" href="$namespaceglm.html#aaf4944b3c2a00c1e7a1b25b96cea6bfb" title="glm::perlin" alt="" coords="151,307,233,333"/>
+<area shape="rect" id="node12" href="$namespaceglm.html#abdfacc8dd98029ebf09c0a4a1ed505f5" title="glm::simplex" alt="" coords="144,357,240,384"/>
+<area shape="rect" id="node13" href="$group__gtx__wrap.html#ga809650c6310ea7c42666e918c117fb6f" title="glm::repeat" alt="" coords="149,432,235,459"/>
+<area shape="rect" id="node4" href="$namespaceglm.html#ac38130a4224e740980925150ea8dae5e" title="glm::round" alt="" coords="349,53,432,80"/>
+<area shape="rect" id="node5" href="$class_simulation.html#a5971c49d9efef258c5dfa2a90ce9c0ed" title="Simulation::updateRotation" alt="" coords="301,104,480,131"/>
+<area shape="rect" id="node7" href="$namespaceglm.html#a8cd64bc969898037123e36a45f56a330" title="glm::noise1" alt="" coords="346,155,435,181"/>
+<area shape="rect" id="node10" href="$namespaceglm.html#aadad60578e53c3af96e0a078cc4ad462" title="glm::simplex" alt="" coords="343,256,439,283"/>
+<area shape="rect" id="node14" href="$namespaceglm.html#a7939dfce34455127dfbd4db97129b19c" title="glm::clamp" alt="" coords="347,432,434,459"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="glm::round" name="glm::round">
+<area shape="rect" id="node2" href="$group__core__func__common.html#ga6535952553479a4bbca7f1f12a011b17" title="glm::roundEven" alt="" coords="187,29,300,56"/>
+<area shape="rect" id="node3" href="$group__core__func__packing.html#ga0659ddaf09727551c7bf51655d2a65cf" title="glm::packUnorm2x16" alt="" coords="170,80,317,107"/>
+<area shape="rect" id="node4" href="$group__core__func__packing.html#ga0c8005de240d6c4ca3d16c7bee25c622" title="glm::packSnorm2x16" alt="" coords="171,131,316,157"/>
+<area shape="rect" id="node5" href="$group__core__func__packing.html#ga834ee9a9e73dcb0a7c1fc88143f3edb8" title="glm::packUnorm4x8" alt="" coords="174,181,313,208"/>
+<area shape="rect" id="node6" href="$group__core__func__packing.html#gafcf25acc0d361c6c696a433aa5dfd16b" title="glm::packSnorm4x8" alt="" coords="174,232,313,259"/>
+<area shape="rect" id="node7" href="$group__gtc__packing.html#ga997b5cb266c827035ace49ac5536a510" title="glm::packUnorm1x8" alt="" coords="174,283,313,309"/>
+<area shape="rect" id="node8" href="$group__gtc__packing.html#ga833288fc0d4a79f19d0db75a6843bfe6" title="glm::packUnorm2x8" alt="" coords="174,333,313,360"/>
+<area shape="rect" id="node9" href="$group__gtc__packing.html#ga9695a1564d8d8f02b091a1bc1e161f68" title="glm::packSnorm1x8" alt="" coords="174,384,313,411"/>
+<area shape="rect" id="node10" href="$group__gtc__packing.html#ga05d08a82923166ec7cd5d0e6154c9953" title="glm::packSnorm2x8" alt="" coords="174,435,313,461"/>
+<area shape="rect" id="node11" href="$group__gtc__packing.html#gaf5d870796cb312576d8508e05cc84e4f" title="glm::packUnorm1x16" alt="" coords="170,485,317,512"/>
+<area shape="rect" id="node12" href="$group__gtc__packing.html#gac561f06c908b7302537a8ef29fcb409e" title="glm::packUnorm4x16" alt="" coords="170,536,317,563"/>
+<area shape="rect" id="node13" href="$group__gtc__packing.html#ga5c59c83ff5d9f8c35be0b84b12633216" title="glm::packSnorm1x16" alt="" coords="171,587,316,613"/>
+<area shape="rect" id="node14" href="$group__gtc__packing.html#ga9b237d7c66b7a71964e6d1f4dc06539f" title="glm::packSnorm4x16" alt="" coords="171,637,316,664"/>
+<area shape="rect" id="node15" href="$group__gtc__packing.html#ga0d4157cec37c0312216a7be1cc92df54" title="glm::packSnorm3x10_1x2" alt="" coords="157,688,330,715"/>
+<area shape="rect" id="node16" href="$group__gtc__packing.html#ga2cf2d11b40bd48639110456fd74c2e33" title="glm::packUnorm3x10_1x2" alt="" coords="156,739,331,765"/>
+<area shape="rect" id="node17" href="$namespaceglm.html#a9209720f29f7ce2e879af12191051927" title="glm::trunc" alt="" coords="203,789,283,816"/>
+<area shape="rect" id="node18" href="$class_scene_widget.html#a7fff6e37fb5730fddb891d91404a7c18" title="SceneWidget::mousePressEvent" alt="" coords="136,840,351,867"/>
+<area shape="rect" id="node19" href="$class_scene_widget.html#a7be7a477c8ca34df706e1216e4c75333" title="SceneWidget::mouseMoveEvent" alt="" coords="137,891,350,917"/>
+</map>

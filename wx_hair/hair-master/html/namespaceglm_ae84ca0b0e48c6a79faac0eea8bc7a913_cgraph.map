@@ -1,0 +1,7 @@
+<map id="glm::dot" name="glm::dot">
+<area shape="rect" id="node2" href="$namespaceglm_1_1detail.html#a794070b64c8a2bd03e393c79be9ed17e" title="glm::detail::sse_dot_ss" alt="" coords="123,5,280,32"/>
+<area shape="rect" id="node3" href="$namespaceglm.html#af55916a3764adaa7537f5e3e9ccacb81" title="glm::dot4" alt="" coords="163,56,239,83"/>
+<area shape="rect" id="node4" href="$namespaceglm_1_1detail.html#ad4dfd210b559dcff4cbc4a674477b90b" title="glm::detail::sse_dot_ps" alt="" coords="328,31,485,57"/>
+<area shape="rect" id="node5" href="$group__core__func__geometric.html#ga89b91c2a256cfb62ecbc589d1ee36d3c" title="glm::cross" alt="" coords="365,81,448,108"/>
+<area shape="rect" id="node6" href="$group__core__func__geometric.html#ga15aa87101457e41663b08a8dcc3357f8" title="glm::normalize" alt="" coords="533,81,640,108"/>
+</map>

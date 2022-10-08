@@ -1,0 +1,5 @@
+<map id="HairInterface::togglePaused" name="HairInterface::togglePaused">
+<area shape="rect" id="node2" href="$class_g_l_widget.html#a20169b7b90890de5e09438dba7bc91d5" title="GLWidget::isPaused" alt="" coords="237,5,380,32"/>
+<area shape="rect" id="node3" href="$class_g_l_widget.html#a1c57c4a7394a27e89975188d10d7abc2" title="GLWidget::unpause" alt="" coords="240,56,377,83"/>
+<area shape="rect" id="node4" href="$class_g_l_widget.html#ae1bfbc4a75af1ff3e6bcad0b6f9bcdd1" title="GLWidget::pause" alt="" coords="247,107,370,133"/>
+</map>

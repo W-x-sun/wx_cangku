@@ -1,0 +1,11 @@
+<map id="glm::clamp" name="glm::clamp">
+<area shape="rect" id="node2" href="$group__core__func__common.html#ga72e9e213c84f06a329a2a838b51200f4" title="glm::clamp" alt="" coords="652,29,739,56"/>
+<area shape="rect" id="node5" href="$group__gtx__wrap.html#ga809650c6310ea7c42666e918c117fb6f" title="glm::repeat" alt="" coords="140,84,227,111"/>
+<area shape="rect" id="node3" href="$group__core__func__common.html#ga3dc90dbd66c9ca1dd5625c93d9c50f02" title="glm::min" alt="" coords="787,116,859,143"/>
+<area shape="rect" id="node4" href="$group__core__func__common.html#gaa228561a9da55898f8f72ad2403fafac" title="glm::max" alt="" coords="907,29,983,56"/>
+<area shape="rect" id="node6" href="$group__core__func__common.html#gad04ac2908d032d5518d5f6c8403dbc8b" title="glm::fract" alt="" coords="275,84,352,111"/>
+<area shape="rect" id="node7" href="$group__core__func__common.html#ga86350252cc9bf86421317460bbd1f21c" title="glm::floor" alt="" coords="526,84,602,111"/>
+<area shape="rect" id="node8" href="$group__core__func__common.html#ga8cc8a75b05125fe1c30de43102ef42e1" title="glm::mod" alt="" coords="400,135,476,161"/>
+<area shape="rect" id="node9" href="$group__core__func__common.html#gae47da02eb07d660201c09a0df7298a05" title="glm::modf" alt="" coords="524,135,604,161"/>
+<area shape="rect" id="node10" href="$namespaceglm.html#aeeecd3b255dc5fc394738bd25e0cea49" title="glm::modf" alt="" coords="655,135,735,161"/>
+</map>

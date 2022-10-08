@@ -1,0 +1,4 @@
+<map id="glm::isfinite" name="glm::isfinite">
+<area shape="rect" id="node2" href="$group__gtx__compatibility.html#ga3b9f0577d1b5d76c0f6ab04e28599fc4" title="Arc tangent. Returns an angle whose tangent is y/x. The signs of x and y are used to determine what q..." alt="" coords="146,5,229,32"/>
+<area shape="rect" id="node3" href="$group__gtx__compatibility.html#ga7e80cd7bb7e23f65a226036614318ab3" title="Test whether or not a scalar or each vector component is a finite value. (From GLM_GTX_compatibility)..." alt="" coords="143,56,232,83"/>
+</map>

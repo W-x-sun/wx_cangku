@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: src/mike/hair.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_22f4153c25ed740d094cb284a2ce64f7.html">mike</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">hair.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="hair_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef HAIR_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define HAIR_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="hair_common_8h.html">hairCommon.h</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="openglshape_8h.html">openglshape.h</a>&quot;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="shaderprogram_8h.html">shaderprogram.h</a>&quot;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_hair.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_hair.html">Hair</a></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="class_hair.html#a31c212644f257b4de49157f2f00df81e">Hair</a>(<span class="keywordtype">int</span> numSegments, <span class="keywordtype">double</span> <a class="code" href="group__core__func__geometric.html#ga03b2831439defb8922832b540b91b8a7">length</a>, <a class="code" href="structglm_1_1detail_1_1tvec3.html">glm::vec3</a> location, <a class="code" href="structglm_1_1detail_1_1tvec3.html">glm::vec3</a> dir, <a class="code" href="structglm_1_1detail_1_1tvec3.html">glm::vec3</a> normal);</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_hair.html#a1709a3ba429b729d04cdd3c69139ab6b">~Hair</a>();</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_hair.html#a7874dd007273aefbdfe9a8be75a247dd">update</a>(<span class="keywordtype">float</span> time);</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_hair.html#a6f2c1adb344e334f12efb40d1c3bc32e">paint</a>(<a class="code" href="class_shader_program.html">ShaderProgram</a> *_program);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_hair.html#afa4e626af8b7f7412a4f43dc76abfce9">   22</a></span>&#160;    QList&lt;HairVertex*&gt; <a class="code" href="class_hair.html#afa4e626af8b7f7412a4f43dc76abfce9">m_vertices</a>;<span class="comment">//用来表示顶点（被hairinterface成员函数 更新状态标签 进行调用）</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_hair.html#a8b0744e15e74258c09167db7a143f756">   24</a></span>&#160;    <a class="code" href="class_open_g_l_shape.html">OpenGLShape</a> <a class="code" href="class_hair.html#a8b0744e15e74258c09167db7a143f756">m_patch</a>;</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_hair.html#aaa7876c8fe205bfbc62d91f6990084ca">   25</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_hair.html#aaa7876c8fe205bfbc62d91f6990084ca">m_numSegments</a>;<span class="comment">//头发的分段总数</span></div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_hair.html#a016614eb9e9d2a7e1d1b915e630ad6f6">   26</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_hair.html#a016614eb9e9d2a7e1d1b915e630ad6f6">m_length</a>;<span class="comment">//长度</span></div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_hair.html#aa1f181a1ca9c0434c3b427ad6a60c791">   27</a></span>&#160;    <a class="code" href="structglm_1_1detail_1_1tvec3.html">glm::vec3</a> <a class="code" href="class_hair.html#aa1f181a1ca9c0434c3b427ad6a60c791">m_triangleFace</a>[2];<span class="comment">//与dir正交的平面的基向量</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;};</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif // HAIR_H</span></div><div class="ttc" id="class_hair_html_a31c212644f257b4de49157f2f00df81e"><div class="ttname"><a href="class_hair.html#a31c212644f257b4de49157f2f00df81e">Hair::Hair</a></div><div class="ttdeci">Hair(int numSegments, double length, glm::vec3 location, glm::vec3 dir, glm::vec3 normal)</div><div class="ttdef"><b>Definition:</b> <a href="hair_8cpp_source.html#l00011">hair.cpp:11</a></div></div>
+<div class="ttc" id="class_hair_html_a8b0744e15e74258c09167db7a143f756"><div class="ttname"><a href="class_hair.html#a8b0744e15e74258c09167db7a143f756">Hair::m_patch</a></div><div class="ttdeci">OpenGLShape m_patch</div><div class="ttdef"><b>Definition:</b> <a href="hair_8h_source.html#l00024">hair.h:24</a></div></div>
+<div class="ttc" id="class_hair_html_afa4e626af8b7f7412a4f43dc76abfce9"><div class="ttname"><a href="class_hair.html#afa4e626af8b7f7412a4f43dc76abfce9">Hair::m_vertices</a></div><div class="ttdeci">QList&lt; HairVertex * &gt; m_vertices</div><div class="ttdef"><b>Definition:</b> <a href="hair_8h_source.html#l00022">hair.h:22</a></div></div>
+<div class="ttc" id="class_hair_html_a016614eb9e9d2a7e1d1b915e630ad6f6"><div class="ttname"><a href="class_hair.html#a016614eb9e9d2a7e1d1b915e630ad6f6">Hair::m_length</a></div><div class="ttdeci">double m_length</div><div class="ttdef"><b>Definition:</b> <a href="hair_8h_source.html#l00026">hair.h:26</a></div></div>
+<div class="ttc" id="class_hair_html_aa1f181a1ca9c0434c3b427ad6a60c791"><div class="ttname"><a href="class_hair.html#aa1f181a1ca9c0434c3b427ad6a60c791">Hair::m_triangleFace</a></div><div class="ttdeci">glm::vec3 m_triangleFace[2]</div><div class="ttdef"><b>Definition:</b> <a href="hair_8h_source.html#l00027">hair.h:27</a></div></div>
+<div class="ttc" id="shaderprogram_8h_html"><div class="ttname"><a href="shaderprogram_8h.html">shaderprogram.h</a></div></div>
+<div class="ttc" id="class_hair_html"><div class="ttname"><a href="class_hair.html">Hair</a></div><div class="ttdef"><b>Definition:</b> <a href="hair_8h_source.html#l00010">hair.h:10</a></div></div>
+<div class="ttc" id="class_hair_html_a1709a3ba429b729d04cdd3c69139ab6b"><div class="ttname"><a href="class_hair.html#a1709a3ba429b729d04cdd3c69139ab6b">Hair::~Hair</a></div><div class="ttdeci">virtual ~Hair()</div><div class="ttdef"><b>Definition:</b> <a href="hair_8cpp_source.html#l00056">hair.cpp:56</a></div></div>
+<div class="ttc" id="class_hair_html_a6f2c1adb344e334f12efb40d1c3bc32e"><div class="ttname"><a href="class_hair.html#a6f2c1adb344e334f12efb40d1c3bc32e">Hair::paint</a></div><div class="ttdeci">void paint(ShaderProgram *_program)</div><div class="ttdef"><b>Definition:</b> <a href="hair_8cpp_source.html#l00069">hair.cpp:69</a></div></div>
+<div class="ttc" id="openglshape_8h_html"><div class="ttname"><a href="openglshape_8h.html">openglshape.h</a></div></div>
+<div class="ttc" id="structglm_1_1detail_1_1tvec3_html"><div class="ttname"><a href="structglm_1_1detail_1_1tvec3.html">glm::detail::tvec3</a></div><div class="ttdef"><b>Definition:</b> <a href="type__mat_8hpp_source.html#l00038">type_mat.hpp:38</a></div></div>
+<div class="ttc" id="class_hair_html_a7874dd007273aefbdfe9a8be75a247dd"><div class="ttname"><a href="class_hair.html#a7874dd007273aefbdfe9a8be75a247dd">Hair::update</a></div><div class="ttdeci">void update(float time)</div><div class="ttdef"><b>Definition:</b> <a href="hair_8cpp_source.html#l00064">hair.cpp:64</a></div></div>
+<div class="ttc" id="class_open_g_l_shape_html"><div class="ttname"><a href="class_open_g_l_shape.html">OpenGLShape</a></div><div class="ttdef"><b>Definition:</b> <a href="openglshape_8h_source.html#l00006">openglshape.h:6</a></div></div>
+<div class="ttc" id="class_hair_html_aaa7876c8fe205bfbc62d91f6990084ca"><div class="ttname"><a href="class_hair.html#aaa7876c8fe205bfbc62d91f6990084ca">Hair::m_numSegments</a></div><div class="ttdeci">int m_numSegments</div><div class="ttdef"><b>Definition:</b> <a href="hair_8h_source.html#l00025">hair.h:25</a></div></div>
+<div class="ttc" id="class_shader_program_html"><div class="ttname"><a href="class_shader_program.html">ShaderProgram</a></div><div class="ttdef"><b>Definition:</b> <a href="shaderprogram_8h_source.html#l00059">shaderprogram.h:59</a></div></div>
+<div class="ttc" id="group__core__func__geometric_html_ga03b2831439defb8922832b540b91b8a7"><div class="ttname"><a href="group__core__func__geometric.html#ga03b2831439defb8922832b540b91b8a7">glm::length</a></div><div class="ttdeci">GLM_FUNC_DECL genType::value_type length(genType const &amp;x)</div><div class="ttdef"><b>Definition:</b> <a href="func__geometric_8inl_source.html#l00084">func_geometric.inl:84</a></div></div>
+<div class="ttc" id="hair_common_8h_html"><div class="ttname"><a href="hair_common_8h.html">hairCommon.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

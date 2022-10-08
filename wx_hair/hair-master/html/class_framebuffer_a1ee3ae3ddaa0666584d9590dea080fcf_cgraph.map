@@ -1,0 +1,5 @@
+<map id="Framebuffer::resizeDepthBuffer" name="Framebuffer::resizeDepthBuffer">
+<area shape="rect" id="node2" href="$class_framebuffer.html#a2856bbddc5aa43e5be2a6f21aa244752" title="Framebuffer::bind" alt="" coords="465,5,589,32"/>
+<area shape="rect" id="node3" href="$class_framebuffer.html#ad1746e10f1eb0736f633468783e8f8b6" title="Framebuffer::generateDepth\lBuffer" alt="" coords="224,25,409,66"/>
+<area shape="rect" id="node4" href="$class_framebuffer.html#ae2b12e5892a0709ea3725729fff6c8b1" title="Framebuffer::unbind" alt="" coords="457,60,596,87"/>
+</map>

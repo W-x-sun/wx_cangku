@@ -1,0 +1,5 @@
+<map id="glm::axisAngleMatrix" name="glm::axisAngleMatrix">
+<area shape="rect" id="node2" href="$group__gtx__matrix__interpolation.html#ga6b76b95383a720b763a0bf12b9691e3a" title="glm::axisAngle" alt="" coords="197,5,305,32"/>
+<area shape="rect" id="node3" href="$group__gtx__matrix__interpolation.html#ga26fcd9ab0660c54a19d5edec727d1dab" title="glm::interpolate" alt="" coords="353,56,464,83"/>
+<area shape="rect" id="node4" href="$group__gtx__matrix__interpolation.html#ga4aeb9c402514dfd9c6d2e8ca73d07f30" title="glm::extractMatrixRotation" alt="" coords="512,56,688,83"/>
+</map>

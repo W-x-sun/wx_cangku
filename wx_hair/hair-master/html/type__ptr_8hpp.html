@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: glm/gtc/type_ptr.hpp 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_a18149d1b32e3efeacb0e34a962af4d3.html">glm</a></li><li class="navelem"><a class="el" href="dir_5421a8671ffa3cebe0a38abc7d91e881.html">gtc</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#namespaces">命名空间</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">type_ptr.hpp 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="gtc_2quaternion_8hpp_source.html">../gtc/quaternion.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="vec2_8hpp_source.html">../vec2.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="vec3_8hpp_source.html">../vec3.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="vec4_8hpp_source.html">../vec4.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mat2x2_8hpp_source.html">../mat2x2.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mat2x3_8hpp_source.html">../mat2x3.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mat2x4_8hpp_source.html">../mat2x4.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mat3x2_8hpp_source.html">../mat3x2.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mat3x3_8hpp_source.html">../mat3x3.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mat3x4_8hpp_source.html">../mat3x4.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mat4x2_8hpp_source.html">../mat4x2.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mat4x3_8hpp_source.html">../mat4x3.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mat4x4_8hpp_source.html">../mat4x4.hpp</a>&quot;</code><br />
+<code>#include &lt;cstring&gt;</code><br />
+<code>#include &quot;<a class="el" href="type__ptr_8inl_source.html">type_ptr.inl</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+type_ptr.hpp 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="type__ptr_8hpp__incl.png" border="0" usemap="#glm_2gtc_2type__ptr_8hpp" alt=""/></div>
+<map name="glm_2gtc_2type__ptr_8hpp" id="glm_2gtc_2type__ptr_8hpp">
+<area shape="rect" id="node2" href="gtc_2quaternion_8hpp.html" title="../gtc/quaternion.hpp" alt="" coords="1755,80,1896,107"/>
+<area shape="rect" id="node3" href="mat3x3_8hpp.html" title="../mat3x3.hpp" alt="" coords="1233,155,1335,181"/>
+<area shape="rect" id="node13" href="mat4x4_8hpp.html" title="../mat4x4.hpp" alt="" coords="1538,155,1641,181"/>
+<area shape="rect" id="node18" href="vec3_8hpp.html" title="../vec3.hpp" alt="" coords="2002,155,2089,181"/>
+<area shape="rect" id="node19" href="vec4_8hpp.html" title="../vec4.hpp" alt="" coords="2113,155,2199,181"/>
+<area shape="rect" id="node26" href="vec2_8hpp.html" title="../vec2.hpp" alt="" coords="381,80,467,107"/>
+<area shape="rect" id="node29" href="mat2x2_8hpp.html" title="../mat2x2.hpp" alt="" coords="201,155,303,181"/>
+<area shape="rect" id="node32" href="mat2x3_8hpp.html" title="../mat2x3.hpp" alt="" coords="1015,80,1118,107"/>
+<area shape="rect" id="node35" href="mat2x4_8hpp.html" title="../mat2x4.hpp" alt="" coords="798,80,901,107"/>
+<area shape="rect" id="node38" href="mat3x2_8hpp.html" title="../mat3x2.hpp" alt="" coords="1322,80,1425,107"/>
+<area shape="rect" id="node41" href="mat3x4_8hpp.html" title="../mat3x4.hpp" alt="" coords="1627,80,1730,107"/>
+<area shape="rect" id="node44" href="mat4x2_8hpp.html" title="../mat4x2.hpp" alt="" coords="646,80,749,107"/>
+<area shape="rect" id="node47" href="mat4x3_8hpp.html" title="../mat4x3.hpp" alt="" coords="1449,80,1551,107"/>
+<area shape="rect" id="node50" href="type__ptr_8inl.html" title="type_ptr.inl" alt="" coords="2209,80,2295,107"/>
+<area shape="rect" id="node20" href="gtc_2constants_8hpp.html" title="../gtc/constants.hpp" alt="" coords="1716,155,1855,181"/>
+<area shape="rect" id="node22" href="gtc_2quaternion_8inl.html" title="quaternion.inl" alt="" coords="1879,155,1977,181"/>
+<area shape="rect" id="node4" href="type__mat3x3_8hpp.html" title="detail/type_mat3x3.hpp" alt="" coords="941,229,1099,256"/>
+<area shape="rect" id="node5" href="fwd_8hpp.html" title="../fwd.hpp" alt="" coords="944,304,1024,331"/>
+<area shape="rect" id="node7" href="type__mat_8hpp.html" title="detail/type_mat.hpp" alt="" coords="877,379,1013,405"/>
+<area shape="rect" id="node8" href="type__vec3_8hpp.html" title="type_vec3.hpp" alt="" coords="1605,304,1712,331"/>
+<area shape="rect" id="node12" href="type__mat3x3_8inl.html" title="type_mat3x3.inl" alt="" coords="1048,304,1163,331"/>
+<area shape="rect" id="node6" href="type__vec_8hpp.html" title="detail/type_vec.hpp" alt="" coords="1217,379,1351,405"/>
+<area shape="rect" id="node10" href="type__vec3_8inl.html" title="type_vec3.inl" alt="" coords="1585,379,1684,405"/>
+<area shape="rect" id="node14" href="type__mat4x4_8hpp.html" title="detail/type_mat4x4.hpp" alt="" coords="1656,229,1813,256"/>
+<area shape="rect" id="node15" href="type__vec4_8hpp.html" title="type_vec4.hpp" alt="" coords="1787,304,1893,331"/>
+<area shape="rect" id="node16" href="setup_8hpp.html" title="setup.hpp" alt="" coords="1979,379,2058,405"/>
+<area shape="rect" id="node17" href="type__vec4_8inl.html" title="type_vec4.inl" alt="" coords="1799,379,1897,405"/>
+<area shape="rect" id="node21" href="constants_8inl.html" title="constants.inl" alt="" coords="1123,229,1219,256"/>
+<area shape="rect" id="node23" href="trigonometric_8hpp.html" title="../trigonometric.hpp" alt="" coords="2219,229,2354,256"/>
+<area shape="rect" id="node24" href="geometric_8hpp.html" title="../geometric.hpp" alt="" coords="2378,229,2494,256"/>
+<area shape="rect" id="node25" href="exponential_8hpp.html" title="../exponential.hpp" alt="" coords="2069,229,2195,256"/>
+<area shape="rect" id="node27" href="type__vec2_8hpp.html" title="type_vec2.hpp" alt="" coords="384,304,491,331"/>
+<area shape="rect" id="node28" href="type__vec2_8inl.html" title="type_vec2.inl" alt="" coords="388,379,487,405"/>
+<area shape="rect" id="node30" href="type__mat2x2_8hpp.html" title="detail/type_mat2x2.hpp" alt="" coords="165,229,323,256"/>
+<area shape="rect" id="node31" href="type__mat2x2_8inl.html" title="type_mat2x2.inl" alt="" coords="5,304,120,331"/>
+<area shape="rect" id="node33" href="type__mat2x3_8hpp.html" title="detail/type_mat2x3.hpp" alt="" coords="760,229,917,256"/>
+<area shape="rect" id="node34" href="type__mat2x3_8inl.html" title="type_mat2x3.inl" alt="" coords="755,304,869,331"/>
+<area shape="rect" id="node36" href="type__mat2x4_8hpp.html" title="detail/type_mat2x4.hpp" alt="" coords="579,229,736,256"/>
+<area shape="rect" id="node37" href="type__mat2x4_8inl.html" title="type_mat2x4.inl" alt="" coords="515,304,629,331"/>
+<area shape="rect" id="node39" href="type__mat3x2_8hpp.html" title="detail/type_mat3x2.hpp" alt="" coords="1243,229,1400,256"/>
+<area shape="rect" id="node40" href="type__mat3x2_8inl.html" title="type_mat3x2.inl" alt="" coords="1264,304,1379,331"/>
+<area shape="rect" id="node42" href="type__mat3x4_8hpp.html" title="detail/type_mat3x4.hpp" alt="" coords="1837,229,1995,256"/>
+<area shape="rect" id="node43" href="type__mat3x4_8inl.html" title="type_mat3x4.inl" alt="" coords="1917,304,2032,331"/>
+<area shape="rect" id="node45" href="type__mat4x2_8hpp.html" title="detail/type_mat4x2.hpp" alt="" coords="397,229,555,256"/>
+<area shape="rect" id="node46" href="type__mat4x2_8inl.html" title="type_mat4x2.inl" alt="" coords="195,304,309,331"/>
+<area shape="rect" id="node48" href="type__mat4x3_8hpp.html" title="detail/type_mat4x3.hpp" alt="" coords="1475,229,1632,256"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+此图展示该文件直接或间接的被哪些文件引用了:</div>
+<div class="dyncontent">
+<div class="center"><img src="type__ptr_8hpp__dep__incl.png" border="0" usemap="#glm_2gtc_2type__ptr_8hppdep" alt=""/></div>
+<map name="glm_2gtc_2type__ptr_8hppdep" id="glm_2gtc_2type__ptr_8hppdep">
+<area shape="rect" id="node2" href="ext_8hpp.html" title="glm/ext.hpp" alt="" coords="1986,80,2077,107"/>
+<area shape="rect" id="node3" href="hair_common_8h.html" title="src/hairCommon.h" alt="" coords="2101,80,2231,107"/>
+<area shape="rect" id="node4" href="glwidget_8h.html" title="src/glwidget.h" alt="" coords="955,251,1057,278"/>
+<area shape="rect" id="node7" href="glwidget_8cpp.html" title="src/glwidget.cpp" alt="" coords="3171,423,3289,449"/>
+<area shape="rect" id="node14" href="scenewidget_8h.html" title="src/ui/scenewidget.h" alt="" coords="535,251,677,278"/>
+<area shape="rect" id="node16" href="framebuffer_8h.html" title="src/framebuffer.h" alt="" coords="1197,251,1319,278"/>
+<area shape="rect" id="node18" href="texture_8h.html" title="src/texture.h" alt="" coords="1343,251,1437,278"/>
+<area shape="rect" id="node21" href="hairobject_8h.html" title="src/hairobject.h" alt="" coords="2087,251,2197,278"/>
+<area shape="rect" id="node26" href="objmesh_8h.html" title="src/objmesh.h" alt="" coords="1997,162,2101,189"/>
+<area shape="rect" id="node28" href="simulation_8h.html" title="src/mike/simulation.h" alt="" coords="2354,251,2501,278"/>
+<area shape="rect" id="node30" href="meshocttree_8h.html" title="src/meshocttree.h" alt="" coords="1803,162,1929,189"/>
+<area shape="rect" id="node31" href="tessellator_8h.html" title="src/tessellator.h" alt="" coords="2493,162,2607,189"/>
+<area shape="rect" id="node33" href="objloader_8hpp.html" title="src/lib/objloader.hpp" alt="" coords="1615,162,1754,189"/>
+<area shape="rect" id="node35" href="resourceloader_8h.html" title="src/lib/resourceloader.h" alt="" coords="3695,162,3853,189"/>
+<area shape="rect" id="node38" href="hairrendershaderprogram_8h.html" title="src/shaderPrograms\l/hairrendershaderprogram.h" alt="" coords="3492,333,3672,375"/>
+<area shape="rect" id="node48" href="hair_8h.html" title="src/mike/hair.h" alt="" coords="2221,251,2329,278"/>
+<area shape="rect" id="node49" href="shaderprogram_8h.html" title="src/shaderPrograms\l/shaderprogram.h" alt="" coords="2279,155,2418,196"/>
+<area shape="rect" id="node50" href="hairopacityshaderprogram_8h.html" title="src/shaderPrograms\l/hairopacityshaderprogram.h" alt="" coords="2586,244,2773,285"/>
+<area shape="rect" id="node5" href="moc__glwidget_8cpp.html" title="debug/moc_glwidget.cpp" alt="" coords="395,341,561,367"/>
+<area shape="rect" id="node6" href="mainwindow_8h.html" title="src/ui/mainwindow.h" alt="" coords="586,341,727,367"/>
+<area shape="rect" id="node8" href="mainwindow__new_8h.html" title="src/mainwindow_new.h" alt="" coords="752,341,911,367"/>
+<area shape="rect" id="node9" href="simulation_8cpp.html" title="src/mike/simulation.cpp" alt="" coords="2029,341,2189,367"/>
+<area shape="rect" id="node10" href="hairinterface_8cpp.html" title="src/ui/hairinterface.cpp" alt="" coords="1663,341,1818,367"/>
+<area shape="rect" id="node11" href="hairinterface2_8cpp.html" title="src/ui/hairinterface2.cpp" alt="" coords="1843,341,2004,367"/>
+<area shape="rect" id="node12" href="sceneeditor_8cpp.html" title="src/ui/sceneeditor.cpp" alt="" coords="220,341,371,367"/>
+<area shape="rect" id="node13" href="scenewidget_8cpp.html" title="src/ui/scenewidget.cpp" alt="" coords="987,341,1143,367"/>
+<area shape="rect" id="node15" href="moc__scenewidget_8cpp.html" title="debug/moc_scenewidget.cpp" alt="" coords="5,341,196,367"/>
+<area shape="rect" id="node17" href="framebuffer_8cpp.html" title="src/framebuffer.cpp" alt="" coords="1219,341,1353,367"/>
+<area shape="rect" id="node19" href="hairobject_8cpp.html" title="src/hairobject.cpp" alt="" coords="2213,341,2338,367"/>
+<area shape="rect" id="node20" href="texture_8cpp.html" title="src/texture.cpp" alt="" coords="1429,341,1538,367"/>
+<area shape="rect" id="node22" href="simulation_8cpp_8_b_a_c_k_u_p_826364_8cpp.html" title="src/mike/simulation.cpp.\lBACKUP.26364.cpp" alt="" coords="2363,333,2527,375"/>
+<area shape="rect" id="node23" href="simulation_8cpp_8_b_a_s_e_826364_8cpp.html" title="src/mike/simulation.cpp.\lBASE.26364.cpp" alt="" coords="2927,333,3091,375"/>
+<area shape="rect" id="node24" href="simulation_8cpp_8_l_o_c_a_l_826364_8cpp.html" title="src/mike/simulation.cpp.\lLOCAL.26364.cpp" alt="" coords="2739,333,2903,375"/>
+<area shape="rect" id="node25" href="simulation_8cpp_8_r_e_m_o_t_e_826364_8cpp.html" title="src/mike/simulation.cpp.\lREMOTE.26364.cpp" alt="" coords="2551,333,2715,375"/>
+<area shape="rect" id="node27" href="meshocttree_8cpp.html" title="src/meshocttree.cpp" alt="" coords="1819,251,1961,278"/>
+<area shape="rect" id="node29" href="objmesh_8cpp.html" title="src/objmesh.cpp" alt="" coords="1625,251,1744,278"/>
+<area shape="rect" id="node32" href="tessellator_8cpp.html" title="src/tessellator.cpp" alt="" coords="3011,251,3140,278"/>
+<area shape="rect" id="node34" href="objloader_8cpp.html" title="src/lib/objloader.cpp" alt="" coords="1462,251,1601,278"/>
+<area shape="rect" id="node36" href="resourceloader_8cpp.html" title="src/lib/resourceloader.cpp" alt="" coords="3987,251,4158,278"/>
+<area shape="rect" id="node37" href="hairdepthpeelprogram_8h.html" title="src/shaderPrograms\l/hairdepthpeelprogram.h" alt="" coords="3501,244,3663,285"/>
+<area shape="rect" id="node39" href="hairfeedbackshaderprogram_8cpp.html" title="src/shaderPrograms\l/hairfeedbackshaderprogram.cpp" alt="" coords="4182,244,4393,285"/>
+<area shape="rect" id="node40" href="hairopacityshaderprogram_8cpp.html" title="src/shaderPrograms\l/hairopacityshaderprogram.cpp" alt="" coords="3267,333,3467,375"/>
+<area shape="rect" id="node41" href="whitehairshaderprogram_8h.html" title="src/shaderPrograms\l/whitehairshaderprogram.h" alt="" coords="3687,244,3861,285"/>
+<area shape="rect" id="node42" href="hairshaderprogram_8cpp.html" title="src/shaderPrograms\l/hairshaderprogram.cpp" alt="" coords="4417,244,4576,285"/>
+<area shape="rect" id="node43" href="meshdepthpeelprogram_8h.html" title="src/shaderPrograms\l/meshdepthpeelprogram.h" alt="" coords="3799,333,3971,375"/>
+<area shape="rect" id="node44" href="meshshaderprogram_8cpp.html" title="src/shaderPrograms\l/meshshaderprogram.cpp" alt="" coords="4652,244,4821,285"/>
+<area shape="rect" id="node45" href="shaderprogram_8cpp.html" title="src/shaderPrograms\l/shaderprogram.cpp" alt="" coords="2797,244,2935,285"/>
+<area shape="rect" id="node46" href="texturedquadshaderprogram_8cpp.html" title="src/shaderPrograms\l/texturedquadshaderprogram.cpp" alt="" coords="3265,244,3477,285"/>
+<area shape="rect" id="node47" href="whitemeshshaderprogram_8h.html" title="src/shaderPrograms\l/whitemeshshaderprogram.h" alt="" coords="3995,333,4182,375"/>
+</map>
+</div>
+</div>
+<p><a href="type__ptr_8hpp_source.html">浏览源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+命名空间</h2></td></tr>
+<tr class="memitem:namespaceglm"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceglm.html">glm</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:gaf019636bb8bd7c9efb7c7ce3bb23bcfc"><td class="memTemplParams" colspan="2">template&lt;typename genType &gt; </td></tr>
+<tr class="memitem:gaf019636bb8bd7c9efb7c7ce3bb23bcfc"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> genType::value_type const  *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__type__ptr.html#gaf019636bb8bd7c9efb7c7ce3bb23bcfc">glm::value_ptr</a> (genType const &amp;vec)</td></tr>
+<tr class="separator:gaf019636bb8bd7c9efb7c7ce3bb23bcfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga70f570befb4773ba3a658b76f9fdd6ab"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga70f570befb4773ba3a658b76f9fdd6ab"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> detail::tvec2&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__type__ptr.html#ga70f570befb4773ba3a658b76f9fdd6ab">glm::make_vec2</a> (T const *const ptr)</td></tr>
+<tr class="separator:ga70f570befb4773ba3a658b76f9fdd6ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad91a6a0fe324630b151208703a1591ed"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gad91a6a0fe324630b151208703a1591ed"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> detail::tvec3&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__type__ptr.html#gad91a6a0fe324630b151208703a1591ed">glm::make_vec3</a> (T const *const ptr)</td></tr>
+<tr class="separator:gad91a6a0fe324630b151208703a1591ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1b9e0d9ca48d79ba87edc121c1872c44"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga1b9e0d9ca48d79ba87edc121c1872c44"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> detail::tvec4&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__type__ptr.html#ga1b9e0d9ca48d79ba87edc121c1872c44">glm::make_vec4</a> (T const *const ptr)</td></tr>
+<tr class="separator:ga1b9e0d9ca48d79ba87edc121c1872c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga860d529f631ea6f9a0e510491d29a8ac"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga860d529f631ea6f9a0e510491d29a8ac"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> detail::tmat2x2&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__type__ptr.html#ga860d529f631ea6f9a0e510491d29a8ac">glm::make_mat2x2</a> (T const *const ptr)</td></tr>
+<tr class="separator:ga860d529f631ea6f9a0e510491d29a8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadef48cd950566f23a4b1e47127ee478c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gadef48cd950566f23a4b1e47127ee478c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> detail::tmat2x3&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__type__ptr.html#gadef48cd950566f23a4b1e47127ee478c">glm::make_mat2x3</a> (T const *const ptr)</td></tr>
+<tr class="separator:gadef48cd950566f23a4b1e47127ee478c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga174a43e8913682834de9cd918e36df25"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga174a43e8913682834de9cd918e36df25"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> detail::tmat2x4&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__type__ptr.html#ga174a43e8913682834de9cd918e36df25">glm::make_mat2x4</a> (T const *const ptr)</td></tr>
+<tr class="separator:ga174a43e8913682834de9cd918e36df25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa40868af4de8c5ed5470fdcc9985dbfc"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaa40868af4de8c5ed5470fdcc9985dbfc"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> detail::tmat3x2&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__type__ptr.html#gaa40868af4de8c5ed5470fdcc9985dbfc">glm::make_mat3x2</a> (T const *const ptr)</td></tr>
+<tr class="separator:gaa40868af4de8c5ed5470fdcc9985dbfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf8ba0a0a523423ae1149a1c2d90eb337"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaf8ba0a0a523423ae1149a1c2d90eb337"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> detail::tmat3x3&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__type__ptr.html#gaf8ba0a0a523423ae1149a1c2d90eb337">glm::make_mat3x3</a> (T const *const ptr)</td></tr>
+<tr class="separator:gaf8ba0a0a523423ae1149a1c2d90eb337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa0c07ac459a5e16374aa12e3b35ee043"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaa0c07ac459a5e16374aa12e3b35ee043"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> detail::tmat3x4&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__type__ptr.html#gaa0c07ac459a5e16374aa12e3b35ee043">glm::make_mat3x4</a> (T const *const ptr)</td></tr>
+<tr class="separator:gaa0c07ac459a5e16374aa12e3b35ee043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae4ad99adfe4fb195a192712a71de901d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gae4ad99adfe4fb195a192712a71de901d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> detail::tmat4x2&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__type__ptr.html#gae4ad99adfe4fb195a192712a71de901d">glm::make_mat4x2</a> (T const *const ptr)</td></tr>
+<tr class="separator:gae4ad99adfe4fb195a192712a71de901d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga37ec66362c22d86ad2ee11930b638c4a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga37ec66362c22d86ad2ee11930b638c4a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> detail::tmat4x3&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__type__ptr.html#ga37ec66362c22d86ad2ee11930b638c4a">glm::make_mat4x3</a> (T const *const ptr)</td></tr>
+<tr class="separator:ga37ec66362c22d86ad2ee11930b638c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4b13ff6840a66d032724a9a1db50f704"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga4b13ff6840a66d032724a9a1db50f704"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> detail::tmat4x4&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__type__ptr.html#ga4b13ff6840a66d032724a9a1db50f704">glm::make_mat4x4</a> (T const *const ptr)</td></tr>
+<tr class="separator:ga4b13ff6840a66d032724a9a1db50f704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga903422b2c346cbaccad3153a5a1f404c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga903422b2c346cbaccad3153a5a1f404c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> detail::tmat2x2&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__type__ptr.html#ga903422b2c346cbaccad3153a5a1f404c">glm::make_mat2</a> (T const *const ptr)</td></tr>
+<tr class="separator:ga903422b2c346cbaccad3153a5a1f404c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae50ecac46eb8771fb074e310b602bf53"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gae50ecac46eb8771fb074e310b602bf53"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> detail::tmat3x3&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__type__ptr.html#gae50ecac46eb8771fb074e310b602bf53">glm::make_mat3</a> (T const *const ptr)</td></tr>
+<tr class="separator:gae50ecac46eb8771fb074e310b602bf53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac3920fd61f0c459a4749b8eb9107982c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gac3920fd61f0c459a4749b8eb9107982c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> detail::tmat4x4&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__type__ptr.html#gac3920fd61f0c459a4749b8eb9107982c">glm::make_mat4</a> (T const *const ptr)</td></tr>
+<tr class="separator:gac3920fd61f0c459a4749b8eb9107982c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga051ec24a44af31a08b11eccbf8726b02"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga051ec24a44af31a08b11eccbf8726b02"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> detail::tquat&lt; T, defaultp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__type__ptr.html#ga051ec24a44af31a08b11eccbf8726b02">glm::make_quat</a> (T const *const ptr)</td></tr>
+<tr class="separator:ga051ec24a44af31a08b11eccbf8726b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>OpenGL Mathematics (glm.g-truc.net)</p>
+<p>Copyright (c) 2005 - 2014 G-Truc Creation (www.g-truc.net) Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<p><a class="el" href="group__gtc__type__ptr.html">GLM_GTC_type_ptr</a></p>
+<dl class="section date"><dt>日期</dt><dd>2009-05-06 / 2011-06-05 </dd></dl>
+<dl class="section author"><dt>作者</dt><dd>Christophe Riccio</dd></dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__core.html" title="The core of GLM, which implements exactly and only the GLSL specification to the degree possible...">GLM Core</a> (dependence) </dd>
+<dd>
+gtc_half_float (dependence) </dd>
+<dd>
+<a class="el" href="group__gtc__quaternion.html" title="Defines a templated quaternion type and several quaternion operations. ">GLM_GTC_quaternion</a> (dependence) </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="type__ptr_8hpp_source.html">type_ptr.hpp</a> 中定义.</p>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

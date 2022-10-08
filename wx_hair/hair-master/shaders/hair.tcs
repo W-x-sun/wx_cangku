@@ -1,0 +1,26 @@
+#version 400 core
+
+                        //曲面细分控制器：负责确定曲面细分等级
+
+// 设置输出面片patch图元 顶点的数量为4,同时代表了着色器的执行次数(每输出一个顶点执行一次)
+layout(vertices = 4) out;
+
+uniform int numPatchHairs;
+uniform int numSplineVertices;
+
+//ID 表示当前是输出的第几个顶点，该变量最经常被用作为gl_out数组的一个索引
+#define ID gl_InvocationID
+
+void main()
+{   //表示是从第一个数据开始
+    if (ID == 0)
+    {
+        //下面设置 等值线 细分曲面程度划分（外部细分）
+        gl_TessLevelOuter[0] = numPatchHairs;//含义：numPatchHairs 条等值线
+
+        //每条等值线被划分为numSplineVertices - 1个线段(最多减去18，因为样条顶点初始化值为20，等值线应>=2)
+        gl_TessLevelOuter[1] = numSplineVertices - 1;//含义：表示每条等值线被划分为多少条线段
+    }
+}
+
+

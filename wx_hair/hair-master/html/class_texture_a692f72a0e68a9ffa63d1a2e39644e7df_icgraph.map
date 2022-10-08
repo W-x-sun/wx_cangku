@@ -1,0 +1,7 @@
+<map id="Texture::width" name="Texture::width">
+<area shape="rect" id="node2" href="$class_texture.html#a16c36570597509263c1d91c95d82fdc0" title="Texture::createDepthTexture" alt="" coords="171,13,361,39"/>
+<area shape="rect" id="node4" href="$class_texture.html#a8a6944b8f5215346164de3dd3c013981" title="Texture::resize" alt="" coords="211,63,321,90"/>
+<area shape="rect" id="node5" href="$class_scene_widget.html#a7fff6e37fb5730fddb891d91404a7c18" title="SceneWidget::mousePressEvent" alt="" coords="159,114,373,141"/>
+<area shape="rect" id="node6" href="$class_scene_widget.html#a7be7a477c8ca34df706e1216e4c75333" title="SceneWidget::mouseMoveEvent" alt="" coords="159,165,373,191"/>
+<area shape="rect" id="node3" href="$class_framebuffer.html#ac556c583ba199c561f34639312b0827a" title="Framebuffer::generateDepth\lTexture" alt="" coords="421,5,607,47"/>
+</map>

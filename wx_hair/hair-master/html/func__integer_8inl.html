@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: glm/detail/func_integer.inl 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_a18149d1b32e3efeacb0e34a962af4d3.html">glm</a></li><li class="navelem"><a class="el" href="dir_045eba597dfb2bce1237989babc24b5c.html">detail</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#namespaces">命名空间</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">func_integer.inl 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="type__vec2_8hpp_source.html">type_vec2.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="type__vec3_8hpp_source.html">type_vec3.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="type__vec4_8hpp_source.html">type_vec4.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="type__int_8hpp_source.html">type_int.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="__vectorize_8hpp_source.html">_vectorize.hpp</a>&quot;</code><br />
+<code>#include &lt;limits&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+func_integer.inl 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="func__integer_8inl__incl.png" border="0" usemap="#glm_2detail_2func__integer_8inl" alt=""/></div>
+<map name="glm_2detail_2func__integer_8inl" id="glm_2detail_2func__integer_8inl">
+<area shape="rect" id="node2" href="type__vec2_8hpp.html" title="type_vec2.hpp" alt="" coords="191,155,297,181"/>
+<area shape="rect" id="node5" href="type__int_8hpp.html" title="type_int.hpp" alt="" coords="511,379,604,405"/>
+<area shape="rect" id="node10" href="type__vec3_8hpp.html" title="type_vec3.hpp" alt="" coords="321,155,428,181"/>
+<area shape="rect" id="node12" href="type__vec4_8hpp.html" title="type_vec4.hpp" alt="" coords="609,155,716,181"/>
+<area shape="rect" id="node14" href="__vectorize_8hpp.html" title="_vectorize.hpp" alt="" coords="392,80,499,107"/>
+<area shape="rect" id="node3" href="type__vec_8hpp.html" title="type_vec.hpp" alt="" coords="501,304,601,331"/>
+<area shape="rect" id="node9" href="type__vec2_8inl.html" title="type_vec2.inl" alt="" coords="43,229,141,256"/>
+<area shape="rect" id="node4" href="precision_8hpp.html" title="precision.hpp" alt="" coords="640,379,739,405"/>
+<area shape="rect" id="node6" href="setup_8hpp.html" title="setup.hpp" alt="" coords="798,453,877,480"/>
+<area shape="rect" id="node11" href="type__vec3_8inl.html" title="type_vec3.inl" alt="" coords="216,229,315,256"/>
+<area shape="rect" id="node13" href="type__vec4_8inl.html" title="type_vec4.inl" alt="" coords="808,229,907,256"/>
+<area shape="rect" id="node15" href="type__vec1_8hpp.html" title="type_vec1.hpp" alt="" coords="476,155,583,181"/>
+<area shape="rect" id="node16" href="fwd_8hpp.html" title="../fwd.hpp" alt="" coords="704,229,784,256"/>
+<area shape="rect" id="node19" href="type__vec1_8inl.html" title="type_vec1.inl" alt="" coords="480,229,579,256"/>
+<area shape="rect" id="node17" href="type__float_8hpp.html" title="detail/type_float.hpp" alt="" coords="768,379,907,405"/>
+<area shape="rect" id="node18" href="type__mat_8hpp.html" title="detail/type_mat.hpp" alt="" coords="676,304,812,331"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+此图展示该文件直接或间接的被哪些文件引用了:</div>
+<div class="dyncontent">
+<div class="center"><img src="func__integer_8inl__dep__incl.png" border="0" usemap="#glm_2detail_2func__integer_8inldep" alt=""/></div>
+<map name="glm_2detail_2func__integer_8inldep" id="glm_2detail_2func__integer_8inldep">
+<area shape="rect" id="node2" href="func__integer_8hpp.html" title="glm/detail/func_integer.hpp" alt="" coords="3285,80,3464,107"/>
+<area shape="rect" id="node3" href="integer_8hpp.html" title="glm/integer.hpp" alt="" coords="3319,155,3430,181"/>
+<area shape="rect" id="node4" href="glm_8hpp.html" title="glm/glm.hpp" alt="" coords="3328,229,3421,256"/>
+<area shape="rect" id="node5" href="hair_common_8h.html" title="src/hairCommon.h" alt="" coords="3552,543,3682,569"/>
+<area shape="rect" id="node6" href="dummy_8cpp.html" title="glm/detail/dummy.cpp" alt="" coords="27,311,178,338"/>
+<area shape="rect" id="node7" href="glm_8cpp.html" title="glm/detail/glm.cpp" alt="" coords="217,393,345,420"/>
+<area shape="rect" id="node8" href="dual__quaternion_8hpp.html" title="glm/gtx/dual_quaternion.hpp" alt="" coords="254,311,439,338"/>
+<area shape="rect" id="node9" href="intrinsic__integer_8hpp.html" title="glm/detail/intrinsic\l_integer.hpp" alt="" coords="463,304,590,345"/>
+<area shape="rect" id="node10" href="associated__min__max_8hpp.html" title="glm/gtx/associated\l_min_max.hpp" alt="" coords="614,304,746,345"/>
+<area shape="rect" id="node11" href="closest__point_8hpp.html" title="glm/gtx/closest_point.hpp" alt="" coords="770,311,941,338"/>
+<area shape="rect" id="node12" href="intersect_8hpp.html" title="glm/gtx/intersect.hpp" alt="" coords="845,393,989,420"/>
+<area shape="rect" id="node13" href="color__space_8hpp.html" title="glm/gtx/color_space.hpp" alt="" coords="1016,311,1180,338"/>
+<area shape="rect" id="node14" href="color__space___y_co_cg_8hpp.html" title="glm/gtx/color_space\l_YCoCg.hpp" alt="" coords="1205,304,1344,345"/>
+<area shape="rect" id="node15" href="compatibility_8hpp.html" title="glm/gtx/compatibility.hpp" alt="" coords="1368,311,1535,338"/>
+<area shape="rect" id="node16" href="euler__angles_8hpp.html" title="glm/gtx/euler_angles.hpp" alt="" coords="1559,311,1726,338"/>
+<area shape="rect" id="node17" href="extend_8hpp.html" title="glm/gtx/extend.hpp" alt="" coords="1750,311,1884,338"/>
+<area shape="rect" id="node18" href="extented__min__max_8hpp.html" title="glm/gtx/extented_min\l_max.hpp" alt="" coords="1908,304,2054,345"/>
+<area shape="rect" id="node19" href="fast__exponential_8hpp.html" title="glm/gtx/fast_exponential.hpp" alt="" coords="2078,311,2268,338"/>
+<area shape="rect" id="node20" href="fast__square__root_8hpp.html" title="glm/gtx/fast_square\l_root.hpp" alt="" coords="2292,304,2430,345"/>
+<area shape="rect" id="node21" href="normalize__dot_8hpp.html" title="glm/gtx/normalize_dot.hpp" alt="" coords="2327,393,2502,420"/>
+<area shape="rect" id="node22" href="fast__trigonometry_8hpp.html" title="glm/gtx/fast_trigonometry.hpp" alt="" coords="2505,311,2700,338"/>
+<area shape="rect" id="node23" href="gradient__paint_8hpp.html" title="glm/gtx/gradient_paint.hpp" alt="" coords="2668,393,2843,420"/>
+<area shape="rect" id="node24" href="optimum__pow_8hpp.html" title="glm/gtx/optimum_pow.hpp" alt="" coords="2775,311,2950,338"/>
+<area shape="rect" id="node25" href="spline_8hpp.html" title="glm/gtx/spline.hpp" alt="" coords="2886,393,3014,420"/>
+<area shape="rect" id="node26" href="handed__coordinate__space_8hpp.html" title="glm/gtx/handed_coordinate\l_space.hpp" alt="" coords="3025,304,3204,345"/>
+<area shape="rect" id="node27" href="inertia_8hpp.html" title="glm/gtx/inertia.hpp" alt="" coords="3228,311,3358,338"/>
+<area shape="rect" id="node28" href="int__10__10__10__2_8hpp.html" title="glm/gtx/int_10_10_10\l_2.hpp" alt="" coords="3382,304,3529,345"/>
+<area shape="rect" id="node29" href="gtx_2integer_8hpp.html" title="glm/gtx/integer.hpp" alt="" coords="3446,393,3580,420"/>
+<area shape="rect" id="node30" href="string__cast_8hpp.html" title="glm/gtx/string_cast.hpp" alt="" coords="3538,468,3696,495"/>
+<area shape="rect" id="node31" href="log__base_8hpp.html" title="glm/gtx/log_base.hpp" alt="" coords="3654,311,3801,338"/>
+<area shape="rect" id="node32" href="matrix__cross__product_8hpp.html" title="glm/gtx/matrix_cross\l_product.hpp" alt="" coords="3825,304,3969,345"/>
+<area shape="rect" id="node33" href="matrix__interpolation_8hpp.html" title="glm/gtx/matrix_interpolation.hpp" alt="" coords="3994,311,4200,338"/>
+<area shape="rect" id="node34" href="matrix__major__storage_8hpp.html" title="glm/gtx/matrix_major\l_storage.hpp" alt="" coords="4225,304,4369,345"/>
+<area shape="rect" id="node35" href="matrix__operation_8hpp.html" title="glm/gtx/matrix_operation.hpp" alt="" coords="4394,311,4584,338"/>
+<area shape="rect" id="node36" href="matrix__query_8hpp.html" title="glm/gtx/matrix_query.hpp" alt="" coords="4599,393,4768,420"/>
+<area shape="rect" id="node37" href="vector__query_8hpp.html" title="glm/gtx/vector_query.hpp" alt="" coords="4660,311,4830,338"/>
+<area shape="rect" id="node38" href="mixed__product_8hpp.html" title="glm/gtx/mixed_product.hpp" alt="" coords="4854,311,5033,338"/>
+<area shape="rect" id="node39" href="multiple_8hpp.html" title="glm/gtx/multiple.hpp" alt="" coords="5057,311,5196,338"/>
+<area shape="rect" id="node40" href="norm_8hpp.html" title="glm/gtx/norm.hpp" alt="" coords="5220,311,5342,338"/>
+<area shape="rect" id="node41" href="gtx_2quaternion_8hpp.html" title="glm/gtx/quaternion.hpp" alt="" coords="5204,393,5358,420"/>
+<area shape="rect" id="node42" href="normal_8hpp.html" title="glm/gtx/normal.hpp" alt="" coords="5417,311,5550,338"/>
+<area shape="rect" id="node43" href="number__precision_8hpp.html" title="glm/gtx/number_precision.hpp" alt="" coords="5575,311,5771,338"/>
+<area shape="rect" id="node44" href="orthonormalize_8hpp.html" title="glm/gtx/orthonormalize.hpp" alt="" coords="5796,311,5974,338"/>
+<area shape="rect" id="node45" href="perpendicular_8hpp.html" title="glm/gtx/perpendicular.hpp" alt="" coords="5982,393,6153,420"/>
+<area shape="rect" id="node46" href="projection_8hpp.html" title="glm/gtx/projection.hpp" alt="" coords="6050,311,6200,338"/>
+<area shape="rect" id="node47" href="polar__coordinates_8hpp.html" title="glm/gtx/polar_coordinates.hpp" alt="" coords="6224,311,6420,338"/>
+<area shape="rect" id="node48" href="rotate__vector_8hpp.html" title="glm/gtx/rotate_vector.hpp" alt="" coords="6368,393,6538,420"/>
+<area shape="rect" id="node49" href="transform_8hpp.html" title="glm/gtx/transform.hpp" alt="" coords="6496,311,6645,338"/>
+<area shape="rect" id="node50" href="std__based__type_8hpp.html" title="glm/gtx/std_based_type.hpp" alt="" coords="6669,311,6856,338"/>
+</map>
+</div>
+</div>
+<p><a href="func__integer_8inl_source.html">浏览源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+命名空间</h2></td></tr>
+<tr class="memitem:namespaceglm"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceglm.html">glm</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:a58f7d2bd0bc8d3af9e362e904fd20aa3"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a58f7d2bd0bc8d3af9e362e904fd20aa3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> uint&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a58f7d2bd0bc8d3af9e362e904fd20aa3">glm::uaddCarry</a> (uint const &amp;x, uint const &amp;y, uint &amp;Carry)</td></tr>
+<tr class="separator:a58f7d2bd0bc8d3af9e362e904fd20aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dab4b979638deec548f2d2a3e1700a8"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a9dab4b979638deec548f2d2a3e1700a8"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> uvec2&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a9dab4b979638deec548f2d2a3e1700a8">glm::uaddCarry</a> (uvec2 const &amp;x, uvec2 const &amp;y, uvec2 &amp;Carry)</td></tr>
+<tr class="separator:a9dab4b979638deec548f2d2a3e1700a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e6210424a7addf84cdeaf17f583d2da"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a2e6210424a7addf84cdeaf17f583d2da"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> uvec3&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a2e6210424a7addf84cdeaf17f583d2da">glm::uaddCarry</a> (uvec3 const &amp;x, uvec3 const &amp;y, uvec3 &amp;Carry)</td></tr>
+<tr class="separator:a2e6210424a7addf84cdeaf17f583d2da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3ad9f57d6e505779a8b35546c31d08b"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:af3ad9f57d6e505779a8b35546c31d08b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> uvec4&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#af3ad9f57d6e505779a8b35546c31d08b">glm::uaddCarry</a> (uvec4 const &amp;x, uvec4 const &amp;y, uvec4 &amp;Carry)</td></tr>
+<tr class="separator:af3ad9f57d6e505779a8b35546c31d08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b489a758eb61d6308ecdf33081da3be"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a8b489a758eb61d6308ecdf33081da3be"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> uint&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a8b489a758eb61d6308ecdf33081da3be">glm::usubBorrow</a> (uint const &amp;x, uint const &amp;y, uint &amp;Borrow)</td></tr>
+<tr class="separator:a8b489a758eb61d6308ecdf33081da3be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c3c7dfa6a8edab85fce4a945e0dc373"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a5c3c7dfa6a8edab85fce4a945e0dc373"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> uvec2&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a5c3c7dfa6a8edab85fce4a945e0dc373">glm::usubBorrow</a> (uvec2 const &amp;x, uvec2 const &amp;y, uvec2 &amp;Borrow)</td></tr>
+<tr class="separator:a5c3c7dfa6a8edab85fce4a945e0dc373"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cc22c141f42fb9faf42adb6cb124bb7"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a3cc22c141f42fb9faf42adb6cb124bb7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> uvec3&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a3cc22c141f42fb9faf42adb6cb124bb7">glm::usubBorrow</a> (uvec3 const &amp;x, uvec3 const &amp;y, uvec3 &amp;Borrow)</td></tr>
+<tr class="separator:a3cc22c141f42fb9faf42adb6cb124bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a766d4ebce0a5f042f79787ef32862bb4"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a766d4ebce0a5f042f79787ef32862bb4"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> uvec4&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a766d4ebce0a5f042f79787ef32862bb4">glm::usubBorrow</a> (uvec4 const &amp;x, uvec4 const &amp;y, uvec4 &amp;Borrow)</td></tr>
+<tr class="separator:a766d4ebce0a5f042f79787ef32862bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a656a4eb28952b733f8611d6a5e98472f"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a656a4eb28952b733f8611d6a5e98472f"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a656a4eb28952b733f8611d6a5e98472f">glm::umulExtended</a> (uint const &amp;x, uint const &amp;y, uint &amp;msb, uint &amp;lsb)</td></tr>
+<tr class="separator:a656a4eb28952b733f8611d6a5e98472f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e0e684a25e4d67be3532c7059eb366c"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a0e0e684a25e4d67be3532c7059eb366c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a0e0e684a25e4d67be3532c7059eb366c">glm::umulExtended</a> (uvec2 const &amp;x, uvec2 const &amp;y, uvec2 &amp;msb, uvec2 &amp;lsb)</td></tr>
+<tr class="separator:a0e0e684a25e4d67be3532c7059eb366c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e66bd04ac16ae0e3eb87e965b1609a9"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a6e66bd04ac16ae0e3eb87e965b1609a9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a6e66bd04ac16ae0e3eb87e965b1609a9">glm::umulExtended</a> (uvec3 const &amp;x, uvec3 const &amp;y, uvec3 &amp;msb, uvec3 &amp;lsb)</td></tr>
+<tr class="separator:a6e66bd04ac16ae0e3eb87e965b1609a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af466bd5c7fd7304b486b3f5985805349"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:af466bd5c7fd7304b486b3f5985805349"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#af466bd5c7fd7304b486b3f5985805349">glm::umulExtended</a> (uvec4 const &amp;x, uvec4 const &amp;y, uvec4 &amp;msb, uvec4 &amp;lsb)</td></tr>
+<tr class="separator:af466bd5c7fd7304b486b3f5985805349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9472a4d6f9eec4abf4453a4be8365433"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a9472a4d6f9eec4abf4453a4be8365433"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a9472a4d6f9eec4abf4453a4be8365433">glm::imulExtended</a> (int const &amp;x, int const &amp;y, int &amp;msb, int &amp;lsb)</td></tr>
+<tr class="separator:a9472a4d6f9eec4abf4453a4be8365433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a2bbaf30c571f3851be2e0e60d856ca"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a9a2bbaf30c571f3851be2e0e60d856ca"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a9a2bbaf30c571f3851be2e0e60d856ca">glm::imulExtended</a> (ivec2 const &amp;x, ivec2 const &amp;y, ivec2 &amp;msb, ivec2 &amp;lsb)</td></tr>
+<tr class="separator:a9a2bbaf30c571f3851be2e0e60d856ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7e696be671c1ff9cb6a7a3d2ef487f9"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:ad7e696be671c1ff9cb6a7a3d2ef487f9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#ad7e696be671c1ff9cb6a7a3d2ef487f9">glm::imulExtended</a> (ivec3 const &amp;x, ivec3 const &amp;y, ivec3 &amp;msb, ivec3 &amp;lsb)</td></tr>
+<tr class="separator:ad7e696be671c1ff9cb6a7a3d2ef487f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aa66966beaab138702abc4f469b9839"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a8aa66966beaab138702abc4f469b9839"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a8aa66966beaab138702abc4f469b9839">glm::imulExtended</a> (ivec4 const &amp;x, ivec4 const &amp;y, ivec4 &amp;msb, ivec4 &amp;lsb)</td></tr>
+<tr class="separator:a8aa66966beaab138702abc4f469b9839"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga251d309beb171bf95117d2c301b2ad8b"><td class="memTemplParams" colspan="2">template&lt;typename genIUType &gt; </td></tr>
+<tr class="memitem:ga251d309beb171bf95117d2c301b2ad8b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> genIUType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__core__func__integer.html#ga251d309beb171bf95117d2c301b2ad8b">glm::bitfieldExtract</a> (genIUType const &amp;Value, int const &amp;Offset, int const &amp;Bits)</td></tr>
+<tr class="separator:ga251d309beb171bf95117d2c301b2ad8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab80cbec6661f19566dafe4d23f997dee"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:ab80cbec6661f19566dafe4d23f997dee"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec2&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#ab80cbec6661f19566dafe4d23f997dee">glm::bitfieldExtract</a> (detail::tvec2&lt; T, P &gt; const &amp;Value, int const &amp;Offset, int const &amp;Bits)</td></tr>
+<tr class="separator:ab80cbec6661f19566dafe4d23f997dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf06c42671bc9aeba477920df26c02e"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:adcf06c42671bc9aeba477920df26c02e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec3&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#adcf06c42671bc9aeba477920df26c02e">glm::bitfieldExtract</a> (detail::tvec3&lt; T, P &gt; const &amp;Value, int const &amp;Offset, int const &amp;Bits)</td></tr>
+<tr class="separator:adcf06c42671bc9aeba477920df26c02e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ac7cf2ac2cacd15c4dc19ef3e69fc07"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:a7ac7cf2ac2cacd15c4dc19ef3e69fc07"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec4&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a7ac7cf2ac2cacd15c4dc19ef3e69fc07">glm::bitfieldExtract</a> (detail::tvec4&lt; T, P &gt; const &amp;Value, int const &amp;Offset, int const &amp;Bits)</td></tr>
+<tr class="separator:a7ac7cf2ac2cacd15c4dc19ef3e69fc07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7ab09972d52094d97d2480982e657dd0"><td class="memTemplParams" colspan="2">template&lt;typename genIUType &gt; </td></tr>
+<tr class="memitem:ga7ab09972d52094d97d2480982e657dd0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> genIUType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__core__func__integer.html#ga7ab09972d52094d97d2480982e657dd0">glm::bitfieldInsert</a> (genIUType const &amp;Base, genIUType const &amp;Insert, int const &amp;Offset, int const &amp;Bits)</td></tr>
+<tr class="separator:ga7ab09972d52094d97d2480982e657dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fe5875041ab0644094ed8866cfbf414"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:a3fe5875041ab0644094ed8866cfbf414"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec2&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a3fe5875041ab0644094ed8866cfbf414">glm::bitfieldInsert</a> (detail::tvec2&lt; T, P &gt; const &amp;Base, detail::tvec2&lt; T, P &gt; const &amp;Insert, int const &amp;Offset, int const &amp;Bits)</td></tr>
+<tr class="separator:a3fe5875041ab0644094ed8866cfbf414"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac119fb710c26ac07213e39e16ce02b39"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:ac119fb710c26ac07213e39e16ce02b39"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec3&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#ac119fb710c26ac07213e39e16ce02b39">glm::bitfieldInsert</a> (detail::tvec3&lt; T, P &gt; const &amp;Base, detail::tvec3&lt; T, P &gt; const &amp;Insert, int const &amp;Offset, int const &amp;Bits)</td></tr>
+<tr class="separator:ac119fb710c26ac07213e39e16ce02b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9cf2cd98236c704a80098f2bc801fcf"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:ad9cf2cd98236c704a80098f2bc801fcf"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec4&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#ad9cf2cd98236c704a80098f2bc801fcf">glm::bitfieldInsert</a> (detail::tvec4&lt; T, P &gt; const &amp;Base, detail::tvec4&lt; T, P &gt; const &amp;Insert, int const &amp;Offset, int const &amp;Bits)</td></tr>
+<tr class="separator:ad9cf2cd98236c704a80098f2bc801fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac28880e609c6eeb0a28f1a54b1edc715"><td class="memTemplParams" colspan="2">template&lt;typename genIUType &gt; </td></tr>
+<tr class="memitem:gac28880e609c6eeb0a28f1a54b1edc715"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> genIUType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__core__func__integer.html#gac28880e609c6eeb0a28f1a54b1edc715">glm::bitfieldReverse</a> (genIUType const &amp;Value)</td></tr>
+<tr class="separator:gac28880e609c6eeb0a28f1a54b1edc715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3327aadbf9816a3f8b182cbd9bcb1aac"><td class="memTemplParams" colspan="2">template&lt;typename genIUType &gt; </td></tr>
+<tr class="memitem:a3327aadbf9816a3f8b182cbd9bcb1aac"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a3327aadbf9816a3f8b182cbd9bcb1aac">glm::bitCount</a> (genIUType const &amp;Value)</td></tr>
+<tr class="separator:a3327aadbf9816a3f8b182cbd9bcb1aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a573d6ea294a27e158525a1558eac5492"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:a573d6ea294a27e158525a1558eac5492"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec2&lt; int, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a573d6ea294a27e158525a1558eac5492">glm::bitCount</a> (detail::tvec2&lt; T, P &gt; const &amp;value)</td></tr>
+<tr class="separator:a573d6ea294a27e158525a1558eac5492"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f5b97b2cca4741488209eac160ef903"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:a2f5b97b2cca4741488209eac160ef903"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec3&lt; int, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a2f5b97b2cca4741488209eac160ef903">glm::bitCount</a> (detail::tvec3&lt; T, P &gt; const &amp;value)</td></tr>
+<tr class="separator:a2f5b97b2cca4741488209eac160ef903"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c668fc78e5881f3ae8b93a997ce8d22"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:a8c668fc78e5881f3ae8b93a997ce8d22"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec4&lt; int, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a8c668fc78e5881f3ae8b93a997ce8d22">glm::bitCount</a> (detail::tvec4&lt; T, P &gt; const &amp;value)</td></tr>
+<tr class="separator:a8c668fc78e5881f3ae8b93a997ce8d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a984d0192bd95085d8efb0a1a00a4e6d9"><td class="memTemplParams" colspan="2">template&lt;typename genIUType &gt; </td></tr>
+<tr class="memitem:a984d0192bd95085d8efb0a1a00a4e6d9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a984d0192bd95085d8efb0a1a00a4e6d9">glm::findLSB</a> (genIUType const &amp;Value)</td></tr>
+<tr class="separator:a984d0192bd95085d8efb0a1a00a4e6d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae037356ab3b0ac098723dfe091a93753"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:ae037356ab3b0ac098723dfe091a93753"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec2&lt; int, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#ae037356ab3b0ac098723dfe091a93753">glm::findLSB</a> (detail::tvec2&lt; T, P &gt; const &amp;value)</td></tr>
+<tr class="separator:ae037356ab3b0ac098723dfe091a93753"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84e800d8d8e6526be81c6f5adcc275a8"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:a84e800d8d8e6526be81c6f5adcc275a8"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec3&lt; int, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a84e800d8d8e6526be81c6f5adcc275a8">glm::findLSB</a> (detail::tvec3&lt; T, P &gt; const &amp;value)</td></tr>
+<tr class="separator:a84e800d8d8e6526be81c6f5adcc275a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e4e6525d3aa43da17a5c34b782b6b99"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:a8e4e6525d3aa43da17a5c34b782b6b99"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec4&lt; int, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a8e4e6525d3aa43da17a5c34b782b6b99">glm::findLSB</a> (detail::tvec4&lt; T, P &gt; const &amp;value)</td></tr>
+<tr class="separator:a8e4e6525d3aa43da17a5c34b782b6b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc22c75c7dd35bacf86237d8bfe8b53a"><td class="memTemplParams" colspan="2">template&lt;typename genIUType &gt; </td></tr>
+<tr class="memitem:adc22c75c7dd35bacf86237d8bfe8b53a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#adc22c75c7dd35bacf86237d8bfe8b53a">glm::findMSB</a> (genIUType const &amp;Value)</td></tr>
+<tr class="separator:adc22c75c7dd35bacf86237d8bfe8b53a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4a84b6df7edb51f4b6a612021ef7999"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:af4a84b6df7edb51f4b6a612021ef7999"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec2&lt; int, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#af4a84b6df7edb51f4b6a612021ef7999">glm::findMSB</a> (detail::tvec2&lt; T, P &gt; const &amp;value)</td></tr>
+<tr class="separator:af4a84b6df7edb51f4b6a612021ef7999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d435c4aca98a82adffb2a49a38d0019"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:a9d435c4aca98a82adffb2a49a38d0019"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec3&lt; int, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a9d435c4aca98a82adffb2a49a38d0019">glm::findMSB</a> (detail::tvec3&lt; T, P &gt; const &amp;value)</td></tr>
+<tr class="separator:a9d435c4aca98a82adffb2a49a38d0019"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91e6dfc9a29f78870ea1e8918dd90072"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:a91e6dfc9a29f78870ea1e8918dd90072"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec4&lt; int, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a91e6dfc9a29f78870ea1e8918dd90072">glm::findMSB</a> (detail::tvec4&lt; T, P &gt; const &amp;value)</td></tr>
+<tr class="separator:a91e6dfc9a29f78870ea1e8918dd90072"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

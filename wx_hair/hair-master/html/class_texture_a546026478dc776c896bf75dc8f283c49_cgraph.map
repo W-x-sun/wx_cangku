@@ -1,0 +1,7 @@
+<map id="Texture::updateImage" name="Texture::updateImage">
+<area shape="rect" id="node2" href="$class_texture.html#a656f44ae9b0a3584e32b5742d55f1ccb" title="Texture::bind" alt="" coords="212,5,311,32"/>
+<area shape="rect" id="node4" href="$glew__head_8h.html#aa95edbecc15f2cb8072b81af66d60f5b" title="glTexImage2D" alt="" coords="208,56,315,83"/>
+<area shape="rect" id="node5" href="$glew__head_8h.html#ac8dbabff536e520bc700960dadd8d787" title="glTexParameteri" alt="" coords="203,107,320,133"/>
+<area shape="rect" id="node6" href="$class_texture.html#a57a64b8502d77287649bb7525ce13088" title="Texture::unbind" alt="" coords="205,157,317,184"/>
+<area shape="rect" id="node3" href="$glew__head_8h.html#a940f58f3728713267a58e2d09ff602b2" title="glBindTexture" alt="" coords="368,81,471,108"/>
+</map>

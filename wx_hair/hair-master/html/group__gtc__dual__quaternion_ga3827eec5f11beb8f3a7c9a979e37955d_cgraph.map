@@ -1,0 +1,12 @@
+<map id="glm::inverse" name="glm::inverse">
+<area shape="rect" id="node2" href="$group__gtc__quaternion.html#gaf78006c47276b151777fc194cf11a688" title="glm::conjugate" alt="" coords="157,23,263,49"/>
+<area shape="rect" id="node5" href="$group__core__func__geometric.html#ga7dada304da2ba7dd3376ab4f178c3f6b" title="glm::dot" alt="" coords="175,80,245,107"/>
+<area shape="rect" id="node8" href="$group__gtc__dual__quaternion.html#gaa22068e2d3adb171fbc6c6260864a53c" title="glm::mat2x4_cast" alt="" coords="147,143,273,169"/>
+<area shape="rect" id="node3" href="$namespaceglm_1_1detail.html#a4d5c895b3548f6c8296fd6a9980fe3e1" title="glm::detail::inverse" alt="" coords="321,17,453,44"/>
+<area shape="rect" id="node4" href="$namespaceglm_1_1detail.html#a9691988fe228ada0f1a25704bdcb7da0" title="glm::detail::sse_inverse_ps" alt="" coords="501,5,683,32"/>
+<area shape="rect" id="node6" href="$group__core__func__geometric.html#ga89b91c2a256cfb62ecbc589d1ee36d3c" title="glm::cross" alt="" coords="346,80,429,107"/>
+<area shape="rect" id="node7" href="$group__core__func__geometric.html#ga15aa87101457e41663b08a8dcc3357f8" title="glm::normalize" alt="" coords="539,80,645,107"/>
+<area shape="rect" id="node9" href="$group__gtc__dual__quaternion.html#ga9e5bb363690e8c1058f86b39596a7187" title="glm::mat3x4_cast" alt="" coords="324,155,451,181"/>
+<area shape="rect" id="node10" href="$group__gtx__norm.html#ga1d8568485d8bbe6593dbbc2221659dfe" title="glm::length2" alt="" coords="545,155,639,181"/>
+<area shape="rect" id="node11" href="$group__gtc__dual__quaternion.html#ga71e0ed6d5262bfd7f543cd2d29fe87a7" title="glm::dualquat_cast" alt="" coords="526,229,658,256"/>
+</map>

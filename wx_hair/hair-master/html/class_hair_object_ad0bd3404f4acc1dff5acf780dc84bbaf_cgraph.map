@@ -1,0 +1,9 @@
+<map id="HairObject::paint" name="HairObject::paint">
+<area shape="rect" id="node2" href="$group__gtx__color__space.html#ga8c25ad5eee2386d7f5180ccaa0523246" title="glm::rgbColor" alt="" coords="221,29,321,56"/>
+<area shape="rect" id="node8" href="$class_shader_program.html#aa5feab6ba2fffcee8d8b1a82bdbf723a" title="ShaderProgram::setPerObject\lUniforms" alt="" coords="173,81,369,122"/>
+<area shape="rect" id="node3" href="$group__gtx__color__space.html#gaef4a1b7ed5bec43e245cd152951ec28a" title="glm::hsvColor" alt="" coords="417,29,520,56"/>
+<area shape="rect" id="node7" href="$group__core__func__common.html#ga86350252cc9bf86421317460bbd1f21c" title="glm::floor" alt="" coords="431,104,507,131"/>
+<area shape="rect" id="node4" href="$group__core__func__common.html#ga3dc90dbd66c9ca1dd5625c93d9c50f02" title="glm::min" alt="" coords="827,31,899,57"/>
+<area shape="rect" id="node5" href="$group__core__func__common.html#gaa228561a9da55898f8f72ad2403fafac" title="glm::max" alt="" coords="568,80,644,107"/>
+<area shape="rect" id="node6" href="$group__core__func__common.html#ga72e9e213c84f06a329a2a838b51200f4" title="glm::clamp" alt="" coords="692,105,779,132"/>
+</map>

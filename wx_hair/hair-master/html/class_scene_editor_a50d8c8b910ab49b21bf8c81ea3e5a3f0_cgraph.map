@@ -1,0 +1,12 @@
+<map id="SceneEditor::setBrushDirUp" name="SceneEditor::setBrushDirUp">
+<area shape="rect" id="node2" href="$class_scene_widget.html#aebf300e351c6ab55058a96245080f328" title="SceneWidget::setBrushDir" alt="" coords="242,24,419,51"/>
+<area shape="rect" id="node3" href="$class_scene_widget.html#aa83324208e6dd3c24e9e77c031705b76" title="SceneWidget::updateBrush\lSettings" alt="" coords="240,75,421,117"/>
+<area shape="rect" id="node4" href="$class_scene_widget.html#af63f8c3742612d0d49756ae3f8e6ba4c" title="SceneWidget::makeConstantMask" alt="" coords="471,32,696,59"/>
+<area shape="rect" id="node10" href="$class_scene_widget.html#a2037612c47d32285991e93a9c5ebcbe7" title="SceneWidget::makeLinearMask" alt="" coords="480,83,687,109"/>
+<area shape="rect" id="node11" href="$class_scene_widget.html#ad5056d77cfaf9b708c059fc7cbae55a3" title="SceneWidget::makeQuadraticMask" alt="" coords="469,133,697,160"/>
+<area shape="rect" id="node5" href="$group__gtc__matrix__access.html#gad5af815e1ea261465434a6f8fae88af1" title="glm::row" alt="" coords="759,59,831,85"/>
+<area shape="rect" id="node7" href="$group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="1035,59,1108,85"/>
+<area shape="rect" id="node9" href="$group__core__func__geometric.html#ga00716eae37e8ae2a76ca7799f9c75682" title="glm::distance" alt="" coords="745,133,845,160"/>
+<area shape="rect" id="node6" href="$group__core__func__geometric.html#ga03b2831439defb8922832b540b91b8a7" title="glm::length" alt="" coords="897,109,983,136"/>
+<area shape="rect" id="node8" href="$group__gtc__matrix__access.html#gafeb75b82cc45bf9e68d3050eea093aa7" title="glm::column" alt="" coords="893,59,987,85"/>
+</map>

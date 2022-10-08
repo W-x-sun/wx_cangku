@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: glm/gtc/noise.inl 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_a18149d1b32e3efeacb0e34a962af4d3.html">glm</a></li><li class="navelem"><a class="el" href="dir_5421a8671ffa3cebe0a38abc7d91e881.html">gtc</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#namespaces">命名空间</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">noise.inl 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="geometric_8hpp_source.html">../geometric.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="common_8hpp_source.html">../common.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="vector__relational_8hpp_source.html">../vector_relational.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="__noise_8hpp_source.html">../detail/_noise.hpp</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+noise.inl 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="noise_8inl__incl.png" border="0" usemap="#glm_2gtc_2noise_8inl" alt=""/></div>
+<map name="glm_2gtc_2noise_8inl" id="glm_2gtc_2noise_8inl">
+<area shape="rect" id="node2" href="geometric_8hpp.html" title="../geometric.hpp" alt="" coords="301,80,417,107"/>
+<area shape="rect" id="node32" href="common_8hpp.html" title="../common.hpp" alt="" coords="51,155,160,181"/>
+<area shape="rect" id="node33" href="vector__relational_8hpp.html" title="../vector_relational.hpp" alt="" coords="1153,229,1308,256"/>
+<area shape="rect" id="node34" href="__noise_8hpp.html" title="../detail/_noise.hpp" alt="" coords="506,80,638,107"/>
+<area shape="rect" id="node3" href="func__geometric_8hpp.html" title="detail/func_geometric.hpp" alt="" coords="260,155,431,181"/>
+<area shape="rect" id="node4" href="type__vec3_8hpp.html" title="type_vec3.hpp" alt="" coords="325,528,432,555"/>
+<area shape="rect" id="node12" href="func__geometric_8inl.html" title="func_geometric.inl" alt="" coords="575,229,703,256"/>
+<area shape="rect" id="node5" href="type__vec_8hpp.html" title="type_vec.hpp" alt="" coords="579,677,679,704"/>
+<area shape="rect" id="node11" href="type__vec3_8inl.html" title="type_vec3.inl" alt="" coords="195,603,293,629"/>
+<area shape="rect" id="node6" href="precision_8hpp.html" title="precision.hpp" alt="" coords="755,752,853,779"/>
+<area shape="rect" id="node7" href="type__int_8hpp.html" title="type_int.hpp" alt="" coords="601,752,695,779"/>
+<area shape="rect" id="node8" href="setup_8hpp.html" title="setup.hpp" alt="" coords="938,827,1017,853"/>
+<area shape="rect" id="node13" href="func__exponential_8hpp.html" title="func_exponential.hpp" alt="" coords="807,304,953,331"/>
+<area shape="rect" id="node16" href="type__float_8hpp.html" title="detail/type_float.hpp" alt="" coords="1021,677,1160,704"/>
+<area shape="rect" id="node19" href="type__vec2_8hpp.html" title="type_vec2.hpp" alt="" coords="477,528,584,555"/>
+<area shape="rect" id="node21" href="type__vec4_8hpp.html" title="type_vec4.hpp" alt="" coords="759,528,865,555"/>
+<area shape="rect" id="node29" href="func__common_8hpp.html" title="func_common.hpp" alt="" coords="93,304,222,331"/>
+<area shape="rect" id="node14" href="type__vec1_8hpp.html" title="type_vec1.hpp" alt="" coords="628,528,735,555"/>
+<area shape="rect" id="node24" href="func__exponential_8inl.html" title="func_exponential.inl" alt="" coords="1086,379,1223,405"/>
+<area shape="rect" id="node15" href="fwd_8hpp.html" title="../fwd.hpp" alt="" coords="805,603,885,629"/>
+<area shape="rect" id="node18" href="type__vec1_8inl.html" title="type_vec1.inl" alt="" coords="632,603,731,629"/>
+<area shape="rect" id="node17" href="type__mat_8hpp.html" title="detail/type_mat.hpp" alt="" coords="755,677,891,704"/>
+<area shape="rect" id="node20" href="type__vec2_8inl.html" title="type_vec2.inl" alt="" coords="368,603,467,629"/>
+<area shape="rect" id="node22" href="type__vec4_8inl.html" title="type_vec4.inl" alt="" coords="960,603,1059,629"/>
+<area shape="rect" id="node25" href="func__vector__relational_8hpp.html" title="func_vector_relational.hpp" alt="" coords="1185,453,1359,480"/>
+<area shape="rect" id="node28" href="__vectorize_8hpp.html" title="_vectorize.hpp" alt="" coords="619,453,725,480"/>
+<area shape="rect" id="node26" href="func__vector__relational_8inl.html" title="func_vector_relational.inl" alt="" coords="1235,528,1402,555"/>
+<area shape="rect" id="node30" href="__fixes_8hpp.html" title="_fixes.hpp" alt="" coords="759,379,841,405"/>
+<area shape="rect" id="node31" href="func__common_8inl.html" title="func_common.inl" alt="" coords="611,379,733,405"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+此图展示该文件直接或间接的被哪些文件引用了:</div>
+<div class="dyncontent">
+<div class="center"><img src="noise_8inl__dep__incl.png" border="0" usemap="#glm_2gtc_2noise_8inldep" alt=""/></div>
+<map name="glm_2gtc_2noise_8inldep" id="glm_2gtc_2noise_8inldep">
+<area shape="rect" id="node2" href="gtc_2noise_8hpp.html" title="glm/gtc/noise.hpp" alt="" coords="53,80,179,107"/>
+<area shape="rect" id="node3" href="ext_8hpp.html" title="glm/ext.hpp" alt="" coords="5,155,96,181"/>
+<area shape="rect" id="node4" href="gtx_2noise_8hpp.html" title="glm/gtx/noise.hpp" alt="" coords="120,155,245,181"/>
+</map>
+</div>
+</div>
+<p><a href="noise_8inl_source.html">浏览源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+命名空间</h2></td></tr>
+<tr class="memitem:namespaceglm"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceglm.html">glm</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceglm_1_1gtc"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceglm_1_1gtc.html">glm::gtc</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:a60a628dac031a1bafeead87b20b1b641"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:a60a628dac031a1bafeead87b20b1b641"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> detail::tvec4&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm_1_1gtc.html#a60a628dac031a1bafeead87b20b1b641">glm::gtc::grad4</a> (T const &amp;j, detail::tvec4&lt; T, P &gt; const &amp;ip)</td></tr>
+<tr class="separator:a60a628dac031a1bafeead87b20b1b641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf4944b3c2a00c1e7a1b25b96cea6bfb"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:aaf4944b3c2a00c1e7a1b25b96cea6bfb"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#aaf4944b3c2a00c1e7a1b25b96cea6bfb">glm::perlin</a> (detail::tvec2&lt; T, P &gt; const &amp;Position)</td></tr>
+<tr class="separator:aaf4944b3c2a00c1e7a1b25b96cea6bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11707c4e77f153abec905731b1ce52a0"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:a11707c4e77f153abec905731b1ce52a0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#a11707c4e77f153abec905731b1ce52a0">glm::perlin</a> (detail::tvec3&lt; T, P &gt; const &amp;Position)</td></tr>
+<tr class="separator:a11707c4e77f153abec905731b1ce52a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5aa8a72ead80436e891284db02a2f20"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:ac5aa8a72ead80436e891284db02a2f20"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#ac5aa8a72ead80436e891284db02a2f20">glm::perlin</a> (detail::tvec4&lt; T, P &gt; const &amp;Position)</td></tr>
+<tr class="separator:ac5aa8a72ead80436e891284db02a2f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7529608f67b6200929a30cc5e3f5c71"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:aa7529608f67b6200929a30cc5e3f5c71"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#aa7529608f67b6200929a30cc5e3f5c71">glm::perlin</a> (detail::tvec2&lt; T, P &gt; const &amp;Position, detail::tvec2&lt; T, P &gt; const &amp;rep)</td></tr>
+<tr class="separator:aa7529608f67b6200929a30cc5e3f5c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc2ed67b3bf55ef9fcf95dae1b980148"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:adc2ed67b3bf55ef9fcf95dae1b980148"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#adc2ed67b3bf55ef9fcf95dae1b980148">glm::perlin</a> (detail::tvec3&lt; T, P &gt; const &amp;Position, detail::tvec3&lt; T, P &gt; const &amp;rep)</td></tr>
+<tr class="separator:adc2ed67b3bf55ef9fcf95dae1b980148"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae37c0aec171d76dc3ca061fe4ee8a9c"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:aae37c0aec171d76dc3ca061fe4ee8a9c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#aae37c0aec171d76dc3ca061fe4ee8a9c">glm::perlin</a> (detail::tvec4&lt; T, P &gt; const &amp;Position, detail::tvec4&lt; T, P &gt; const &amp;rep)</td></tr>
+<tr class="separator:aae37c0aec171d76dc3ca061fe4ee8a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdfacc8dd98029ebf09c0a4a1ed505f5"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:abdfacc8dd98029ebf09c0a4a1ed505f5"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#abdfacc8dd98029ebf09c0a4a1ed505f5">glm::simplex</a> (<a class="el" href="structglm_1_1detail_1_1tvec2.html">glm::detail::tvec2</a>&lt; T, P &gt; const &amp;v)</td></tr>
+<tr class="separator:abdfacc8dd98029ebf09c0a4a1ed505f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa95d7bc123a0a077dc7f015333e2d674"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:aa95d7bc123a0a077dc7f015333e2d674"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#aa95d7bc123a0a077dc7f015333e2d674">glm::simplex</a> (detail::tvec3&lt; T, P &gt; const &amp;v)</td></tr>
+<tr class="separator:aa95d7bc123a0a077dc7f015333e2d674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadad60578e53c3af96e0a078cc4ad462"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:aadad60578e53c3af96e0a078cc4ad462"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceglm.html#aadad60578e53c3af96e0a078cc4ad462">glm::simplex</a> (detail::tvec4&lt; T, P &gt; const &amp;v)</td></tr>
+<tr class="separator:aadad60578e53c3af96e0a078cc4ad462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>OpenGL Mathematics (glm.g-truc.net)</p>
+<p>Copyright (c) 2005 - 2014 G-Truc Creation (www.g-truc.net) Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<p><a class="el" href="group__gtc__noise.html">GLM_GTC_noise</a></p>
+<dl class="section date"><dt>日期</dt><dd>2011-04-21 / 2012-04-07 </dd></dl>
+<dl class="section author"><dt>作者</dt><dd>Christophe Riccio </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="noise_8inl_source.html">noise.inl</a> 中定义.</p>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

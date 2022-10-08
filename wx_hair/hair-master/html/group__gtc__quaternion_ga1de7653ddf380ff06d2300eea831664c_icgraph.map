@@ -1,0 +1,6 @@
+<map id="glm::yaw" name="glm::yaw">
+<area shape="rect" id="node2" href="$group__gtc__quaternion.html#gade4034f49ccadf63cb31a7fb5fa3c8aa" title="glm::eulerAngles" alt="" coords="371,31,489,57"/>
+<area shape="rect" id="node4" href="$group__gtc__quaternion.html#ga4d345dc369a54f53f5ebc375bac56d11" title="glm::pitch" alt="" coords="128,31,207,57"/>
+<area shape="rect" id="node3" href="$group__gtc__quaternion.html#gaa9a8891f03d8f5373525c4b3159c1c73" title="glm::rotate" alt="" coords="537,31,621,57"/>
+<area shape="rect" id="node5" href="$group__gtc__quaternion.html#ga6d883e423bc425f4334fcce202131f7e" title="glm::roll" alt="" coords="255,81,323,108"/>
+</map>

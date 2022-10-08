@@ -1,0 +1,22 @@
+<map id="glm::simplex" name="glm::simplex">
+<area shape="rect" id="node2" href="$group__core__func__common.html#ga86350252cc9bf86421317460bbd1f21c" title="glm::floor" alt="" coords="577,247,653,273"/>
+<area shape="rect" id="node3" href="$group__core__func__geometric.html#ga7dada304da2ba7dd3376ab4f178c3f6b" title="glm::dot" alt="" coords="197,55,266,81"/>
+<area shape="rect" id="node6" href="$group__core__func__common.html#gaf21c84759af7799f573865f70c2f0a86" title="glm::step" alt="" coords="193,155,269,181"/>
+<area shape="rect" id="node15" href="$group__core__func__common.html#ga3dc90dbd66c9ca1dd5625c93d9c50f02" title="glm::min" alt="" coords="195,432,267,459"/>
+<area shape="rect" id="node16" href="$group__core__func__common.html#gaa228561a9da55898f8f72ad2403fafac" title="glm::max" alt="" coords="391,381,467,408"/>
+<area shape="rect" id="node18" href="$namespaceglm_1_1detail.html#a9968154b610b2b78f492b2f7babd728c" title="glm::detail::mod289" alt="" coords="361,256,497,283"/>
+<area shape="rect" id="node19" href="$namespaceglm_1_1detail.html#adce908e01ac22b5e55c29bacbf6a37a5" title="glm::detail::permute" alt="" coords="163,256,300,283"/>
+<area shape="rect" id="node20" href="$group__core__func__common.html#gaea946f96ec1df259802effe9f532e1c1" title="glm::abs" alt="" coords="195,483,267,509"/>
+<area shape="rect" id="node21" href="$namespaceglm_1_1detail.html#a82e6fa9d633a5f76f8b7e046ac5d91f4" title="glm::detail::taylorInvSqrt" alt="" coords="149,533,313,560"/>
+<area shape="rect" id="node4" href="$group__core__func__geometric.html#ga89b91c2a256cfb62ecbc589d1ee36d3c" title="glm::cross" alt="" coords="388,29,471,56"/>
+<area shape="rect" id="node5" href="$group__core__func__geometric.html#ga15aa87101457e41663b08a8dcc3357f8" title="glm::normalize" alt="" coords="562,29,669,56"/>
+<area shape="rect" id="node7" href="$group__core__func__common.html#gadccbaffe46f369cf1a96b2aef92cbfdd" title="glm::mix" alt="" coords="393,155,465,181"/>
+<area shape="rect" id="node9" href="$namespaceglm.html#a9ea052832f152d1233c6fa27df62f2fc" title="glm::lessThan" alt="" coords="377,80,481,107"/>
+<area shape="rect" id="node8" href="$structglm_1_1detail_1_1compute__mix__vector.html#a68153ea8943ca1ffac025040a197c590" title="glm::detail::compute\l_mix_vector::call" alt="" coords="545,147,685,189"/>
+<area shape="rect" id="node10" href="$group__core__func__vector__relational.html#ga2167b22ac086c5791a4740932b62b685" title="glm::lessThanEqual" alt="" coords="547,80,684,107"/>
+<area shape="rect" id="node11" href="$group__core__func__vector__relational.html#gac9163d451231eb3eaae2c6b3da5add6a" title="glm::greaterThan" alt="" coords="733,80,853,107"/>
+<area shape="rect" id="node12" href="$group__core__func__vector__relational.html#gad1385064aa2fc7aaae37aa95daea9c31" title="glm::greaterThanEqual" alt="" coords="901,80,1055,107"/>
+<area shape="rect" id="node13" href="$namespaceglm.html#a4a4eb228ace536873b64b9690d14e971" title="glm::equal" alt="" coords="1103,80,1185,107"/>
+<area shape="rect" id="node14" href="$group__core__func__vector__relational.html#ga85d7bc5613c4dcc2d5873ec9d6ed4c19" title="glm::notEqual" alt="" coords="1233,80,1336,107"/>
+<area shape="rect" id="node17" href="$group__core__func__common.html#ga72e9e213c84f06a329a2a838b51200f4" title="glm::clamp" alt="" coords="572,381,659,408"/>
+</map>

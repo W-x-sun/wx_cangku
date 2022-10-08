@@ -1,0 +1,12 @@
+<map id="glm::detail::sse_rnd_ps" name="glm::detail::sse_rnd_ps">
+<area shape="rect" id="node2" href="$namespaceglm_1_1detail.html#a3d303480575075ea1e56a02b19b2af8e" title="glm::detail::sse_flr_ps" alt="" coords="215,107,365,133"/>
+<area shape="rect" id="node9" href="$namespaceglm_1_1detail.html#a907280f32258c4f9657282bcd6527d60" title="glm::detail::sse_ceil_ps" alt="" coords="211,183,369,209"/>
+<area shape="rect" id="node11" href="$namespaceglm.html#ac38130a4224e740980925150ea8dae5e" title="glm::round" alt="" coords="249,233,331,260"/>
+<area shape="rect" id="node3" href="$namespaceglm_1_1detail.html#aa49360321556f8ee1d55bcf62f86f50e" title="glm::detail::sse_frc_ps" alt="" coords="422,5,577,32"/>
+<area shape="rect" id="node5" href="$namespaceglm_1_1detail.html#a5a9835edaca654da44c7daae89ce5106" title="glm::detail::sse_mod_ps" alt="" coords="417,56,581,83"/>
+<area shape="rect" id="node7" href="$namespaceglm.html#a96b854694bd3ae049376cbdba57f2599" title="glm::floor" alt="" coords="461,107,537,133"/>
+<area shape="rect" id="node8" href="$namespaceglm.html#a9209720f29f7ce2e879af12191051927" title="glm::trunc" alt="" coords="459,157,539,184"/>
+<area shape="rect" id="node4" href="$namespaceglm.html#a5a003d7f27903c03744ca6271f1a9051" title="glm::fract" alt="" coords="629,5,707,32"/>
+<area shape="rect" id="node6" href="$namespaceglm.html#a560289b95e600d6da427ad473c1f46cf" title="glm::mod" alt="" coords="630,56,706,83"/>
+<area shape="rect" id="node10" href="$namespaceglm.html#adc50f5413973998fb007fda7a6149ef5" title="glm::ceil" alt="" coords="464,208,535,235"/>
+</map>

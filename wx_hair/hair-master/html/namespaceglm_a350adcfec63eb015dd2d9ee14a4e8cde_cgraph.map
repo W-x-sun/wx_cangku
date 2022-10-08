@@ -1,0 +1,8 @@
+<map id="glm::mat4_cast" name="glm::mat4_cast">
+<area shape="rect" id="node2" href="$group__gtc__quaternion.html#gafc4e34c836f7ccb5f3bb2a0373c831e0" title="glm::mat4_cast" alt="" coords="183,9,295,36"/>
+<area shape="rect" id="node6" href="$namespaceglm.html#a0b2e5499072a338c1256735ecbf363ff" title="glm::mat4SIMD_cast" alt="" coords="165,63,312,89"/>
+<area shape="rect" id="node7" href="$group__core__func__geometric.html#ga03b2831439defb8922832b540b91b8a7" title="glm::length" alt="" coords="373,131,459,157"/>
+<area shape="rect" id="node3" href="$group__gtc__quaternion.html#ga65257c3494022ad80a50ce11da95049d" title="glm::mat3_cast" alt="" coords="360,5,472,32"/>
+<area shape="rect" id="node4" href="$group__gtc__quaternion.html#gafb826745dedb1760100bbd25d0f63fde" title="glm::quat_cast" alt="" coords="362,80,470,107"/>
+<area shape="rect" id="node5" href="$group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="520,105,593,132"/>
+</map>

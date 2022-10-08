@@ -1,0 +1,5 @@
+<map id="glm::detail::toFloat16" name="glm::detail::toFloat16">
+<area shape="rect" id="node2" href="$group__core__func__packing.html#ga082f6dd65f73a547ed3067ef00be036f" title="glm::packHalf2x16" alt="" coords="197,5,328,32"/>
+<area shape="rect" id="node3" href="$group__gtc__packing.html#ga0f1480d7e60aab755d4e244eb207ff47" title="glm::packHalf1x16" alt="" coords="197,56,328,83"/>
+<area shape="rect" id="node4" href="$group__gtc__packing.html#ga8104f0b719b7792491f2b789a6dd6f96" title="glm::packHalf4x16" alt="" coords="197,107,328,133"/>
+</map>

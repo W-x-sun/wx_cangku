@@ -1,0 +1,8 @@
+<map id="glm::squad" name="glm::squad">
+<area shape="rect" id="node2" href="$group__core__func__common.html#gadccbaffe46f369cf1a96b2aef92cbfdd" title="glm::mix" alt="" coords="165,35,237,62"/>
+<area shape="rect" id="node4" href="$group__gtx__quaternion.html#ga756698e0119b7b0aa408990c85ffe57a" title="glm::intermediate" alt="" coords="140,109,263,135"/>
+<area shape="rect" id="node3" href="$structglm_1_1detail_1_1compute__mix__vector.html#a68153ea8943ca1ffac025040a197c590" title="glm::detail::compute\l_mix_vector::call" alt="" coords="311,5,451,47"/>
+<area shape="rect" id="node5" href="$group__core__func__matrix.html#ga7635d3dbe5aa10ff73a0e6903bf6bea5" title="glm::inverse" alt="" coords="334,71,427,98"/>
+<area shape="rect" id="node6" href="$group__core__func__exponential.html#gae154699ba6bda068d4b87cf9b987381f" title="glm::exp" alt="" coords="345,146,417,173"/>
+<area shape="rect" id="node7" href="$group__core__func__exponential.html#ga0c8da2d2921da250e8700ac4476916a1" title="glm::log" alt="" coords="499,171,567,198"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="glm::atan2" name="glm::atan2">
+<area shape="rect" id="node2" href="$group__core__func__trigonometric.html#gabf80ac0817d1db032dd6a0969aa2b84a" title="glm::atan" alt="" coords="136,29,212,56"/>
+<area shape="rect" id="node3" href="$group__gtx__compatibility.html#gac63011205bf6d0be82589dc56dd26708" title="Arc tangent. Returns an angle whose tangent is y/x. The signs of x and y are used to determine what q..." alt="" coords="260,29,343,56"/>
+</map>

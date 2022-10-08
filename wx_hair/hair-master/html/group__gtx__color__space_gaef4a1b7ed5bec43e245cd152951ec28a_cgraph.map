@@ -1,0 +1,7 @@
+<map id="glm::hsvColor" name="glm::hsvColor">
+<area shape="rect" id="node2" href="$group__gtx__color__space.html#ga8c25ad5eee2386d7f5180ccaa0523246" title="glm::rgbColor" alt="" coords="156,29,256,56"/>
+<area shape="rect" id="node4" href="$group__core__func__common.html#ga3dc90dbd66c9ca1dd5625c93d9c50f02" title="glm::min" alt="" coords="170,155,242,181"/>
+<area shape="rect" id="node5" href="$group__core__func__common.html#gaa228561a9da55898f8f72ad2403fafac" title="glm::max" alt="" coords="304,104,380,131"/>
+<area shape="rect" id="node3" href="$group__core__func__common.html#ga86350252cc9bf86421317460bbd1f21c" title="glm::floor" alt="" coords="304,29,380,56"/>
+<area shape="rect" id="node6" href="$group__core__func__common.html#ga72e9e213c84f06a329a2a838b51200f4" title="glm::clamp" alt="" coords="428,104,515,131"/>
+</map>

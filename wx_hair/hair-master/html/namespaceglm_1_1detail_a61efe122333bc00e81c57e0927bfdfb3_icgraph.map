@@ -1,0 +1,6 @@
+<map id="glm::detail::overflow" name="glm::detail::overflow">
+<area shape="rect" id="node2" href="$namespaceglm_1_1detail.html#ac16321696a34b41c55f941b319d50652" title="glm::detail::toFloat16" alt="" coords="192,56,336,83"/>
+<area shape="rect" id="node3" href="$group__core__func__packing.html#ga082f6dd65f73a547ed3067ef00be036f" title="glm::packHalf2x16" alt="" coords="384,5,515,32"/>
+<area shape="rect" id="node4" href="$group__gtc__packing.html#ga0f1480d7e60aab755d4e244eb207ff47" title="glm::packHalf1x16" alt="" coords="384,56,515,83"/>
+<area shape="rect" id="node5" href="$group__gtc__packing.html#ga8104f0b719b7792491f2b789a6dd6f96" title="glm::packHalf4x16" alt="" coords="384,107,515,133"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="glm::niceLength4" name="glm::niceLength4">
+<area shape="rect" id="node2" href="$namespaceglm.html#a4b8b68e979fc5b12aba9290beb8dfb30" title="glm::niceSqrt" alt="" coords="175,5,274,32"/>
+<area shape="rect" id="node3" href="$namespaceglm.html#af55916a3764adaa7537f5e3e9ccacb81" title="glm::dot4" alt="" coords="187,56,263,83"/>
+<area shape="rect" id="node7" href="$group__core__func__geometric.html#ga00716eae37e8ae2a76ca7799f9c75682" title="glm::distance" alt="" coords="175,131,275,157"/>
+<area shape="rect" id="node4" href="$namespaceglm_1_1detail.html#ad4dfd210b559dcff4cbc4a674477b90b" title="glm::detail::sse_dot_ps" alt="" coords="323,17,480,44"/>
+<area shape="rect" id="node5" href="$group__core__func__geometric.html#ga89b91c2a256cfb62ecbc589d1ee36d3c" title="glm::cross" alt="" coords="360,68,443,95"/>
+<area shape="rect" id="node6" href="$group__core__func__geometric.html#ga15aa87101457e41663b08a8dcc3357f8" title="glm::normalize" alt="" coords="528,68,635,95"/>
+<area shape="rect" id="node8" href="$group__core__func__geometric.html#ga03b2831439defb8922832b540b91b8a7" title="glm::length" alt="" coords="358,131,445,157"/>
+<area shape="rect" id="node9" href="$group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="545,131,618,157"/>
+</map>

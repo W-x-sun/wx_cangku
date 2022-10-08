@@ -1,0 +1,6 @@
+<map id="glm::dualquat_cast" name="glm::dualquat_cast">
+<area shape="rect" id="node2" href="$structglm_1_1detail_1_1tdualquat.html#a07db5c65293e34b2d0e53c62940db0f8" title="glm::detail::tdualquat\l::tdualquat" alt="" coords="185,5,328,47"/>
+<area shape="rect" id="node3" href="$group__gtc__dual__quaternion.html#ga9e5bb363690e8c1058f86b39596a7187" title="glm::mat3x4_cast" alt="" coords="193,71,320,98"/>
+<area shape="rect" id="node4" href="$group__gtc__dual__quaternion.html#gaa22068e2d3adb171fbc6c6260864a53c" title="glm::mat2x4_cast" alt="" coords="376,71,503,98"/>
+<area shape="rect" id="node5" href="$group__gtc__dual__quaternion.html#ga3827eec5f11beb8f3a7c9a979e37955d" title="glm::inverse" alt="" coords="551,71,644,98"/>
+</map>

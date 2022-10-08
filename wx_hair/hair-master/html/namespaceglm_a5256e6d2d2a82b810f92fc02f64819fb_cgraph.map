@@ -1,0 +1,8 @@
+<map id="glm::distance4" name="glm::distance4">
+<area shape="rect" id="node2" href="$namespaceglm_1_1detail.html#a9d4832acb69aa3f67d6e06c64b29dddd" title="glm::detail::sse_dst_ps" alt="" coords="160,9,317,36"/>
+<area shape="rect" id="node5" href="$group__core__func__geometric.html#ga7dada304da2ba7dd3376ab4f178c3f6b" title="glm::dot" alt="" coords="204,63,273,89"/>
+<area shape="rect" id="node3" href="$namespaceglm_1_1detail.html#aa49baf7bcbe9eb783a85bcd3ce8d8dba" title="glm::detail::sse_len_ps" alt="" coords="365,8,521,35"/>
+<area shape="rect" id="node4" href="$namespaceglm_1_1detail.html#ad4dfd210b559dcff4cbc4a674477b90b" title="glm::detail::sse_dot_ps" alt="" coords="569,5,727,32"/>
+<area shape="rect" id="node6" href="$group__core__func__geometric.html#ga89b91c2a256cfb62ecbc589d1ee36d3c" title="glm::cross" alt="" coords="402,68,485,95"/>
+<area shape="rect" id="node7" href="$group__core__func__geometric.html#ga15aa87101457e41663b08a8dcc3357f8" title="glm::normalize" alt="" coords="595,80,701,107"/>
+</map>

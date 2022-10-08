@@ -1,0 +1,16 @@
+<map id="glm::mix" name="glm::mix">
+<area shape="rect" id="node2" href="$namespaceglm.html#a0da32315c939ba1df21b2509df74e037" title="glm::clamp" alt="" coords="171,7,258,33"/>
+<area shape="rect" id="node3" href="$group__core__func__common.html#gaf21c84759af7799f573865f70c2f0a86" title="glm::step" alt="" coords="177,81,253,108"/>
+<area shape="rect" id="node8" href="$namespaceglm.html#aaf4944b3c2a00c1e7a1b25b96cea6bfb" title="glm::perlin" alt="" coords="173,132,256,159"/>
+<area shape="rect" id="node9" href="$namespaceglm.html#ad70062c675bba04acb6b067c448f6b9e" title="glm::cross" alt="" coords="173,183,256,209"/>
+<area shape="rect" id="node10" href="$group__gtc__quaternion.html#ga7468a211a20ea56ea5cfb0625226868a" title="glm::slerp" alt="" coords="175,233,254,260"/>
+<area shape="rect" id="node11" href="$group__gtx__quaternion.html#ga520a86d7a47f0c987e7e1c4949558f80" title="glm::squad" alt="" coords="171,284,258,311"/>
+<area shape="rect" id="node13" href="$group__gtx__compatibility.html#ga5494ba3a95ea6594c86fc75236886864" title="Returns x * (1.0 &#45; a) + y * a, i.e., the linear blend of x and y using the floating&#45;point value a..." alt="" coords="179,335,251,361"/>
+<area shape="rect" id="node14" href="$namespaceglm.html#ab68375a7ad5f9dc3db97323af1326bbb" title="glm::dot" alt="" coords="180,385,249,412"/>
+<area shape="rect" id="node15" href="$class_simulation.html#a5971c49d9efef258c5dfa2a90ce9c0ed" title="Simulation::updateRotation" alt="" coords="125,436,304,463"/>
+<area shape="rect" id="node4" href="$group__core__func__common.html#ga78aae7eea618ca112053d59fe03db239" title="glm::mix" alt="" coords="364,5,436,32"/>
+<area shape="rect" id="node5" href="$namespaceglm.html#a61a2448910dff94fb4b05826f8a49fbe" title="glm::noise1" alt="" coords="355,56,445,83"/>
+<area shape="rect" id="node6" href="$namespaceglm.html#a11707c4e77f153abec905731b1ce52a0" title="glm::perlin" alt="" coords="359,107,441,133"/>
+<area shape="rect" id="node7" href="$namespaceglm.html#aa95d7bc123a0a077dc7f015333e2d674" title="glm::simplex" alt="" coords="352,157,448,184"/>
+<area shape="rect" id="node12" href="$group__gtx__quaternion.html#ga305782d11382929e8d706d47a79334b8" title="glm::cross" alt="" coords="359,284,441,311"/>
+</map>

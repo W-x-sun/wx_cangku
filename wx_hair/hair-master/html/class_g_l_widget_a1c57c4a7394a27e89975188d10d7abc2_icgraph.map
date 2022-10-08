@@ -1,0 +1,12 @@
+<map id="GLWidget::unpause" name="GLWidget::unpause">
+<area shape="rect" id="node2" href="$class_hair_interface.html#a2f7e87482ab80f59ddf8f47339d815d6" title="HairInterface::togglePaused" alt="" coords="191,102,375,128"/>
+<area shape="rect" id="node5" href="$class_hair_interface2.html#a89efc5e94cf7fd7b596666694bd5264d" title="HairInterface2::HairInterface2" alt="" coords="664,152,859,179"/>
+<area shape="rect" id="node7" href="$class_scene_editor.html#a2b51e02847f83df5ffc7f40602e032b0" title="SceneEditor::cancelEditor" alt="" coords="196,338,369,364"/>
+<area shape="rect" id="node9" href="$class_scene_widget.html#ae31483e8bacf7bd2551218ea0134a6f2" title="SceneWidget::apply" alt="" coords="213,254,352,280"/>
+<area shape="rect" id="node3" href="$class_hair_interface.html#a0c017a229941ad28fda6faf241b7346f" title="HairInterface::HairInterface" alt="" coords="671,16,851,43"/>
+<area shape="rect" id="node4" href="$class_hair_interface.html#ad3cfcbfa5d2047e118fc611f96549c48" title="HairInterface::startEdit\lScene" alt="" coords="440,36,595,77"/>
+<area shape="rect" id="node6" href="$class_hair_interface2.html#add046e9f119302cf5aa20e01f7d84db5" title="HairInterface2::~HairInterface2" alt="" coords="660,71,863,98"/>
+<area shape="rect" id="node8" href="$class_scene_editor.html#ade23b3ca548a91f519fa6bde4d6fef57" title="SceneEditor::SceneEditor" alt="" coords="675,312,847,339"/>
+<area shape="rect" id="node10" href="$class_scene_editor.html#a0fa1876504716a279352e8d97aafed1f" title="SceneEditor::applyEditor" alt="" coords="434,254,601,280"/>
+<area shape="rect" id="node11" href="$class_scene_editor.html#ada15885ccb283beab10997a193a5d481" title="SceneEditor::applyAndClose\lEditor" alt="" coords="423,305,612,346"/>
+</map>

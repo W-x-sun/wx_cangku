@@ -1,0 +1,21 @@
+<map id="glm::rotate" name="glm::rotate">
+<area shape="rect" id="node2" href="$group__core__func__geometric.html#ga03b2831439defb8922832b540b91b8a7" title="glm::length" alt="" coords="421,11,508,37"/>
+<area shape="rect" id="node4" href="$group__core__func__common.html#gaea946f96ec1df259802effe9f532e1c1" title="glm::abs" alt="" coords="161,508,233,535"/>
+<area shape="rect" id="node5" href="$group__core__func__trigonometric.html#ga431d31cdb060059bc5b0696e212f1453" title="glm::radians" alt="" coords="556,407,649,433"/>
+<area shape="rect" id="node7" href="$group__core__func__trigonometric.html#gafbab21016b7f3bc21afb09a7e42e2df1" title="glm::sin" alt="" coords="879,432,947,459"/>
+<area shape="rect" id="node8" href="$group__core__func__trigonometric.html#gac6708d4f0895dc79b65f50db00840167" title="glm::cos" alt="" coords="161,144,233,171"/>
+<area shape="rect" id="node14" href="$group__gtc__quaternion.html#gade4034f49ccadf63cb31a7fb5fa3c8aa" title="glm::eulerAngles" alt="" coords="137,256,256,283"/>
+<area shape="rect" id="node3" href="$group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="1178,29,1251,56"/>
+<area shape="rect" id="node6" href="$group__core__func__trigonometric.html#gaf4e5661bd1c993f6090d49e988a4c78a" title="glm::degrees" alt="" coords="705,281,802,308"/>
+<area shape="rect" id="node9" href="$group__core__func__trigonometric.html#ga328aeb0de4f312dc3d200cb929715d44" title="glm::tan" alt="" coords="304,109,373,136"/>
+<area shape="rect" id="node10" href="$group__core__func__trigonometric.html#gafca5e8c71ea06be0840227b4aafc5680" title="glm::asin" alt="" coords="716,129,791,156"/>
+<area shape="rect" id="node11" href="$group__core__func__trigonometric.html#gac85497ed2e39d4cac4ac32bed4dfc506" title="glm::acos" alt="" coords="874,129,953,156"/>
+<area shape="rect" id="node12" href="$group__core__func__trigonometric.html#gabf80ac0817d1db032dd6a0969aa2b84a" title="glm::atan" alt="" coords="1033,180,1109,207"/>
+<area shape="rect" id="node13" href="$group__gtx__compatibility.html#gac63011205bf6d0be82589dc56dd26708" title="Arc tangent. Returns an angle whose tangent is y/x. The signs of x and y are used to determine what q..." alt="" coords="1173,180,1256,207"/>
+<area shape="rect" id="node15" href="$group__gtc__quaternion.html#ga4d345dc369a54f53f5ebc375bac56d11" title="glm::pitch" alt="" coords="425,231,504,257"/>
+<area shape="rect" id="node16" href="$group__gtc__quaternion.html#ga1de7653ddf380ff06d2300eea831664c" title="glm::yaw" alt="" coords="565,129,640,156"/>
+<area shape="rect" id="node20" href="$group__gtc__quaternion.html#ga6d883e423bc425f4334fcce202131f7e" title="glm::roll" alt="" coords="305,281,373,308"/>
+<area shape="rect" id="node17" href="$group__gtc__quaternion.html#ga65257c3494022ad80a50ce11da95049d" title="glm::mat3_cast" alt="" coords="697,55,809,81"/>
+<area shape="rect" id="node18" href="$group__gtc__quaternion.html#gafc4e34c836f7ccb5f3bb2a0373c831e0" title="glm::mat4_cast" alt="" coords="857,55,969,81"/>
+<area shape="rect" id="node19" href="$group__gtc__quaternion.html#gafb826745dedb1760100bbd25d0f63fde" title="glm::quat_cast" alt="" coords="1017,67,1125,93"/>
+</map>

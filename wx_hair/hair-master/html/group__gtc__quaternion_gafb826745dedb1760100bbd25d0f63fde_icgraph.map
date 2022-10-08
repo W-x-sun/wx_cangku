@@ -1,0 +1,15 @@
+<map id="glm::quat_cast" name="glm::quat_cast">
+<area shape="rect" id="node2" href="$group__gtx__quaternion.html#ga7e07dad45836ac90c218a73b6310e9dc" title="glm::toQuat" alt="" coords="187,5,277,32"/>
+<area shape="rect" id="node3" href="$structglm_1_1detail_1_1tquat.html#a84d40b0f5ab95f1e5ce01596c909fa25" title="glm::detail::tquat\l::tquat" alt="" coords="173,57,291,98"/>
+<area shape="rect" id="node4" href="$group__gtc__quaternion.html#gafc4e34c836f7ccb5f3bb2a0373c831e0" title="glm::mat4_cast" alt="" coords="176,123,288,149"/>
+<area shape="rect" id="node14" href="$namespaceglm_1_1detail.html#a242a463e8c91e55fd54ad6a68016e839" title="glm::detail::operator/" alt="" coords="161,173,303,200"/>
+<area shape="rect" id="node5" href="$group__gtx__quaternion.html#ga9f5ed797b672be7f87648c542ddd71d9" title="glm::toMat4" alt="" coords="361,72,452,99"/>
+<area shape="rect" id="node6" href="$group__gtc__quaternion.html#ga65257c3494022ad80a50ce11da95049d" title="glm::mat3_cast" alt="" coords="351,123,463,149"/>
+<area shape="rect" id="node13" href="$namespaceglm.html#a350adcfec63eb015dd2d9ee14a4e8cde" title="glm::mat4_cast" alt="" coords="351,173,463,200"/>
+<area shape="rect" id="node7" href="$group__gtx__quaternion.html#ga28c762d44cbd532b8fa256c12bbc80d2" title="glm::toMat3" alt="" coords="511,97,601,124"/>
+<area shape="rect" id="node8" href="$group__gtc__quaternion.html#ga1de7653ddf380ff06d2300eea831664c" title="glm::yaw" alt="" coords="519,148,593,175"/>
+<area shape="rect" id="node9" href="$group__gtc__quaternion.html#gade4034f49ccadf63cb31a7fb5fa3c8aa" title="glm::eulerAngles" alt="" coords="892,173,1011,200"/>
+<area shape="rect" id="node11" href="$group__gtc__quaternion.html#ga4d345dc369a54f53f5ebc375bac56d11" title="glm::pitch" alt="" coords="649,173,728,200"/>
+<area shape="rect" id="node10" href="$group__gtc__quaternion.html#gaa9a8891f03d8f5373525c4b3159c1c73" title="glm::rotate" alt="" coords="1059,173,1143,200"/>
+<area shape="rect" id="node12" href="$group__gtc__quaternion.html#ga6d883e423bc425f4334fcce202131f7e" title="glm::roll" alt="" coords="776,224,844,251"/>
+</map>

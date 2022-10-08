@@ -1,0 +1,653 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: GLM_GTX_dual_quaternion</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">类型定义</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">GLM_GTX_dual_quaternion<div class="ingroups"><a class="el" href="group__gtc.html">GTC Extensions (Stable)</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Defines a templated dual-quaternion type and several dual-quaternion operations.  
+<a href="#details">更多...</a></p>
+<div class="dynheader">
+GLM_GTX_dual_quaternion 的协作图:</div>
+<div class="dyncontent">
+<center><table><tr><td><img src="group__gtc__dual__quaternion.png" border="0" alt="" usemap="#group____gtc____dual____quaternion"/>
+<map name="group____gtc____dual____quaternion" id="group____gtc____dual____quaternion">
+<area shape="rect" id="node1" href="group__gtc.html" title="Functions and types that the GLSL specification doesn&#39;t define, but useful to have for a C++ program..." alt="" coords="5,5,173,32"/>
+</map>
+</td></tr></table></center>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+类型定义</h2></td></tr>
+<tr class="memitem:gae1772179edc60f4e8b46c8772eeeccee"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; float, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545ae161af3fc695e696ce3bf69f7332bc2d">lowp</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#gae1772179edc60f4e8b46c8772eeeccee">glm::lowp_dualquat</a></td></tr>
+<tr class="separator:gae1772179edc60f4e8b46c8772eeeccee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga71fc1c10a382330c1fee55ce29703405"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; float, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545a6416f3ea0c9025fb21ed50c4d6620482">mediump</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#ga71fc1c10a382330c1fee55ce29703405">glm::mediump_dualquat</a></td></tr>
+<tr class="separator:ga71fc1c10a382330c1fee55ce29703405"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf3a01deb502f53ca555ee1d45e6d6776"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; float, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545ac6f7eab42eacbb10d59a58e95e362074">highp</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#gaf3a01deb502f53ca555ee1d45e6d6776">glm::highp_dualquat</a></td></tr>
+<tr class="separator:gaf3a01deb502f53ca555ee1d45e6d6776"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae62c636c63c9eb3c1ea6d10f4b7d7c81"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; float, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545ae161af3fc695e696ce3bf69f7332bc2d">lowp</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#gae62c636c63c9eb3c1ea6d10f4b7d7c81">glm::lowp_fdualquat</a></td></tr>
+<tr class="separator:gae62c636c63c9eb3c1ea6d10f4b7d7c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab211d24786158490e57dfa57d7744f71"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; float, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545a6416f3ea0c9025fb21ed50c4d6620482">mediump</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#gab211d24786158490e57dfa57d7744f71">glm::mediump_fdualquat</a></td></tr>
+<tr class="separator:gab211d24786158490e57dfa57d7744f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2ed3283c09d3ffaf52a0e0a4b248eab6"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; float, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545ac6f7eab42eacbb10d59a58e95e362074">highp</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#ga2ed3283c09d3ffaf52a0e0a4b248eab6">glm::highp_fdualquat</a></td></tr>
+<tr class="separator:ga2ed3283c09d3ffaf52a0e0a4b248eab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga29461fddd543ffdf65a199fc28c42458"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; double, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545ae161af3fc695e696ce3bf69f7332bc2d">lowp</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#ga29461fddd543ffdf65a199fc28c42458">glm::lowp_ddualquat</a></td></tr>
+<tr class="separator:ga29461fddd543ffdf65a199fc28c42458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga62d8cbf30e2afd0b1044204268a69066"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; double, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545a6416f3ea0c9025fb21ed50c4d6620482">mediump</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#ga62d8cbf30e2afd0b1044204268a69066">glm::mediump_ddualquat</a></td></tr>
+<tr class="separator:ga62d8cbf30e2afd0b1044204268a69066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61b654c21f080135aedcf23461eb1037"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; double, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545ac6f7eab42eacbb10d59a58e95e362074">highp</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#ga61b654c21f080135aedcf23461eb1037">glm::highp_ddualquat</a></td></tr>
+<tr class="separator:ga61b654c21f080135aedcf23461eb1037"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2f6227b5f9dc08a2e7682065a84b3aa9"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="group__gtc__dual__quaternion.html#ga2ed3283c09d3ffaf52a0e0a4b248eab6">highp_fdualquat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#ga2f6227b5f9dc08a2e7682065a84b3aa9">glm::dualquat</a></td></tr>
+<tr class="separator:ga2f6227b5f9dc08a2e7682065a84b3aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga436906129bc69ca5059555cafcbac9fd"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="group__gtc__dual__quaternion.html#ga2ed3283c09d3ffaf52a0e0a4b248eab6">highp_fdualquat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#ga436906129bc69ca5059555cafcbac9fd">glm::fdualquat</a></td></tr>
+<tr class="separator:ga436906129bc69ca5059555cafcbac9fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga373431ffdd82d5c03c258217a9e1f1a6"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="group__gtc__dual__quaternion.html#ga61b654c21f080135aedcf23461eb1037">highp_ddualquat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#ga373431ffdd82d5c03c258217a9e1f1a6">glm::ddualquat</a></td></tr>
+<tr class="separator:ga373431ffdd82d5c03c258217a9e1f1a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ga73283a125d264d95c4ec07b3c1b9a989"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:ga73283a125d264d95c4ec07b3c1b9a989"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#ga73283a125d264d95c4ec07b3c1b9a989">glm::normalize</a> (<a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; T, P &gt; const &amp;q)</td></tr>
+<tr class="separator:ga73283a125d264d95c4ec07b3c1b9a989"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga71aef5f3994616ca0c3563b69b39c1a6"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:ga71aef5f3994616ca0c3563b69b39c1a6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#ga71aef5f3994616ca0c3563b69b39c1a6">glm::lerp</a> (<a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; T, P &gt; const &amp;x, <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; T, P &gt; const &amp;y, T const &amp;a)</td></tr>
+<tr class="separator:ga71aef5f3994616ca0c3563b69b39c1a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3827eec5f11beb8f3a7c9a979e37955d"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:ga3827eec5f11beb8f3a7c9a979e37955d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#ga3827eec5f11beb8f3a7c9a979e37955d">glm::inverse</a> (<a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; T, P &gt; const &amp;q)</td></tr>
+<tr class="separator:ga3827eec5f11beb8f3a7c9a979e37955d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa22068e2d3adb171fbc6c6260864a53c"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:gaa22068e2d3adb171fbc6c6260864a53c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structglm_1_1detail_1_1tmat2x4.html">detail::tmat2x4</a>&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#gaa22068e2d3adb171fbc6c6260864a53c">glm::mat2x4_cast</a> (<a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:gaa22068e2d3adb171fbc6c6260864a53c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9e5bb363690e8c1058f86b39596a7187"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:ga9e5bb363690e8c1058f86b39596a7187"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structglm_1_1detail_1_1tmat3x4.html">detail::tmat3x4</a>&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#ga9e5bb363690e8c1058f86b39596a7187">glm::mat3x4_cast</a> (<a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:ga9e5bb363690e8c1058f86b39596a7187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga71e0ed6d5262bfd7f543cd2d29fe87a7"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:ga71e0ed6d5262bfd7f543cd2d29fe87a7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#ga71e0ed6d5262bfd7f543cd2d29fe87a7">glm::dualquat_cast</a> (<a class="el" href="structglm_1_1detail_1_1tmat2x4.html">detail::tmat2x4</a>&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:ga71e0ed6d5262bfd7f543cd2d29fe87a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9a57efc76d47c5b4e8515ea82f1570eb"><td class="memTemplParams" colspan="2">template&lt;typename T , precision P&gt; </td></tr>
+<tr class="memitem:ga9a57efc76d47c5b4e8515ea82f1570eb"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; T, P &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gtc__dual__quaternion.html#ga9a57efc76d47c5b4e8515ea82f1570eb">glm::dualquat_cast</a> (<a class="el" href="structglm_1_1detail_1_1tmat3x4.html">detail::tmat3x4</a>&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:ga9a57efc76d47c5b4e8515ea82f1570eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<p>Defines a templated dual-quaternion type and several dual-quaternion operations. </p>
+<p>&lt;<a class="el" href="dual__quaternion_8hpp.html">glm/gtx/dual_quaternion.hpp</a>&gt; need to be included to use these functionalities. </p>
+<h2 class="groupheader">类型定义说明</h2>
+<a id="ga373431ffdd82d5c03c258217a9e1f1a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga373431ffdd82d5c03c258217a9e1f1a6">&#9670;&nbsp;</a></span>ddualquat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="group__gtc__dual__quaternion.html#ga61b654c21f080135aedcf23461eb1037">highp_ddualquat</a> <a class="el" href="group__gtc__dual__quaternion.html#ga373431ffdd82d5c03c258217a9e1f1a6">glm::ddualquat</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dual-quaternion of default double-precision floating-point numbers.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8hpp_source.html">dual_quaternion.hpp</a> 第 <a class="el" href="dual__quaternion_8hpp_source.html#l00279">279</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ga2f6227b5f9dc08a2e7682065a84b3aa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2f6227b5f9dc08a2e7682065a84b3aa9">&#9670;&nbsp;</a></span>dualquat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="group__gtc__dual__quaternion.html#ga2ed3283c09d3ffaf52a0e0a4b248eab6">highp_fdualquat</a> <a class="el" href="group__gtc__dual__quaternion.html#ga2f6227b5f9dc08a2e7682065a84b3aa9">glm::dualquat</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dual-quaternion of floating-point numbers.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8hpp_source.html">dual_quaternion.hpp</a> 第 <a class="el" href="dual__quaternion_8hpp_source.html#l00255">255</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ga436906129bc69ca5059555cafcbac9fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga436906129bc69ca5059555cafcbac9fd">&#9670;&nbsp;</a></span>fdualquat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="group__gtc__dual__quaternion.html#ga2ed3283c09d3ffaf52a0e0a4b248eab6">highp_fdualquat</a> <a class="el" href="group__gtc__dual__quaternion.html#ga436906129bc69ca5059555cafcbac9fd">glm::fdualquat</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dual-quaternion of single-precision floating-point numbers.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8hpp_source.html">dual_quaternion.hpp</a> 第 <a class="el" href="dual__quaternion_8hpp_source.html#l00260">260</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ga61b654c21f080135aedcf23461eb1037"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga61b654c21f080135aedcf23461eb1037">&#9670;&nbsp;</a></span>highp_ddualquat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt;double, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545ac6f7eab42eacbb10d59a58e95e362074">highp</a>&gt; <a class="el" href="group__gtc__dual__quaternion.html#ga61b654c21f080135aedcf23461eb1037">glm::highp_ddualquat</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dual-quaternion of high double-precision floating-point numbers.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8hpp_source.html">dual_quaternion.hpp</a> 第 <a class="el" href="dual__quaternion_8hpp_source.html#l00248">248</a> 行定义.</p>
+
+</div>
+</div>
+<a id="gaf3a01deb502f53ca555ee1d45e6d6776"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf3a01deb502f53ca555ee1d45e6d6776">&#9670;&nbsp;</a></span>highp_dualquat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt;float, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545ac6f7eab42eacbb10d59a58e95e362074">highp</a>&gt; <a class="el" href="group__gtc__dual__quaternion.html#gaf3a01deb502f53ca555ee1d45e6d6776">glm::highp_dualquat</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dual-quaternion of high single-precision floating-point numbers.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8hpp_source.html">dual_quaternion.hpp</a> 第 <a class="el" href="dual__quaternion_8hpp_source.html#l00216">216</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ga2ed3283c09d3ffaf52a0e0a4b248eab6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2ed3283c09d3ffaf52a0e0a4b248eab6">&#9670;&nbsp;</a></span>highp_fdualquat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt;float, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545ac6f7eab42eacbb10d59a58e95e362074">highp</a>&gt; <a class="el" href="group__gtc__dual__quaternion.html#ga2ed3283c09d3ffaf52a0e0a4b248eab6">glm::highp_fdualquat</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dual-quaternion of high single-precision floating-point numbers.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8hpp_source.html">dual_quaternion.hpp</a> 第 <a class="el" href="dual__quaternion_8hpp_source.html#l00232">232</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ga29461fddd543ffdf65a199fc28c42458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga29461fddd543ffdf65a199fc28c42458">&#9670;&nbsp;</a></span>lowp_ddualquat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt;double, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545ae161af3fc695e696ce3bf69f7332bc2d">lowp</a>&gt; <a class="el" href="group__gtc__dual__quaternion.html#ga29461fddd543ffdf65a199fc28c42458">glm::lowp_ddualquat</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dual-quaternion of low double-precision floating-point numbers.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8hpp_source.html">dual_quaternion.hpp</a> 第 <a class="el" href="dual__quaternion_8hpp_source.html#l00238">238</a> 行定义.</p>
+
+</div>
+</div>
+<a id="gae1772179edc60f4e8b46c8772eeeccee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae1772179edc60f4e8b46c8772eeeccee">&#9670;&nbsp;</a></span>lowp_dualquat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt;float, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545ae161af3fc695e696ce3bf69f7332bc2d">lowp</a>&gt; <a class="el" href="group__gtc__dual__quaternion.html#gae1772179edc60f4e8b46c8772eeeccee">glm::lowp_dualquat</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dual-quaternion of low single-precision floating-point numbers.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8hpp_source.html">dual_quaternion.hpp</a> 第 <a class="el" href="dual__quaternion_8hpp_source.html#l00206">206</a> 行定义.</p>
+
+</div>
+</div>
+<a id="gae62c636c63c9eb3c1ea6d10f4b7d7c81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae62c636c63c9eb3c1ea6d10f4b7d7c81">&#9670;&nbsp;</a></span>lowp_fdualquat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt;float, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545ae161af3fc695e696ce3bf69f7332bc2d">lowp</a>&gt; <a class="el" href="group__gtc__dual__quaternion.html#gae62c636c63c9eb3c1ea6d10f4b7d7c81">glm::lowp_fdualquat</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dual-quaternion of low single-precision floating-point numbers.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8hpp_source.html">dual_quaternion.hpp</a> 第 <a class="el" href="dual__quaternion_8hpp_source.html#l00222">222</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ga62d8cbf30e2afd0b1044204268a69066"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga62d8cbf30e2afd0b1044204268a69066">&#9670;&nbsp;</a></span>mediump_ddualquat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt;double, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545a6416f3ea0c9025fb21ed50c4d6620482">mediump</a>&gt; <a class="el" href="group__gtc__dual__quaternion.html#ga62d8cbf30e2afd0b1044204268a69066">glm::mediump_ddualquat</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dual-quaternion of medium double-precision floating-point numbers.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8hpp_source.html">dual_quaternion.hpp</a> 第 <a class="el" href="dual__quaternion_8hpp_source.html#l00243">243</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ga71fc1c10a382330c1fee55ce29703405"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga71fc1c10a382330c1fee55ce29703405">&#9670;&nbsp;</a></span>mediump_dualquat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt;float, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545a6416f3ea0c9025fb21ed50c4d6620482">mediump</a>&gt; <a class="el" href="group__gtc__dual__quaternion.html#ga71fc1c10a382330c1fee55ce29703405">glm::mediump_dualquat</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dual-quaternion of medium single-precision floating-point numbers.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8hpp_source.html">dual_quaternion.hpp</a> 第 <a class="el" href="dual__quaternion_8hpp_source.html#l00211">211</a> 行定义.</p>
+
+</div>
+</div>
+<a id="gab211d24786158490e57dfa57d7744f71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab211d24786158490e57dfa57d7744f71">&#9670;&nbsp;</a></span>mediump_fdualquat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt;float, <a class="el" href="namespaceglm.html#a0f04f086094c747d227af4425893f545a6416f3ea0c9025fb21ed50c4d6620482">mediump</a>&gt; <a class="el" href="group__gtc__dual__quaternion.html#gab211d24786158490e57dfa57d7744f71">glm::mediump_fdualquat</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dual-quaternion of medium single-precision floating-point numbers.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8hpp_source.html">dual_quaternion.hpp</a> 第 <a class="el" href="dual__quaternion_8hpp_source.html#l00227">227</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">函数说明</h2>
+<a id="ga71e0ed6d5262bfd7f543cd2d29fe87a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga71e0ed6d5262bfd7f543cd2d29fe87a7">&#9670;&nbsp;</a></span>dualquat_cast() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt;T, P&gt; glm::dualquat_cast </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x4.html">detail::tmat2x4</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a 2 * 4 matrix (matrix which holds real and dual parts) to a quaternion.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8inl_source.html">dual_quaternion.inl</a> 第 <a class="el" href="dual__quaternion_8inl_source.html#l00358">358</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__gtc__dual__quaternion_ga71e0ed6d5262bfd7f543cd2d29fe87a7_cgraph.png" border="0" usemap="#group__gtc__dual__quaternion_ga71e0ed6d5262bfd7f543cd2d29fe87a7_cgraph" alt=""/></div>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__gtc__dual__quaternion_ga71e0ed6d5262bfd7f543cd2d29fe87a7_icgraph.png" border="0" usemap="#group__gtc__dual__quaternion_ga71e0ed6d5262bfd7f543cd2d29fe87a7_icgraph" alt=""/></div>
+<map name="group__gtc__dual__quaternion_ga71e0ed6d5262bfd7f543cd2d29fe87a7_icgraph" id="group__gtc__dual__quaternion_ga71e0ed6d5262bfd7f543cd2d29fe87a7_icgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tdualquat.html#a07db5c65293e34b2d0e53c62940db0f8" title="glm::detail::tdualquat\l::tdualquat" alt="" coords="185,5,328,47"/>
+<area shape="rect" id="node3" href="group__gtc__dual__quaternion.html#ga9e5bb363690e8c1058f86b39596a7187" title="glm::mat3x4_cast" alt="" coords="193,71,320,98"/>
+<area shape="rect" id="node4" href="group__gtc__dual__quaternion.html#gaa22068e2d3adb171fbc6c6260864a53c" title="glm::mat2x4_cast" alt="" coords="376,71,503,98"/>
+<area shape="rect" id="node5" href="group__gtc__dual__quaternion.html#ga3827eec5f11beb8f3a7c9a979e37955d" title="glm::inverse" alt="" coords="551,71,644,98"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga9a57efc76d47c5b4e8515ea82f1570eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9a57efc76d47c5b4e8515ea82f1570eb">&#9670;&nbsp;</a></span>dualquat_cast() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt;T, P&gt; glm::dualquat_cast </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat3x4.html">detail::tmat3x4</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a 3 * 4 matrix (augmented matrix rotation + translation) to a quaternion.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8inl_source.html">dual_quaternion.inl</a> 第 <a class="el" href="dual__quaternion_8inl_source.html#l00369">369</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__gtc__dual__quaternion_ga9a57efc76d47c5b4e8515ea82f1570eb_cgraph.png" border="0" usemap="#group__gtc__dual__quaternion_ga9a57efc76d47c5b4e8515ea82f1570eb_cgraph" alt=""/></div>
+<map name="group__gtc__dual__quaternion_ga9a57efc76d47c5b4e8515ea82f1570eb_cgraph" id="group__gtc__dual__quaternion_ga9a57efc76d47c5b4e8515ea82f1570eb_cgraph">
+<area shape="rect" id="node2" href="group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="185,5,259,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga3827eec5f11beb8f3a7c9a979e37955d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3827eec5f11beb8f3a7c9a979e37955d">&#9670;&nbsp;</a></span>inverse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt;T, P&gt; glm::inverse </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>q</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the q inverse.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8inl_source.html">dual_quaternion.inl</a> 第 <a class="el" href="dual__quaternion_8inl_source.html#l00299">299</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__gtc__dual__quaternion_ga3827eec5f11beb8f3a7c9a979e37955d_cgraph.png" border="0" usemap="#group__gtc__dual__quaternion_ga3827eec5f11beb8f3a7c9a979e37955d_cgraph" alt=""/></div>
+<map name="group__gtc__dual__quaternion_ga3827eec5f11beb8f3a7c9a979e37955d_cgraph" id="group__gtc__dual__quaternion_ga3827eec5f11beb8f3a7c9a979e37955d_cgraph">
+<area shape="rect" id="node2" href="group__gtc__quaternion.html#gaf78006c47276b151777fc194cf11a688" title="glm::conjugate" alt="" coords="157,23,263,49"/>
+<area shape="rect" id="node5" href="group__core__func__geometric.html#ga7dada304da2ba7dd3376ab4f178c3f6b" title="glm::dot" alt="" coords="175,80,245,107"/>
+<area shape="rect" id="node8" href="group__gtc__dual__quaternion.html#gaa22068e2d3adb171fbc6c6260864a53c" title="glm::mat2x4_cast" alt="" coords="147,143,273,169"/>
+<area shape="rect" id="node3" href="namespaceglm_1_1detail.html#a4d5c895b3548f6c8296fd6a9980fe3e1" title="glm::detail::inverse" alt="" coords="321,17,453,44"/>
+<area shape="rect" id="node4" href="namespaceglm_1_1detail.html#a9691988fe228ada0f1a25704bdcb7da0" title="glm::detail::sse_inverse_ps" alt="" coords="501,5,683,32"/>
+<area shape="rect" id="node6" href="group__core__func__geometric.html#ga89b91c2a256cfb62ecbc589d1ee36d3c" title="glm::cross" alt="" coords="346,80,429,107"/>
+<area shape="rect" id="node7" href="group__core__func__geometric.html#ga15aa87101457e41663b08a8dcc3357f8" title="glm::normalize" alt="" coords="539,80,645,107"/>
+<area shape="rect" id="node9" href="group__gtc__dual__quaternion.html#ga9e5bb363690e8c1058f86b39596a7187" title="glm::mat3x4_cast" alt="" coords="324,155,451,181"/>
+<area shape="rect" id="node10" href="group__gtx__norm.html#ga1d8568485d8bbe6593dbbc2221659dfe" title="glm::length2" alt="" coords="545,155,639,181"/>
+<area shape="rect" id="node11" href="group__gtc__dual__quaternion.html#ga71e0ed6d5262bfd7f543cd2d29fe87a7" title="glm::dualquat_cast" alt="" coords="526,229,658,256"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga71aef5f3994616ca0c3563b69b39c1a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga71aef5f3994616ca0c3563b69b39c1a6">&#9670;&nbsp;</a></span>lerp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt;T, P&gt; glm::lerp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>a</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the linear interpolation of two dual quaternion.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8inl_source.html">dual_quaternion.inl</a> 第 <a class="el" href="dual__quaternion_8inl_source.html#l00282">282</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__gtc__dual__quaternion_ga71aef5f3994616ca0c3563b69b39c1a6_cgraph.png" border="0" usemap="#group__gtc__dual__quaternion_ga71aef5f3994616ca0c3563b69b39c1a6_cgraph" alt=""/></div>
+<map name="group__gtc__dual__quaternion_ga71aef5f3994616ca0c3563b69b39c1a6_cgraph" id="group__gtc__dual__quaternion_ga71aef5f3994616ca0c3563b69b39c1a6_cgraph">
+<area shape="rect" id="node2" href="group__core__func__geometric.html#ga7dada304da2ba7dd3376ab4f178c3f6b" title="glm::dot" alt="" coords="157,29,226,56"/>
+<area shape="rect" id="node5" href="group__gtc__constants.html#ga8186ec2c330457d41d9686c47cd3b2d1" title="glm::one" alt="" coords="155,80,227,107"/>
+<area shape="rect" id="node6" href="namespaceglm_1_1detail.html#a4d5c895b3548f6c8296fd6a9980fe3e1" title="glm::detail::inverse" alt="" coords="125,131,257,157"/>
+<area shape="rect" id="node3" href="group__core__func__geometric.html#ga89b91c2a256cfb62ecbc589d1ee36d3c" title="glm::cross" alt="" coords="355,29,437,56"/>
+<area shape="rect" id="node4" href="group__core__func__geometric.html#ga15aa87101457e41663b08a8dcc3357f8" title="glm::normalize" alt="" coords="535,29,641,56"/>
+<area shape="rect" id="node7" href="namespaceglm_1_1detail.html#a9691988fe228ada0f1a25704bdcb7da0" title="glm::detail::sse_inverse_ps" alt="" coords="305,131,487,157"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gaa22068e2d3adb171fbc6c6260864a53c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa22068e2d3adb171fbc6c6260864a53c">&#9670;&nbsp;</a></span>mat2x4_cast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structglm_1_1detail_1_1tmat2x4.html">detail::tmat2x4</a>&lt;T, P&gt; glm::mat2x4_cast </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a quaternion to a 2 * 4 matrix.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8inl_source.html">dual_quaternion.inl</a> 第 <a class="el" href="dual__quaternion_8inl_source.html#l00310">310</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__gtc__dual__quaternion_gaa22068e2d3adb171fbc6c6260864a53c_cgraph.png" border="0" usemap="#group__gtc__dual__quaternion_gaa22068e2d3adb171fbc6c6260864a53c_cgraph" alt=""/></div>
+<map name="group__gtc__dual__quaternion_gaa22068e2d3adb171fbc6c6260864a53c_cgraph" id="group__gtc__dual__quaternion_gaa22068e2d3adb171fbc6c6260864a53c_cgraph">
+<area shape="rect" id="node2" href="group__gtc__dual__quaternion.html#ga9e5bb363690e8c1058f86b39596a7187" title="glm::mat3x4_cast" alt="" coords="180,67,307,93"/>
+<area shape="rect" id="node3" href="group__gtx__norm.html#ga1d8568485d8bbe6593dbbc2221659dfe" title="glm::length2" alt="" coords="374,29,467,56"/>
+<area shape="rect" id="node4" href="group__gtc__dual__quaternion.html#ga71e0ed6d5262bfd7f543cd2d29fe87a7" title="glm::dualquat_cast" alt="" coords="355,104,487,131"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__gtc__dual__quaternion_gaa22068e2d3adb171fbc6c6260864a53c_icgraph.png" border="0" usemap="#group__gtc__dual__quaternion_gaa22068e2d3adb171fbc6c6260864a53c_icgraph" alt=""/></div>
+<map name="group__gtc__dual__quaternion_gaa22068e2d3adb171fbc6c6260864a53c_icgraph" id="group__gtc__dual__quaternion_gaa22068e2d3adb171fbc6c6260864a53c_icgraph">
+<area shape="rect" id="node2" href="group__gtc__dual__quaternion.html#ga3827eec5f11beb8f3a7c9a979e37955d" title="glm::inverse" alt="" coords="180,5,273,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga9e5bb363690e8c1058f86b39596a7187"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9e5bb363690e8c1058f86b39596a7187">&#9670;&nbsp;</a></span>mat3x4_cast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structglm_1_1detail_1_1tmat3x4.html">detail::tmat3x4</a>&lt;T, P&gt; glm::mat3x4_cast </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a quaternion to a 3 * 4 matrix.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8inl_source.html">dual_quaternion.inl</a> 第 <a class="el" href="dual__quaternion_8inl_source.html#l00319">319</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__gtc__dual__quaternion_ga9e5bb363690e8c1058f86b39596a7187_cgraph.png" border="0" usemap="#group__gtc__dual__quaternion_ga9e5bb363690e8c1058f86b39596a7187_cgraph" alt=""/></div>
+<map name="group__gtc__dual__quaternion_ga9e5bb363690e8c1058f86b39596a7187_cgraph" id="group__gtc__dual__quaternion_ga9e5bb363690e8c1058f86b39596a7187_cgraph">
+<area shape="rect" id="node2" href="group__gtx__norm.html#ga1d8568485d8bbe6593dbbc2221659dfe" title="glm::length2" alt="" coords="199,29,293,56"/>
+<area shape="rect" id="node3" href="group__gtc__dual__quaternion.html#ga71e0ed6d5262bfd7f543cd2d29fe87a7" title="glm::dualquat_cast" alt="" coords="180,104,312,131"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__gtc__dual__quaternion_ga9e5bb363690e8c1058f86b39596a7187_icgraph.png" border="0" usemap="#group__gtc__dual__quaternion_ga9e5bb363690e8c1058f86b39596a7187_icgraph" alt=""/></div>
+<map name="group__gtc__dual__quaternion_ga9e5bb363690e8c1058f86b39596a7187_icgraph" id="group__gtc__dual__quaternion_ga9e5bb363690e8c1058f86b39596a7187_icgraph">
+<area shape="rect" id="node2" href="group__gtc__dual__quaternion.html#gaa22068e2d3adb171fbc6c6260864a53c" title="glm::mat2x4_cast" alt="" coords="180,5,307,32"/>
+<area shape="rect" id="node3" href="group__gtc__dual__quaternion.html#ga3827eec5f11beb8f3a7c9a979e37955d" title="glm::inverse" alt="" coords="355,5,448,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga73283a125d264d95c4ec07b3c1b9a989"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga73283a125d264d95c4ec07b3c1b9a989">&#9670;&nbsp;</a></span>normalize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt;T, P&gt; glm::normalize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tdualquat.html">detail::tdualquat</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>q</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the normalized quaternion.</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="group__gtc__dual__quaternion.html" title="Defines a templated dual-quaternion type and several dual-quaternion operations. ">GLM_GTX_dual_quaternion</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="dual__quaternion_8inl_source.html">dual_quaternion.inl</a> 第 <a class="el" href="dual__quaternion_8inl_source.html#l00273">273</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__gtc__dual__quaternion_ga73283a125d264d95c4ec07b3c1b9a989_cgraph.png" border="0" usemap="#group__gtc__dual__quaternion_ga73283a125d264d95c4ec07b3c1b9a989_cgraph" alt=""/></div>
+<map name="group__gtc__dual__quaternion_ga73283a125d264d95c4ec07b3c1b9a989_cgraph" id="group__gtc__dual__quaternion_ga73283a125d264d95c4ec07b3c1b9a989_cgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tdualquat.html#a07e4d1cc692516c4cc15dd2e39ae3252" title="glm::detail::tdualquat\l::length" alt="" coords="160,255,303,297"/>
+<area shape="rect" id="node3" href="group__gtc__quaternion.html#gafc1c989eaa2c786d34218b176f680fe0" title="glm::lerp" alt="" coords="195,321,267,348"/>
+<area shape="rect" id="node4" href="group__gtc__quaternion.html#ga7468a211a20ea56ea5cfb0625226868a" title="Returns the slurp interpolation between two quaternions. " alt="" coords="351,321,429,348"/>
+<area shape="rect" id="node5" href="group__core__func__geometric.html#ga7dada304da2ba7dd3376ab4f178c3f6b" title="glm::dot" alt="" coords="485,316,554,343"/>
+<area shape="rect" id="node8" href="group__core__func__common.html#gadccbaffe46f369cf1a96b2aef92cbfdd" title="glm::mix" alt="" coords="483,29,555,56"/>
+<area shape="rect" id="node10" href="group__gtc__quaternion.html#ga23a3fc7ada5bbb665ff84c92c6e0542c" title="glm::angle" alt="" coords="809,639,892,665"/>
+<area shape="rect" id="node11" href="group__core__func__trigonometric.html#gac85497ed2e39d4cac4ac32bed4dfc506" title="glm::acos" alt="" coords="1815,260,1893,287"/>
+<area shape="rect" id="node15" href="group__core__func__trigonometric.html#gafbab21016b7f3bc21afb09a7e42e2df1" title="glm::sin" alt="" coords="1635,588,1703,615"/>
+<area shape="rect" id="node29" href="group__gtc__matrix__transform.html#ga61e65a3bb227c267d1a15113d1056fb1" title="glm::rotate" alt="" coords="477,397,561,424"/>
+<area shape="rect" id="node6" href="group__core__func__geometric.html#ga89b91c2a256cfb62ecbc589d1ee36d3c" title="glm::cross" alt="" coords="638,279,721,305"/>
+<area shape="rect" id="node7" href="group__core__func__geometric.html#ga15aa87101457e41663b08a8dcc3357f8" title="glm::normalize" alt="" coords="797,260,904,287"/>
+<area shape="rect" id="node9" href="structglm_1_1detail_1_1compute__mix__vector.html#a68153ea8943ca1ffac025040a197c590" title="glm::detail::compute\l_mix_vector::call" alt="" coords="609,18,749,59"/>
+<area shape="rect" id="node14" href="group__core__func__trigonometric.html#gaf4e5661bd1c993f6090d49e988a4c78a" title="glm::degrees" alt="" coords="1444,588,1541,615"/>
+<area shape="rect" id="node16" href="group__gtc__quaternion.html#ga8eef9f8c3f2e4836dccf09df975b20fb" title="glm::axis" alt="" coords="973,361,1047,388"/>
+<area shape="rect" id="node12" href="group__core__func__trigonometric.html#gabf80ac0817d1db032dd6a0969aa2b84a" title="glm::atan" alt="" coords="1982,260,2058,287"/>
+<area shape="rect" id="node13" href="group__gtx__compatibility.html#gac63011205bf6d0be82589dc56dd26708" title="Arc tangent. Returns an angle whose tangent is y/x. The signs of x and y are used to determine what q..." alt="" coords="2119,260,2202,287"/>
+<area shape="rect" id="node17" href="group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="1133,361,1207,388"/>
+<area shape="rect" id="node18" href="group__gtc__quaternion.html#ga771b3e16cca8324e7111b923476be666" title="glm::angleAxis" alt="" coords="1116,311,1224,337"/>
+<area shape="rect" id="node19" href="group__core__func__trigonometric.html#ga431d31cdb060059bc5b0696e212f1453" title="glm::radians" alt="" coords="1277,537,1371,564"/>
+<area shape="rect" id="node20" href="group__core__func__trigonometric.html#gac6708d4f0895dc79b65f50db00840167" title="glm::cos" alt="" coords="1288,260,1360,287"/>
+<area shape="rect" id="node23" href="namespaceglm.html#a9ea052832f152d1233c6fa27df62f2fc" title="glm::lessThan" alt="" coords="1272,311,1376,337"/>
+<area shape="rect" id="node21" href="group__core__func__trigonometric.html#ga328aeb0de4f312dc3d200cb929715d44" title="glm::tan" alt="" coords="1458,260,1527,287"/>
+<area shape="rect" id="node22" href="group__core__func__trigonometric.html#gafca5e8c71ea06be0840227b4aafc5680" title="glm::asin" alt="" coords="1632,260,1707,287"/>
+<area shape="rect" id="node24" href="group__core__func__vector__relational.html#ga2167b22ac086c5791a4740932b62b685" title="glm::lessThanEqual" alt="" coords="1424,311,1561,337"/>
+<area shape="rect" id="node25" href="group__core__func__vector__relational.html#gac9163d451231eb3eaae2c6b3da5add6a" title="glm::greaterThan" alt="" coords="1609,311,1729,337"/>
+<area shape="rect" id="node26" href="group__core__func__vector__relational.html#gad1385064aa2fc7aaae37aa95daea9c31" title="glm::greaterThanEqual" alt="" coords="1777,311,1931,337"/>
+<area shape="rect" id="node27" href="namespaceglm.html#a4a4eb228ace536873b64b9690d14e971" title="glm::equal" alt="" coords="1979,311,2061,337"/>
+<area shape="rect" id="node28" href="group__core__func__vector__relational.html#ga85d7bc5613c4dcc2d5873ec9d6ed4c19" title="glm::notEqual" alt="" coords="2109,311,2212,337"/>
+<area shape="rect" id="node30" href="namespaceglm.html#a03bd2c89f62ae44ad3a5e5dc21effd06" title="glm::rotate_slow" alt="" coords="620,407,739,433"/>
+<area shape="rect" id="node31" href="group__gtc__matrix__transform.html#gabd40959f269abd16c256a4f59ab03d62" title="glm::scale" alt="" coords="809,519,892,545"/>
+<area shape="rect" id="node32" href="namespaceglm.html#aa836cb5d035a8b96e5e9b4bb5dce0ab2" title="glm::scale_slow" alt="" coords="952,525,1068,552"/>
+<area shape="rect" id="node33" href="group__gtc__matrix__transform.html#gac393e9262776e4980731c386123e4377" title="glm::ortho" alt="" coords="1130,537,1210,564"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

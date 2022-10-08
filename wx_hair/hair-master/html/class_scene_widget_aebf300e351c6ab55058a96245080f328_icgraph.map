@@ -1,0 +1,7 @@
+<map id="SceneWidget::setBrushDir" name="SceneWidget::setBrushDir">
+<area shape="rect" id="node2" href="$class_scene_editor.html#a438a58f25462caf4a2be1f1417aed5bb" title="SceneEditor::setBrushDirLeft" alt="" coords="237,5,429,32"/>
+<area shape="rect" id="node4" href="$class_scene_editor.html#a578ef711085521dd75812a5bfbccfffe" title="SceneEditor::setBrushDir\lRight" alt="" coords="247,57,418,98"/>
+<area shape="rect" id="node5" href="$class_scene_editor.html#a50d8c8b910ab49b21bf8c81ea3e5a3f0" title="SceneEditor::setBrushDirUp" alt="" coords="239,123,426,149"/>
+<area shape="rect" id="node6" href="$class_scene_editor.html#aa87a6d02eadb0b3b21d7094449068cbe" title="SceneEditor::setBrushDirDown" alt="" coords="231,173,435,200"/>
+<area shape="rect" id="node3" href="$class_scene_editor.html#ade23b3ca548a91f519fa6bde4d6fef57" title="SceneEditor::SceneEditor" alt="" coords="483,93,655,120"/>
+</map>

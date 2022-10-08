@@ -1,0 +1,17 @@
+<map id="glm::axisAngle" name="glm::axisAngle">
+<area shape="rect" id="node2" href="$group__gtc__constants.html#gacb41049b8d22c8aa90e362b96c524feb" title="glm::epsilon" alt="" coords="187,5,279,32"/>
+<area shape="rect" id="node3" href="$group__core__func__common.html#gaea946f96ec1df259802effe9f532e1c1" title="glm::abs" alt="" coords="197,56,269,83"/>
+<area shape="rect" id="node4" href="$group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="197,107,270,133"/>
+<area shape="rect" id="node5" href="$group__core__func__trigonometric.html#gac85497ed2e39d4cac4ac32bed4dfc506" title="glm::acos" alt="" coords="892,195,971,221"/>
+<area shape="rect" id="node8" href="$group__gtx__matrix__interpolation.html#gaffcc7a788548911bea4e8a7bec9aa69d" title="glm::axisAngleMatrix" alt="" coords="161,344,305,371"/>
+<area shape="rect" id="node6" href="$group__core__func__trigonometric.html#gabf80ac0817d1db032dd6a0969aa2b84a" title="glm::atan" alt="" coords="1019,195,1095,221"/>
+<area shape="rect" id="node7" href="$group__gtx__compatibility.html#gac63011205bf6d0be82589dc56dd26708" title="Arc tangent. Returns an angle whose tangent is y/x. The signs of x and y are used to determine what q..." alt="" coords="1143,195,1225,221"/>
+<area shape="rect" id="node9" href="$group__core__func__trigonometric.html#gac6708d4f0895dc79b65f50db00840167" title="glm::cos" alt="" coords="405,232,477,259"/>
+<area shape="rect" id="node12" href="$group__core__func__trigonometric.html#gafbab21016b7f3bc21afb09a7e42e2df1" title="glm::sin" alt="" coords="407,307,475,333"/>
+<area shape="rect" id="node13" href="$group__core__func__geometric.html#ga15aa87101457e41663b08a8dcc3357f8" title="glm::normalize" alt="" coords="388,381,495,408"/>
+<area shape="rect" id="node14" href="$group__gtx__matrix__interpolation.html#ga4aeb9c402514dfd9c6d2e8ca73d07f30" title="glm::extractMatrixRotation" alt="" coords="353,432,529,459"/>
+<area shape="rect" id="node10" href="$group__core__func__trigonometric.html#ga328aeb0de4f312dc3d200cb929715d44" title="glm::tan" alt="" coords="598,232,667,259"/>
+<area shape="rect" id="node11" href="$group__core__func__trigonometric.html#gafca5e8c71ea06be0840227b4aafc5680" title="glm::asin" alt="" coords="753,232,827,259"/>
+<area shape="rect" id="node15" href="$group__gtx__matrix__interpolation.html#ga26fcd9ab0660c54a19d5edec727d1dab" title="glm::interpolate" alt="" coords="577,457,688,484"/>
+<area shape="rect" id="node16" href="$namespaceglm.html#a44eaf0309b3d7a9e71e31b5d4a8dbaab" title="glm::transpose" alt="" coords="736,457,844,484"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="SceneEditor::applyAndCloseEditor" name="SceneEditor::applyAndCloseEditor">
+<area shape="rect" id="node2" href="$class_scene_widget.html#ae31483e8bacf7bd2551218ea0134a6f2" title="SceneWidget::apply" alt="" coords="243,13,381,39"/>
+<area shape="rect" id="node3" href="$class_g_l_widget.html#a1c57c4a7394a27e89975188d10d7abc2" title="GLWidget::unpause" alt="" coords="429,13,567,39"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="SceneWidget::mouseMoveEvent" name="SceneWidget::mouseMoveEvent">
+<area shape="rect" id="node2" href="$group__core__func__common.html#ga75ebab3fe88a9c5c769135cf5a2649ef" title="glm::round" alt="" coords="315,29,398,56"/>
+<area shape="rect" id="node3" href="$class_texture.html#a692f72a0e68a9ffa63d1a2e39644e7df" title="Texture::width" alt="" coords="304,80,409,107"/>
+<area shape="rect" id="node4" href="$class_texture.html#a313a22ab82d389b2cb36fdb5cff40ecd" title="Texture::height" alt="" coords="302,131,411,157"/>
+<area shape="rect" id="node5" href="$class_scene_widget.html#a107c317bcbb03e5c29e30352329f0b9c" title="SceneWidget::paintTexture" alt="" coords="267,181,447,208"/>
+<area shape="rect" id="node10" href="$class_texture.html#a546026478dc776c896bf75dc8f283c49" title="Texture::updateImage" alt="" coords="282,257,431,284"/>
+<area shape="rect" id="node6" href="$group__gtc__matrix__access.html#gad5af815e1ea261465434a6f8fae88af1" title="glm::row" alt="" coords="517,156,589,183"/>
+<area shape="rect" id="node7" href="$group__core__func__geometric.html#ga03b2831439defb8922832b540b91b8a7" title="glm::length" alt="" coords="668,131,755,157"/>
+<area shape="rect" id="node9" href="$group__gtc__matrix__access.html#gafeb75b82cc45bf9e68d3050eea093aa7" title="glm::column" alt="" coords="665,181,758,208"/>
+<area shape="rect" id="node8" href="$group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="811,131,884,157"/>
+<area shape="rect" id="node11" href="$class_texture.html#a656f44ae9b0a3584e32b5742d55f1ccb" title="Texture::bind" alt="" coords="504,207,603,233"/>
+<area shape="rect" id="node13" href="$glew__head_8h.html#aa95edbecc15f2cb8072b81af66d60f5b" title="glTexImage2D" alt="" coords="500,257,607,284"/>
+<area shape="rect" id="node14" href="$glew__head_8h.html#ac8dbabff536e520bc700960dadd8d787" title="glTexParameteri" alt="" coords="495,308,612,335"/>
+<area shape="rect" id="node15" href="$class_texture.html#a57a64b8502d77287649bb7525ce13088" title="Texture::unbind" alt="" coords="497,359,609,385"/>
+<area shape="rect" id="node12" href="$glew__head_8h.html#a940f58f3728713267a58e2d09ff602b2" title="glBindTexture" alt="" coords="660,283,763,309"/>
+</map>

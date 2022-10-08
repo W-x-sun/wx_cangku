@@ -1,0 +1,11 @@
+<map id="glm::faceforward" name="glm::faceforward">
+<area shape="rect" id="node2" href="$namespaceglm_1_1detail.html#ace9256f388e836f9411a6eb92bed1a8a" title="glm::detail::sse_ffd_ps" alt="" coords="172,56,327,83"/>
+<area shape="rect" id="node5" href="$group__core__func__geometric.html#gab63646fc36b81cf69d3ce123a72f76f2" title="glm::reflect" alt="" coords="206,107,293,133"/>
+<area shape="rect" id="node3" href="$namespaceglm_1_1detail.html#ad4dfd210b559dcff4cbc4a674477b90b" title="glm::detail::sse_dot_ps" alt="" coords="376,5,533,32"/>
+<area shape="rect" id="node4" href="$namespaceglm_1_1detail.html#a67933cf6687025e0841dce5f8ebe1892" title="glm::detail::sse_sgn_ps" alt="" coords="375,56,535,83"/>
+<area shape="rect" id="node6" href="$group__core__func__geometric.html#ga7dada304da2ba7dd3376ab4f178c3f6b" title="glm::dot" alt="" coords="585,107,654,133"/>
+<area shape="rect" id="node9" href="$group__core__func__geometric.html#ga99d8ddb244b129892babaca9778206d0" title="glm::refract" alt="" coords="411,157,499,184"/>
+<area shape="rect" id="node7" href="$group__core__func__geometric.html#ga89b91c2a256cfb62ecbc589d1ee36d3c" title="glm::cross" alt="" coords="704,107,787,133"/>
+<area shape="rect" id="node8" href="$group__core__func__geometric.html#ga15aa87101457e41663b08a8dcc3357f8" title="glm::normalize" alt="" coords="835,107,941,133"/>
+<area shape="rect" id="node10" href="$group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="583,157,656,184"/>
+</map>

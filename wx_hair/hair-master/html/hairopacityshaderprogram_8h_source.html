@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: src/shaderPrograms/hairopacityshaderprogram.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_a792c85cec315210447c8b5c33a3bccc.html">shaderPrograms</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">hairopacityshaderprogram.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="hairopacityshaderprogram_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef HAIROPACITYSHADERPROGRAM_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define HAIROPACITYSHADERPROGRAM_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="hair_common_8h.html">hairCommon.h</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="shaderprogram_8h.html">shaderprogram.h</a>&quot;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="class_hair_opacity_shader_program.html">    7</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_hair_opacity_shader_program.html">HairOpacityShaderProgram</a> : <span class="keyword">public</span> <a class="code" href="class_shader_program.html">ShaderProgram</a></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_hair_opacity_shader_program.html#a49935df6a7993d116cba7d8a3a4e5f6a">   10</a></span>&#160;    <a class="code" href="class_hair_opacity_shader_program.html#a49935df6a7993d116cba7d8a3a4e5f6a">HairOpacityShaderProgram</a>() {</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="comment">// Default uniform values.</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="class_shader_program.html#a7f07cf0c5c45868b80e421b695b0fbfc">uniforms</a>.<a class="code" href="struct_uniforms.html#af5256e67d63be6792ff5d43189ec091f">numGroupHairs</a> = 1;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="class_shader_program.html#a7f07cf0c5c45868b80e421b695b0fbfc">uniforms</a>.<a class="code" href="struct_uniforms.html#ab15b826f3f8fd906f9432579a2ad86e3">hairGroupSpread</a> = 0.15f;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <a class="code" href="class_shader_program.html#a7f07cf0c5c45868b80e421b695b0fbfc">uniforms</a>.<a class="code" href="struct_uniforms.html#a80316ff2414b8db87ef4ede49147e2b0">hairRadius</a> = 0.004f;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="class_shader_program.html#a7f07cf0c5c45868b80e421b695b0fbfc">uniforms</a>.<a class="code" href="struct_uniforms.html#a1610b89f77c1750781fc8a31aac91192">taperExponent</a> = 5.0;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="class_shader_program.html#a7f07cf0c5c45868b80e421b695b0fbfc">uniforms</a>.<a class="code" href="struct_uniforms.html#a86c0196866a7a7d8b711ee63de6aa9d7">noiseAmplitude</a> = 0;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="class_shader_program.html#a7f07cf0c5c45868b80e421b695b0fbfc">uniforms</a>.<a class="code" href="struct_uniforms.html#af4661aafce1babb265052dfd8a87ed28">color</a> = <a class="code" href="group__core__types.html#ga1c47e8b3386109bc992b6c48e91b0be7">glm::vec3</a>(.6f, .4f, .3f);</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    }</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_hair_opacity_shader_program.html#ab2e74559f38b7eeceac8df3394217d31">setGlobalUniforms</a>() <span class="keyword">override</span>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_hair_opacity_shader_program.html#a00708039eaa2381a297b4d36349672d7">setPerObjectUniforms</a>() <span class="keyword">override</span>;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_hair_opacity_shader_program.html#af78f73e53adf94a722127450bc46ec38">setPerDrawUniforms</a>() <span class="keyword">override</span>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="glew__head_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a> <a class="code" href="class_hair_opacity_shader_program.html#abbbd6144652765395e7411347c53596a">createShaderProgram</a>() <span class="keyword">override</span>;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;};</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif // HAIROPACITYSHADERPROGRAM_H</span></div><div class="ttc" id="group__core__types_html_ga1c47e8b3386109bc992b6c48e91b0be7"><div class="ttname"><a href="group__core__types.html#ga1c47e8b3386109bc992b6c48e91b0be7">glm::vec3</a></div><div class="ttdeci">highp_vec3 vec3</div><div class="ttdef"><b>Definition:</b> <a href="type__vec_8hpp_source.html#l00393">type_vec.hpp:393</a></div></div>
+<div class="ttc" id="class_shader_program_html_a7f07cf0c5c45868b80e421b695b0fbfc"><div class="ttname"><a href="class_shader_program.html#a7f07cf0c5c45868b80e421b695b0fbfc">ShaderProgram::uniforms</a></div><div class="ttdeci">Uniforms uniforms</div><div class="ttdef"><b>Definition:</b> <a href="shaderprogram_8h_source.html#l00081">shaderprogram.h:81</a></div></div>
+<div class="ttc" id="shaderprogram_8h_html"><div class="ttname"><a href="shaderprogram_8h.html">shaderprogram.h</a></div></div>
+<div class="ttc" id="struct_uniforms_html_a1610b89f77c1750781fc8a31aac91192"><div class="ttname"><a href="struct_uniforms.html#a1610b89f77c1750781fc8a31aac91192">Uniforms::taperExponent</a></div><div class="ttdeci">float taperExponent</div><div class="ttdef"><b>Definition:</b> <a href="shaderprogram_8h_source.html#l00029">shaderprogram.h:29</a></div></div>
+<div class="ttc" id="struct_uniforms_html_ab15b826f3f8fd906f9432579a2ad86e3"><div class="ttname"><a href="struct_uniforms.html#ab15b826f3f8fd906f9432579a2ad86e3">Uniforms::hairGroupSpread</a></div><div class="ttdeci">float hairGroupSpread</div><div class="ttdef"><b>Definition:</b> <a href="shaderprogram_8h_source.html#l00025">shaderprogram.h:25</a></div></div>
+<div class="ttc" id="struct_uniforms_html_af5256e67d63be6792ff5d43189ec091f"><div class="ttname"><a href="struct_uniforms.html#af5256e67d63be6792ff5d43189ec091f">Uniforms::numGroupHairs</a></div><div class="ttdeci">int numGroupHairs</div><div class="ttdef"><b>Definition:</b> <a href="shaderprogram_8h_source.html#l00021">shaderprogram.h:21</a></div></div>
+<div class="ttc" id="struct_uniforms_html_af4661aafce1babb265052dfd8a87ed28"><div class="ttname"><a href="struct_uniforms.html#af4661aafce1babb265052dfd8a87ed28">Uniforms::color</a></div><div class="ttdeci">glm::vec3 color</div><div class="ttdef"><b>Definition:</b> <a href="shaderprogram_8h_source.html#l00036">shaderprogram.h:36</a></div></div>
+<div class="ttc" id="glew__head_8h_html_aa311c7f0d6ec4f1a33f9235c3651b86b"><div class="ttname"><a href="glew__head_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a></div><div class="ttdeci">unsigned int GLuint</div><div class="ttdef"><b>Definition:</b> <a href="glew__head_8h_source.html#l00194">glew_head.h:194</a></div></div>
+<div class="ttc" id="struct_uniforms_html_a80316ff2414b8db87ef4ede49147e2b0"><div class="ttname"><a href="struct_uniforms.html#a80316ff2414b8db87ef4ede49147e2b0">Uniforms::hairRadius</a></div><div class="ttdeci">float hairRadius</div><div class="ttdef"><b>Definition:</b> <a href="shaderprogram_8h_source.html#l00027">shaderprogram.h:27</a></div></div>
+<div class="ttc" id="class_hair_opacity_shader_program_html_ab2e74559f38b7eeceac8df3394217d31"><div class="ttname"><a href="class_hair_opacity_shader_program.html#ab2e74559f38b7eeceac8df3394217d31">HairOpacityShaderProgram::setGlobalUniforms</a></div><div class="ttdeci">virtual void setGlobalUniforms() override</div><div class="ttdef"><b>Definition:</b> <a href="hairopacityshaderprogram_8cpp_source.html#l00013">hairopacityshaderprogram.cpp:13</a></div></div>
+<div class="ttc" id="class_hair_opacity_shader_program_html_af78f73e53adf94a722127450bc46ec38"><div class="ttname"><a href="class_hair_opacity_shader_program.html#af78f73e53adf94a722127450bc46ec38">HairOpacityShaderProgram::setPerDrawUniforms</a></div><div class="ttdeci">virtual void setPerDrawUniforms() override</div><div class="ttdef"><b>Definition:</b> <a href="hairopacityshaderprogram_8cpp_source.html#l00036">hairopacityshaderprogram.cpp:36</a></div></div>
+<div class="ttc" id="class_hair_opacity_shader_program_html_abbbd6144652765395e7411347c53596a"><div class="ttname"><a href="class_hair_opacity_shader_program.html#abbbd6144652765395e7411347c53596a">HairOpacityShaderProgram::createShaderProgram</a></div><div class="ttdeci">virtual GLuint createShaderProgram() override</div><div class="ttdef"><b>Definition:</b> <a href="hairopacityshaderprogram_8cpp_source.html#l00005">hairopacityshaderprogram.cpp:5</a></div></div>
+<div class="ttc" id="struct_uniforms_html_a86c0196866a7a7d8b711ee63de6aa9d7"><div class="ttname"><a href="struct_uniforms.html#a86c0196866a7a7d8b711ee63de6aa9d7">Uniforms::noiseAmplitude</a></div><div class="ttdeci">float noiseAmplitude</div><div class="ttdef"><b>Definition:</b> <a href="shaderprogram_8h_source.html#l00031">shaderprogram.h:31</a></div></div>
+<div class="ttc" id="class_hair_opacity_shader_program_html_a00708039eaa2381a297b4d36349672d7"><div class="ttname"><a href="class_hair_opacity_shader_program.html#a00708039eaa2381a297b4d36349672d7">HairOpacityShaderProgram::setPerObjectUniforms</a></div><div class="ttdeci">virtual void setPerObjectUniforms() override</div><div class="ttdef"><b>Definition:</b> <a href="hairopacityshaderprogram_8cpp_source.html#l00023">hairopacityshaderprogram.cpp:23</a></div></div>
+<div class="ttc" id="class_hair_opacity_shader_program_html_a49935df6a7993d116cba7d8a3a4e5f6a"><div class="ttname"><a href="class_hair_opacity_shader_program.html#a49935df6a7993d116cba7d8a3a4e5f6a">HairOpacityShaderProgram::HairOpacityShaderProgram</a></div><div class="ttdeci">HairOpacityShaderProgram()</div><div class="ttdef"><b>Definition:</b> <a href="hairopacityshaderprogram_8h_source.html#l00010">hairopacityshaderprogram.h:10</a></div></div>
+<div class="ttc" id="class_shader_program_html"><div class="ttname"><a href="class_shader_program.html">ShaderProgram</a></div><div class="ttdef"><b>Definition:</b> <a href="shaderprogram_8h_source.html#l00059">shaderprogram.h:59</a></div></div>
+<div class="ttc" id="class_hair_opacity_shader_program_html"><div class="ttname"><a href="class_hair_opacity_shader_program.html">HairOpacityShaderProgram</a></div><div class="ttdef"><b>Definition:</b> <a href="hairopacityshaderprogram_8h_source.html#l00007">hairopacityshaderprogram.h:7</a></div></div>
+<div class="ttc" id="hair_common_8h_html"><div class="ttname"><a href="hair_common_8h.html">hairCommon.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

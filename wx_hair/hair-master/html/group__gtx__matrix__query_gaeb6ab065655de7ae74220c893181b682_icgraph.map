@@ -1,0 +1,11 @@
+<map id="glm::isNormalized" name="glm::isNormalized">
+<area shape="rect" id="node2" href="$group__gtx__matrix__query.html#ga95004e68e8d77a8b37038d96c088ec9c" title="glm::isIdentity" alt="" coords="198,12,302,39"/>
+<area shape="rect" id="node4" href="$group__gtx__vector__query.html#ga671834ed100b138c176f3d91dd080c34" title="glm::areOrthogonal" alt="" coords="184,69,316,96"/>
+<area shape="rect" id="node9" href="$group__gtx__vector__query.html#ga05ced31444ad895682e811fcc94f35bd" title="glm::areOrthonormal" alt="" coords="180,132,320,159"/>
+<area shape="rect" id="node3" href="$group__gtx__matrix__query.html#gabb8199aea46b55255dad1af1a5426acb" title="glm::isNull" alt="" coords="388,5,472,32"/>
+<area shape="rect" id="node5" href="$group__gtx__matrix__query.html#ga4fe1957e1f5935a9b7b6e61417d41aa4" title="glm::isOrthogonal" alt="" coords="368,56,492,83"/>
+<area shape="rect" id="node7" href="$group__gtx__vector__query.html#ga4d8f51cd35294c694bbe8dec1bec03d8" title="glm::areCollinear" alt="" coords="370,107,490,133"/>
+<area shape="rect" id="node6" href="$group__gtx__matrix__query.html#ga402e460226bcb826e5b78384ccab3914" title="glm::isNormalized" alt="" coords="564,49,691,76"/>
+<area shape="rect" id="node8" href="$structglm_1_1detail_1_1compute__is_comp_null_3_01_t_00_01_p_00_01tvec4_01_4.html#a2f381fb06f0f1d5ef3fc56f4be34869d" title="glm::detail::compute\l_isCompNull\&lt; T, P, tvec4\l \&gt;::call" alt="" coords="540,100,715,156"/>
+<area shape="rect" id="node10" href="$namespaceglm.html#a4d5c5e644868935f8825fbe6a66ca562" title="glm::isCompNull" alt="" coords="371,157,489,184"/>
+</map>

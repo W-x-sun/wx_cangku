@@ -1,0 +1,7 @@
+<map id="SceneEditor::applyEditor" name="SceneEditor::applyEditor">
+<area shape="rect" id="node2" href="$class_scene_widget.html#ae31483e8bacf7bd2551218ea0134a6f2" title="SceneWidget::apply" alt="" coords="230,5,369,32"/>
+<area shape="rect" id="node4" href="$class_g_l_widget.html#ae1bfbc4a75af1ff3e6bcad0b6f9bcdd1" title="GLWidget::pause" alt="" coords="238,56,361,83"/>
+<area shape="rect" id="node5" href="$class_g_l_widget.html#ab8f164088f2a06ba0af697106dc8b7c9" title="GLWidget::forceUpdate" alt="" coords="220,107,379,133"/>
+<area shape="rect" id="node3" href="$class_g_l_widget.html#a1c57c4a7394a27e89975188d10d7abc2" title="GLWidget::unpause" alt="" coords="429,5,567,32"/>
+<area shape="rect" id="node6" href="$class_g_l_widget.html#a20169b7b90890de5e09438dba7bc91d5" title="GLWidget::isPaused" alt="" coords="427,107,569,133"/>
+</map>

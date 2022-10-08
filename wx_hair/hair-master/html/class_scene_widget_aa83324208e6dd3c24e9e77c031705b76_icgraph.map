@@ -1,0 +1,13 @@
+<map id="SceneWidget::updateBrushSettings" name="SceneWidget::updateBrushSettings">
+<area shape="rect" id="node2" href="$class_scene_editor.html#a9dee8d9b4d14f9470f019048654bf2fc" title="SceneEditor::setRadius" alt="" coords="257,44,417,70"/>
+<area shape="rect" id="node5" href="$class_scene_editor.html#a86196c3e71c388b0d7e8d7a055f5c893" title="SceneEditor::setFalloffConstant" alt="" coords="488,94,696,121"/>
+<area shape="rect" id="node6" href="$class_scene_editor.html#ae2443d50cf398c6e1d2d25ec213998b8" title="SceneEditor::setFalloffLinear" alt="" coords="497,145,687,172"/>
+<area shape="rect" id="node7" href="$class_scene_editor.html#abd2a8d03c50983d20d2ce8e334e560f8" title="SceneEditor::setFalloffQuadratic" alt="" coords="487,196,697,222"/>
+<area shape="rect" id="node8" href="$class_scene_editor.html#a438a58f25462caf4a2be1f1417aed5bb" title="SceneEditor::setBrushDirLeft" alt="" coords="496,246,688,273"/>
+<area shape="rect" id="node9" href="$class_scene_editor.html#a578ef711085521dd75812a5bfbccfffe" title="SceneEditor::setBrushDir\lRight" alt="" coords="251,298,422,339"/>
+<area shape="rect" id="node10" href="$class_scene_editor.html#a50d8c8b910ab49b21bf8c81ea3e5a3f0" title="SceneEditor::setBrushDirUp" alt="" coords="243,364,430,390"/>
+<area shape="rect" id="node11" href="$class_scene_editor.html#aa87a6d02eadb0b3b21d7094449068cbe" title="SceneEditor::setBrushDirDown" alt="" coords="235,414,439,441"/>
+<area shape="rect" id="node12" href="$class_scene_widget.html#af70dd8a442010c910db58cd6d22c8b4c" title="SceneWidget::SceneWidget" alt="" coords="243,465,430,492"/>
+<area shape="rect" id="node3" href="$class_scene_editor.html#ade23b3ca548a91f519fa6bde4d6fef57" title="SceneEditor::SceneEditor" alt="" coords="745,196,917,222"/>
+<area shape="rect" id="node4" href="$class_scene_editor.html#a6ebf6901a6c8c20e06bc2002b6da2540" title="SceneEditor::inputRadiusText" alt="" coords="494,44,690,70"/>
+</map>

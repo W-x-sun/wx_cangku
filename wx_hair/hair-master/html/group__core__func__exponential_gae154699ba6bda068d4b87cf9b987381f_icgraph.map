@@ -1,0 +1,11 @@
+<map id="glm::exp" name="glm::exp">
+<area shape="rect" id="node2" href="$group__core__func__exponential.html#ga1ce4b2fddd26d0d3a35a8d98f37f3ac0" title="glm::pow" alt="" coords="149,43,224,69"/>
+<area shape="rect" id="node6" href="$group__core__func__exponential.html#gac45997fb3ac907cad408d6da0a0f5f54" title="glm::exp2" alt="" coords="147,117,226,144"/>
+<area shape="rect" id="node7" href="$group__gtx__quaternion.html#ga756698e0119b7b0aa408990c85ffe57a" title="glm::intermediate" alt="" coords="125,168,248,195"/>
+<area shape="rect" id="node10" href="$group__gtx__fast__exponential.html#ga0ecbe429c87b820368f425ee8d22841a" title="glm::fastPow" alt="" coords="137,243,236,269"/>
+<area shape="rect" id="node3" href="$group__gtx__quaternion.html#gaaa17243b80fcb1146b8ace31951fa122" title="glm::log" alt="" coords="309,5,377,32"/>
+<area shape="rect" id="node4" href="$group__gtx__norm.html#ga5f78d8422258745062e300b76e3c0b85" title="glm::lxNorm" alt="" coords="296,80,389,107"/>
+<area shape="rect" id="node5" href="$group__gtx__norm.html#gac674c1f4077f9b6a42e6b725438c4221" title="glm::l2Norm" alt="" coords="437,80,531,107"/>
+<area shape="rect" id="node8" href="$group__gtx__quaternion.html#ga520a86d7a47f0c987e7e1c4949558f80" title="glm::squad" alt="" coords="299,168,386,195"/>
+<area shape="rect" id="node9" href="$group__gtx__quaternion.html#ga305782d11382929e8d706d47a79334b8" title="glm::cross" alt="" coords="443,168,525,195"/>
+</map>

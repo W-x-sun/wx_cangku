@@ -1,0 +1,1690 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: glm::detail::tmat2x3&lt; T, P &gt; 模板结构体 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceglm.html">glm</a></li><li class="navelem"><a class="el" href="namespaceglm_1_1detail.html">detail</a></li><li class="navelem"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public 类型</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="structglm_1_1detail_1_1tmat2x3-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">glm::detail::tmat2x3&lt; T, P &gt; 模板结构体 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="type__mat_8hpp_source.html">type_mat.hpp</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public 类型</h2></td></tr>
+<tr class="memitem:ad7092896f5d4dad36473ed142687f571"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ad7092896f5d4dad36473ed142687f571">ctor</a> { <a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ad7092896f5d4dad36473ed142687f571adcd0a5de46b55f16016e91c37678b70c">_null</a>
+ }</td></tr>
+<tr class="separator:ad7092896f5d4dad36473ed142687f571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a956bc7b781faea2cf8a47f9150e035f4"><td class="memItemLeft" align="right" valign="top">typedef T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a956bc7b781faea2cf8a47f9150e035f4">value_type</a></td></tr>
+<tr class="separator:a956bc7b781faea2cf8a47f9150e035f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab27aa4557eb2ffaf9931bcee48823cde"><td class="memItemLeft" align="right" valign="top">typedef std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ab27aa4557eb2ffaf9931bcee48823cde">size_type</a></td></tr>
+<tr class="separator:ab27aa4557eb2ffaf9931bcee48823cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa68634b0c048f0010844a45aa5e9bdab"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structglm_1_1detail_1_1tvec3.html">tvec3</a>&lt; T, P &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#aa68634b0c048f0010844a45aa5e9bdab">col_type</a></td></tr>
+<tr class="separator:aa68634b0c048f0010844a45aa5e9bdab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae86cbe307097a27d0d6965b41e8f7ae3"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structglm_1_1detail_1_1tvec2.html">tvec2</a>&lt; T, P &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ae86cbe307097a27d0d6965b41e8f7ae3">row_type</a></td></tr>
+<tr class="separator:ae86cbe307097a27d0d6965b41e8f7ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac22545a54f77e4e0915042109672179f"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ac22545a54f77e4e0915042109672179f">type</a></td></tr>
+<tr class="separator:ac22545a54f77e4e0915042109672179f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba2a62afb75e30c53886be45955591ae"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structglm_1_1detail_1_1tmat3x2.html">tmat3x2</a>&lt; T, P &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#aba2a62afb75e30c53886be45955591ae">transpose_type</a></td></tr>
+<tr class="separator:aba2a62afb75e30c53886be45955591ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:aaa2e4b8a6d400cebc4f6a4fb4e2542d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="setup_8hpp.html#a08b807947b47031d3a511f03f89645ad">GLM_CONSTEXPR</a> <a class="el" href="namespaceglm.html#a090a0de2260835bee80e71a702492ed9">length_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#aaa2e4b8a6d400cebc4f6a4fb4e2542d8">length</a> () const</td></tr>
+<tr class="separator:aaa2e4b8a6d400cebc4f6a4fb4e2542d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f05d4dddbc1d6fbaf485c5ea2440117"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a5f05d4dddbc1d6fbaf485c5ea2440117">tmat2x3</a> ()</td></tr>
+<tr class="separator:a5f05d4dddbc1d6fbaf485c5ea2440117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d7107015eb343a44948415ecd5c8402"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a4d7107015eb343a44948415ecd5c8402">tmat2x3</a> (<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; const &amp;m)</td></tr>
+<tr class="separator:a4d7107015eb343a44948415ecd5c8402"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fbd232bac090da9a982bd7071d0492b"><td class="memTemplParams" colspan="2">template&lt;precision Q&gt; </td></tr>
+<tr class="memitem:a7fbd232bac090da9a982bd7071d0492b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a7fbd232bac090da9a982bd7071d0492b">tmat2x3</a> (<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, Q &gt; const &amp;m)</td></tr>
+<tr class="separator:a7fbd232bac090da9a982bd7071d0492b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7acd9cede9ab295cdd2ce31d19f7549"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ab7acd9cede9ab295cdd2ce31d19f7549">tmat2x3</a> (<a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ad7092896f5d4dad36473ed142687f571">ctor</a>)</td></tr>
+<tr class="separator:ab7acd9cede9ab295cdd2ce31d19f7549"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee77b4e0eece78d68bf0ae3a95c520a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#aee77b4e0eece78d68bf0ae3a95c520a3">tmat2x3</a> (T const &amp;s)</td></tr>
+<tr class="separator:aee77b4e0eece78d68bf0ae3a95c520a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e7924d5ec396e17f9029f69597a7815"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a6e7924d5ec396e17f9029f69597a7815">tmat2x3</a> (T const &amp;x0, T const &amp;y0, T const &amp;z0, T const &amp;x1, T const &amp;y1, T const &amp;z1)</td></tr>
+<tr class="separator:a6e7924d5ec396e17f9029f69597a7815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad26d0797d1a4ef0117dfd412dde991ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ad26d0797d1a4ef0117dfd412dde991ea">tmat2x3</a> (<a class="el" href="structglm_1_1detail_1_1tmat2x3.html#aa68634b0c048f0010844a45aa5e9bdab">col_type</a> const &amp;v0, <a class="el" href="structglm_1_1detail_1_1tmat2x3.html#aa68634b0c048f0010844a45aa5e9bdab">col_type</a> const &amp;v1)</td></tr>
+<tr class="separator:ad26d0797d1a4ef0117dfd412dde991ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac112d37bc3331b1735c1aeb591483bc0"><td class="memTemplParams" colspan="2">template&lt;typename X1 , typename Y1 , typename Z1 , typename X2 , typename Y2 , typename Z2 &gt; </td></tr>
+<tr class="memitem:ac112d37bc3331b1735c1aeb591483bc0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ac112d37bc3331b1735c1aeb591483bc0">tmat2x3</a> (X1 const &amp;x1, Y1 const &amp;y1, Z1 const &amp;z1, X2 const &amp;x2, Y2 const &amp;y2, Z2 const &amp;z2)</td></tr>
+<tr class="separator:ac112d37bc3331b1735c1aeb591483bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab39c2ee73d04fb527773418e6595be57"><td class="memTemplParams" colspan="2">template&lt;typename U , typename V &gt; </td></tr>
+<tr class="memitem:ab39c2ee73d04fb527773418e6595be57"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ab39c2ee73d04fb527773418e6595be57">tmat2x3</a> (<a class="el" href="structglm_1_1detail_1_1tvec3.html">tvec3</a>&lt; U, P &gt; const &amp;v1, <a class="el" href="structglm_1_1detail_1_1tvec3.html">tvec3</a>&lt; V, P &gt; const &amp;v2)</td></tr>
+<tr class="separator:ab39c2ee73d04fb527773418e6595be57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeada8034e24714a14c9d2480f5cf2fb6"><td class="memTemplParams" colspan="2">template&lt;typename U , precision Q&gt; </td></tr>
+<tr class="memitem:aeada8034e24714a14c9d2480f5cf2fb6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#aeada8034e24714a14c9d2480f5cf2fb6">tmat2x3</a> (<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; U, Q &gt; const &amp;m)</td></tr>
+<tr class="separator:aeada8034e24714a14c9d2480f5cf2fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37bd9202b87e73c3d6e36cadce414457"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a37bd9202b87e73c3d6e36cadce414457">tmat2x3</a> (<a class="el" href="structglm_1_1detail_1_1tmat2x2.html">tmat2x2</a>&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:a37bd9202b87e73c3d6e36cadce414457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f1c6b71411b314a015c589cbbe34f7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a1f1c6b71411b314a015c589cbbe34f7a">tmat2x3</a> (<a class="el" href="structglm_1_1detail_1_1tmat3x3.html">tmat3x3</a>&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:a1f1c6b71411b314a015c589cbbe34f7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dc8800ba18dd4b395c68faf51009776"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a4dc8800ba18dd4b395c68faf51009776">tmat2x3</a> (<a class="el" href="structglm_1_1detail_1_1tmat4x4.html">tmat4x4</a>&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:a4dc8800ba18dd4b395c68faf51009776"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54b8586adbda881d55b2c98a39ed58c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a54b8586adbda881d55b2c98a39ed58c5">tmat2x3</a> (<a class="el" href="structglm_1_1detail_1_1tmat2x4.html">tmat2x4</a>&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:a54b8586adbda881d55b2c98a39ed58c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdd851e9160ca0515af9eef17a698d36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#acdd851e9160ca0515af9eef17a698d36">tmat2x3</a> (<a class="el" href="structglm_1_1detail_1_1tmat3x2.html">tmat3x2</a>&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:acdd851e9160ca0515af9eef17a698d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a715213bd6e4ad7b7c4757590821b7ef2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a715213bd6e4ad7b7c4757590821b7ef2">tmat2x3</a> (<a class="el" href="structglm_1_1detail_1_1tmat3x4.html">tmat3x4</a>&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:a715213bd6e4ad7b7c4757590821b7ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc53a40969e8baec1323cbcd3db5021f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#acc53a40969e8baec1323cbcd3db5021f">tmat2x3</a> (<a class="el" href="structglm_1_1detail_1_1tmat4x2.html">tmat4x2</a>&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:acc53a40969e8baec1323cbcd3db5021f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a954965401031a46da66fcbb18536ead0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a954965401031a46da66fcbb18536ead0">tmat2x3</a> (<a class="el" href="structglm_1_1detail_1_1tmat4x3.html">tmat4x3</a>&lt; T, P &gt; const &amp;x)</td></tr>
+<tr class="separator:a954965401031a46da66fcbb18536ead0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68883354758d90780a8f45ecdef13ef9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html#aa68634b0c048f0010844a45aa5e9bdab">col_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a68883354758d90780a8f45ecdef13ef9">operator[]</a> (<a class="el" href="namespaceglm.html#a090a0de2260835bee80e71a702492ed9">length_t</a> i)</td></tr>
+<tr class="separator:a68883354758d90780a8f45ecdef13ef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae95f4927e7961322f81f5c1902b116db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html#aa68634b0c048f0010844a45aa5e9bdab">col_type</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ae95f4927e7961322f81f5c1902b116db">operator[]</a> (<a class="el" href="namespaceglm.html#a090a0de2260835bee80e71a702492ed9">length_t</a> i) const</td></tr>
+<tr class="separator:ae95f4927e7961322f81f5c1902b116db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa725ba154586ee1bfea787036c82bc4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#aa725ba154586ee1bfea787036c82bc4a">operator=</a> (<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; const &amp;m)</td></tr>
+<tr class="separator:aa725ba154586ee1bfea787036c82bc4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a449f7c79e1c6333dbc508656a698b4d9"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a449f7c79e1c6333dbc508656a698b4d9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a449f7c79e1c6333dbc508656a698b4d9">operator=</a> (<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; U, P &gt; const &amp;m)</td></tr>
+<tr class="separator:a449f7c79e1c6333dbc508656a698b4d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae08c795a556293db526b65227c559f43"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:ae08c795a556293db526b65227c559f43"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ae08c795a556293db526b65227c559f43">operator+=</a> (U s)</td></tr>
+<tr class="separator:ae08c795a556293db526b65227c559f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e667eb8ffefc6bb508032e842349bfa"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a1e667eb8ffefc6bb508032e842349bfa"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a1e667eb8ffefc6bb508032e842349bfa">operator+=</a> (<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; U, P &gt; const &amp;m)</td></tr>
+<tr class="separator:a1e667eb8ffefc6bb508032e842349bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c7e03eba709ac58d92499de92386ffa"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a3c7e03eba709ac58d92499de92386ffa"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a3c7e03eba709ac58d92499de92386ffa">operator-=</a> (U s)</td></tr>
+<tr class="separator:a3c7e03eba709ac58d92499de92386ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5544985401df4e7457e9aa7925ad0ca5"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a5544985401df4e7457e9aa7925ad0ca5"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a5544985401df4e7457e9aa7925ad0ca5">operator-=</a> (<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; U, P &gt; const &amp;m)</td></tr>
+<tr class="separator:a5544985401df4e7457e9aa7925ad0ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa37d03f6278f001ac2ece38115148bdd"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:aa37d03f6278f001ac2ece38115148bdd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#aa37d03f6278f001ac2ece38115148bdd">operator*=</a> (U s)</td></tr>
+<tr class="separator:aa37d03f6278f001ac2ece38115148bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3687e511d47d156bb7546102d28fa2f7"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a3687e511d47d156bb7546102d28fa2f7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a3687e511d47d156bb7546102d28fa2f7">operator/=</a> (U s)</td></tr>
+<tr class="separator:a3687e511d47d156bb7546102d28fa2f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a633e1c5afab2a44f0692e5c71fbba424"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a633e1c5afab2a44f0692e5c71fbba424">operator++</a> ()</td></tr>
+<tr class="separator:a633e1c5afab2a44f0692e5c71fbba424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a794f237071edb867947ac54de6fa9545"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a794f237071edb867947ac54de6fa9545">operator--</a> ()</td></tr>
+<tr class="separator:a794f237071edb867947ac54de6fa9545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36ac4254a3ce5982afcf1330a675a973"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a36ac4254a3ce5982afcf1330a675a973">operator++</a> (int)</td></tr>
+<tr class="separator:a36ac4254a3ce5982afcf1330a675a973"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbbbcd9db53e635fc2537666fe766b03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#abbbbcd9db53e635fc2537666fe766b03">operator--</a> (int)</td></tr>
+<tr class="separator:abbbbcd9db53e635fc2537666fe766b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad87db0132efbb006cabcb3a833c516ba"><td class="memTemplParams" colspan="2">template&lt;precision Q&gt; </td></tr>
+<tr class="memitem:ad87db0132efbb006cabcb3a833c516ba"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ad87db0132efbb006cabcb3a833c516ba">tmat2x3</a> (<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, Q &gt; const &amp;m)</td></tr>
+<tr class="separator:ad87db0132efbb006cabcb3a833c516ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4314c8e147d0c2d536781f1743787ab0"><td class="memTemplParams" colspan="2">template&lt;typename X1, typename Y1, typename Z1 , typename X2 , typename Y2 , typename Z2 &gt; </td></tr>
+<tr class="memitem:a4314c8e147d0c2d536781f1743787ab0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a4314c8e147d0c2d536781f1743787ab0">tmat2x3</a> (X1 const &amp;x1, Y1 const &amp;y1, Z1 const &amp;z1, X2 const &amp;x2, Y2 const &amp;y2, Z2 const &amp;z2)</td></tr>
+<tr class="separator:a4314c8e147d0c2d536781f1743787ab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a883732d6b9178b86a9e5d10483fb6b92"><td class="memTemplParams" colspan="2">template&lt;typename V1, typename V2&gt; </td></tr>
+<tr class="memitem:a883732d6b9178b86a9e5d10483fb6b92"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a883732d6b9178b86a9e5d10483fb6b92">tmat2x3</a> (<a class="el" href="structglm_1_1detail_1_1tvec3.html">tvec3</a>&lt; V1, P &gt; const &amp;v1, <a class="el" href="structglm_1_1detail_1_1tvec3.html">tvec3</a>&lt; V2, P &gt; const &amp;v2)</td></tr>
+<tr class="separator:a883732d6b9178b86a9e5d10483fb6b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16af68f7f9699db992854c79210d8f32"><td class="memTemplParams" colspan="2">template&lt;typename U, precision Q&gt; </td></tr>
+<tr class="memitem:a16af68f7f9699db992854c79210d8f32"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a16af68f7f9699db992854c79210d8f32">tmat2x3</a> (<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; U, Q &gt; const &amp;m)</td></tr>
+<tr class="separator:a16af68f7f9699db992854c79210d8f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c28fce0a5ae7b18120851f7a44f9448"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a1c28fce0a5ae7b18120851f7a44f9448"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a1c28fce0a5ae7b18120851f7a44f9448">operator=</a> (<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; U, P &gt; const &amp;m)</td></tr>
+<tr class="separator:a1c28fce0a5ae7b18120851f7a44f9448"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cc0ac05c7c7c0ca0922739828ea087e"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a4cc0ac05c7c7c0ca0922739828ea087e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a4cc0ac05c7c7c0ca0922739828ea087e">operator+=</a> (U s)</td></tr>
+<tr class="separator:a4cc0ac05c7c7c0ca0922739828ea087e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e17d74534e51b89fc4ef088fa42c867"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a5e17d74534e51b89fc4ef088fa42c867"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a5e17d74534e51b89fc4ef088fa42c867">operator+=</a> (<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; U, P &gt; const &amp;m)</td></tr>
+<tr class="separator:a5e17d74534e51b89fc4ef088fa42c867"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9390f2064f9bdea63dc4e796822a42d4"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a9390f2064f9bdea63dc4e796822a42d4"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a9390f2064f9bdea63dc4e796822a42d4">operator-=</a> (U s)</td></tr>
+<tr class="separator:a9390f2064f9bdea63dc4e796822a42d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1abd73945e5346e7ae1e5a953979aff"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:af1abd73945e5346e7ae1e5a953979aff"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#af1abd73945e5346e7ae1e5a953979aff">operator-=</a> (<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; U, P &gt; const &amp;m)</td></tr>
+<tr class="separator:af1abd73945e5346e7ae1e5a953979aff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb4473b53bf98d8330710d21fcfd9413"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:acb4473b53bf98d8330710d21fcfd9413"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#acb4473b53bf98d8330710d21fcfd9413">operator*=</a> (U s)</td></tr>
+<tr class="separator:acb4473b53bf98d8330710d21fcfd9413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98a33b4a96b4e55c24aee023e382eedd"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a98a33b4a96b4e55c24aee023e382eedd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a98a33b4a96b4e55c24aee023e382eedd">operator/=</a> (U s)</td></tr>
+<tr class="separator:a98a33b4a96b4e55c24aee023e382eedd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><h3>template&lt;typename T, precision P&gt;<br />
+struct glm::detail::tmat2x3&lt; T, P &gt;</h3>
+
+
+<p class="definition">在文件 <a class="el" href="type__mat_8hpp_source.html">type_mat.hpp</a> 第 <a class="el" href="type__mat_8hpp_source.html#l00041">41</a> 行定义.</p>
+</div><h2 class="groupheader">成员类型定义说明</h2>
+<a id="aa68634b0c048f0010844a45aa5e9bdab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa68634b0c048f0010844a45aa5e9bdab">&#9670;&nbsp;</a></span>col_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structglm_1_1detail_1_1tvec3.html">tvec3</a>&lt;T, P&gt; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html#aa68634b0c048f0010844a45aa5e9bdab">col_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8hpp_source.html">type_mat2x3.hpp</a> 第 <a class="el" href="type__mat2x3_8hpp_source.html#l00047">47</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ae86cbe307097a27d0d6965b41e8f7ae3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae86cbe307097a27d0d6965b41e8f7ae3">&#9670;&nbsp;</a></span>row_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structglm_1_1detail_1_1tvec2.html">tvec2</a>&lt;T, P&gt; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ae86cbe307097a27d0d6965b41e8f7ae3">row_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8hpp_source.html">type_mat2x3.hpp</a> 第 <a class="el" href="type__mat2x3_8hpp_source.html#l00048">48</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ab27aa4557eb2ffaf9931bcee48823cde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab27aa4557eb2ffaf9931bcee48823cde">&#9670;&nbsp;</a></span>size_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::size_t <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ab27aa4557eb2ffaf9931bcee48823cde">size_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8hpp_source.html">type_mat2x3.hpp</a> 第 <a class="el" href="type__mat2x3_8hpp_source.html#l00046">46</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aba2a62afb75e30c53886be45955591ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba2a62afb75e30c53886be45955591ae">&#9670;&nbsp;</a></span>transpose_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structglm_1_1detail_1_1tmat3x2.html">tmat3x2</a>&lt;T, P&gt; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html#aba2a62afb75e30c53886be45955591ae">transpose_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8hpp_source.html">type_mat2x3.hpp</a> 第 <a class="el" href="type__mat2x3_8hpp_source.html#l00050">50</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ac22545a54f77e4e0915042109672179f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac22545a54f77e4e0915042109672179f">&#9670;&nbsp;</a></span>type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt;T, P&gt; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ac22545a54f77e4e0915042109672179f">type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8hpp_source.html">type_mat2x3.hpp</a> 第 <a class="el" href="type__mat2x3_8hpp_source.html#l00049">49</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a956bc7b781faea2cf8a47f9150e035f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a956bc7b781faea2cf8a47f9150e035f4">&#9670;&nbsp;</a></span>value_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef T <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html#a956bc7b781faea2cf8a47f9150e035f4">value_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8hpp_source.html">type_mat2x3.hpp</a> 第 <a class="el" href="type__mat2x3_8hpp_source.html#l00045">45</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">成员枚举类型说明</h2>
+<a id="ad7092896f5d4dad36473ed142687f571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7092896f5d4dad36473ed142687f571">&#9670;&nbsp;</a></span>ctor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ad7092896f5d4dad36473ed142687f571">glm::detail::tmat2x3::ctor</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="ad7092896f5d4dad36473ed142687f571adcd0a5de46b55f16016e91c37678b70c"></a>_null&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8hpp_source.html">type_mat2x3.hpp</a> 第 <a class="el" href="type__mat2x3_8hpp_source.html#l00044">44</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a5f05d4dddbc1d6fbaf485c5ea2440117"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f05d4dddbc1d6fbaf485c5ea2440117">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[1/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00067">67</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_a5f05d4dddbc1d6fbaf485c5ea2440117_icgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_a5f05d4dddbc1d6fbaf485c5ea2440117_icgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_a5f05d4dddbc1d6fbaf485c5ea2440117_icgraph" id="structglm_1_1detail_1_1tmat2x3_a5f05d4dddbc1d6fbaf485c5ea2440117_icgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tmat2x3.html#ad87db0132efbb006cabcb3a833c516ba" title="glm::detail::tmat2x3\l::tmat2x3" alt="" coords="191,5,328,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4d7107015eb343a44948415ecd5c8402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d7107015eb343a44948415ecd5c8402">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[2/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00075">75</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a7fbd232bac090da9a982bd7071d0492b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fbd232bac090da9a982bd7071d0492b">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[3/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;precision Q&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, Q &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab7acd9cede9ab295cdd2ce31d19f7549"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7acd9cede9ab295cdd2ce31d19f7549">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[4/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#ad7092896f5d4dad36473ed142687f571">ctor</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00094">94</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_ab7acd9cede9ab295cdd2ce31d19f7549_cgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_ab7acd9cede9ab295cdd2ce31d19f7549_cgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_ab7acd9cede9ab295cdd2ce31d19f7549_cgraph" id="structglm_1_1detail_1_1tmat2x3_ab7acd9cede9ab295cdd2ce31d19f7549_cgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tmat2x3.html#a5f05d4dddbc1d6fbaf485c5ea2440117" title="glm::detail::tmat2x3\l::tmat2x3" alt="" coords="191,5,328,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aee77b4e0eece78d68bf0ae3a95c520a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee77b4e0eece78d68bf0ae3a95c520a3">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[5/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00101">101</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_aee77b4e0eece78d68bf0ae3a95c520a3_cgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_aee77b4e0eece78d68bf0ae3a95c520a3_cgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_aee77b4e0eece78d68bf0ae3a95c520a3_cgraph" id="structglm_1_1detail_1_1tmat2x3_aee77b4e0eece78d68bf0ae3a95c520a3_cgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tmat2x3.html#a5f05d4dddbc1d6fbaf485c5ea2440117" title="glm::detail::tmat2x3\l::tmat2x3" alt="" coords="191,5,328,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6e7924d5ec396e17f9029f69597a7815"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e7924d5ec396e17f9029f69597a7815">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[6/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>x0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>y0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>z0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>z1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00111">111</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_a6e7924d5ec396e17f9029f69597a7815_cgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_a6e7924d5ec396e17f9029f69597a7815_cgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_a6e7924d5ec396e17f9029f69597a7815_cgraph" id="structglm_1_1detail_1_1tmat2x3_a6e7924d5ec396e17f9029f69597a7815_cgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tmat2x3.html#a5f05d4dddbc1d6fbaf485c5ea2440117" title="glm::detail::tmat2x3\l::tmat2x3" alt="" coords="191,5,328,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad26d0797d1a4ef0117dfd412dde991ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad26d0797d1a4ef0117dfd412dde991ea">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[7/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#aa68634b0c048f0010844a45aa5e9bdab">col_type</a> const &amp;&#160;</td>
+          <td class="paramname"><em>v0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html#aa68634b0c048f0010844a45aa5e9bdab">col_type</a> const &amp;&#160;</td>
+          <td class="paramname"><em>v1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00122">122</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_ad26d0797d1a4ef0117dfd412dde991ea_cgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_ad26d0797d1a4ef0117dfd412dde991ea_cgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_ad26d0797d1a4ef0117dfd412dde991ea_cgraph" id="structglm_1_1detail_1_1tmat2x3_ad26d0797d1a4ef0117dfd412dde991ea_cgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tmat2x3.html#a5f05d4dddbc1d6fbaf485c5ea2440117" title="glm::detail::tmat2x3\l::tmat2x3" alt="" coords="191,5,328,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac112d37bc3331b1735c1aeb591483bc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac112d37bc3331b1735c1aeb591483bc0">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[8/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename X1 , typename Y1 , typename Z1 , typename X2 , typename Y2 , typename Z2 &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype">X1 const &amp;&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Y1 const &amp;&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Z1 const &amp;&#160;</td>
+          <td class="paramname"><em>z1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">X2 const &amp;&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Y2 const &amp;&#160;</td>
+          <td class="paramname"><em>y2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Z2 const &amp;&#160;</td>
+          <td class="paramname"><em>z2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab39c2ee73d04fb527773418e6595be57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab39c2ee73d04fb527773418e6595be57">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[9/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename U , typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tvec3.html">tvec3</a>&lt; U, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>v1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tvec3.html">tvec3</a>&lt; V, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>v2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeada8034e24714a14c9d2480f5cf2fb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeada8034e24714a14c9d2480f5cf2fb6">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[10/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename U , precision Q&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; U, Q &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a37bd9202b87e73c3d6e36cadce414457"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37bd9202b87e73c3d6e36cadce414457">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[11/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x2.html">tmat2x2</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00175">175</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_a37bd9202b87e73c3d6e36cadce414457_cgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_a37bd9202b87e73c3d6e36cadce414457_cgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_a37bd9202b87e73c3d6e36cadce414457_cgraph" id="structglm_1_1detail_1_1tmat2x3_a37bd9202b87e73c3d6e36cadce414457_cgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tmat2x3.html#a5f05d4dddbc1d6fbaf485c5ea2440117" title="glm::detail::tmat2x3\l::tmat2x3" alt="" coords="191,5,328,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1f1c6b71411b314a015c589cbbe34f7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f1c6b71411b314a015c589cbbe34f7a">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[12/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat3x3.html">tmat3x3</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00185">185</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_a1f1c6b71411b314a015c589cbbe34f7a_cgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_a1f1c6b71411b314a015c589cbbe34f7a_cgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_a1f1c6b71411b314a015c589cbbe34f7a_cgraph" id="structglm_1_1detail_1_1tmat2x3_a1f1c6b71411b314a015c589cbbe34f7a_cgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tmat2x3.html#a5f05d4dddbc1d6fbaf485c5ea2440117" title="glm::detail::tmat2x3\l::tmat2x3" alt="" coords="191,5,328,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4dc8800ba18dd4b395c68faf51009776"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dc8800ba18dd4b395c68faf51009776">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[13/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat4x4.html">tmat4x4</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00195">195</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_a4dc8800ba18dd4b395c68faf51009776_cgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_a4dc8800ba18dd4b395c68faf51009776_cgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_a4dc8800ba18dd4b395c68faf51009776_cgraph" id="structglm_1_1detail_1_1tmat2x3_a4dc8800ba18dd4b395c68faf51009776_cgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tmat2x3.html#a5f05d4dddbc1d6fbaf485c5ea2440117" title="glm::detail::tmat2x3\l::tmat2x3" alt="" coords="191,5,328,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a54b8586adbda881d55b2c98a39ed58c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54b8586adbda881d55b2c98a39ed58c5">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[14/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x4.html">tmat2x4</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00205">205</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_a54b8586adbda881d55b2c98a39ed58c5_cgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_a54b8586adbda881d55b2c98a39ed58c5_cgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_a54b8586adbda881d55b2c98a39ed58c5_cgraph" id="structglm_1_1detail_1_1tmat2x3_a54b8586adbda881d55b2c98a39ed58c5_cgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tmat2x3.html#a5f05d4dddbc1d6fbaf485c5ea2440117" title="glm::detail::tmat2x3\l::tmat2x3" alt="" coords="191,5,328,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="acdd851e9160ca0515af9eef17a698d36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdd851e9160ca0515af9eef17a698d36">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[15/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat3x2.html">tmat3x2</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00215">215</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_acdd851e9160ca0515af9eef17a698d36_cgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_acdd851e9160ca0515af9eef17a698d36_cgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_acdd851e9160ca0515af9eef17a698d36_cgraph" id="structglm_1_1detail_1_1tmat2x3_acdd851e9160ca0515af9eef17a698d36_cgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tmat2x3.html#a5f05d4dddbc1d6fbaf485c5ea2440117" title="glm::detail::tmat2x3\l::tmat2x3" alt="" coords="191,5,328,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a715213bd6e4ad7b7c4757590821b7ef2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a715213bd6e4ad7b7c4757590821b7ef2">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[16/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat3x4.html">tmat3x4</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00225">225</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_a715213bd6e4ad7b7c4757590821b7ef2_cgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_a715213bd6e4ad7b7c4757590821b7ef2_cgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_a715213bd6e4ad7b7c4757590821b7ef2_cgraph" id="structglm_1_1detail_1_1tmat2x3_a715213bd6e4ad7b7c4757590821b7ef2_cgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tmat2x3.html#a5f05d4dddbc1d6fbaf485c5ea2440117" title="glm::detail::tmat2x3\l::tmat2x3" alt="" coords="191,5,328,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="acc53a40969e8baec1323cbcd3db5021f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc53a40969e8baec1323cbcd3db5021f">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[17/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat4x2.html">tmat4x2</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00235">235</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_acc53a40969e8baec1323cbcd3db5021f_cgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_acc53a40969e8baec1323cbcd3db5021f_cgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_acc53a40969e8baec1323cbcd3db5021f_cgraph" id="structglm_1_1detail_1_1tmat2x3_acc53a40969e8baec1323cbcd3db5021f_cgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tmat2x3.html#a5f05d4dddbc1d6fbaf485c5ea2440117" title="glm::detail::tmat2x3\l::tmat2x3" alt="" coords="191,5,328,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a954965401031a46da66fcbb18536ead0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a954965401031a46da66fcbb18536ead0">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[18/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat4x3.html">tmat4x3</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00245">245</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ad87db0132efbb006cabcb3a833c516ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad87db0132efbb006cabcb3a833c516ba">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[19/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;precision Q&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, Q &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00085">85</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_ad87db0132efbb006cabcb3a833c516ba_cgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_ad87db0132efbb006cabcb3a833c516ba_cgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_ad87db0132efbb006cabcb3a833c516ba_cgraph" id="structglm_1_1detail_1_1tmat2x3_ad87db0132efbb006cabcb3a833c516ba_cgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tmat2x3.html#a5f05d4dddbc1d6fbaf485c5ea2440117" title="glm::detail::tmat2x3\l::tmat2x3" alt="" coords="191,5,328,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4314c8e147d0c2d536781f1743787ab0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4314c8e147d0c2d536781f1743787ab0">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[20/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename X1, typename Y1, typename Z1 , typename X2 , typename Y2 , typename Z2 &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype">X1 const &amp;&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Y1 const &amp;&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Z1 const &amp;&#160;</td>
+          <td class="paramname"><em>z1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">X2 const &amp;&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Y2 const &amp;&#160;</td>
+          <td class="paramname"><em>y2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Z2 const &amp;&#160;</td>
+          <td class="paramname"><em>z2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00138">138</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_a4314c8e147d0c2d536781f1743787ab0_cgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_a4314c8e147d0c2d536781f1743787ab0_cgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_a4314c8e147d0c2d536781f1743787ab0_cgraph" id="structglm_1_1detail_1_1tmat2x3_a4314c8e147d0c2d536781f1743787ab0_cgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tmat2x3.html#a5f05d4dddbc1d6fbaf485c5ea2440117" title="glm::detail::tmat2x3\l::tmat2x3" alt="" coords="191,5,328,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a883732d6b9178b86a9e5d10483fb6b92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a883732d6b9178b86a9e5d10483fb6b92">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[21/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename V1, typename V2&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tvec3.html">tvec3</a>&lt; V1, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>v1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tvec3.html">tvec3</a>&lt; V2, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>v2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00150">150</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_a883732d6b9178b86a9e5d10483fb6b92_cgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_a883732d6b9178b86a9e5d10483fb6b92_cgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_a883732d6b9178b86a9e5d10483fb6b92_cgraph" id="structglm_1_1detail_1_1tmat2x3_a883732d6b9178b86a9e5d10483fb6b92_cgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tmat2x3.html#a5f05d4dddbc1d6fbaf485c5ea2440117" title="glm::detail::tmat2x3\l::tmat2x3" alt="" coords="191,5,328,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a16af68f7f9699db992854c79210d8f32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16af68f7f9699db992854c79210d8f32">&#9670;&nbsp;</a></span>tmat2x3() <span class="overload">[22/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename U, precision Q&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; U, Q &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00165">165</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_a16af68f7f9699db992854c79210d8f32_cgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_a16af68f7f9699db992854c79210d8f32_cgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_a16af68f7f9699db992854c79210d8f32_cgraph" id="structglm_1_1detail_1_1tmat2x3_a16af68f7f9699db992854c79210d8f32_cgraph">
+<area shape="rect" id="node2" href="structglm_1_1detail_1_1tmat2x3.html#a5f05d4dddbc1d6fbaf485c5ea2440117" title="glm::detail::tmat2x3\l::tmat2x3" alt="" coords="191,5,328,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="aaa2e4b8a6d400cebc4f6a4fb4e2542d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa2e4b8a6d400cebc4f6a4fb4e2542d8">&#9670;&nbsp;</a></span>length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="setup_8hpp.html#a08b807947b47031d3a511f03f89645ad">GLM_CONSTEXPR</a> <a class="el" href="namespaceglm.html#a090a0de2260835bee80e71a702492ed9">length_t</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::length </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00033">33</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aa37d03f6278f001ac2ece38115148bdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa37d03f6278f001ac2ece38115148bdd">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt;T, P&gt;&amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator*= </td>
+          <td>(</td>
+          <td class="paramtype">U&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb4473b53bf98d8330710d21fcfd9413"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb4473b53bf98d8330710d21fcfd9413">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt;T, P&gt;&amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator*= </td>
+          <td>(</td>
+          <td class="paramtype">U&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00311">311</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a633e1c5afab2a44f0692e5c71fbba424"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a633e1c5afab2a44f0692e5c71fbba424">&#9670;&nbsp;</a></span>operator++() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator++ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00328">328</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a36ac4254a3ce5982afcf1330a675a973"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36ac4254a3ce5982afcf1330a675a973">&#9670;&nbsp;</a></span>operator++() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator++ </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00344">344</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ae08c795a556293db526b65227c559f43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae08c795a556293db526b65227c559f43">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt;T, P&gt;&amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">U&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e667eb8ffefc6bb508032e842349bfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e667eb8ffefc6bb508032e842349bfa">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt;T, P&gt;&amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; U, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4cc0ac05c7c7c0ca0922739828ea087e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cc0ac05c7c7c0ca0922739828ea087e">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt;T, P&gt;&amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">U&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00275">275</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a5e17d74534e51b89fc4ef088fa42c867"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e17d74534e51b89fc4ef088fa42c867">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt;T, P&gt;&amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; U, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00284">284</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a794f237071edb867947ac54de6fa9545"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a794f237071edb867947ac54de6fa9545">&#9670;&nbsp;</a></span>operator--() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator-- </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00336">336</a> 行定义.</p>
+
+</div>
+</div>
+<a id="abbbbcd9db53e635fc2537666fe766b03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbbbcd9db53e635fc2537666fe766b03">&#9670;&nbsp;</a></span>operator--() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator-- </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00352">352</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a3c7e03eba709ac58d92499de92386ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c7e03eba709ac58d92499de92386ffa">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt;T, P&gt;&amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator-= </td>
+          <td>(</td>
+          <td class="paramtype">U&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5544985401df4e7457e9aa7925ad0ca5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5544985401df4e7457e9aa7925ad0ca5">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt;T, P&gt;&amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator-= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; U, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9390f2064f9bdea63dc4e796822a42d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9390f2064f9bdea63dc4e796822a42d4">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt;T, P&gt;&amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator-= </td>
+          <td>(</td>
+          <td class="paramtype">U&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00293">293</a> 行定义.</p>
+
+</div>
+</div>
+<a id="af1abd73945e5346e7ae1e5a953979aff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1abd73945e5346e7ae1e5a953979aff">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt;T, P&gt;&amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator-= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; U, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00302">302</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a3687e511d47d156bb7546102d28fa2f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3687e511d47d156bb7546102d28fa2f7">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt;T, P&gt;&amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator/= </td>
+          <td>(</td>
+          <td class="paramtype">U&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98a33b4a96b4e55c24aee023e382eedd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98a33b4a96b4e55c24aee023e382eedd">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt;T, P&gt;&amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator/= </td>
+          <td>(</td>
+          <td class="paramtype">U&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00320">320</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aa725ba154586ee1bfea787036c82bc4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa725ba154586ee1bfea787036c82bc4a">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; &amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00257">257</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a449f7c79e1c6333dbc508656a698b4d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a449f7c79e1c6333dbc508656a698b4d9">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#ab2d052de21a70539923e9bcbf6e83a51">GLM_FUNC_DECL</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt;T, P&gt;&amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; U, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c28fce0a5ae7b18120851f7a44f9448"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c28fce0a5ae7b18120851f7a44f9448">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, precision P&gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt;T, P&gt;&amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; U, P &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00266">266</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a68883354758d90780a8f45ecdef13ef9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68883354758d90780a8f45ecdef13ef9">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html#aa68634b0c048f0010844a45aa5e9bdab">col_type</a> &amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceglm.html#a090a0de2260835bee80e71a702492ed9">length_t</a>&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00044">44</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_a68883354758d90780a8f45ecdef13ef9_cgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_a68883354758d90780a8f45ecdef13ef9_cgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_a68883354758d90780a8f45ecdef13ef9_cgraph" id="structglm_1_1detail_1_1tmat2x3_a68883354758d90780a8f45ecdef13ef9_cgraph">
+<area shape="rect" id="node2" href="group__core__func__geometric.html#ga03b2831439defb8922832b540b91b8a7" title="glm::length" alt="" coords="191,13,277,39"/>
+<area shape="rect" id="node3" href="group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="325,13,399,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae95f4927e7961322f81f5c1902b116db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae95f4927e7961322f81f5c1902b116db">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , precision P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">tmat2x3</a>&lt; T, P &gt;::<a class="el" href="structglm_1_1detail_1_1tmat2x3.html#aa68634b0c048f0010844a45aa5e9bdab">col_type</a> const  &amp; <a class="el" href="structglm_1_1detail_1_1tmat2x3.html">glm::detail::tmat2x3</a>&lt; T, P &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceglm.html#a090a0de2260835bee80e71a702492ed9">length_t</a>&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a> 第 <a class="el" href="type__mat2x3_8inl_source.html#l00055">55</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structglm_1_1detail_1_1tmat2x3_ae95f4927e7961322f81f5c1902b116db_cgraph.png" border="0" usemap="#structglm_1_1detail_1_1tmat2x3_ae95f4927e7961322f81f5c1902b116db_cgraph" alt=""/></div>
+<map name="structglm_1_1detail_1_1tmat2x3_ae95f4927e7961322f81f5c1902b116db_cgraph" id="structglm_1_1detail_1_1tmat2x3_ae95f4927e7961322f81f5c1902b116db_cgraph">
+<area shape="rect" id="node2" href="group__core__func__geometric.html#ga03b2831439defb8922832b540b91b8a7" title="glm::length" alt="" coords="191,13,277,39"/>
+<area shape="rect" id="node3" href="group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="325,13,399,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<hr/>该结构体的文档由以下文件生成:<ul>
+<li>glm/detail/<a class="el" href="type__mat_8hpp_source.html">type_mat.hpp</a></li>
+<li>glm/detail/<a class="el" href="type__mat2x3_8hpp_source.html">type_mat2x3.hpp</a></li>
+<li>glm/detail/<a class="el" href="type__mat2x3_8inl_source.html">type_mat2x3.inl</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

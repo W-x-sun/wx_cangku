@@ -1,0 +1,11 @@
+<map id="HairInterface::setHairObject" name="HairInterface::setHairObject">
+<area shape="rect" id="node2" href="$class_g_l_widget.html#a3f5832365f31dc2a4586a94cfc4b0fdd" title="GLWidget::initSimulation" alt="" coords="251,93,417,120"/>
+<area shape="rect" id="node6" href="$class_hair_interface2.html#a89efc5e94cf7fd7b596666694bd5264d" title="HairInterface2::HairInterface2" alt="" coords="951,5,1145,32"/>
+<area shape="rect" id="node7" href="$class_hair_interface2.html#add046e9f119302cf5aa20e01f7d84db5" title="HairInterface2::~HairInterface2" alt="" coords="947,107,1149,133"/>
+<area shape="rect" id="node9" href="$class_g_l_widget.html#a6771fb2064fce88f0803becd02dc8ae0" title="GLWidget::applySceneEditor" alt="" coords="239,208,429,235"/>
+<area shape="rect" id="node3" href="$class_g_l_widget.html#ab4523bb8914f0f32617cbf15eab16439" title="GLWidget::resetSimulation" alt="" coords="477,68,656,95"/>
+<area shape="rect" id="node4" href="$class_hair_interface.html#a1c006364222407ede34ac1bf1eb365d0" title="HairInterface::resetSimulation" alt="" coords="704,107,899,133"/>
+<area shape="rect" id="node8" href="$class_hair_interface.html#aa36ae95cff9ff9776b72b323e29ceed0" title="HairInterface::resetAllValues" alt="" coords="707,56,896,83"/>
+<area shape="rect" id="node5" href="$class_hair_interface.html#a0c017a229941ad28fda6faf241b7346f" title="HairInterface::HairInterface" alt="" coords="958,56,1138,83"/>
+<area shape="rect" id="node10" href="$class_g_l_widget.html#a843150d06edc5e2e50d98e395c2b8759" title="GLWidget::paintGL" alt="" coords="500,208,633,235"/>
+</map>

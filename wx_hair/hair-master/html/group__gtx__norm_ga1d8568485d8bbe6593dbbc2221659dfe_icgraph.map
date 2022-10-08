@@ -1,0 +1,14 @@
+<map id="glm::length2" name="glm::length2">
+<area shape="rect" id="node2" href="$group__gtx__quaternion.html#ga02d70b959b5ec6b4c318dce5f9f179f6" title="glm::toQuat" alt="" coords="705,126,796,152"/>
+<area shape="rect" id="node3" href="$group__gtx__quaternion.html#gabad3e53891fb524593d321e0a94fe5b9" title="glm::extractRealComponent" alt="" coords="147,51,332,78"/>
+<area shape="rect" id="node5" href="$group__gtx__quaternion.html#gaac3f65ac2ca7ac7b22bf18d9f6fd4e6e" title="glm::rotation" alt="" coords="192,104,287,131"/>
+<area shape="rect" id="node9" href="$group__gtc__dual__quaternion.html#ga9e5bb363690e8c1058f86b39596a7187" title="glm::mat3x4_cast" alt="" coords="176,162,303,188"/>
+<area shape="rect" id="node12" href="$group__gtx__norm.html#ga9affa2e0e963514b276b54b778986145" title="glm::distance2" alt="" coords="186,250,293,276"/>
+<area shape="rect" id="node4" href="$group__gtx__quaternion.html#gab1124d48738fe4d23540388eba3e9c2d" title="glm::rotate" alt="" coords="401,50,485,76"/>
+<area shape="rect" id="node6" href="$group__gtx__quaternion.html#ga7c7a6ebde274fa1de72cb65cb8f2bed2" title="glm::fastMix" alt="" coords="396,151,491,178"/>
+<area shape="rect" id="node7" href="$group__gtx__quaternion.html#gad8c24ad4e57f555ebb2c00a1fb11230b" title="glm::shortMix" alt="" coords="555,202,656,228"/>
+<area shape="rect" id="node8" href="$group__gtx__quaternion.html#ga4f7ce3ef1faa13c3b00d6237bc5a7beb" title="glm::length2" alt="" coords="704,202,797,228"/>
+<area shape="rect" id="node10" href="$group__gtc__dual__quaternion.html#gaa22068e2d3adb171fbc6c6260864a53c" title="glm::mat2x4_cast" alt="" coords="380,202,507,228"/>
+<area shape="rect" id="node11" href="$group__gtc__dual__quaternion.html#ga3827eec5f11beb8f3a7c9a979e37955d" title="glm::inverse" alt="" coords="559,252,652,279"/>
+<area shape="rect" id="node13" href="$namespaceglm.html#a5b1d668b8ffd3ec2423ef18e260c2cce" title="glm::length2" alt="" coords="397,252,490,279"/>
+</map>

@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: src/glwidget.cpp 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">宏定义</a>  </div>
+  <div class="headertitle">
+<div class="title">glwidget.cpp 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="glwidget_8h_source.html">glwidget.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="resourceloader_8h_source.html">resourceloader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="errorchecker_8h_source.html">errorchecker.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="hair_common_8h_source.html">hairCommon.h</a>&quot;</code><br />
+<code>#include &lt;QMouseEvent&gt;</code><br />
+<code>#include &lt;QWheelEvent&gt;</code><br />
+<code>#include &quot;<a class="el" href="hairobject_8h_source.html">hairobject.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="simulation_8h_source.html">simulation.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="hairshaderprogram_8h_source.html">hairshaderprogram.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="meshshaderprogram_8h_source.html">meshshaderprogram.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="hairopacityshaderprogram_8h_source.html">hairopacityshaderprogram.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="whitehairshaderprogram_8h_source.html">whitehairshaderprogram.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="whitemeshshaderprogram_8h_source.html">whitemeshshaderprogram.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="hairdepthpeelprogram_8h_source.html">hairdepthpeelprogram.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="meshdepthpeelprogram_8h_source.html">meshdepthpeelprogram.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="hairinterface_8h_source.html">hairinterface.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="meshocttree_8h_source.html">meshocttree.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="texture_8h_source.html">texture.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="framebuffer_8h_source.html">framebuffer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="tessellator_8h_source.html">tessellator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="hairrendershaderprogram_8h_source.html">hairrendershaderprogram.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sceneeditor_8h_source.html">sceneeditor.h</a>&quot;</code><br />
+<code>#include &lt;<a class="el" href="color__space_8hpp_source.html">glm/gtx/color_space.hpp</a>&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+glwidget.cpp 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="glwidget_8cpp__incl.png" border="0" usemap="#src_2glwidget_8cpp" alt=""/></div>
+<map name="src_2glwidget_8cpp" id="src_2glwidget_8cpp">
+<area shape="rect" id="node2" href="glwidget_8h.html" title="glwidget.h" alt="" coords="1663,80,1744,107"/>
+<area shape="rect" id="node7" href="hair_common_8h.html" title="hairCommon.h" alt="" coords="797,379,903,405"/>
+<area shape="rect" id="node22" href="resourceloader_8h.html" title="resourceloader.h" alt="" coords="827,229,945,256"/>
+<area shape="rect" id="node23" href="errorchecker_8h.html" title="errorchecker.h" alt="" coords="1927,379,2032,405"/>
+<area shape="rect" id="node26" href="hairobject_8h.html" title="hairobject.h" alt="" coords="595,229,684,256"/>
+<area shape="rect" id="node31" href="simulation_8h.html" title="simulation.h" alt="" coords="1524,229,1616,256"/>
+<area shape="rect" id="node36" href="hairshaderprogram_8h.html" title="hairshaderprogram.h" alt="" coords="1176,229,1316,256"/>
+<area shape="rect" id="node37" href="meshshaderprogram_8h.html" title="meshshaderprogram.h" alt="" coords="1345,155,1496,181"/>
+<area shape="rect" id="node38" href="hairopacityshaderprogram_8h.html" title="hairopacityshaderprogram.h" alt="" coords="969,229,1152,256"/>
+<area shape="rect" id="node39" href="whitehairshaderprogram_8h.html" title="whitehairshaderprogram.h" alt="" coords="947,155,1118,181"/>
+<area shape="rect" id="node40" href="whitemeshshaderprogram_8h.html" title="whitemeshshaderprogram.h" alt="" coords="985,80,1168,107"/>
+<area shape="rect" id="node41" href="hairdepthpeelprogram_8h.html" title="hairdepthpeelprogram.h" alt="" coords="715,155,873,181"/>
+<area shape="rect" id="node42" href="meshdepthpeelprogram_8h.html" title="meshdepthpeelprogram.h" alt="" coords="1243,80,1411,107"/>
+<area shape="rect" id="node43" href="hairinterface_8h.html" title="hairinterface.h" alt="" coords="1835,80,1939,107"/>
+<area shape="rect" id="node44" href="meshocttree_8h.html" title="meshocttree.h" alt="" coords="465,229,571,256"/>
+<area shape="rect" id="node45" href="texture_8h.html" title="texture.h" alt="" coords="516,155,589,181"/>
+<area shape="rect" id="node46" href="framebuffer_8h.html" title="framebuffer.h" alt="" coords="139,229,238,256"/>
+<area shape="rect" id="node47" href="tessellator_8h.html" title="tessellator.h" alt="" coords="226,304,319,331"/>
+<area shape="rect" id="node48" href="hairrendershaderprogram_8h.html" title="hairrendershaderprogram.h" alt="" coords="734,80,910,107"/>
+<area shape="rect" id="node49" href="sceneeditor_8h.html" title="sceneeditor.h" alt="" coords="2304,80,2404,107"/>
+<area shape="rect" id="node50" href="color__space_8hpp.html" title="glm/gtx/color_space.hpp" alt="" coords="5,379,169,405"/>
+<area shape="rect" id="node14" href="glm_8hpp.html" title="glm/glm.hpp" alt="" coords="433,528,526,555"/>
+<area shape="rect" id="node15" href="string__cast_8hpp.html" title="glm/gtx/string_cast.hpp" alt="" coords="1312,453,1471,480"/>
+<area shape="rect" id="node17" href="transform_8hpp.html" title="glm/gtx/transform.hpp" alt="" coords="349,453,498,480"/>
+<area shape="rect" id="node18" href="type__ptr_8hpp.html" title="glm/gtc/type_ptr.hpp" alt="" coords="573,453,714,480"/>
+<area shape="rect" id="node19" href="gtc_2constants_8hpp.html" title="../gtc/constants.hpp" alt="" coords="738,453,877,480"/>
+<area shape="rect" id="node28" href="shaderprogram_8h.html" title="shaderprogram.h" alt="" coords="1063,304,1181,331"/>
+<area shape="rect" id="node30" href="objmesh_8h.html" title="objmesh.h" alt="" coords="803,304,886,331"/>
+<area shape="rect" id="node32" href="integrator_8h.html" title="integrator.h" alt="" coords="1308,304,1395,331"/>
+<area shape="rect" id="node33" href="md5_8h.html" title="md5.h" alt="" coords="1727,379,1786,405"/>
+</map>
+</div>
+</div>
+<p><a href="glwidget_8cpp_source.html">浏览源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:a744899251d6e543287850841e428496d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="glwidget_8cpp.html#a744899251d6e543287850841e428496d">SHIFT_CLICK</a>&#160;&#160;&#160;true</td></tr>
+<tr class="separator:a744899251d6e543287850841e428496d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a449961d45aabc9b8192f1bc885b4f349"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="glwidget_8cpp.html#a449961d45aabc9b8192f1bc885b4f349">FEEDBACK</a>&#160;&#160;&#160;true</td></tr>
+<tr class="separator:a449961d45aabc9b8192f1bc885b4f349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">宏定义说明</h2>
+<a id="a449961d45aabc9b8192f1bc885b4f349"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a449961d45aabc9b8192f1bc885b4f349">&#9670;&nbsp;</a></span>FEEDBACK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FEEDBACK&#160;&#160;&#160;true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="glwidget_8cpp_source.html">glwidget.cpp</a> 第 <a class="el" href="glwidget_8cpp_source.html#l00031">31</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a744899251d6e543287850841e428496d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a744899251d6e543287850841e428496d">&#9670;&nbsp;</a></span>SHIFT_CLICK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SHIFT_CLICK&#160;&#160;&#160;true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="glwidget_8cpp_source.html">glwidget.cpp</a> 第 <a class="el" href="glwidget_8cpp_source.html#l00029">29</a> 行定义.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

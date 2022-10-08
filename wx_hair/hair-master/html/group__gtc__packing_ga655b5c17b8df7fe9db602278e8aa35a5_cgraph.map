@@ -1,0 +1,6 @@
+<map id="glm::unpackSnorm1x16" name="glm::unpackSnorm1x16">
+<area shape="rect" id="node2" href="$group__core__func__common.html#ga72e9e213c84f06a329a2a838b51200f4" title="glm::clamp" alt="" coords="212,92,299,119"/>
+<area shape="rect" id="node5" href="$group__gtc__constants.html#gab83fb6de0f05d6c0d11bdf0479f8319e" title="glm::e" alt="" coords="226,143,285,169"/>
+<area shape="rect" id="node3" href="$group__core__func__common.html#ga3dc90dbd66c9ca1dd5625c93d9c50f02" title="glm::min" alt="" coords="347,29,419,56"/>
+<area shape="rect" id="node4" href="$group__core__func__common.html#gaa228561a9da55898f8f72ad2403fafac" title="glm::max" alt="" coords="467,92,543,119"/>
+</map>

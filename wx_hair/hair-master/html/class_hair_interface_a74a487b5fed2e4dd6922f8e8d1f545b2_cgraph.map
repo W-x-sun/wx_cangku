@@ -1,0 +1,6 @@
+<map id="HairInterface::inputHairsPerPatchText" name="HairInterface::inputHairsPerPatchText">
+<area shape="rect" id="node2" href="$class_hair_interface.html#a5028b63dac1af7b8350a678a610cb572" title="HairInterface::setHairsPer\lPatch" alt="" coords="217,35,392,76"/>
+<area shape="rect" id="node3" href="$class_hair_interface.html#a0cd7d6ad817ae5e542722e5cb21d308c" title="HairInterface::updateStats\lLabel" alt="" coords="440,5,615,47"/>
+<area shape="rect" id="node4" href="$class_g_l_widget.html#ab8f164088f2a06ba0af697106dc8b7c9" title="GLWidget::forceUpdate" alt="" coords="448,71,607,98"/>
+<area shape="rect" id="node5" href="$class_g_l_widget.html#a20169b7b90890de5e09438dba7bc91d5" title="GLWidget::isPaused" alt="" coords="663,71,805,98"/>
+</map>

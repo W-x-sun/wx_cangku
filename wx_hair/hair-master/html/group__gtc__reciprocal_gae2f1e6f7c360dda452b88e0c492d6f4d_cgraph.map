@@ -1,0 +1,14 @@
+<map id="glm::coth" name="glm::coth">
+<area shape="rect" id="node2" href="$group__core__func__trigonometric.html#gaa7685634f6e920ba9a683e5ec7aed976" title="glm::cosh" alt="" coords="256,31,335,57"/>
+<area shape="rect" id="node10" href="$group__core__func__trigonometric.html#ga2e8c9a896e803661058de83429aa6eda" title="glm::sinh" alt="" coords="129,80,204,107"/>
+<area shape="rect" id="node11" href="$group__gtc__reciprocal.html#ga450f3bf1c04751198994d26d92ac2a63" title="glm::asech" alt="" coords="252,131,339,157"/>
+<area shape="rect" id="node3" href="$group__core__func__trigonometric.html#ga941f20e5315113d1a2e037f073a62f04" title="glm::tanh" alt="" coords="392,31,468,57"/>
+<area shape="rect" id="node4" href="$group__core__func__trigonometric.html#gaa52acc1218a5ddd0f8d94fcd098685b1" title="glm::asinh" alt="" coords="521,52,604,79"/>
+<area shape="rect" id="node5" href="$group__core__func__exponential.html#ga0c8da2d2921da250e8700ac4476916a1" title="glm::log" alt="" coords="919,149,987,176"/>
+<area shape="rect" id="node6" href="$group__core__func__common.html#gaea946f96ec1df259802effe9f532e1c1" title="glm::abs" alt="" coords="917,24,989,51"/>
+<area shape="rect" id="node7" href="$group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="791,75,865,101"/>
+<area shape="rect" id="node8" href="$group__core__func__trigonometric.html#ga961d72b4a20d09d6e71fdf076ad4f433" title="glm::acosh" alt="" coords="652,149,739,176"/>
+<area shape="rect" id="node9" href="$group__core__func__trigonometric.html#gaa20b78cb9c12e30bd5a3054b8cb3d099" title="glm::atanh" alt="" coords="787,149,869,176"/>
+<area shape="rect" id="node12" href="$group__gtc__reciprocal.html#ga418b31539e1a69c262712f2c7a4f27eb" title="glm::acsch" alt="" coords="387,105,473,132"/>
+<area shape="rect" id="node13" href="$group__gtc__reciprocal.html#gad73911994e6bb6a06cc3ea1bd89201ab" title="glm::acoth" alt="" coords="654,224,737,251"/>
+</map>

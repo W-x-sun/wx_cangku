@@ -1,0 +1,23 @@
+<map id="glm::detail::sse_dot_ps" name="glm::detail::sse_dot_ps">
+<area shape="rect" id="node2" href="$namespaceglm_1_1detail.html#aa49baf7bcbe9eb783a85bcd3ce8d8dba" title="glm::detail::sse_len_ps" alt="" coords="213,5,369,32"/>
+<area shape="rect" id="node6" href="$namespaceglm_1_1detail.html#a9f1826e935d79fc46faaf70499cba320" title="glm::detail::sse_nrm_ps" alt="" coords="211,56,372,83"/>
+<area shape="rect" id="node7" href="$namespaceglm_1_1detail.html#ace9256f388e836f9411a6eb92bed1a8a" title="glm::detail::sse_ffd_ps" alt="" coords="214,107,369,133"/>
+<area shape="rect" id="node9" href="$namespaceglm_1_1detail.html#a48dc48d40e141bd2fff6b9c88b7e05e4" title="glm::detail::sse_rfe_ps" alt="" coords="214,157,369,184"/>
+<area shape="rect" id="node11" href="$namespaceglm_1_1detail.html#a5086fa9f09dcfec333b9eebeae468767" title="glm::detail::sse_rfa_ps" alt="" coords="214,208,369,235"/>
+<area shape="rect" id="node13" href="$namespaceglm.html#ab68375a7ad5f9dc3db97323af1326bbb" title="glm::dot" alt="" coords="257,259,326,285"/>
+<area shape="rect" id="node14" href="$namespaceglm.html#af55916a3764adaa7537f5e3e9ccacb81" title="glm::dot4" alt="" coords="253,309,329,336"/>
+<area shape="rect" id="node21" href="$namespaceglm.html#aabe6e7b8dbd2e5db215f973e474dd951" title="glm::normalize" alt="" coords="238,360,345,387"/>
+<area shape="rect" id="node22" href="$namespaceglm.html#a28640ee202fdb12ef3e836c257675043" title="glm::fastNormalize" alt="" coords="225,411,357,437"/>
+<area shape="rect" id="node3" href="$namespaceglm_1_1detail.html#a9d4832acb69aa3f67d6e06c64b29dddd" title="glm::detail::sse_dst_ps" alt="" coords="420,5,577,32"/>
+<area shape="rect" id="node4" href="$namespaceglm.html#ae716903872179576658f5eb6e2632558" title="glm::distance" alt="" coords="792,5,892,32"/>
+<area shape="rect" id="node5" href="$namespaceglm.html#a5256e6d2d2a82b810f92fc02f64819fb" title="glm::distance4" alt="" coords="631,31,738,57"/>
+<area shape="rect" id="node8" href="$namespaceglm.html#ae3d9637fb22cf7eecd448c5ad341efab" title="glm::faceforward" alt="" coords="439,107,558,133"/>
+<area shape="rect" id="node10" href="$namespaceglm.html#aca05cfddf931415f023b4ac91b96d739" title="glm::reflect" alt="" coords="455,157,542,184"/>
+<area shape="rect" id="node12" href="$namespaceglm.html#a6b7db0c107279793b77576c2eef680b3" title="glm::refract" alt="" coords="455,208,543,235"/>
+<area shape="rect" id="node15" href="$namespaceglm.html#a9de224e4659dd8df0f6cbfe87785ad37" title="glm::length4" alt="" coords="795,284,889,311"/>
+<area shape="rect" id="node18" href="$namespaceglm.html#a07438f3a62641a379456e932dd97b090" title="glm::fastLength4" alt="" coords="625,309,744,336"/>
+<area shape="rect" id="node19" href="$namespaceglm.html#a8279db21d38cadc5efaa0c8efababb1b" title="glm::niceLength4" alt="" coords="438,360,559,387"/>
+<area shape="rect" id="node20" href="$namespaceglm.html#ae84ca0b0e48c6a79faac0eea8bc7a913" title="glm::dot" alt="" coords="464,411,533,437"/>
+<area shape="rect" id="node16" href="$namespaceglm.html#a34a9cfc7cf7fe9b35911cc3013033e61" title="glm::niceLength" alt="" coords="940,284,1055,311"/>
+<area shape="rect" id="node17" href="$namespaceglm.html#ae8fababc16f402b8e518982eb08284ef" title="glm::fastLength" alt="" coords="1103,284,1215,311"/>
+</map>

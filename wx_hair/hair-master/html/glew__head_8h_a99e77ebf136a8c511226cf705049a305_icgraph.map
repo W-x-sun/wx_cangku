@@ -1,0 +1,4 @@
+<map id="glGenTextures" name="glGenTextures">
+<area shape="rect" id="node2" href="$class_texture.html#a16c36570597509263c1d91c95d82fdc0" title="Texture::createDepthTexture" alt="" coords="160,13,349,39"/>
+<area shape="rect" id="node3" href="$class_framebuffer.html#ac556c583ba199c561f34639312b0827a" title="Framebuffer::generateDepth\lTexture" alt="" coords="397,5,583,47"/>
+</map>

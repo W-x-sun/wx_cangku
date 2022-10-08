@@ -1,0 +1,12 @@
+<map id="glm::inverse" name="glm::inverse">
+<area shape="rect" id="node2" href="$group__gtc__quaternion.html#gaf78006c47276b151777fc194cf11a688" title="glm::conjugate" alt="" coords="165,5,271,32"/>
+<area shape="rect" id="node5" href="$group__core__func__geometric.html#ga7dada304da2ba7dd3376ab4f178c3f6b" title="glm::dot" alt="" coords="183,56,253,83"/>
+<area shape="rect" id="node8" href="$namespaceglm.html#a635900a97b69fe25d76c029f130a1c8f" title="glm::angleAxisSIMD" alt="" coords="147,131,289,157"/>
+<area shape="rect" id="node3" href="$namespaceglm_1_1detail.html#a4d5c895b3548f6c8296fd6a9980fe3e1" title="glm::detail::inverse" alt="" coords="337,5,469,32"/>
+<area shape="rect" id="node4" href="$namespaceglm_1_1detail.html#a9691988fe228ada0f1a25704bdcb7da0" title="glm::detail::sse_inverse_ps" alt="" coords="517,5,699,32"/>
+<area shape="rect" id="node6" href="$group__core__func__geometric.html#ga89b91c2a256cfb62ecbc589d1ee36d3c" title="glm::cross" alt="" coords="362,56,445,83"/>
+<area shape="rect" id="node7" href="$group__core__func__geometric.html#ga15aa87101457e41663b08a8dcc3357f8" title="glm::normalize" alt="" coords="555,80,661,107"/>
+<area shape="rect" id="node9" href="$group__core__func__trigonometric.html#ga431d31cdb060059bc5b0696e212f1453" title="glm::radians" alt="" coords="357,131,450,157"/>
+<area shape="rect" id="node11" href="$group__core__func__trigonometric.html#gafbab21016b7f3bc21afb09a7e42e2df1" title="glm::sin" alt="" coords="747,156,815,183"/>
+<area shape="rect" id="node10" href="$group__core__func__trigonometric.html#gaf4e5661bd1c993f6090d49e988a4c78a" title="glm::degrees" alt="" coords="559,131,657,157"/>
+</map>

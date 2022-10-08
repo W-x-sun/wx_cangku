@@ -1,0 +1,19 @@
+<map id="glm::eulerAngleZ" name="glm::eulerAngleZ">
+<area shape="rect" id="node2" href="$group__core__func__trigonometric.html#gac6708d4f0895dc79b65f50db00840167" title="glm::cos" alt="" coords="1587,573,1659,600"/>
+<area shape="rect" id="node8" href="$group__core__func__trigonometric.html#gafbab21016b7f3bc21afb09a7e42e2df1" title="glm::sin" alt="" coords="1589,195,1657,221"/>
+<area shape="rect" id="node9" href="$group__gtx__euler__angles.html#gae497bfac82a0c53b3a94280188eaf79a" title="glm::eulerAngleXY" alt="" coords="173,585,304,612"/>
+<area shape="rect" id="node3" href="$group__core__func__trigonometric.html#ga328aeb0de4f312dc3d200cb929715d44" title="glm::tan" alt="" coords="1707,573,1776,600"/>
+<area shape="rect" id="node4" href="$group__core__func__trigonometric.html#gafca5e8c71ea06be0840227b4aafc5680" title="glm::asin" alt="" coords="1824,573,1899,600"/>
+<area shape="rect" id="node5" href="$group__core__func__trigonometric.html#gac85497ed2e39d4cac4ac32bed4dfc506" title="glm::acos" alt="" coords="1947,573,2025,600"/>
+<area shape="rect" id="node6" href="$group__core__func__trigonometric.html#gabf80ac0817d1db032dd6a0969aa2b84a" title="glm::atan" alt="" coords="2073,573,2149,600"/>
+<area shape="rect" id="node7" href="$group__gtx__compatibility.html#gac63011205bf6d0be82589dc56dd26708" title="Arc tangent. Returns an angle whose tangent is y/x. The signs of x and y are used to determine what q..." alt="" coords="2197,573,2280,600"/>
+<area shape="rect" id="node10" href="$group__gtx__euler__angles.html#gadf24b9fd127b463c42a8ce72b9d46287" title="glm::eulerAngleYX" alt="" coords="352,585,483,612"/>
+<area shape="rect" id="node11" href="$group__gtx__euler__angles.html#ga046a8b74b81568b888a31e70c3740e8c" title="glm::eulerAngleXZ" alt="" coords="531,535,660,561"/>
+<area shape="rect" id="node12" href="$group__gtx__euler__angles.html#ga651d7f93f1773ddda9279196bfd9adbe" title="glm::eulerAngleX" alt="" coords="1248,523,1369,549"/>
+<area shape="rect" id="node14" href="$group__gtx__euler__angles.html#ga0d009110bb668be151fd1d45eb546c8b" title="glm::eulerAngleZX" alt="" coords="708,484,837,511"/>
+<area shape="rect" id="node13" href="$group__gtx__euler__angles.html#ga9308c92ff946518b8de5ebb6c430bd3d" title="glm::eulerAngleY" alt="" coords="1417,573,1539,600"/>
+<area shape="rect" id="node15" href="$group__gtx__euler__angles.html#gacb22f19a8afecdaca822db292c443617" title="glm::eulerAngleYXZ" alt="" coords="885,383,1024,409"/>
+<area shape="rect" id="node16" href="$group__gtx__euler__angles.html#gafce41e36e0a7f202c5a612c88e50de6f" title="glm::yawPitchRoll" alt="" coords="1072,367,1200,393"/>
+<area shape="rect" id="node17" href="$group__gtx__euler__angles.html#gab56d532bc06ddcab172cf63119380c64" title="glm::orientate2" alt="" coords="1255,336,1363,363"/>
+<area shape="rect" id="node18" href="$group__gtx__euler__angles.html#gae0986bf2d3703d69d5319e97e71fc6a8" title="glm::orientate3" alt="" coords="1424,320,1532,347"/>
+</map>

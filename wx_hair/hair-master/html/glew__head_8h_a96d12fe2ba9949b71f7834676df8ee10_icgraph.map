@@ -1,0 +1,6 @@
+<map id="glGetError" name="glGetError">
+<area shape="rect" id="node2" href="$class_error_checker.html#a81c8081cd9a59badfa6e497ba34006c6" title="ErrorChecker::printGLErrors" alt="" coords="144,5,328,32"/>
+<area shape="rect" id="node4" href="$class_resource_loader.html#a0852835399ca4eba1388fff812c93ba7" title="ResourceLoader::initializeGlew" alt="" coords="135,56,337,83"/>
+<area shape="rect" id="node3" href="$class_g_l_widget.html#a843150d06edc5e2e50d98e395c2b8759" title="GLWidget::paintGL" alt="" coords="395,5,528,32"/>
+<area shape="rect" id="node5" href="$class_g_l_widget.html#a2349a3ff7c9cc814de1b4a93a0b28acd" title="GLWidget::initializeGL" alt="" coords="385,56,537,83"/>
+</map>

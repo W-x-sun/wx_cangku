@@ -1,0 +1,12 @@
+<map id="Hair::Hair" name="Hair::Hair">
+<area shape="rect" id="node2" href="$group__core__func__geometric.html#ga15aa87101457e41663b08a8dcc3357f8" title="glm::normalize" alt="" coords="509,29,616,56"/>
+<area shape="rect" id="node3" href="$group__core__func__geometric.html#ga89b91c2a256cfb62ecbc589d1ee36d3c" title="glm::cross" alt="" coords="379,55,461,81"/>
+<area shape="rect" id="node4" href="$group__core__func__geometric.html#ga03b2831439defb8922832b540b91b8a7" title="glm::length" alt="" coords="188,156,275,183"/>
+<area shape="rect" id="node6" href="$group__core__func__geometric.html#ga7dada304da2ba7dd3376ab4f178c3f6b" title="glm::dot" alt="" coords="197,105,266,132"/>
+<area shape="rect" id="node7" href="$group__gtx__compatibility.html#gac63011205bf6d0be82589dc56dd26708" title="Arc tangent. Returns an angle whose tangent is y/x. The signs of x and y are used to determine what q..." alt="" coords="190,207,273,233"/>
+<area shape="rect" id="node9" href="$class_open_g_l_shape.html#aeaa0ccb6c1e356b107c9762ceec2cdbe" title="OpenGLShape::create" alt="" coords="156,257,307,284"/>
+<area shape="rect" id="node10" href="$class_open_g_l_shape.html#adf550764500e6d1f45555069d69c3acb" title="OpenGLShape::setVertexData" alt="" coords="132,308,331,335"/>
+<area shape="rect" id="node11" href="$class_open_g_l_shape.html#afa958d6fb2c23069a000b0e8325b462b" title="OpenGLShape::setAttribute" alt="" coords="140,359,323,385"/>
+<area shape="rect" id="node5" href="$group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="383,132,457,159"/>
+<area shape="rect" id="node8" href="$group__core__func__trigonometric.html#gabf80ac0817d1db032dd6a0969aa2b84a" title="glm::atan" alt="" coords="382,207,458,233"/>
+</map>

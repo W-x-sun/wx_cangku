@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: glm/gtx/projection.inl 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_a18149d1b32e3efeacb0e34a962af4d3.html">glm</a></li><li class="navelem"><a class="el" href="dir_e20a439b6cdbf5d4e02750a868806e68.html">gtx</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">projection.inl</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="projection_8inl.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// OpenGL Mathematics Copyright (c) 2005 - 2014 G-Truc Creation (www.g-truc.net)</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"></span><span class="comment">// Created : 2005-12-21</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// Updated : 2009-03-06</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Licence : This source is under MIT License</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// File    : glm/gtx/projection.inl</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"></span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceglm.html">glm</a></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> vecType&gt; </div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a> vecType <a class="code" href="group__gtx__projection.html#ga08294223071a96e777de7033cc708439">proj</a></div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="group__gtx__projection.html#ga08294223071a96e777de7033cc708439">   14</a></span>&#160;    (</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        vecType <span class="keyword">const</span> &amp; x, </div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        vecType <span class="keyword">const</span> &amp; Normal</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    )</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="group__core__func__geometric.html#ga7dada304da2ba7dd3376ab4f178c3f6b">glm::dot</a>(x, Normal) / <a class="code" href="group__core__func__geometric.html#ga7dada304da2ba7dd3376ab4f178c3f6b">glm::dot</a>(Normal, Normal) * Normal;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}<span class="comment">//namespace glm</span></div><div class="ttc" id="namespaceglm_html"><div class="ttname"><a href="namespaceglm.html">glm</a></div><div class="ttdef"><b>Definition:</b> <a href="__literals_8hpp_source.html#l00032">_literals.hpp:32</a></div></div>
+<div class="ttc" id="group__gtx__projection_html_ga08294223071a96e777de7033cc708439"><div class="ttname"><a href="group__gtx__projection.html#ga08294223071a96e777de7033cc708439">glm::proj</a></div><div class="ttdeci">vecType proj(vecType const &amp;x, vecType const &amp;Normal)</div><div class="ttdef"><b>Definition:</b> <a href="projection_8inl_source.html#l00014">projection.inl:14</a></div></div>
+<div class="ttc" id="group__core__func__geometric_html_ga7dada304da2ba7dd3376ab4f178c3f6b"><div class="ttname"><a href="group__core__func__geometric.html#ga7dada304da2ba7dd3376ab4f178c3f6b">glm::dot</a></div><div class="ttdeci">GLM_FUNC_DECL T dot(vecType&lt; T, P &gt; const &amp;x, vecType&lt; T, P &gt; const &amp;y)</div><div class="ttdef"><b>Definition:</b> <a href="func__geometric_8inl_source.html#l00184">func_geometric.inl:184</a></div></div>
+<div class="ttc" id="setup_8hpp_html_a33fdea6f91c5f834105f7415e2a64407"><div class="ttname"><a href="setup_8hpp.html#a33fdea6f91c5f834105f7415e2a64407">GLM_FUNC_QUALIFIER</a></div><div class="ttdeci">#define GLM_FUNC_QUALIFIER</div><div class="ttdef"><b>Definition:</b> <a href="setup_8hpp_source.html#l00715">setup.hpp:715</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

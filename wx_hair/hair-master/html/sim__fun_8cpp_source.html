@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: src/ui/sim_fun.cpp 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_da5c6b39c0a2f54e57df6799511cd3ab.html">ui</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">sim_fun.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="sim__fun_8cpp.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="sim__fun_8h.html">sim_fun.h</a>&quot;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;ui_sim_fun.h&quot;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="class_sim___fun.html#ad687b9ca86565603854b0518049fc939">    4</a></span>&#160;<a class="code" href="class_sim___fun.html#ad687b9ca86565603854b0518049fc939">Sim_Fun::Sim_Fun</a>(QWidget *parent) :</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    QWidget(parent),</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    sim_ui(new <a class="code" href="namespace_ui.html">Ui</a>::<a class="code" href="class_sim___fun.html">Sim_Fun</a>)</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    sim_ui-&gt;setupUi(<span class="keyword">this</span>);</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="comment">//仿真窗口里的sim_ui交互接口</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    connect(sim_ui-&gt;HairlongSlider, SIGNAL(valueChanged(<span class="keywordtype">int</span>)), <span class="keyword">this</span>, SLOT(setHairLongth_label(<span class="keywordtype">int</span>)));</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_sim___fun.html#abf519bbf89027b4a5ab56dd6c8f4edaf">   15</a></span>&#160;<a class="code" href="class_sim___fun.html#abf519bbf89027b4a5ab56dd6c8f4edaf">Sim_Fun::~Sim_Fun</a>()</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">delete</span> sim_ui;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">//对应槽</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">//slider与label同步</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keywordtype">void</span> Sim_Fun::setHairLongth_label(<span class="keywordtype">int</span> <a class="code" href="group__core__func__geometric.html#ga03b2831439defb8922832b540b91b8a7">length</a>){</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    sim_ui-&gt;HairlongSlider-&gt;setMinimum(0); <span class="comment">// 设置进度条的最小值</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    sim_ui-&gt;HairlongSlider-&gt;setMaximum(20); <span class="comment">// 设置进度条的最大值</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    sim_ui-&gt;Hairlong_label-&gt;setText(QString::number(length));<span class="comment">//滑动条数值改变 同步到对应文本框</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="ttc" id="sim__fun_8h_html"><div class="ttname"><a href="sim__fun_8h.html">sim_fun.h</a></div></div>
+<div class="ttc" id="class_sim___fun_html_ad687b9ca86565603854b0518049fc939"><div class="ttname"><a href="class_sim___fun.html#ad687b9ca86565603854b0518049fc939">Sim_Fun::Sim_Fun</a></div><div class="ttdeci">Sim_Fun(QWidget *parent=0)</div><div class="ttdef"><b>Definition:</b> <a href="sim__fun_8cpp_source.html#l00004">sim_fun.cpp:4</a></div></div>
+<div class="ttc" id="namespace_ui_html"><div class="ttname"><a href="namespace_ui.html">Ui</a></div><div class="ttdef"><b>Definition:</b> <a href="ui__mainwindow_8h_source.html#l00605">ui_mainwindow.h:605</a></div></div>
+<div class="ttc" id="class_sim___fun_html_abf519bbf89027b4a5ab56dd6c8f4edaf"><div class="ttname"><a href="class_sim___fun.html#abf519bbf89027b4a5ab56dd6c8f4edaf">Sim_Fun::~Sim_Fun</a></div><div class="ttdeci">~Sim_Fun()</div><div class="ttdef"><b>Definition:</b> <a href="sim__fun_8cpp_source.html#l00015">sim_fun.cpp:15</a></div></div>
+<div class="ttc" id="class_sim___fun_html"><div class="ttname"><a href="class_sim___fun.html">Sim_Fun</a></div><div class="ttdef"><b>Definition:</b> <a href="sim__fun_8h_source.html#l00010">sim_fun.h:10</a></div></div>
+<div class="ttc" id="group__core__func__geometric_html_ga03b2831439defb8922832b540b91b8a7"><div class="ttname"><a href="group__core__func__geometric.html#ga03b2831439defb8922832b540b91b8a7">glm::length</a></div><div class="ttdeci">GLM_FUNC_DECL genType::value_type length(genType const &amp;x)</div><div class="ttdef"><b>Definition:</b> <a href="func__geometric_8inl_source.html#l00084">func_geometric.inl:84</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

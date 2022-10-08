@@ -1,0 +1,35 @@
+<map id="src/mike/hair.h" name="src/mike/hair.h">
+<area shape="rect" id="node2" href="$hair_common_8h.html" title="hairCommon.h" alt="" coords="1679,155,1786,181"/>
+<area shape="rect" id="node48" href="$openglshape_8h.html" title="openglshape.h" alt="" coords="1326,80,1433,107"/>
+<area shape="rect" id="node49" href="$shaderprogram_8h.html" title="shaderprogram.h" alt="" coords="2028,80,2147,107"/>
+<area shape="rect" id="node10" href="$glm_8hpp.html" title="glm/glm.hpp" alt="" coords="1458,379,1551,405"/>
+<area shape="rect" id="node38" href="$string__cast_8hpp.html" title="glm/gtx/string_cast.hpp" alt="" coords="1463,229,1621,256"/>
+<area shape="rect" id="node41" href="$gtc_2constants_8hpp.html" title="../gtc/constants.hpp" alt="" coords="1713,379,1851,405"/>
+<area shape="rect" id="node44" href="$transform_8hpp.html" title="glm/gtx/transform.hpp" alt="" coords="1111,304,1261,331"/>
+<area shape="rect" id="node45" href="$type__ptr_8hpp.html" title="glm/gtc/type_ptr.hpp" alt="" coords="2166,379,2307,405"/>
+<area shape="rect" id="node11" href="$__fixes_8hpp.html" title="detail/_fixes.hpp" alt="" coords="807,453,925,480"/>
+<area shape="rect" id="node17" href="$fwd_8hpp.html" title="fwd.hpp" alt="" coords="1280,453,1348,480"/>
+<area shape="rect" id="node18" href="$vec2_8hpp.html" title="vec2.hpp" alt="" coords="2002,453,2077,480"/>
+<area shape="rect" id="node19" href="$vec3_8hpp.html" title="vec3.hpp" alt="" coords="2101,453,2175,480"/>
+<area shape="rect" id="node20" href="$vec4_8hpp.html" title="vec4.hpp" alt="" coords="2199,453,2274,480"/>
+<area shape="rect" id="node21" href="$mat2x2_8hpp.html" title="mat2x2.hpp" alt="" coords="2298,453,2389,480"/>
+<area shape="rect" id="node22" href="$mat2x3_8hpp.html" title="mat2x3.hpp" alt="" coords="2413,453,2503,480"/>
+<area shape="rect" id="node23" href="$mat2x4_8hpp.html" title="mat2x4.hpp" alt="" coords="2527,453,2618,480"/>
+<area shape="rect" id="node24" href="$mat3x2_8hpp.html" title="mat3x2.hpp" alt="" coords="2642,453,2733,480"/>
+<area shape="rect" id="node25" href="$mat3x3_8hpp.html" title="mat3x3.hpp" alt="" coords="2757,453,2847,480"/>
+<area shape="rect" id="node26" href="$mat3x4_8hpp.html" title="mat3x4.hpp" alt="" coords="2871,453,2962,480"/>
+<area shape="rect" id="node27" href="$mat4x2_8hpp.html" title="mat4x2.hpp" alt="" coords="1658,453,1749,480"/>
+<area shape="rect" id="node28" href="$mat4x3_8hpp.html" title="mat4x3.hpp" alt="" coords="1773,453,1863,480"/>
+<area shape="rect" id="node29" href="$mat4x4_8hpp.html" title="mat4x4.hpp" alt="" coords="1887,453,1978,480"/>
+<area shape="rect" id="node30" href="$trigonometric_8hpp.html" title="trigonometric.hpp" alt="" coords="1373,453,1495,480"/>
+<area shape="rect" id="node31" href="$exponential_8hpp.html" title="exponential.hpp" alt="" coords="1520,453,1633,480"/>
+<area shape="rect" id="node32" href="$common_8hpp.html" title="common.hpp" alt="" coords="5,453,103,480"/>
+<area shape="rect" id="node33" href="$packing_8hpp.html" title="packing.hpp" alt="" coords="127,453,219,480"/>
+<area shape="rect" id="node34" href="$geometric_8hpp.html" title="geometric.hpp" alt="" coords="243,453,347,480"/>
+<area shape="rect" id="node35" href="$matrix_8hpp.html" title="matrix.hpp" alt="" coords="371,453,454,480"/>
+<area shape="rect" id="node36" href="$vector__relational_8hpp.html" title="vector_relational.hpp" alt="" coords="479,453,621,480"/>
+<area shape="rect" id="node37" href="$integer_8hpp.html" title="integer.hpp" alt="" coords="645,453,732,480"/>
+<area shape="rect" id="node39" href="$gtx_2integer_8hpp.html" title="../gtx/integer.hpp" alt="" coords="1463,304,1583,331"/>
+<area shape="rect" id="node40" href="$gtx_2quaternion_8hpp.html" title="../gtx/quaternion.hpp" alt="" coords="1658,304,1799,331"/>
+<area shape="rect" id="node43" href="$string__cast_8inl.html" title="string_cast.inl" alt="" coords="1336,304,1439,331"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="HairOpacityShaderProgram::setPerDrawUniforms" name="HairOpacityShaderProgram::setPerDrawUniforms">
+<area shape="rect" id="node2" href="$class_shader_program.html#a1b019bdbd125fdd064eefded6941df11" title="ShaderProgram::setUniform1i" alt="" coords="239,5,433,32"/>
+<area shape="rect" id="node3" href="$class_shader_program.html#aaddce0879ced170d2ae7c1bd3186c921" title="ShaderProgram::setUniform3fv" alt="" coords="235,56,437,83"/>
+</map>

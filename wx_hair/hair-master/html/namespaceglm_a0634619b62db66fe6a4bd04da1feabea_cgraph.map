@@ -1,0 +1,27 @@
+<map id="glm::angle" name="glm::angle">
+<area shape="rect" id="node2" href="$group__core__func__trigonometric.html#gac85497ed2e39d4cac4ac32bed4dfc506" title="glm::acos" alt="" coords="1100,563,1179,589"/>
+<area shape="rect" id="node5" href="$group__core__func__common.html#ga72e9e213c84f06a329a2a838b51200f4" title="glm::clamp" alt="" coords="136,92,223,119"/>
+<area shape="rect" id="node8" href="$group__core__func__geometric.html#ga7dada304da2ba7dd3376ab4f178c3f6b" title="glm::dot" alt="" coords="145,160,214,187"/>
+<area shape="rect" id="node11" href="$group__core__func__trigonometric.html#gaf4e5661bd1c993f6090d49e988a4c78a" title="glm::degrees" alt="" coords="729,299,827,325"/>
+<area shape="rect" id="node13" href="$group__gtc__quaternion.html#ga23a3fc7ada5bbb665ff84c92c6e0542c" title="glm::angle" alt="" coords="138,324,221,351"/>
+<area shape="rect" id="node3" href="$group__core__func__trigonometric.html#gabf80ac0817d1db032dd6a0969aa2b84a" title="glm::atan" alt="" coords="1267,563,1343,589"/>
+<area shape="rect" id="node4" href="$group__gtx__compatibility.html#gac63011205bf6d0be82589dc56dd26708" title="Arc tangent. Returns an angle whose tangent is y/x. The signs of x and y are used to determine what q..." alt="" coords="1405,563,1487,589"/>
+<area shape="rect" id="node6" href="$group__core__func__common.html#ga3dc90dbd66c9ca1dd5625c93d9c50f02" title="glm::min" alt="" coords="276,29,348,56"/>
+<area shape="rect" id="node7" href="$group__core__func__common.html#gaa228561a9da55898f8f72ad2403fafac" title="glm::max" alt="" coords="417,85,493,112"/>
+<area shape="rect" id="node9" href="$group__core__func__geometric.html#ga89b91c2a256cfb62ecbc589d1ee36d3c" title="glm::cross" alt="" coords="271,160,353,187"/>
+<area shape="rect" id="node10" href="$group__core__func__geometric.html#ga15aa87101457e41663b08a8dcc3357f8" title="glm::normalize" alt="" coords="402,160,509,187"/>
+<area shape="rect" id="node12" href="$group__core__func__trigonometric.html#gafbab21016b7f3bc21afb09a7e42e2df1" title="glm::sin" alt="" coords="921,361,989,388"/>
+<area shape="rect" id="node14" href="$group__gtc__quaternion.html#ga8eef9f8c3f2e4836dccf09df975b20fb" title="glm::axis" alt="" coords="275,387,349,413"/>
+<area shape="rect" id="node15" href="$group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="419,437,492,464"/>
+<area shape="rect" id="node16" href="$group__gtc__quaternion.html#ga771b3e16cca8324e7111b923476be666" title="glm::angleAxis" alt="" coords="401,387,509,413"/>
+<area shape="rect" id="node17" href="$group__core__func__trigonometric.html#ga431d31cdb060059bc5b0696e212f1453" title="glm::radians" alt="" coords="563,336,656,363"/>
+<area shape="rect" id="node18" href="$group__core__func__trigonometric.html#gac6708d4f0895dc79b65f50db00840167" title="glm::cos" alt="" coords="573,512,645,539"/>
+<area shape="rect" id="node21" href="$namespaceglm.html#a9ea052832f152d1233c6fa27df62f2fc" title="glm::lessThan" alt="" coords="557,437,661,464"/>
+<area shape="rect" id="node19" href="$group__core__func__trigonometric.html#ga328aeb0de4f312dc3d200cb929715d44" title="glm::tan" alt="" coords="743,512,813,539"/>
+<area shape="rect" id="node20" href="$group__core__func__trigonometric.html#gafca5e8c71ea06be0840227b4aafc5680" title="glm::asin" alt="" coords="917,512,992,539"/>
+<area shape="rect" id="node22" href="$group__core__func__vector__relational.html#ga2167b22ac086c5791a4740932b62b685" title="glm::lessThanEqual" alt="" coords="709,437,847,464"/>
+<area shape="rect" id="node23" href="$group__core__func__vector__relational.html#gac9163d451231eb3eaae2c6b3da5add6a" title="glm::greaterThan" alt="" coords="895,437,1015,464"/>
+<area shape="rect" id="node24" href="$group__core__func__vector__relational.html#gad1385064aa2fc7aaae37aa95daea9c31" title="glm::greaterThanEqual" alt="" coords="1063,437,1216,464"/>
+<area shape="rect" id="node25" href="$namespaceglm.html#a4a4eb228ace536873b64b9690d14e971" title="glm::equal" alt="" coords="1264,437,1347,464"/>
+<area shape="rect" id="node26" href="$group__core__func__vector__relational.html#ga85d7bc5613c4dcc2d5873ec9d6ed4c19" title="glm::notEqual" alt="" coords="1395,437,1497,464"/>
+</map>

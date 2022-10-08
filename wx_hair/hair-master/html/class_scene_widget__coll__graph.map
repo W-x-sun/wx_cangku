@@ -1,0 +1,5 @@
+<map id="SceneWidget" name="SceneWidget">
+<area shape="rect" id="node6" href="$class_g_l_widget.html" title="GLWidget" alt="" coords="49,81,129,108"/>
+<area shape="rect" id="node3" href="$class_obj_mesh.html" title="ObjMesh" alt="" coords="155,81,229,108"/>
+<area shape="rect" id="node5" href="$class_texture.html" title="Texture" alt="" coords="253,81,320,108"/>
+</map>

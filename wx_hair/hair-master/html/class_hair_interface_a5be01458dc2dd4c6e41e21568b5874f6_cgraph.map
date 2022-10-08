@@ -1,0 +1,5 @@
+<map id="HairInterface::inputHairGroupSpreadText" name="HairInterface::inputHairGroupSpreadText">
+<area shape="rect" id="node2" href="$class_hair_interface.html#a13e12cf35e24542e28054e19168be488" title="HairInterface::setHairGroup\lSpread" alt="" coords="211,5,393,47"/>
+<area shape="rect" id="node3" href="$class_g_l_widget.html#ab8f164088f2a06ba0af697106dc8b7c9" title="GLWidget::forceUpdate" alt="" coords="441,13,600,39"/>
+<area shape="rect" id="node4" href="$class_g_l_widget.html#a20169b7b90890de5e09438dba7bc91d5" title="GLWidget::isPaused" alt="" coords="648,13,791,39"/>
+</map>

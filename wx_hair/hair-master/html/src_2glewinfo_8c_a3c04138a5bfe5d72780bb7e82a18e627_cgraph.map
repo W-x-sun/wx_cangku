@@ -1,0 +1,9 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$glew-1_810_80_2src_2glewinfo_8c.html#a09eaa183d25696d1c05d0ed58a571541" title="glewParseArgs" alt="" coords="104,107,215,133"/>
+<area shape="rect" id="node3" href="$glew-1_810_80_2src_2glewinfo_8c.html#aa0563ddf5ade9442dd2580a2e7759013" title="glewCreateContext" alt="" coords="266,56,401,83"/>
+<area shape="rect" id="node7" href="$glew-1_810_80_2src_2glewinfo_8c.html#a2bc787d99c6af80c639405822b35923e" title="glewDestroyContext" alt="" coords="263,157,404,184"/>
+<area shape="rect" id="node4" href="$glxew__head_8h.html#a13df2f7d7de61b71be5223fe74c213e8" title="glXQueryExtension" alt="" coords="452,5,587,32"/>
+<area shape="rect" id="node5" href="$glxew__head_8h.html#a0089c188de2611b3474340af31e19355" title="glXChooseVisual" alt="" coords="458,56,581,83"/>
+<area shape="rect" id="node6" href="$glxew__head_8h.html#a194b7e7f5b8a5d167f3166b2b696631a" title="glXCreateContext" alt="" coords="456,107,583,133"/>
+<area shape="rect" id="node8" href="$glxew__head_8h.html#a84f8530e3fa01fba10d715eeca3bd5d2" title="glXDestroyContext" alt="" coords="453,157,586,184"/>
+</map>

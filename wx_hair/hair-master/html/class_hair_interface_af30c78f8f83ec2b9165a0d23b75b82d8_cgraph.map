@@ -1,0 +1,5 @@
+<map id="HairInterface::inputHairColorBText" name="HairInterface::inputHairColorBText">
+<area shape="rect" id="node2" href="$class_hair_interface.html#ab728785f13f8d74c34b08c1fd82422a3" title="HairInterface::setHairColorB" alt="" coords="211,13,397,39"/>
+<area shape="rect" id="node3" href="$class_g_l_widget.html#ab8f164088f2a06ba0af697106dc8b7c9" title="GLWidget::forceUpdate" alt="" coords="445,13,604,39"/>
+<area shape="rect" id="node4" href="$class_g_l_widget.html#a20169b7b90890de5e09438dba7bc91d5" title="GLWidget::isPaused" alt="" coords="652,13,795,39"/>
+</map>

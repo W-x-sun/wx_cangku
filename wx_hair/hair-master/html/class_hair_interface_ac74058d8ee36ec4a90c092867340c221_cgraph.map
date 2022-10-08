@@ -1,0 +1,5 @@
+<map id="HairInterface::inputHairRadiusText" name="HairInterface::inputHairRadiusText">
+<area shape="rect" id="node2" href="$class_hair_interface.html#a23257cb072cb4a9db5595bb734bed42a" title="HairInterface::setHairRadius" alt="" coords="211,13,399,39"/>
+<area shape="rect" id="node3" href="$class_g_l_widget.html#ab8f164088f2a06ba0af697106dc8b7c9" title="GLWidget::forceUpdate" alt="" coords="447,13,605,39"/>
+<area shape="rect" id="node4" href="$class_g_l_widget.html#a20169b7b90890de5e09438dba7bc91d5" title="GLWidget::isPaused" alt="" coords="653,13,796,39"/>
+</map>

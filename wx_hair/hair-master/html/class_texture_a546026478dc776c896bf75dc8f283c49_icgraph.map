@@ -1,0 +1,7 @@
+<map id="Texture::updateImage" name="Texture::updateImage">
+<area shape="rect" id="node2" href="$class_scene_widget.html#a7fff6e37fb5730fddb891d91404a7c18" title="SceneWidget::mousePressEvent" alt="" coords="203,5,417,32"/>
+<area shape="rect" id="node3" href="$class_scene_widget.html#a7be7a477c8ca34df706e1216e4c75333" title="SceneWidget::mouseMoveEvent" alt="" coords="203,56,417,83"/>
+<area shape="rect" id="node4" href="$class_scene_widget.html#aefb34a5425fd68af165e2ad85a7728b0" title="SceneWidget::clearTexture" alt="" coords="220,107,400,133"/>
+<area shape="rect" id="node5" href="$class_scene_editor.html#aaebc4d539b6aec87b5d5bcf953903599" title="SceneEditor::clearTexture" alt="" coords="465,107,639,133"/>
+<area shape="rect" id="node6" href="$class_scene_editor.html#ade23b3ca548a91f519fa6bde4d6fef57" title="SceneEditor::SceneEditor" alt="" coords="687,107,859,133"/>
+</map>

@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project_hair: src/lib/openglshape.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project_hair
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">openglshape.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="openglshape_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef OPENGLSHAPE_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define OPENGLSHAPE_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;GL/glew.h&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="class_open_g_l_shape.html">    6</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_open_g_l_shape.html">OpenGLShape</a></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="class_open_g_l_shape.html#a2863db27cafea5fc0ab33322c7aed398">    9</a></span>&#160;    <a class="code" href="class_open_g_l_shape.html#a2863db27cafea5fc0ab33322c7aed398">OpenGLShape</a>() : m_created(false) { }</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_open_g_l_shape.html#ab485ea03f72775cc0312a8fd72d7ed2c">   11</a></span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_open_g_l_shape.html#ab485ea03f72775cc0312a8fd72d7ed2c">~OpenGLShape</a>() { }</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_open_g_l_shape.html#aeaa0ccb6c1e356b107c9762ceec2cdbe">create</a>();</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_open_g_l_shape.html#ae8231986684399ce8e013ba4ff120bcd">destroy</a>();</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_open_g_l_shape.html#adf550764500e6d1f45555069d69c3acb">setVertexData</a>(<span class="keywordtype">float</span> *data, <span class="keywordtype">int</span> size, <span class="keywordtype">int</span> numVertices);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_open_g_l_shape.html#afa958d6fb2c23069a000b0e8325b462b">setAttribute</a>(<a class="code" href="glew__head_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a> index, <a class="code" href="glew__head_8h.html#a5ac0f3c4d7fafd42b284b5487a791017">GLint</a> size, <a class="code" href="glew__head_8h.html#a7efd7809e1632cdae75603fd1fee61c0">GLenum</a> type, <a class="code" href="glew__head_8h.html#aa010a67382116caf29c29318251ccb6c">GLboolean</a> normalized,</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                      <a class="code" href="glew__head_8h.html#a9289d5b99dc1f27f01480360f2e18ae0">GLsizei</a> stride, <span class="keywordtype">size_t</span> offset);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_open_g_l_shape.html#aee8a25223673b5dd950db53f24dccbbf">draw</a>(<a class="code" href="glew__head_8h.html#a7efd7809e1632cdae75603fd1fee61c0">GLenum</a> drawMode);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">bool</span> checkIfCreated();</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">bool</span> m_created;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="glew__head_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a> m_bufferID; </div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="glew__head_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a> m_vaoID;    </div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">int</span> m_numVertices; </div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;};</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif // OPENGLSHAPE_H</span></div><div class="ttc" id="glew__head_8h_html_aa010a67382116caf29c29318251ccb6c"><div class="ttname"><a href="glew__head_8h.html#aa010a67382116caf29c29318251ccb6c">GLboolean</a></div><div class="ttdeci">unsigned char GLboolean</div><div class="ttdef"><b>Definition:</b> <a href="glew__head_8h_source.html#l00197">glew_head.h:197</a></div></div>
+<div class="ttc" id="glew__head_8h_html_a9289d5b99dc1f27f01480360f2e18ae0"><div class="ttname"><a href="glew__head_8h.html#a9289d5b99dc1f27f01480360f2e18ae0">GLsizei</a></div><div class="ttdeci">int GLsizei</div><div class="ttdef"><b>Definition:</b> <a href="glew__head_8h_source.html#l00196">glew_head.h:196</a></div></div>
+<div class="ttc" id="class_open_g_l_shape_html_aeaa0ccb6c1e356b107c9762ceec2cdbe"><div class="ttname"><a href="class_open_g_l_shape.html#aeaa0ccb6c1e356b107c9762ceec2cdbe">OpenGLShape::create</a></div><div class="ttdeci">void create()</div><div class="ttdef"><b>Definition:</b> <a href="openglshape_8cpp_source.html#l00005">openglshape.cpp:5</a></div></div>
+<div class="ttc" id="class_open_g_l_shape_html_afa958d6fb2c23069a000b0e8325b462b"><div class="ttname"><a href="class_open_g_l_shape.html#afa958d6fb2c23069a000b0e8325b462b">OpenGLShape::setAttribute</a></div><div class="ttdeci">void setAttribute(GLuint index, GLint size, GLenum type, GLboolean normalized, GLsizei stride, size_t offset)</div><div class="ttdef"><b>Definition:</b> <a href="openglshape_8cpp_source.html#l00041">openglshape.cpp:41</a></div></div>
+<div class="ttc" id="class_open_g_l_shape_html_a2863db27cafea5fc0ab33322c7aed398"><div class="ttname"><a href="class_open_g_l_shape.html#a2863db27cafea5fc0ab33322c7aed398">OpenGLShape::OpenGLShape</a></div><div class="ttdeci">OpenGLShape()</div><div class="ttdef"><b>Definition:</b> <a href="openglshape_8h_source.html#l00009">openglshape.h:9</a></div></div>
+<div class="ttc" id="glew__head_8h_html_aa311c7f0d6ec4f1a33f9235c3651b86b"><div class="ttname"><a href="glew__head_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a></div><div class="ttdeci">unsigned int GLuint</div><div class="ttdef"><b>Definition:</b> <a href="glew__head_8h_source.html#l00194">glew_head.h:194</a></div></div>
+<div class="ttc" id="glew__head_8h_html_a7efd7809e1632cdae75603fd1fee61c0"><div class="ttname"><a href="glew__head_8h.html#a7efd7809e1632cdae75603fd1fee61c0">GLenum</a></div><div class="ttdeci">unsigned int GLenum</div><div class="ttdef"><b>Definition:</b> <a href="glew__head_8h_source.html#l00192">glew_head.h:192</a></div></div>
+<div class="ttc" id="glew__head_8h_html_a5ac0f3c4d7fafd42b284b5487a791017"><div class="ttname"><a href="glew__head_8h.html#a5ac0f3c4d7fafd42b284b5487a791017">GLint</a></div><div class="ttdeci">int GLint</div><div class="ttdef"><b>Definition:</b> <a href="glew__head_8h_source.html#l00195">glew_head.h:195</a></div></div>
+<div class="ttc" id="class_open_g_l_shape_html_aee8a25223673b5dd950db53f24dccbbf"><div class="ttname"><a href="class_open_g_l_shape.html#aee8a25223673b5dd950db53f24dccbbf">OpenGLShape::draw</a></div><div class="ttdeci">void draw(GLenum drawMode)</div><div class="ttdef"><b>Definition:</b> <a href="openglshape_8cpp_source.html#l00059">openglshape.cpp:59</a></div></div>
+<div class="ttc" id="class_open_g_l_shape_html_ab485ea03f72775cc0312a8fd72d7ed2c"><div class="ttname"><a href="class_open_g_l_shape.html#ab485ea03f72775cc0312a8fd72d7ed2c">OpenGLShape::~OpenGLShape</a></div><div class="ttdeci">virtual ~OpenGLShape()</div><div class="ttdef"><b>Definition:</b> <a href="openglshape_8h_source.html#l00011">openglshape.h:11</a></div></div>
+<div class="ttc" id="class_open_g_l_shape_html_ae8231986684399ce8e013ba4ff120bcd"><div class="ttname"><a href="class_open_g_l_shape.html#ae8231986684399ce8e013ba4ff120bcd">OpenGLShape::destroy</a></div><div class="ttdeci">void destroy()</div><div class="ttdef"><b>Definition:</b> <a href="openglshape_8cpp_source.html#l00014">openglshape.cpp:14</a></div></div>
+<div class="ttc" id="class_open_g_l_shape_html"><div class="ttname"><a href="class_open_g_l_shape.html">OpenGLShape</a></div><div class="ttdef"><b>Definition:</b> <a href="openglshape_8h_source.html#l00006">openglshape.h:6</a></div></div>
+<div class="ttc" id="class_open_g_l_shape_html_adf550764500e6d1f45555069d69c3acb"><div class="ttname"><a href="class_open_g_l_shape.html#adf550764500e6d1f45555069d69c3acb">OpenGLShape::setVertexData</a></div><div class="ttdeci">void setVertexData(float *data, int size, int numVertices)</div><div class="ttdef"><b>Definition:</b> <a href="openglshape_8cpp_source.html#l00028">openglshape.cpp:28</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

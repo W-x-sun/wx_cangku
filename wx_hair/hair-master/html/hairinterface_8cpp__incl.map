@@ -1,0 +1,16 @@
+<map id="src/ui/hairinterface.cpp" name="src/ui/hairinterface.cpp">
+<area shape="rect" id="node2" href="$hairinterface_8h.html" title="hairinterface.h" alt="" coords="79,80,183,107"/>
+<area shape="rect" id="node5" href="$ui__mainwindow_8h.html" title="ui_mainwindow.h" alt="" coords="3410,80,3533,107"/>
+<area shape="rect" id="node25" href="$ui__sceneeditor_8h.html" title="ui_sceneeditor.h" alt="" coords="2898,80,3015,107"/>
+<area shape="rect" id="node28" href="$sceneeditor_8h.html" title="sceneeditor.h" alt="" coords="4456,80,4556,107"/>
+<area shape="rect" id="node30" href="$glwidget_8h.html" title="glwidget.h" alt="" coords="281,80,363,107"/>
+<area shape="rect" id="node36" href="$hairobject_8h.html" title="hairobject.h" alt="" coords="673,80,763,107"/>
+<area shape="rect" id="node41" href="$objmesh_8h.html" title="objmesh.h" alt="" coords="570,155,653,181"/>
+<area shape="rect" id="node44" href="$hair_8h.html" title="hair.h" alt="" coords="787,80,841,107"/>
+<area shape="rect" id="node45" href="$simulation_8h.html" title="simulation.h" alt="" coords="1092,80,1184,107"/>
+<area shape="rect" id="node34" href="$hair_common_8h.html" title="hairCommon.h" alt="" coords="738,229,845,256"/>
+<area shape="rect" id="node38" href="$shaderprogram_8h.html" title="shaderprogram.h" alt="" coords="880,155,999,181"/>
+<area shape="rect" id="node42" href="$openglshape_8h.html" title="openglshape.h" alt="" coords="607,229,714,256"/>
+<area shape="rect" id="node46" href="$integrator_8h.html" title="integrator.h" alt="" coords="1176,155,1263,181"/>
+<area shape="rect" id="node47" href="$md5_8h.html" title="md5.h" alt="" coords="1351,229,1410,256"/>
+</map>

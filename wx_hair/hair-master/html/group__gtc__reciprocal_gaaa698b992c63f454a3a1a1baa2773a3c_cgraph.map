@@ -1,0 +1,16 @@
+<map id="glm::sech" name="glm::sech">
+<area shape="rect" id="node2" href="$group__core__func__trigonometric.html#gaa7685634f6e920ba9a683e5ec7aed976" title="glm::cosh" alt="" coords="509,67,588,93"/>
+<area shape="rect" id="node10" href="$group__gtc__reciprocal.html#ga00404a9cdf62023792d1d0afedd7f896" title="glm::csch" alt="" coords="132,67,211,93"/>
+<area shape="rect" id="node3" href="$group__core__func__trigonometric.html#ga941f20e5315113d1a2e037f073a62f04" title="glm::tanh" alt="" coords="645,67,721,93"/>
+<area shape="rect" id="node4" href="$group__core__func__trigonometric.html#gaa52acc1218a5ddd0f8d94fcd098685b1" title="glm::asinh" alt="" coords="775,88,857,115"/>
+<area shape="rect" id="node5" href="$group__core__func__exponential.html#ga0c8da2d2921da250e8700ac4476916a1" title="glm::log" alt="" coords="1173,185,1241,212"/>
+<area shape="rect" id="node6" href="$group__core__func__common.html#gaea946f96ec1df259802effe9f532e1c1" title="glm::abs" alt="" coords="1171,60,1243,87"/>
+<area shape="rect" id="node7" href="$group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="1045,111,1118,137"/>
+<area shape="rect" id="node8" href="$group__core__func__trigonometric.html#ga961d72b4a20d09d6e71fdf076ad4f433" title="glm::acosh" alt="" coords="905,185,992,212"/>
+<area shape="rect" id="node9" href="$group__core__func__trigonometric.html#gaa20b78cb9c12e30bd5a3054b8cb3d099" title="glm::atanh" alt="" coords="1040,185,1123,212"/>
+<area shape="rect" id="node11" href="$group__core__func__trigonometric.html#ga2e8c9a896e803661058de83429aa6eda" title="glm::sinh" alt="" coords="383,67,457,93"/>
+<area shape="rect" id="node12" href="$group__gtc__reciprocal.html#gae2f1e6f7c360dda452b88e0c492d6f4d" title="glm::coth" alt="" coords="259,129,335,156"/>
+<area shape="rect" id="node13" href="$group__gtc__reciprocal.html#ga450f3bf1c04751198994d26d92ac2a63" title="glm::asech" alt="" coords="505,168,592,195"/>
+<area shape="rect" id="node14" href="$group__gtc__reciprocal.html#ga418b31539e1a69c262712f2c7a4f27eb" title="glm::acsch" alt="" coords="640,141,727,168"/>
+<area shape="rect" id="node15" href="$group__gtc__reciprocal.html#gad73911994e6bb6a06cc3ea1bd89201ab" title="glm::acoth" alt="" coords="907,260,990,287"/>
+</map>

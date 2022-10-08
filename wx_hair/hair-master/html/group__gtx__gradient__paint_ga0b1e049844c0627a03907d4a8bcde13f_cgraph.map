@@ -1,0 +1,8 @@
+<map id="glm::radialGradient" name="glm::radialGradient">
+<area shape="rect" id="node2" href="$group__gtx__optimum__pow.html#ga56697e47a1375a352a746a5be3480fc8" title="glm::pow2" alt="" coords="208,5,291,32"/>
+<area shape="rect" id="node3" href="$group__core__func__exponential.html#ga2ea6c6738ad6e09ec3405a628047801b" title="glm::sqrt" alt="" coords="213,56,286,83"/>
+<area shape="rect" id="node4" href="$group__gtx__gradient__paint.html#gab2d6e851946cd10ea42e75d64dbcdfc7" title="glm::linearGradient" alt="" coords="184,107,315,133"/>
+<area shape="rect" id="node5" href="$group__core__func__geometric.html#ga7dada304da2ba7dd3376ab4f178c3f6b" title="glm::dot" alt="" coords="363,107,432,133"/>
+<area shape="rect" id="node6" href="$group__core__func__geometric.html#ga89b91c2a256cfb62ecbc589d1ee36d3c" title="glm::cross" alt="" coords="480,107,563,133"/>
+<area shape="rect" id="node7" href="$group__core__func__geometric.html#ga15aa87101457e41663b08a8dcc3357f8" title="glm::normalize" alt="" coords="611,107,717,133"/>
+</map>

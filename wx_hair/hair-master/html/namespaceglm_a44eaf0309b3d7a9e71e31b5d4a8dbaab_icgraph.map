@@ -1,0 +1,9 @@
+<map id="glm::transpose" name="glm::transpose">
+<area shape="rect" id="node2" href="$namespaceglm.html#ae987f6c5b71756c91d1a4a6f65616ac9" title="glm::affineInverse" alt="" coords="161,5,288,32"/>
+<area shape="rect" id="node3" href="$group__gtx__matrix__interpolation.html#ga26fcd9ab0660c54a19d5edec727d1dab" title="glm::interpolate" alt="" coords="169,56,280,83"/>
+<area shape="rect" id="node7" href="$group__gtx__matrix__query.html#ga4fe1957e1f5935a9b7b6e61417d41aa4" title="glm::isOrthogonal" alt="" coords="163,132,287,159"/>
+<area shape="rect" id="node4" href="$group__gtx__matrix__interpolation.html#ga4aeb9c402514dfd9c6d2e8ca73d07f30" title="glm::extractMatrixRotation" alt="" coords="336,5,512,32"/>
+<area shape="rect" id="node5" href="$group__gtx__matrix__interpolation.html#gaffcc7a788548911bea4e8a7bec9aa69d" title="glm::axisAngleMatrix" alt="" coords="560,56,704,83"/>
+<area shape="rect" id="node6" href="$group__gtx__matrix__interpolation.html#ga6b76b95383a720b763a0bf12b9691e3a" title="glm::axisAngle" alt="" coords="752,81,860,108"/>
+<area shape="rect" id="node8" href="$group__gtx__matrix__query.html#ga402e460226bcb826e5b78384ccab3914" title="glm::isNormalized" alt="" coords="361,157,487,184"/>
+</map>
