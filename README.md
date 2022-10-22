@@ -1,0 +1,9 @@
+工程介绍：
+
+LineDetect_pack为基于QT的多线程车道检测（非源程序，是编译后打包好的可执行程序）
+
+wx_hair为植发软件源码，基于linux、OpenGL环境、Qt软件（内涵部分开发文档与代码框架流程详解）
+
+SerialPort_Receive和SerialPort_Send为串口工具（使用前提需要先使用一个串口工具在本地创建一对虚拟串口供本工程使用，串口工具推荐使用vspd）
+
+TcpFileTransfer为自定义tcp/ip传输协议多线程文件传输源代码
