@@ -1,6 +1,6 @@
 工程介绍：
 
-LineDetect_thread为基于QT的多线程车道检测
+LineDetect_thread为基于QT的多线程车道检测（LineDetect_pack为编译运行后生成的可执行应用程序）
 
 wx_hair为植发软件，基于linux、OpenGL环境、Qt软件（内涵部分开发文档与代码框架流程详解）
 
